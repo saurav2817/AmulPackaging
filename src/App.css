@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+  /* Theme Colors */
+  --primary-color: #0e2c6d;
+  --secondary-color: #ffcb08;
+  --background-color: #F8F9FA;
+  --text-color: #212529;
+  --success-color: #4CAF50;
+  --warning-color: #FF9800;
+  --black: #000;
+  --white: #fff;
+
+  /* Fonts */
+  --primary-font: "Montserrat", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+}
+
+body{
+  font-family: var(--primary-font);
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--primary-font);
+}
+
+p{
+  font-family: var(--secondary-font);
+}
+
+.bg-primary{  
+  background-color: var(--primary-color);
+}
+.bg-secondary{  
+  background-color: var(--secondary-color);
+}
+
+.text-primary{
+  color: var(--primary-color);
+}
+
+.text-secondary{
+  color: var(--secondary-color);
+}
+
+/* Banner start */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 1s ease-out forwards;
+}
+/* Banner end */
+
+/* Swiper theming */
+.swiper-pagination-bullets .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #9e9e9e;
+  opacity: 1;
+}
+.swiper-pagination-bullets .swiper-pagination-bullet-active {
+  background: var(--secondary-color);
+}
+
+/* Improve click areas and contrast on dark image banners */
+.swiper-button-disabled {
+  opacity: 0.5;
+}

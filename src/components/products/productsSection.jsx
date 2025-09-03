@@ -1,0 +1,100 @@
+import React from "react";
+
+// Product Data
+const products = [
+  {
+    id: 1,
+    name: "3 Side Seal Pouch",
+    img: "/img/products/3-Side-Seal-Pouch.jpg", 
+    hoverImg: "/img/products/3-Side-Seal-Pouch-Main.jpg", 
+    bg: "bg-green-500",
+  },
+  {
+    id: 2,
+    name: "3 side seal zipper pouch",
+    img: "/img/products/3-side-seal-zipper-pouch.jpg", 
+    hoverImg: "/img/products/3-side-seal-zipper-pouch-Main.jpg", 
+    bg: "bg-pink-600",
+  },
+  {
+    id: 3,
+    name: "Centre Seal Pouch",
+    img: "/img/products/Centre Seal Pouch.jpg", 
+    hoverImg: "/img/products/Centre-Seal-Pouch-Main.jpg", 
+    bg: "bg-blue-600",
+  },
+  {
+    id: 4,
+    name: "Flat Bottom Pouch",
+    img: "/img/products/Flat-Bottom-Pouch.jpg", 
+    hoverImg: "/img/products/Flat-Bottom-Pouch-Main.jpg", 
+    bg: "bg-yellow-400",
+  },
+  {
+    id: 5,
+    name: "Quad Seal Pouch",
+    img: "/img/products/Quad-Seal-Pouch.jpg", 
+    hoverImg: "/img/products/Quad-Seal-Pouch-Main.jpg", 
+    bg: "bg-red-500",
+  },
+  {
+    id: 6,
+    name: "Spout Pouch",
+    img: "/img/products/Spout-Pouch.jpg", 
+    hoverImg: "/img/products/Spout-Pouch-Main.jpg", 
+    bg: "bg-green-600",
+  },
+  {
+    id: 7,
+    name: "Standup zipper pouch",
+    img: "/img/products/Standup-zipper-pouch.jpg", 
+    hoverImg: "/img/products/Standup-zipper-pouch-Main.jpg", 
+    bg: "bg-green-600",
+  },
+  {
+    id: 8,
+    name: "Poly bags ",
+    img: "/img/products/Poly-bags.jpg", 
+    hoverImg: "/img/products/Poly-bags-Main.jpg", 
+    bg: "bg-green-600",
+  },
+
+];
+
+const ProductsSection = () => {
+  return (
+    <section className="py-12 xl:py-8 2xl:pt-8 bg-white">
+      <div className="max-w-7xl mx-auto px-4">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-10">
+          {products.map((product) => (
+            <div key={product.id} className="group text-center relative">
+             
+              <div className="relative w-full overflow-hidden border-[0.8px] border-[#ededed]">
+                
+                <img
+                  src={product.img}
+                  alt={product.name}
+                  className="mx-auto w-full h-full object-cover transition-all duration-500 ease-out group-hover:opacity-0 group-hover:scale-105"
+                />
+               
+                <img
+                  src={product.hoverImg}
+                  alt={product.name + ' hover'}
+                  className="absolute inset-0 mx-auto w-full h-full object-cover opacity-0 transition-all duration-500 ease-out group-hover:opacity-100 group-hover:scale-130"
+                />
+              </div>
+            
+              <h3 className="font-bold mt-4">{product.name}</h3>
+
+              <button className="mt-3 px-6 py-1 border border-blue-500 text-blue-500 rounded-full hover:bg-blue-500 hover:text-white transition">
+                Learn more
+              </button>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default ProductsSection;
