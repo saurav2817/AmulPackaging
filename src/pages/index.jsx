@@ -1,16 +1,14 @@
 import React from "react";
-import Header from "../components/header/header";
 import HeroSlider from "../components/sliders/heroSlider";
 import ProductsSection from "../components/products/productsSection";
 import StepsSection from "../components/steps/stepsSection";
 import ClientsSection from "../components/clients/clientsSection";
 import Testimonials from "../components/testimonials/testimonials";
-import Footer from "../components/footer/footer";
+import AnimateOnScroll from "../components/animations/AnimateOnScroll";
 
 const Home = () => {
   return (
     <>
-
       {/* Slider start */}
       <HeroSlider />
       {/* Slider end */}
@@ -27,7 +25,15 @@ const Home = () => {
             />
           </div>
 
-          <div className="w-full lg:w-1/2 bg-primary text-white px-6 sm:px-10 md:px-20 py-6 sm:py-8 md:py-10 flex flex-col justify-center">
+          <AnimateOnScroll
+            as="div"
+            className="w-full lg:w-1/2 bg-primary text-white px-6 sm:px-10 md:px-20 py-6 sm:py-8 md:py-10 flex flex-col justify-center"
+            variant="fadeUp"
+            stagger={0.15}
+            once={true}
+            start="top 80%"
+            itemsSelector="h1, h4, p, button"
+          >
             <h1 className="text-3xl sm:text-4xl md:text-4xl font-bold mb-4">
               About Us
             </h1>
@@ -44,7 +50,7 @@ const Home = () => {
             <button className="mt-6 px-6 py-2 bg-white text-primary font-semibold rounded-full shadow hover:bg-yellow-400 transition-colors duration-200 w-max">
               Read More
             </button>
-          </div>
+          </AnimateOnScroll>
         </div>
       </div>
 
@@ -53,23 +59,40 @@ const Home = () => {
       {/* Why Us start */}
       <section className="bg-gray-100 py-12">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          {/* Heading */}
-          <h2 className="text-3xl sm:text-4xl md:text-4xl  font-bold text-blue-900 mb-2">
-            Why Us
-          </h2>
-          <p className="text-2xl sm:text-3xl md:text-3xl  font-semibold text-blue-800 mb-4">
-            We Make Brand Communication Easier Through <br /> Our Innovative
-            Packaging
-          </p>
-          <p className="text-gray-600 max-w-3xl mx-auto mb-12">
-            Amul packaging provides you with the optimum solution that you are
-            looking for, to promote your brand or product. Along with 30 years
-            of experience, we have collaborated with diversified sectors and
-            brands.
-          </p>
+          <AnimateOnScroll
+            as="div"
+            variant="fadeIn"
+            stagger={0.15}
+            once={true}
+            start="top 80%"
+            itemsSelector="h2, p"
+          >
+            {/* Heading */}
+            <h2 className="text-3xl sm:text-4xl md:text-4xl  font-bold text-blue-900 mb-2">
+              Why Us
+            </h2>
+            <p className="text-2xl sm:text-3xl md:text-3xl  font-semibold text-blue-800 mb-4">
+              We Make Brand Communication Easier Through <br /> Our Innovative
+              Packaging
+            </p>
+            <p className="text-gray-600 max-w-3xl mx-auto mb-12">
+              Amul packaging provides you with the optimum solution that you are
+              looking for, to promote your brand or product. Along with 30 years
+              of experience, we have collaborated with diversified sectors and
+              brands.
+            </p>
+          </AnimateOnScroll>
 
           {/* Cards Section */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-0">
+          <AnimateOnScroll
+            as="div"
+            className="grid grid-cols-1 md:grid-cols-3 gap-0"
+            variant="zoomIn"
+            stagger={0.15}
+            once={true}
+            start="top 80%"
+            itemsSelector="div"
+          >
             {/* Card 1 */}
             <div className="flex flex-col items-center">
               <div className="bg-[#ec2a4f]  rounded-lg mb-4 p-6 ">
@@ -102,7 +125,7 @@ const Home = () => {
                 We design with a conscious mindset about the environment
               </p>
             </div>
-          </div>
+          </AnimateOnScroll>
         </div>
       </section>
       {/* Why Us end */}
@@ -111,7 +134,15 @@ const Home = () => {
       <section>
         <div className=" mx-auto  ">
           <div className="flex flex-col lg:flex-row">
-            <div className="w-full lg:w-1/2 bg-primary text-white px-6 sm:px-10 md:px-20 py-6 sm:py-8 md:py-10 flex flex-col justify-center">
+            <AnimateOnScroll
+              as="div"
+              className="w-full lg:w-1/2 bg-primary text-white px-6 sm:px-10 md:px-20 py-6 sm:py-8 md:py-10 flex flex-col justify-center"
+              variant="fadeUp"
+              stagger={0.15}
+              once={true}
+              start="top 80%"
+              itemsSelector="h1, h4, p, button"
+            >
               <h1 className="text-3xl sm:text-4xl md:text-4xl font-bold  mb-4">
                 What We Do
               </h1>
@@ -130,7 +161,8 @@ const Home = () => {
                 pioneers in dry fruits, tea & coffee, snacks, frozen foods,
                 pharmaceuticals, and agrochemicals.
               </p>
-            </div>
+            </AnimateOnScroll>
+
             <div className="w-full lg:w-1/2 flex items-center justify-center">
               <img
                 src="/img/whatwedo.jpg"
@@ -152,7 +184,7 @@ const Home = () => {
         </div>
         <ProductsSection />
       </section>
-     
+
       {/* products end */}
 
       {/* Steps Start */}
@@ -190,8 +222,6 @@ const Home = () => {
         <Testimonials />
       </section>
       {/* Testimonials end */}
-
-      
     </>
   );
 };

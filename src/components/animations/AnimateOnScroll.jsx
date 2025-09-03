@@ -13,6 +13,18 @@ const variantConfigs = {
     from: { opacity: 0 },
     to: { opacity: 1 }
   },
+  fadeDown: {
+    from: { y: -40, opacity: 0 },
+    to: { y: 0, opacity: 1 }
+  },
+  fadeLeft: {
+    from: { x: 40, opacity: 0 },
+    to: { x: 0, opacity: 1 }
+  },
+  fadeRight: {
+    from: { x: -40, opacity: 0 },
+    to: { x: 0, opacity: 1 }
+  },
   slideLeft: {
     from: { x: 60, opacity: 0 },
     to: { x: 0, opacity: 1 }
@@ -21,9 +33,45 @@ const variantConfigs = {
     from: { x: -60, opacity: 0 },
     to: { x: 0, opacity: 1 }
   },
+  slideUp: {
+    from: { y: 60, opacity: 0 },
+    to: { y: 0, opacity: 1 }
+  },
+  slideDown: {
+    from: { y: -60, opacity: 0 },
+    to: { y: 0, opacity: 1 }
+  },
   zoomIn: {
     from: { scale: 0.9, opacity: 0 },
     to: { scale: 1, opacity: 1 }
+  },
+  zoomOut: {
+    from: { scale: 1.1, opacity: 0 },
+    to: { scale: 1, opacity: 1 }
+  },
+  rotateIn: {
+    from: { rotation: -10, opacity: 0 },
+    to: { rotation: 0, opacity: 1 }
+  },
+  rotateInClockwise: {
+    from: { rotation: 10, opacity: 0 },
+    to: { rotation: 0, opacity: 1 }
+  },
+  flipX: {
+    from: { rotationX: -90, transformPerspective: 400, opacity: 0 },
+    to: { rotationX: 0, transformPerspective: 400, opacity: 1 }
+  },
+  flipY: {
+    from: { rotationY: -90, transformPerspective: 400, opacity: 0 },
+    to: { rotationY: 0, transformPerspective: 400, opacity: 1 }
+  },
+  skewIn: {
+    from: { skewY: 6, opacity: 0 },
+    to: { skewY: 0, opacity: 1 }
+  },
+  blurIn: {
+    from: { filter: "blur(8px)", opacity: 0 },
+    to: { filter: "blur(0px)", opacity: 1 }
   }
 };
 
