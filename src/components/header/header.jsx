@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate, NavLink } from "react-router-dom";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { IoCloseSharp } from "react-icons/io5";
 import { AiOutlinePhone } from "react-icons/ai";
@@ -11,6 +12,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isInfoOpen, setIsInfoOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -38,15 +40,41 @@ const Header = () => {
       >
         <div className="container mx-auto px-4 flex justify-between items-center h-16">
           {/* Logo */}
-          <img src="/img/logo.png" alt="Logo" width={200} />
+          <img
+            src="/img/logo.png"
+            alt="Logo"
+            width={200}
+            className="cursor-pointer"
+            onClick={() => navigate("/")}
+          />
 
           {/* Desktop Menu */}
           <ul className="hidden md:flex items-center space-x-6 font-medium">
-            <li><a href="#" className="hover:text-blue-600">Home</a></li>
-            <li><a href="#" className="hover:text-blue-600">About</a></li>
-            <li><a href="#" className="hover:text-blue-600">Products</a></li>
-            <li><a href="#" className="hover:text-blue-600">Services</a></li>
-            <li><a href="#" className="hover:text-blue-600">Contact</a></li>
+            <li>
+              <NavLink to="/" className="hover:text-[var(--primary-color)]" end>
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/about" className="hover:text-[var(--primary-color)]">
+                About
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/products" className="hover:text-[var(--primary-color)]">
+                Products
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/services" className="hover:text-[var(--primary-color)]">
+                Services
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact" className="hover:text-[var(--primary-color)]">
+                Contact
+              </NavLink>
+            </li>
             {/* Info Icon (only desktop) */}
             <li className="hidden md:block">
               <button
@@ -87,8 +115,14 @@ const Header = () => {
         {/* Header */}
         <div className="sticky top-0 bg-white border-b px-5 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <img src="/img/logo.png" alt="Amul Packaging" className="h-8 w-auto" />
-            <h2 className="text-base font-semibold tracking-wide">Get in Touch</h2>
+            <img
+              src="/img/logo.png"
+              alt="Amul Packaging"
+              className="h-8 w-auto"
+            />
+            <h2 className="text-base font-semibold tracking-wide">
+              Get in Touch
+            </h2>
           </div>
           <button
             aria-label="Close info panel"
@@ -105,52 +139,108 @@ const Header = () => {
             {/* Intro */}
             <div className="text-sm text-gray-600 leading-6">
               <p>
-                We are a leading flexible packaging manufacturer delivering high-quality pouches
-                and sustainable solutions for FMCG and retail brands.
+                We are a leading flexible packaging manufacturer delivering
+                high-quality pouches and sustainable solutions for FMCG and
+                retail brands.
               </p>
             </div>
 
             {/* Contact Cards */}
             <div className="space-y-4">
-              <a href="tel:+919876543210" className="flex items-start space-x-3 p-3 rounded-lg border hover:border-blue-500 transition-colors">
-                <span className="mt-0.5 text-primary"><AiOutlinePhone size={20} /></span>
+              <a
+                href="tel:+919876543210"
+                className="flex items-start space-x-3 p-3 rounded-lg border hover:border-blue-500 transition-colors"
+              >
+                <span className="mt-0.5 text-primary">
+                  <AiOutlinePhone size={20} />
+                </span>
                 <div>
-                  <p className="text-xs uppercase tracking-wide text-gray-500">Phone</p>
-                  <p className="text-sm font-medium text-gray-900">+91 9004382696</p>
+                  <p className="text-xs uppercase tracking-wide text-gray-500">
+                    Phone
+                  </p>
+                  <p className="text-sm font-medium text-gray-900">
+                    +91 9004382696
+                  </p>
                 </div>
               </a>
-              <a href="mailto:amulpackingonline@gmail.com" className="flex items-start space-x-3 p-3 rounded-lg border hover:border-blue-500 transition-colors">
-                <span className="mt-0.5 text-primary"><HiOutlineMail size={20} /></span>
+              <a
+                href="mailto:amulpackingonline@gmail.com"
+                className="flex items-start space-x-3 p-3 rounded-lg border hover:border-blue-500 transition-colors"
+              >
+                <span className="mt-0.5 text-primary">
+                  <HiOutlineMail size={20} />
+                </span>
                 <div>
-                  <p className="text-xs uppercase tracking-wide text-gray-500">Email</p>
-                  <p className="text-sm font-medium text-gray-900">amulpackingonline@gmail.com</p>
+                  <p className="text-xs uppercase tracking-wide text-gray-500">
+                    Email
+                  </p>
+                  <p className="text-sm font-medium text-gray-900">
+                    amulpackingonline@gmail.com
+                  </p>
                 </div>
               </a>
               <div className="flex items-start space-x-3 p-3 rounded-lg border">
-                <span className="mt-0.5 text-primary"><HiOutlineLocationMarker size={20} /></span>
+                <span className="mt-0.5 text-primary">
+                  <HiOutlineLocationMarker size={20} />
+                </span>
                 <div>
-                  <p className="text-xs uppercase tracking-wide text-gray-500">Address</p>
-                  <p className="text-sm font-medium text-gray-900">Amul Packaging Pvt. Ltd.</p>
-                  <p className="text-sm text-gray-700">P-3A, Raj Laxmi HiTech Textile Park, Sonale Village, Bhiwandi, Maharashtra 421302</p>
+                  <p className="text-xs uppercase tracking-wide text-gray-500">
+                    Address
+                  </p>
+                  <p className="text-sm font-medium text-gray-900">
+                    Amul Packaging Pvt. Ltd.
+                  </p>
+                  <p className="text-sm text-gray-700">
+                    P-3A, Raj Laxmi HiTech Textile Park, Sonale Village,
+                    Bhiwandi, Maharashtra 421302
+                  </p>
                 </div>
               </div>
               <div className="flex items-start space-x-3 p-3 rounded-lg border">
-                <span className="mt-0.5 text-primary"><BsClock size={20} /></span>
+                <span className="mt-0.5 text-primary">
+                  <BsClock size={20} />
+                </span>
                 <div>
-                  <p className="text-xs uppercase tracking-wide text-gray-500">Hours</p>
-                  <p className="text-sm font-medium text-gray-900">Mon - Sat: 8:00 AM - 9:00 PM</p>
+                  <p className="text-xs uppercase tracking-wide text-gray-500">
+                    Hours
+                  </p>
+                  <p className="text-sm font-medium text-gray-900">
+                    Mon - Sat: 8:00 AM - 9:00 PM
+                  </p>
                 </div>
               </div>
             </div>
 
             {/* Quick Links */}
             <div>
-              <p className="text-xs uppercase tracking-wide text-gray-500 mb-2">Quick Links</p>
+              <p className="text-xs uppercase tracking-wide text-gray-500 mb-2">
+                Quick Links
+              </p>
               <div className="grid grid-cols-2 gap-2 text-sm">
-                <a href="#about" className="p-2 rounded border hover:border-blue-500">About Us</a>
-                <a href="#products" className="p-2 rounded border hover:border-blue-500">Products</a>
-                <a href="#services" className="p-2 rounded border hover:border-blue-500">Services</a>
-                <a href="#contact" className="p-2 rounded border hover:border-blue-500">Contact</a>
+                <a
+                  href="#about"
+                  className="p-2 rounded border hover:border-blue-500"
+                >
+                  About Us
+                </a>
+                <a
+                  href="#products"
+                  className="p-2 rounded border hover:border-blue-500"
+                >
+                  Products
+                </a>
+                <a
+                  href="#services"
+                  className="p-2 rounded border hover:border-blue-500"
+                >
+                  Services
+                </a>
+                <a
+                  href="#contact"
+                  className="p-2 rounded border hover:border-blue-500"
+                >
+                  Contact
+                </a>
               </div>
             </div>
 
@@ -172,15 +262,29 @@ const Header = () => {
 
             {/* Social */}
             <div>
-              <p className="text-xs uppercase tracking-wide text-gray-500 mb-2">Follow Us</p>
+              <p className="text-xs uppercase tracking-wide text-gray-500 mb-2">
+                Follow Us
+              </p>
               <div className="flex items-center gap-3">
-                <a href="#" aria-label="Facebook" className="h-9 w-9 rounded-full border flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors">
+                <a
+                  href="#"
+                  aria-label="Facebook"
+                  className="h-9 w-9 rounded-full border flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors"
+                >
                   <FaFacebookF size={16} />
                 </a>
-                <a href="#" aria-label="LinkedIn" className="h-9 w-9 rounded-full border flex items-center justify-center hover:bg-blue-700 hover:text-white transition-colors">
+                <a
+                  href="#"
+                  aria-label="LinkedIn"
+                  className="h-9 w-9 rounded-full border flex items-center justify-center hover:bg-blue-700 hover:text-white transition-colors"
+                >
                   <FaLinkedinIn size={16} />
                 </a>
-                <a href="#" aria-label="Instagram" className="h-9 w-9 rounded-full border flex items-center justify-center hover:bg-pink-600 hover:text-white transition-colors">
+                <a
+                  href="#"
+                  aria-label="Instagram"
+                  className="h-9 w-9 rounded-full border flex items-center justify-center hover:bg-pink-600 hover:text-white transition-colors"
+                >
                   <FaInstagram size={16} />
                 </a>
               </div>
@@ -207,11 +311,52 @@ const Header = () => {
           </button>
         </div>
         <ul className="flex flex-col p-4 space-y-4 font-medium">
-          <li><a href="#" className="hover:text-blue-600" onClick={closeAll}>Home</a></li>
-          <li><a href="#" className="hover:text-blue-600" onClick={closeAll}>About</a></li>
-          <li><a href="#" className="hover:text-blue-600" onClick={closeAll}>Products</a></li>
-          <li><a href="#" className="hover:text-blue-600" onClick={closeAll}>Services</a></li>
-          <li><a href="#" className="hover:text-blue-600" onClick={closeAll}>Contact</a></li>
+          <li>
+            <NavLink
+              to="/"
+              className="hover:text-blue-600"
+              onClick={closeAll}
+              end
+            >
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/about"
+              className="hover:text-blue-600"
+              onClick={closeAll}
+            >
+              About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/products"
+              className="hover:text-blue-600"
+              onClick={closeAll}
+            >
+              Products
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/services"
+              className="hover:text-blue-600"
+              onClick={closeAll}
+            >
+              Services
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/contact"
+              className="hover:text-blue-600"
+              onClick={closeAll}
+            >
+              Contact
+            </NavLink>
+          </li>
         </ul>
       </div>
     </>
