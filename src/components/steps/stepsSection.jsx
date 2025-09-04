@@ -1,4 +1,5 @@
 import React from "react";
+import AnimateOnScroll from "../animations/AnimateOnScroll";
 
 const steps = [
   {
@@ -24,8 +25,10 @@ const steps = [
 const StepsSection = () => {
   return (
       <>
-         {steps.map((step, index) => (
-          <div
+         {steps.map((step) => (
+          <AnimateOnScroll
+            as="div"
+            variant="zoomIn"
             key={step.id}
             className="bg-white rounded-md mt-[10%] sm:mt-[10%] md:mt-[0]  p-6 relative shadow-[0_4px_20px_rgba(0,0,0,0.25)]"
           >
@@ -46,7 +49,7 @@ const StepsSection = () => {
                 {step.description}
               </p>
             </div>
-          </div>
+          </AnimateOnScroll>
         ))}
       </>
   );

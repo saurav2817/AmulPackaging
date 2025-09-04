@@ -176,14 +176,22 @@ const Home = () => {
       {/* what we do end */}
 
       {/* products start */}
-      <section className="pt-[10%]  xl:pt-[4%] 2xl:pt-[4%] 2xl:pb-[2%]  bg-white text-center ">
+      <AnimateOnScroll
+        as="section"
+        className="pt-[10%]  xl:pt-[4%] 2xl:pt-[4%] 2xl:pb-[2%]  bg-white text-center "
+        variant="fadeUp"
+        stagger={0.15}
+        once={true}
+        start="top 80%"
+        itemsSelector="div"
+      >
         <div className="">
           <h1 className="text-3xl sm:text-4xl md:text-4xl font-bold  mb-4">
             Our Products
           </h1>
         </div>
         <ProductsSection />
-      </section>
+      </AnimateOnScroll>
 
       {/* products end */}
 
@@ -197,15 +205,20 @@ const Home = () => {
       {/* Steps end */}
 
       {/* clients Start */}
-
-      <section className="pt-[10%]  xl:pt-[18%] 2xl:pt-[8%]  bg-white text-center ">
+      <AnimateOnScroll
+        as="section"
+        className="pt-[10%]  xl:pt-[18%] 2xl:pt-[8%]  bg-white text-center "
+        variant="zoomIn"
+        start="top 80%"
+        itemsSelector="div"
+      >
         <div className="border-b-2 border-[#f1f1f1]">
           <h1 className="text-3xl sm:text-4xl md:text-4xl font-bold  mb-4">
             Trusted By Brand Like
           </h1>
         </div>
         <ClientsSection />
-      </section>
+      </AnimateOnScroll>
       {/* clients end */}
 
       {/* Testimonials start */}

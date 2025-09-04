@@ -1,4 +1,5 @@
 import React from "react";
+import AnimateOnScroll from "../animations/AnimateOnScroll";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
@@ -50,7 +51,7 @@ const Testimonials = () => {
           >
             {testimonials.map((testimonial) => (
               <SwiperSlide key={testimonial.id}>
-                <div className="flex flex-col items-start ">
+                <AnimateOnScroll as="div" variant="zoomIn" className="flex flex-col items-start ">
                   <div className="relative z-10 mx-14">
                     <img
                       src={testimonial.image}
@@ -71,7 +72,7 @@ const Testimonials = () => {
 
                     <FaQuoteRight className="text-3xl text-primary mt-4 ml-auto" />
                   </div>
-                </div>
+                </AnimateOnScroll>
               </SwiperSlide>
             ))}
           </Swiper>

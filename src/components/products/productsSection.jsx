@@ -86,8 +86,8 @@ const ProductsSection = () => {
             
               <h3 className="font-bold mt-4">{product.name}</h3>
 
-              <button className="mt-3 px-6 py-1 border border-blue-500 text-blue-500 rounded-full hover:bg-blue-500 hover:text-white transition">
-                Learn more
+              <button className="mt-3 px-6 py-1 border border-[var(--primary-color)] text-[var(--primary-color)] rounded-full hover:bg-[var(--primary-color)] hover:text-[var(--white)] transition">
+                Get Details
               </button>
             </div>
           ))}
