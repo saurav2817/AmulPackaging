@@ -1,6 +1,6 @@
 import React from "react";
 import products from "../../api/products";
-
+import { Link } from "react-router-dom";
 
 const ProductsSection = () => {
   return (
@@ -9,8 +9,8 @@ const ProductsSection = () => {
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-10">
           {products.slice(0, 8).map((product) => (
             <div key={product.id} className="group text-center relative">
-             
-              <div className="relative w-full overflow-hidden border-[0.8px] border-[#ededed]">
+            <Link to={`/products/${product.id}`} className="block">
+            <div className="relative w-full overflow-hidden border-[0.8px] border-[#ededed]">
                 
                 <img
                   src={product.img}
@@ -26,10 +26,15 @@ const ProductsSection = () => {
               </div>
             
               <h3 className="font-bold mt-4">{product.name}</h3>
+            </Link>
+              
 
-              <button className="mt-3 px-6 py-1 border border-[var(--primary-color)] text-[var(--primary-color)] rounded-full hover:bg-[var(--primary-color)] hover:text-[var(--white)] transition">
-                Get Details
-              </button>
+              <Link to={`/products/${product.id}`} className="inline-block">
+                <button className="mt-3 px-6 py-1 border border-[var(--primary-color)] text-[var(--primary-color)] rounded-full hover:bg-[var(--primary-color)] hover:text-[var(--white)] transition">
+                  Get Details
+                </button>
+              </Link>
+
             </div>
           ))}
         </div>
