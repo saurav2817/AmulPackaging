@@ -10,7 +10,7 @@ const Products = () => {
         <>
             <main className=" mx-auto ">
 
-                <section className="text-center py-30 bg-[url('/img/bgproduct.jpg')] ">
+                <section className="text-center py-30 bg-[url('/img/bgproduct.jpg')] bg-cover bg-center">
                     <h1 className="text-3xl font-bold text-white">Products</h1>
                 </section>
 
