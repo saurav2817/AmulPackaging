@@ -6,8 +6,8 @@ const Products = () => {
         <>
             <main className=" mx-auto ">
 
-                <section className="text-center py-20 bg-[#f1f1f1]">
-                    <h1 className="text-3xl font-bold text-primary">Products</h1>
+                <section className="text-center py-30 bg-[url('/img/bgproduct.jpg')] ">
+                    <h1 className="text-3xl font-bold text-white">Products</h1>
                 </section>
 
                 <section className="max-w-7xl mx-auto px-4">
@@ -27,7 +27,7 @@ const Products = () => {
                     </div>
                 </section>
                 
-                <AllProducts sortBy={sortBy}/>
+                <AllProducts sortBy={sortBy}/>+
             </main>
         </>
     );
