@@ -1,10 +1,33 @@
-import React from "react";
-
+import React, { useState } from "react";
+import AllProducts from "../components/products/allProducts"
 const Products = () => {
+    const [sortBy, setSortBy] = useState("Default");
     return (
         <>
-            <main className="container mx-auto px-4 py-10">
-                <h1>Products</h1>
+            <main className=" mx-auto ">
+
+                <section className="text-center py-20 bg-[#f1f1f1]">
+                    <h1 className="text-3xl font-bold text-primary">Products</h1>
+                </section>
+
+                <section className="max-w-7xl mx-auto px-4">
+                    <div className="flex items-center justify-end py-4">
+                        <label htmlFor="sort" className="mr-3 font-medium">Sort by:</label>
+                        <select
+                            id="sort"
+                            className="border border-[#e5e7eb] rounded-md px-3 py-2 bg-white"
+                            value={sortBy}
+                            onChange={(e) => setSortBy(e.target.value)}
+                        >
+                            <option value="default">Default</option>
+                            <option value="latest">Latest</option>
+                            <option value="popularity">Popularity</option>
+                            <option value="az">A - Z</option>
+                        </select>
+                    </div>
+                </section>
+                
+                <AllProducts sortBy={sortBy}/>
             </main>
         </>
     );

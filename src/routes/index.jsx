@@ -7,6 +7,7 @@ import BackToTop from "../components/backToTop/backToTop";
 import Index from "../pages/index";
 import About from "../pages/About";
 import Products from "../pages/Products";
+import SingleProduct from "../pages/singleProduct";
 import Services from "../pages/Services";
 import Contact from "../pages/Contact";
 
@@ -28,6 +29,7 @@ const AppRoutes = () => {
                 <Route path="home" element={<Index/>} />
                 <Route path="about" element={<About/>} />
                 <Route path="products" element={<Products/>} />
+                <Route path="SingleProduct" element={<SingleProduct/>} />
                 <Route path="services" element={<Services/>} />
                 <Route path="contact" element={<Contact/>} />
                 <Route path="*" element={<Navigate to="/" replace />} />
