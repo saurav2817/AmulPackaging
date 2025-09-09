@@ -134,8 +134,8 @@ const products = [
   {
     id: 6,
     name: "Vacuum Pouch",
-    img: "/img/products/",
-    hoverImg: "/img/products/",
+    img: "/img/products/Vacuum-Pouch-Main.jpg",
+    hoverImg: "/img/products/Vacuum-Pouch-Main.jpg",
     bg: "bg-red-500",
     popularity: 64,
     Details:
@@ -160,8 +160,8 @@ const products = [
   {
     id: 7,
     name: "Shaped Pouch",
-    img: "/img/products/",
-    hoverImg: "/img/products/",
+    img: "/img/products/Shaped-Pouch-Main.jpg",
+    hoverImg: "/img/products/Shaped-Pouch-Main.jpg",
     bg: "bg-red-500",
     popularity: 64,
     Details:
@@ -213,8 +213,8 @@ const products = [
   {
     id: 9,
     name: "Laminated Roll-Stock",
-    img: "/img/products/",
-    hoverImg: "/img/products/",
+    img: "/img/products/Laminated-Roll-Stock-Main.jpg",
+    hoverImg: "/img/products/Laminated-Roll-Stock-Main.jpg",
     bg: "bg-red-500",
     popularity: 64,
     Details:
@@ -265,8 +265,8 @@ const products = [
   {
     id: 11,
     name: "Security Bags",
-    img: "/img/products/",
-    hoverImg: "/img/products/",
+    img: "/img/products/Security-Bags-Main.jpg",
+    hoverImg: "/img/products/Security-Bags-Main.jpg",
     bg: "bg-red-500",
     popularity: 64,
     Details:
@@ -292,8 +292,8 @@ const products = [
   {
     id: 12,
     name: "Ziplock poly bags",
-    img: "/img/products/",
-    hoverImg: "/img/products/",
+    img: "/img/products/Ziplock-bags-Main.jpg",
+    hoverImg: "/img/products/Ziplock-bags-Main.jpg",
     bg: "bg-red-500",
     popularity: 64,
     Details:

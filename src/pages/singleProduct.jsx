@@ -171,7 +171,7 @@ const SingleProduct = () =>{
                             </div>
                         </nav>
                                 
-                        <h2 className="text-xl md:text-2xl font-semibold mb-4 mt-4 text-primary ">Overview</h2>
+                        <h3 className="text-xl md:text-2xl font-semibold mb-2 mt-4 text-primary ">Overview</h3>
                         {product.Details && (
                             <p className="text-gray-700 leading-7">{product.Details}</p>
                         )}
