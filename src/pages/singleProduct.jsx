@@ -10,6 +10,7 @@ import "swiper/css/thumbs";
 import products from "../api/products";
 import RecentlyViewed from "../components/products/recentlyViewed";
 import { FaFacebook,FaTwitter,FaPinterest,FaWhatsapp} from "react-icons/fa6";
+import EnquiryModal from "../components/modal/enquiryModal";
 
 
 const SingleProduct = () =>{
@@ -17,6 +18,7 @@ const SingleProduct = () =>{
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
     const [isLightboxOpen, setIsLightboxOpen] = useState(false);
     const [activeIndex, setActiveIndex] = useState(0);
+    const [isEnquiryOpen, setIsEnquiryOpen] = useState(false);
     const productId = Number(id);
     const product = products.find((p) => p.id === productId);
 
@@ -205,12 +207,13 @@ const SingleProduct = () =>{
                         )}
 
                         <div className="mt-10 flex flex-wrap gap-3">
-                            <Link
-                                to="/contact"
+                            <button
+                                type="button"
+                                onClick={() => setIsEnquiryOpen(true)}
                                 className="px-6 py-2 bg-[var(--secondary-color)] text-[var(--primary-color)] rounded-full font-semibold hover:brightness-95 transition"
                             >
                                 Enquire Now
-                            </Link>
+                            </button>
                             <Link
                                 to="/products"
                                 className="px-6 py-2 border border-[var(--primary-color)] text-[var(--primary-color)] rounded-full hover:bg-[var(--primary-color)] hover:text-[var(--white)] transition flex items-center gap-2"
@@ -281,6 +284,8 @@ const SingleProduct = () =>{
                         </div>
                     </div>
                 )}
+                {/* Enquiry Modal */}
+                <EnquiryModal open={isEnquiryOpen} onClose={() => setIsEnquiryOpen(false)} product={product} />
             </main>
         </>
     )
