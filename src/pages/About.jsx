@@ -6,6 +6,7 @@ import { RiUserSettingsLine } from "react-icons/ri";
 import { GiPriceTag } from "react-icons/gi";
 import { GiThreeLeaves } from "react-icons/gi";
 import ClientsSection from "../components/clients/clientsSection";
+import Counters from "../components/counters/counters";
 const About = () => {
     return (
         <>
@@ -160,6 +161,8 @@ const About = () => {
                             </div>
                         </div>
                 </section>
+
+                <Counters />
 
                 <section className="py-16 bg-white">
                         <div className="container mx-auto max-w-7xl">
