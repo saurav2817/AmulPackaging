@@ -31,3 +31,4 @@ pnpm-debug.log*
 # Misc caches
 .cache
 .parcel-cache
+*.download
