@@ -21,16 +21,12 @@ const About = () => {
                         
                         {/* Left Content */}
                         <div className="w-full lg:w-1/2 flex flex-col justify-start">
-                            <h4 className="text-xl font-medium text-blue-900 mb-2">WHO WE ARE</h4>
+                            <h4 className="text-xl font-medium text-blue-900 mb-2">Our Story</h4>
                             <h1 className="text-4xl font-bold text-blue-800 mb-4 leading-snug">
-                            The wrap that makes you love the product.
+                                We make brand communication easier through innovative packaging solutions
                             </h1>
                             <p className="text-gray-600 max-w-3xl">
-                            Amul packaging offers rotogravure, flexographic & digital flexible
-                            packaging enhancing tamper evidence, security & shelf appeal to
-                            consumers worldwide. We are now one of the leading manufacturers of
-                            stock packaging products in various formats like stand-up Pouches,
-                            zipper pouches, tape bags, laminated pouches, etc.
+                                Amul Packaging is one of the most reliable and trustworthy brands in the flexible packaging sector with an experience of more than 30 years. The business has evolved from its modest beginnings to a contemporary setup under the leadership of Mr. Amul Bhanushali. We are now a team of 35 people focused on serving at our highest capability every single day.
                             </p>
 
                             <div className="flex justify-start mt-6">
@@ -63,13 +59,15 @@ const About = () => {
                     </div>
 
                     {/* Content */}
-                    <div className="relative z-10 max-w-3xl px-6">
+                    <div className="relative z-10 max-w-6xl px-6">
                         <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                        Let&apos;s your Product look nice by packaging.
+                            What Do We Do
                         </h2>
+                        <h3 className="text-xl md:text-2xl font-bold text-white mb-4">
+                            Add innovative packaging to your life changing product
+                        </h3>
                         <p className="text-white/90 mb-6">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-                        luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                            We are leading manufacturers of flexographic and rotogravure packaging materials which include laminated printed rolls, center seal pouches, three side seal pouches, side gazzeted pouches, standee zipper, vaccum pouches, shaped pouches, poly bags, magazine covers, tape bags, security bags, ziplock bags and more.
                         </p>
                         <a href="#" className="inline-block bg-blue-500 hover:bg-blue-400 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition">
                             Get Started
@@ -163,6 +161,49 @@ const About = () => {
                 </section>
 
                 <Counters />
+
+                <section className="py-16 bg-white">
+                    <div className="container mx-auto max-w-7xl">
+                        <div class="container mx-auto max-w-7xl px-6 lg:px-8 mt-20 grid lg:grid-cols-2 gap-12 items-center">
+                            <div>
+                                <img src="/img/vision.jpg" alt="Printing" className="rounded-lg shadow-lg" />
+                            </div>
+
+                            <div>
+                                <h2 class="text-5xl font-bold text-black relative">
+                                    <span
+                                        class="absolute -top-6 left-0 text-6xl text-secondary font-extrabold opacity-50">Vision</span>
+                                    <span class="relative z-10">Our Vision</span>
+                                </h2>
+                                <p class="mt-6 text-gray-600 leading-relaxed">
+                                    To continuously add value to our clients’ businesses by providing them with
+                                    cutting-edge printing and packaging solutions that are of the highest
+                                    quality and consistency. To be the leading provider of packaging solutions
+                                    with a strong customer focus.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="container mx-auto max-w-7xl px-6 lg:px-8 mt-20 grid lg:grid-cols-2 gap-12 items-center">
+                            <div>
+                                <h2 class="text-5xl font-bold text-black relative">
+                                    <span
+                                        class="absolute -top-6 left-0 text-6xl text-secondary font-extrabold opacity-50">Mission</span>
+                                    <span class="relative z-10">Our Mission</span>
+                                </h2>
+                                <p class="mt-6 text-gray-600 leading-relaxed">
+                                    Serving the changing packaging demands of our customers by offering them
+                                    innovative, economical, and high-quality packaging solutions while
+                                    continuously delivering above our standards.
+                                </p>
+                            </div>
+
+                            <div>
+                                <img src="/img/mission.jpg" alt="Mission" className="rounded-lg shadow-lg" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
                 <section className="py-16 bg-white">
                         <div className="container mx-auto max-w-7xl">
