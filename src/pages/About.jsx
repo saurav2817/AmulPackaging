@@ -48,33 +48,80 @@ const About = () => {
                     </div>
                 </section>
 
-                <section className="relative h-[500px] flex items-center justify-center text-center">
+                <section class="py-16 relative bg-secondary">
                     {/* Background image */}
                     <div className="absolute inset-0">
                         <img
-                        src="img/secbg.jpg" alt=""className="w-full h-full object-cover"
+                        src="img/Machineriesbg1.jpg" alt=""className="w-full h-full bg-cover"
                         />
                         {/* Gradient overlay */}
-                        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/60 to-blue-400/60"></div>
+                        <div className="absolute inset-0 bg-gradient-to-bl from-green-400 to-blue-400 opacity-[0.4]"></div>
                     </div>
-
-                    {/* Content */}
-                    <div className="relative z-10 max-w-6xl px-6">
-                        <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                            What Do We Do
-                        </h2>
-                        <h3 className="text-xl md:text-2xl font-bold text-white mb-4">
-                            Add innovative packaging to your life changing product
-                        </h3>
-                        <p className="text-white/90 mb-6">
-                            We are leading manufacturers of flexographic and rotogravure packaging materials which include laminated printed rolls, center seal pouches, three side seal pouches, side gazzeted pouches, standee zipper, vaccum pouches, shaped pouches, poly bags, magazine covers, tape bags, security bags, ziplock bags and more.
+                    <div class="max-w-7xl relative mx-auto px-6 lg:px-8 text-center">
+                        <h2 class="text-3xl font-bold text-white">Why Us</h2>
+                        <h3 class="text-xl font-semibold text-white mt-2">Our Infrastructure</h3>
+                        <p class="mt-4 text-white max-w-3xl mx-auto">
+                            Our manufacturing plants have cutting-edge technology and procedures along the whole value chain
+                            that supports and enhances our capabilities. With the current expertise, knowledge, and dedication,
+                            our team is able to facilitate one-of-a-kind packaging solutions.
                         </p>
-                        <a href="#" className="inline-block bg-blue-500 hover:bg-blue-400 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition">
-                            Get Started
-                        </a>
+                        <p class="mt-2 text-white italic">We innovate what leads your product’s identity</p>
+
+
+                        <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+
+
+                            <div class="bg-white shadow-lg rounded-2xl p-6 text-left hover:shadow-xl transition">
+                                <div class="flex items-center mb-4">
+                                    <svg class="w-10 h-10 text-secondary" fill="none" stroke="currentColor" stroke-width="2"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2M6 14h.01M10 14h4" />
+                                    </svg>
+                                    <h4 class="ml-3 text-lg font-semibold text-gray-900">Printing</h4>
+                                </div>
+                                <ul class="list-disc list-inside text-gray-600 space-y-2">
+                                    <li>7 Colour Rotogravure Printing Machine</li>
+                                    <li>6 Colour Flexo Printing Machine</li>
+                                    <li>4 Colour Flexo Printing Machine</li>
+                                </ul>
+                            </div>
+
+
+                            <div class="bg-white shadow-lg rounded-2xl p-6 text-left hover:shadow-xl transition">
+                                <div class="flex items-center mb-4">
+                                    <svg class="w-10 h-10 text-secondary" fill="none" stroke="currentColor" stroke-width="2"
+                                        viewBox="0 0 24 24">
+                                        <path d="M9 12h6m-6 4h6M5 4h14a2 2 0 012 2v12a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2z" />
+                                    </svg>
+                                    <h4 class="ml-3 text-lg font-semibold text-gray-900">Solvent Based Lamination</h4>
+                                </div>
+                                <p class="text-gray-600 text-base">
+                                    Produced with stringent quality standards using a wide range of materials including PET, OPP, PE,
+                                    HDPE, Metallocene PE, LLDPE, CPP, and Metallized films.
+                                </p>
+                            </div>
+
+
+                            <div class="bg-white shadow-lg rounded-2xl p-6 text-left hover:shadow-xl transition">
+                                <div class="flex items-center mb-4">
+                                    <svg class="w-10 h-10 text-secondary" fill="none" stroke="currentColor" stroke-width="2"
+                                        viewBox="0 0 24 24">
+                                        <path d="M12 3v18m9-9H3" />
+                                    </svg>
+                                    <h4 class="ml-3 text-lg font-semibold text-gray-900">Slitting & Pouch Making</h4>
+                                </div>
+                                <ul class="list-disc list-inside text-gray-600 space-y-2">
+                                    <li>High Speed Slitting Machine</li>
+                                    <li>High Speed Center Seal & Gusset Pouching Machines</li>
+                                    <li>Stand Up Zipper Bag Making Machine</li>
+                                    <li>High Speed Side Sealing Machines</li>
+                                    <li>High Speed Bottom Sealing Machines</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </section>
-
 
                 <section class="py-16 bg-white">
                         <div class="max-w-7xl mx-auto px-6">
@@ -160,9 +207,37 @@ const About = () => {
                         </div>
                 </section>
 
+
+                <section className="relative h-[500px] flex items-center justify-center text-center">
+                    {/* Background image */}
+                    <div className="absolute inset-0">
+                        <img
+                        src="img/secbg.jpg" alt=""className="w-full h-full object-cover"
+                        />
+                        {/* Gradient overlay */}
+                        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/60 to-blue-400/60"></div>
+                    </div>
+
+                    {/* Content */}
+                    <div className="relative z-10 max-w-6xl px-6">
+                        <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                            What Do We Do
+                        </h2>
+                        <h3 className="text-xl md:text-2xl font-bold text-white mb-4">
+                            Add innovative packaging to your life changing product
+                        </h3>
+                        <p className="text-white/90 mb-6">
+                            We are leading manufacturers of flexographic and rotogravure packaging materials which include laminated printed rolls, center seal pouches, three side seal pouches, side gazzeted pouches, standee zipper, vaccum pouches, shaped pouches, poly bags, magazine covers, tape bags, security bags, ziplock bags and more.
+                        </p>
+                        <a href="#" className="inline-block bg-blue-500 hover:bg-blue-400 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition">
+                            Get Started
+                        </a>
+                    </div>
+                </section>
+
                 <Counters />
 
-                <section className="py-16 bg-white">
+                <section className="pb-16 bg-white">
                     <div className="container mx-auto max-w-7xl">
                         <div class="container mx-auto max-w-7xl px-6 lg:px-8 mt-20 grid lg:grid-cols-2 gap-12 items-center">
                             <div>

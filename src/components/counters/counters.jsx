@@ -56,17 +56,26 @@ const CounterCard = ({ label, value, suffix = '%' }) => {
 	}, []);
 
 	return (
-		<div ref={containerRef} className="bg-primary text-white p-8 rounded-xl shadow-md flex flex-col items-center justify-center gap-2">
-			<div className="text-4xl md:text-5xl font-extrabold leading-none">{displayValue}{suffix}</div>
-			<div className="text-lg md:text-xl font-medium opacity-90">{label}</div>
+		<div
+			ref={containerRef}
+			className="relative flex flex-col items-center justify-center text-white bg-primary shadow-md p-8"
+			style={{
+				clipPath: "polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%)",
+				aspectRatio: "1 / 1",
+				width: "250px", // fixed hexagon size
+			}}
+		>
+			<div className="text-[2.8rem] font-extrabold">{displayValue}{suffix}</div>
+			<div className="text-lg font-medium opacity-90 text-center">{label}</div>
 		</div>
 	);
 };
 
+
 const Counters = () => {
 	const countersData = useMemo(
 		() => [
-			{ label: 'Quality', value: 98 },
+			{ label: 'Quality', value: 98,},
 			{ label: 'Sustainable', value: 99 },
 			{ label: 'Design', value: 98 },
 		],
@@ -74,18 +83,22 @@ const Counters = () => {
 	);
 
 	return (
-		<>
-			<section className="bg-white py-16">
-				<div className="max-w-7xl mx-auto px-6">
-					<div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-						{countersData.map((item) => (
+		<section className="bg-white py-16">
+			<div className="max-w-7xl mx-auto px-6">
+				<div className="grid gap-y-6">
+					{/* First row */}
+					<div className="flex justify-center gap-6">
+						{countersData.slice(0, 3).map((item) => (
 							<CounterCard key={item.label} label={item.label} value={item.value} />
 						))}
 					</div>
+
+					
 				</div>
-			</section>
-		</>
+			</div>
+		</section>
 	);
 };
+
 
 export default Counters;
