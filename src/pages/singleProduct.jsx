@@ -81,40 +81,40 @@ const SingleProduct = () =>{
         }
     }
 
-    return(
+	return(
         <>
-            <main className="mx-auto">
-                {/* Breadcrumb */}
-
-
-                {/* Title / Hero */}
-                <section className="py-12 md:py-16 bg-[#f1f4fb]">
-                    <div className="max-w-7xl mx-auto px-4 text-center">
-                        <h1 className="text-2xl md:text-4xl font-extrabold text-primary">{product.name}</h1>
-                        {/* {product.Details && (
-                            <p className="max-w-3xl mx-auto mt-3 text-gray-700 leading-7">
-                                {product.Details}
-                            </p>
-                        )} */}
-                    </div>
-                </section>
+				<main className="mx-auto soft-bg min-h-screen">
+					{/* Hero */}
+					<section className="relative overflow-hidden soft-bg">
+						<div className="absolute inset-0 bg-gradient-to-br from-[var(--secondary-color)] via-[#ffd95a] to-[#ffb703] opacity-30" />
+						<div className="relative max-w-7xl mx-auto px-4 py-12 md:py-16 text-center">
+							<span className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-white/70 text-[var(--primary-color)] shadow">Crafted by Amul Packaging</span>
+							<h1 className="mt-4 text-3xl md:text-5xl font-extrabold tracking-tight text-[var(--primary-color)]">{product.name}</h1>
+							<div className="mx-auto mt-4 h-1 w-24 rounded-full bg-[var(--primary-color)]/20" />
+							{product.Details && (
+								<p className="max-w-3xl mx-auto mt-6 text-gray-700 leading-7">
+									{product.Details}
+								</p>
+							)}
+						</div>
+					</section>
 
 
                 {/* Main content */}
-                <section className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-2 gap-10">
-                    <div className="bg-white">
+				<section className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-2 gap-10">
+					<div className=" rounded-2xl  overflow-hidden ring-1 ring-[#ededed]">
                         {/* Product Gallery */}
-                        <div className="relative border border-[#ededed] p-2">
+						<div className="relative border-b border-[#ededed] p-2">
                             {/* Themed navigation arrows for main gallery */}
                             <button
-                                className="sp-prev absolute left-2 top-1/2 -translate-y-1/2 z-10 inline-flex items-center justify-center w-10 h-10 rounded-full bg-[var(--primary-color)] text-[var(--white)] shadow hover:brightness-110 focus:outline-none"
+								className="sp-prev absolute left-3 top-1/2 -translate-y-1/2 z-10 inline-flex items-center justify-center w-10 h-10 rounded-full bg-[var(--primary-color)] text-[var(--white)] shadow-lg hover:brightness-110 focus:outline-none"
                                 aria-label="Previous image"
                                 type="button"
                             >
                                 <IoChevronBack className="text-xl" />
                             </button>
                             <button
-                                className="sp-next absolute right-2 top-1/2 -translate-y-1/2 z-10 inline-flex items-center justify-center w-10 h-10 rounded-full bg-[var(--primary-color)] text-[var(--white)] shadow hover:brightness-110 focus:outline-none"
+								className="sp-next absolute right-3 top-1/2 -translate-y-1/2 z-10 inline-flex items-center justify-center w-10 h-10 rounded-full bg-[var(--primary-color)] text-[var(--white)] shadow-lg hover:brightness-110 focus:outline-none"
                                 aria-label="Next image"
                                 type="button"
                             >
@@ -131,17 +131,17 @@ const SingleProduct = () =>{
                             >
                                 {[product.img, product.hoverImg].filter(Boolean).map((src, idx) => (
                                     <SwiperSlide key={idx}>
-                                        <img
+									<img
                                             src={src}
                                             alt={`${product.name} ${idx + 1}`}
-                                            className="w-full h-full object-cover cursor-zoom-in"
+										className="w-full h-full object-cover cursor-zoom-in rounded-xl"
                                             onClick={() => { setActiveIndex(idx); setIsLightboxOpen(true); }}
                                         />
                                     </SwiperSlide>
                                 ))}
                             </Swiper>
                         </div>
-                        <div className="mt-3">
+						<div className="mt-3  pt-2 pb-2 bg-white rounded-2xl  overflow-hidden ring-1 ring-[#ededed]">
                             <Swiper
                                 onSwiper={setThumbsSwiper}
                                 modules={[FreeMode, Navigation, Thumbs]}
@@ -153,89 +153,99 @@ const SingleProduct = () =>{
                             >
                                 {[product.img, product.hoverImg].filter(Boolean).map((src, idx) => (
                                     <SwiperSlide key={`thumb-${idx}`}>
-                                        <div className="border border-[#ededed] p-1 cursor-pointer">
-                                            <img src={src} alt={`${product.name} thumb ${idx + 1}`} className="w-full h-20 object-cover" />
+										<div className="border border-[#ededed] p-1 rounded-lg cursor-pointer hover:border-[var(--primary-color)] transition">
+											<img src={src} alt={`${product.name} thumb ${idx + 1}`} className="w-full h-20 object-cover rounded-md" />
                                         </div>
                                     </SwiperSlide>
                                 ))}
                             </Swiper>
                         </div>
                     </div>
-                    <div>
-                        <nav aria-label="Breadcrumb" className="bg-[#f7f8fb] border-b border-[#ededed] mb-4">
-                            <div className="max-w-7xl mx-auto px-4 py-3 flex items-center text-sm text-gray-600 gap-2">
-                                <IoHomeOutline className="text-[var(--primary-color)]" />
-                                <Link to="/" className="hover:text-[var(--primary-color)]">Home</Link>
-                                <IoChevronForward className="opacity-60" />
-                                <Link to="/products" className="hover:text-[var(--primary-color)]">Products</Link>
-                                <IoChevronForward className="opacity-60" />
-                                <span className="font-medium text-[var(--primary-color)]">{product.name}</span>
-                            </div>
-                        </nav>
+					<div>
+						<nav aria-label="Breadcrumb" className="mb-4">
+							<div className="flex flex-wrap items-center gap-2 text-sm">
+								<span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[var(--primary-color)]/10 text-[var(--primary-color)]">
+									<IoHomeOutline />
+									<Link to="/" className="hover:underline">Home</Link>
+								</span>
+								<IoChevronForward className="opacity-60" />
+								<Link to="/products" className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[var(--secondary-color)]/20 text-[var(--primary-color)] hover:underline">Products</Link>
+								<IoChevronForward className="opacity-60" />
+								<span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#f1f4fb] text-[var(--primary-color)] font-medium">{product.name}</span>
+							</div>
+						</nav>
                                 
-                        <h3 className="text-xl md:text-2xl font-semibold mb-2 mt-4 text-primary ">Overview</h3>
+						<h3 className="text-xl md:text-2xl font-semibold mb-2 mt-4 text-primary ">Overview</h3>
                         {product.Details && (
                             <p className="text-gray-700 leading-7">{product.Details}</p>
                         )}
 
-                        {Array.isArray(product.Features) && product.Features.length > 0 && (
-                            <div className="mt-8">
-                                <h3 className="text-lg md:text-xl font-semibold mb-3 text-primary">Key Features</h3>
-                                <ul className="space-y-2">
-                                    {product.Features.map((feature, index) => (
-                                        <li key={index} className="flex items-start gap-2">
-                                            <IoCheckmarkCircle className="text-[var(--secondary-color)] mt-[2px]" />
-                                            <span className="text-gray-800">{feature}</span>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-                        )}
+						{Array.isArray(product.Features) && product.Features.length > 0 && (
+							<div className="mt-8">
+								<h3 className="text-lg md:text-xl font-semibold mb-3 text-primary">Key Features</h3>
+								<ul className="grid sm:grid-cols-2 gap-3">
+									{product.Features.map((feature, index) => (
+										<li key={index} className="flex items-start gap-3 p-3 rounded-xl bg-[var(--primary-color)]/5 border border-[var(--primary-color)]/10">
+											<IoCheckmarkCircle className="text-[var(--secondary-color)] mt-[2px] shrink-0" />
+											<span className="text-gray-800">{feature}</span>
+										</li>
+									))}
+								</ul>
+							</div>
+						)}
 
-                        {Array.isArray(product.Applications) && product.Applications.length > 0 && (
-                            <div className="mt-8">
-                                <h3 className="text-lg md:text-xl font-semibold mb-3 text-primary">Applications</h3>
-                                <ul className="space-y-2">
-                                    {product.Applications.map((app, index) => (
-                                        <li key={index} className="flex items-start gap-2">
-                                            <IoApps className="text-[var(--secondary-color)] mt-[2px]" />
-                                            <span className="text-gray-800">{app}</span>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-                        )}
+						{Array.isArray(product.Applications) && product.Applications.length > 0 && (
+							<div className="mt-8">
+								<h3 className="text-lg md:text-xl font-semibold mb-3 text-primary">Applications</h3>
+								<ul className="flex flex-wrap gap-2">
+									{product.Applications.map((app, index) => (
+										<li key={index} className="px-3 py-1 rounded-full bg-[var(--secondary-color)]/30 text-[var(--primary-color)] border border-[var(--secondary-color)]/40">
+											<span className="inline-flex items-center gap-2"><IoApps className="opacity-80" /> {app}</span>
+										</li>
+									))}
+								</ul>
+							</div>
+						)}
 
-                        <div className="mt-10 flex flex-wrap gap-3">
+						<div className="mt-10 flex flex-wrap gap-3">
                             <button
                                 type="button"
                                 onClick={() => setIsEnquiryOpen(true)}
-                                className="px-6 py-2 bg-[var(--secondary-color)] text-[var(--primary-color)] rounded-full font-semibold hover:brightness-95 transition"
+								className="px-6 py-2 rounded-full font-semibold transition text-[var(--primary-color)] bg-gradient-to-r from-[var(--secondary-color)] via-[#ffd95a] to-[#ffb703] hover:brightness-95 shadow"
                             >
                                 Enquire Now
                             </button>
                             <Link
                                 to="/products"
-                                className="px-6 py-2 border border-[var(--primary-color)] text-[var(--primary-color)] rounded-full hover:bg-[var(--primary-color)] hover:text-[var(--white)] transition flex items-center gap-2"
+								className="px-6 py-2 border border-[var(--primary-color)] text-[var(--primary-color)] rounded-full hover:bg-[var(--primary-color)] hover:text-[var(--white)] transition flex items-center gap-2 shadow-sm"
                             >
                                 <IoArrowBack />
                                 Back to Products
                             </Link>
                         </div>
 
-                        <div className="mt-8 flex items-center text-primary  gap-4 ">
-                            
-                                Share :
-                                <FaFacebook onClick={() => HandleShare('facebook')}/>
-                                <FaTwitter onClick={() => HandleShare('twitter')}/>
-                                <FaPinterest onClick={() => HandleShare('pinterest')}/>
-                                <FaWhatsapp onClick={() => HandleShare('whatsapp')}/>
-                           
-                        </div>
+						<div className="mt-8 flex items-center text-primary gap-3">
+							<span className="text-sm font-semibold">Share</span>
+							<button aria-label="Share on Facebook" className="w-9 h-9 inline-flex items-center justify-center rounded-full bg-[var(--primary-color)]/10 hover:bg-[var(--primary-color)]/20" onClick={() => HandleShare('facebook')}>
+								<FaFacebook />
+							</button>
+							<button aria-label="Share on Twitter" className="w-9 h-9 inline-flex items-center justify-center rounded-full bg-[var(--primary-color)]/10 hover:bg-[var(--primary-color)]/20" onClick={() => HandleShare('twitter')}>
+								<FaTwitter />
+							</button>
+							<button aria-label="Share on Pinterest" className="w-9 h-9 inline-flex items-center justify-center rounded-full bg-[var(--primary-color)]/10 hover:bg-[var(--primary-color)]/20" onClick={() => HandleShare('pinterest')}>
+								<FaPinterest />
+							</button>
+							<button aria-label="Share on Whatsapp" className="w-9 h-9 inline-flex items-center justify-center rounded-full bg-[var(--primary-color)]/10 hover:bg-[var(--primary-color)]/20" onClick={() => HandleShare('whatsapp')}>
+								<FaWhatsapp />
+							</button>
+						</div>
                     </div>
                 </section>
 
+                <section className="relative overflow-hidden soft-bg">
                 <RecentlyViewed max={4} />
+                </section>
+                
 
                 {/* Lightbox Modal */}
                 {isLightboxOpen && (

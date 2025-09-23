@@ -12,6 +12,7 @@ import SingleProduct from "../pages/singleProduct";
 import Services from "../pages/Services";
 import Contact from "../pages/Contact";
 
+
 const MainLayout = () => (
     <>
       <ScrollToTop />

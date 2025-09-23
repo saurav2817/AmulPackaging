@@ -19,10 +19,10 @@ const Products = () => {
                     <div className="flex justify-between items-center  py-4">
                         <div className="flex justify-between items-center  py-4 gap-4" >
                             <p> Showing {products.length} products</p>
-                            <div className="color-[#f1f1ff1]">
+                            {/* <div className="color-[#f1f1ff1]">
                                 |
-                            </div>
-                            <div> 
+                            </div> */}
+                            {/* <div> 
                             
                         <label htmlFor="sort" className="mr-3 font-medium">Sort by:</label>
                             <select
@@ -36,7 +36,7 @@ const Products = () => {
                                 <option value="popularity">Popularity</option>
                                 <option value="az">A - Z</option>
                             </select>
-                        </div>
+                        </div> */}
                         </div>
 
                         <div className="">
