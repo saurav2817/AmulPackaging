@@ -5,7 +5,7 @@ import SearchBox from "../components/searchBox/SearchBox";
 
 const Products = () => {
 
-    const [sortBy, setSortBy] = useState("default");
+    const [sortBy] = useState("default");
     return (
         <>
             <main className=" mx-auto ">
