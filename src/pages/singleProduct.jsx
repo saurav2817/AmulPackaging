@@ -91,11 +91,11 @@ const SingleProduct = () =>{
 							<span className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-white/70 text-[var(--primary-color)] shadow">Crafted by Amul Packaging</span>
 							<h1 className="mt-4 text-3xl md:text-5xl font-extrabold tracking-tight text-[var(--primary-color)]">{product.name}</h1>
 							<div className="mx-auto mt-4 h-1 w-24 rounded-full bg-[var(--primary-color)]/20" />
-							{product.Details && (
+							{/* {product.Details && (
 								<p className="max-w-3xl mx-auto mt-6 text-gray-700 leading-7">
 									{product.Details}
 								</p>
-							)}
+							)} */}
 						</div>
 					</section>
 
