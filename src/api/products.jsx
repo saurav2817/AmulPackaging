@@ -24,6 +24,23 @@ const products = [
       "Confectionery & bakery items",
       "Pet food & nutritional products",
     ],
+    Industry: [
+       {
+        "name": "Food & Beverages",
+        "Icons": "",
+        "description": "Snacks, dry fruits, tea, coffee – ensures freshness with strong shelf presence."
+      },
+       {
+        "name": "Personal Care",
+        "Icons": "",
+        "description": "Shampoos, gels, lotions – convenient and user-friendly."
+      },
+       {
+        "name": "Household",
+        "Icons": "",
+        "description": "Detergent powders, cleaners – resealable for easy storage."
+      },
+    ]
   },
 
   {
