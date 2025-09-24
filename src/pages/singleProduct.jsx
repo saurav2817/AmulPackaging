@@ -207,9 +207,17 @@ const SingleProduct = () =>{
 					</section>
 
 
-              
+                {/* Main content */}
+				<section className="max-w-7xl mx-auto pt-4 pb-0 py-10 px-4 grid grid-cols-1 md:grid-cols-2 gap-10">
+					<div>
+						<h3 className="text-xl md:text-2xl font-semibold mb-2 mt-4 text-primary ">Overview</h3>
+                        {product.Details && (
+                            <p className="text-gray-700 leading-7">{product.Details}</p>
+                        )}
+                    </div>
+				</section>
                 
-                <section className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-2 gap-10">
+                <section className="max-w-7xl mx-auto px-4 py-10 ">
 					<div>                        
 						{Array.isArray(product.Features) && product.Features.length > 0 && (
 							<div className="">
@@ -224,24 +232,7 @@ const SingleProduct = () =>{
 								</ul>
 							</div>
 						)}
-                    </div>
-
-                    <div>                   
-						
-						{Array.isArray(product.Applications) && product.Applications.length > 0 && (
-							<div className="">
-								<h3 className="text-lg md:text-xl font-semibold mb-3 text-primary">Applications</h3>
-								<ul className="flex flex-wrap gap-2">
-									{product.Applications.map((app, index) => (
-										<li key={index} className="px-3 py-1 rounded-full bg-[var(--secondary-color)]/30 text-[var(--primary-color)] border border-[var(--secondary-color)]/40">
-											<span className="inline-flex items-center gap-2"><IoApps className="opacity-80" /> {app}</span>
-										</li>
-									))}
-								</ul>
-							</div>
-						)}
-
-						{/* CTA moved to hero */}
+                        {/* CTA moved to hero */}
 
 						<div className="mt-8 flex items-center text-primary gap-3">
 							<span className="text-sm font-semibold">Share</span>
@@ -258,7 +249,7 @@ const SingleProduct = () =>{
 								<FaWhatsapp />
 							</button>
 						</div>
-                    </div>
+                    </div>                   
 				</section>
 				
 				{/* Applications by Industry tiles */}
