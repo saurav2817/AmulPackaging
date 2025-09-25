@@ -26,27 +26,27 @@ const products = [
     ],
     Industry: [
       {
-       "Icons": "",
+       "Icons": "🍽️",
        "name": "Food & Beverage",
        "description": "Widely used for snacks, coffee, pet food, dried fruits, confectionery, spices, and juices. The resealable zipper maintains freshness and extends shelf life while offering convenience to consumers."
      },
       {
-       "Icons": "",
+       "Icons": "💄",
        "name": "Cosmetics & Personal Care",
        "description": "Packaging for creams, powders, shampoos, and lotions, favored for lightweight, durable, and attractive designs enhancing brand image."
      },
       {
-       "Icons": "",
+       "Icons": "💊",
        "name": "Pharmaceuticals",
        "description": "Used for medicines, supplements, and health products that require moisture and oxygen barriers."
      },
      {
-      "Icons": "",
+      "Icons": "⚡",
       "name": "Electronics & Industrial",
       "description": "Protects small electronic parts and industrial goods from moisture and dust."
     },
     {
-      "Icons": "",
+      "Icons": "🛒",
       "name": "E-commerce & Retail",
       "description": "Customizable packaging for direct-to-consumer products requiring strong branding and easy handling."
     },
@@ -80,22 +80,22 @@ const products = [
     ],
     Industry: [
       {
-       "Icons": "",
+       "Icons": "🍽️",
        "name": "Food Industry",
        "description": "Suitable for spices, powdered foods, snacks, and frozen items; provides good barrier and the option of resealing."
      },
       {
-       "Icons": "",
+       "Icons": "💄",
        "name": "Cosmetics",
        "description": "Used for single-use masks, creams, and powders due to secure sealing."
      },
       {
-       "Icons": "",
+       "Icons": "💊",
        "name": "Pharmaceuticals",
        "description": "Packaging for powders, tablets, and supplements requiring high protection."
      },
      {
-      "Icons": "",
+      "Icons": "🏠",
       "name": "Household & Industrial",
       "description": "Packaging of detergents, small tools, and parts, where durability and resealability matter."
     },
@@ -129,27 +129,27 @@ const products = [
     ],
     Industry: [
       {
-       "Icons": "",
+       "Icons": "☕",
        "name": "Coffee & Tea",
        "description": "Provides sturdy packaging that can stand upright, preserving aroma and freshness."
      },
       {
-       "Icons": "",
+       "Icons": "🐕",
        "name": "Pet Food",
        "description": "Bulk and premium pet food brands favor flat bottom pouches for shelf visibility."
      },
       {
-       "Icons": "",
+       "Icons": "💪",
        "name": "Health & Wellness",
        "description": "Vitamins, supplements, and protein powders packaged here for convenience and branding."
      },
      {
-      "Icons": "",
+      "Icons": "💄",
       "name": "Cosmetics",
       "description": "Creams, scrubs, and bath products benefit from elegant display and durability."
     },
     {
-      "Icons": "",
+      "Icons": "🔧",
       "name": "Hardware & Chemicals",
       "description": "Used for small parts, powders, and granules requiring moisture protection and durability."
     },
@@ -182,17 +182,17 @@ const products = [
     ],
     Industry: [
       {
-       "Icons": "",
+       "Icons": "🍪",
        "name": "Confectionery & Snacks",
        "description": "Popular for chips, chocolates, and cookies, balancing cost and protection."
      },
       {
-       "Icons": "",
+       "Icons": "🥛",
        "name": "Ready Meals & Dairy",
        "description": "Used for yogurts, cheese, and other perishables needing secure sealing."
      },
       {
-       "Icons": "",
+       "Icons": "🧴",
        "name": "Personal Care",
        "description": "Soaps, creams, and other toiletry items packaged for hygiene and branding."
      },
@@ -225,27 +225,27 @@ const products = [
     ],
     Industry: [
       {
-       "Icons": "",
+       "Icons": "☕",
        "name": "Coffee & Tea",
        "description": "Creates strong packages with degassing valves for freshness."
      },
       {
-       "Icons": "",
+       "Icons": "🐕",
        "name": "Pet Food",
        "description": "Bulk packaging with strong barrier qualities."
      },
       {
-       "Icons": "",
+       "Icons": "❄️",
        "name": "Frozen Foods",
        "description": "Maintains product quality in freezer conditions."
      },
      {
-      "Icons": "",
+      "Icons": "💄",
       "name": "Cosmetics & Personal Care",
       "description": "Used for luxury and premium packaging with extended shelf life."
     },
     {
-      "Icons": "",
+      "Icons": "🍪",
       "name": "Snacks & Confectionery",
       "description": "Excellent for high-volume packaging with branding appeal."
     },
@@ -278,22 +278,22 @@ const products = [
     ],
     Industry: [
       {
-       "Icons": "",
+       "Icons": "🥩",
        "name": "Meat & Seafood",
        "description": "Critical for vacuum-sealed fresh and processed meats to extend shelf life."
      },
       {
-       "Icons": "",
+       "Icons": "🍟",
        "name": "Fried Snacks & Ready-to-Eat",
        "description": "Prevents oxidation and moisture ingress."
      },
       {
-       "Icons": "",
+       "Icons": "🏥",
        "name": "Medical & Pharmaceutical",
        "description": "Sterile packaging needing high puncture and barrier properties."
      },
      {
-      "Icons": "",
+      "Icons": "🧪",
       "name": "Industrial Chemicals",
       "description": "Protects sensitive components from moisture and contamination."
     },
@@ -326,22 +326,22 @@ const products = [
     ],
     Industry: [
       {
-       "Icons": "",
+       "Icons": "🍪",
        "name": "Snacks & Confectionery",
        "description": "Unique shapes for marketing differentiation."
      },
       {
-       "Icons": "",
+       "Icons": "💊",
        "name": "Pharmaceuticals",
        "description": "Compact dosing packs and device packaging."
      },
-      {
-       "Icons": "",
-       "name": "Cosmetics",
-       "description": "Creative packaging shapes for premium perception."
-     },
      {
-      "Icons": "",
+      "Icons": "💄",
+      "name": "Cosmetics",
+      "description": "Creative packaging shapes for premium perception."
+    },
+     {
+      "Icons": "🥜",
       "name": "Food Products",
       "description": "Dry fruits, nuts, and specialty foods packaged for aesthetics and convenience."
     },
@@ -375,22 +375,22 @@ const products = [
     ],
     Industry: [
       {
-       "Icons": "",
+       "Icons": "🥤",
        "name": "Beverages",
        "description": "Juices, energy drinks, and liquid supplements."
      },
       {
-       "Icons": "",
+       "Icons": "👶",
        "name": "Baby Food",
        "description": "Convenience in packaging semi-solid baby nutrition."
      },
-      {
-       "Icons": "",
-       "name": "Sauces & Condiments",
-       "description": "Resealable packaging reducing waste."
-     },
      {
-      "Icons": "",
+      "Icons": "🍅",
+      "name": "Sauces & Condiments",
+      "description": "Resealable packaging reducing waste."
+    },
+     {
+      "Icons": "🛢️",
       "name": "Lubricants & Chemicals",
       "description": "Industrial fluids packaged for ease of use and transport."
     },
@@ -423,22 +423,22 @@ const products = [
     ],
     Industry: [
       {
-       "Icons": "",
+       "Icons": "🍽️",
        "name": "Food & Pet Food",
        "description": "Customized pouch-making for snacks, cereals, treats."
      },
       {
-       "Icons": "",
+       "Icons": "💊",
        "name": "Pharmaceuticals & Medical",
        "description": "Flexible packaging for sensitive products."
      },
-      {
-       "Icons": "",
-       "name": "Consumer Goods",
-       "description": "Household and personal care products using rollstock for automated pouch production."
-     },
      {
-      "Icons": "",
+      "Icons": "🏠",
+      "name": "Consumer Goods",
+      "description": "Household and personal care products using rollstock for automated pouch production."
+    },
+     {
+      "Icons": "🏭",
       "name": "Industrial Applications",
       "description": "Packaging for chemicals and electronic components requiring barrier films."
     },
@@ -471,27 +471,27 @@ const products = [
     ],
     Industry: [
       {
-       "Icons": "",
+       "Icons": "🛍️",
        "name": "Retail",
        "description": "Shopping bags and garment bags providing low-cost flexible packaging."
      },
       {
-       "Icons": "",
+       "Icons": "🏥",
        "name": "Medical & Hygiene",
        "description": "Disposal bags and sterile packaging."
      },
-      {
-       "Icons": "",
-       "name": "Logistics & Shipping",
-       "description": "Shipment and mailer bags."
-     },
      {
-      "Icons": "",
+      "Icons": "📦",
+      "name": "Logistics & Shipping",
+      "description": "Shipment and mailer bags."
+    },
+     {
+      "Icons": "🌾",
       "name": "Agriculture",
       "description": "Produce packaging and waste bags."
     },
     {
-      "Icons": "",
+      "Icons": "⚡",
       "name": "Electronics",
       "description": "Anti-static and component protection bags."
     },
@@ -524,22 +524,22 @@ const products = [
     ],
     Industry: [
       {
-       "Icons": "",
+       "Icons": "👮",
        "name": "Law Enforcement & Forensics",
        "description": "Evidence bags with tamper-evident features."
      },
       {
-       "Icons": "",
+       "Icons": "💊",
        "name": "Pharmaceutical & Medical",
        "description": "Secure transport of medicines and sensitive materials."
      },
-      {
-       "Icons": "",
-       "name": "Banking & Valuables",
-       "description": "Cash and document security packaging."
-     },
      {
-      "Icons": "",
+      "Icons": "💰",
+      "name": "Banking & Valuables",
+      "description": "Cash and document security packaging."
+    },
+     {
+      "Icons": "🔒",
       "name": "Retail & Logistics",
       "description": "Protection against theft and tampering during transit."
     },
@@ -573,27 +573,27 @@ const products = [
     ],
     Industry: [
       {
-       "Icons": "",
+       "Icons": "🍽️",
        "name": "Food Storage",
        "description": "Snack storage, freezing bags, portion control."
      },
-      {
-       "Icons": "",
-       "name": "Cosmetics & Jewelry",
-       "description": "Small-item protective packaging."
-     },
-      {
-       "Icons": "",
-       "name": "Pharmaceuticals",
-       "description": "Safe storage of pills and supplements."
-     },
      {
-      "Icons": "",
+      "Icons": "💎",
+      "name": "Cosmetics & Jewelry",
+      "description": "Small-item protective packaging."
+    },
+     {
+      "Icons": "💊",
+      "name": "Pharmaceuticals",
+      "description": "Safe storage of pills and supplements."
+    },
+     {
+      "Icons": "✈️",
       "name": "Travel & Convenience",
       "description": "Portable resealable bags for toiletries and snacks."
     },
     {
-      "Icons": "",
+      "Icons": "🔧",
       "name": "Industrial & Hardware",
       "description": "Parts storage providing quick access and protection."
     },

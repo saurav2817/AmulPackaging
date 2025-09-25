@@ -259,28 +259,22 @@ const SingleProduct = () =>{
                           Applications by Industry
                         </h3>
                         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
-                          {[
-                            { icon: "🍪", label: "SNACKS", desc: "Perfect for dry fruits, nuts, potato wafers, seeds, and more." },
-                            { icon: "🐾", label: "PET FOOD", desc: "Keeps kibble, biscuits, and treats fresh and flavorful." },
-                            { icon: "❄️", label: "FROZEN FOOD", desc: "Maintains quality for frozen peas, sweet corn, shrimps, fish fillets, and more." },
-                            { icon: "🌱", label: "AGRICULTURE", desc: "Protects seeds, fertilizers, and enhancers effectively." },
-                            { icon: "💄", label: "COSMETICS", desc: "Ideal for shampoos, lotions, and creams." },
-                            { icon: "🧴", label: "CLEANING ITEMS", desc: "Suitable for powders, liquids, and concentrates." },
-                          ].map((item, idx) => (
+
+                        {product.Industry?.map((item, idx) => (
                             <div
-                              key={idx}
+                            key={item.name || idx}
                               className="group p-6 bg-white rounded-2xl shadow-md border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition transform flex flex-col items-center text-center"
                             >
                               {/* Icon */}
                               <div className="w-14 h-14 flex items-center justify-center rounded-full bg-gradient-to-br from-indigo-100 to-indigo-200 text-3xl mb-4 group-hover:scale-110 transition">
-                                {item.icon}
+                                {item.Icons}
                               </div>
                               {/* Title */}
                               <h4 className="text-green-600 font-semibold uppercase tracking-wide text-sm">
-                                {item.label}
+                                {item.name}
                               </h4>
                               {/* Description */}
-                              <p className="text-gray-600 text-sm mt-2">{item.desc}</p>
+                              <p className="text-gray-600 text-sm mt-2">{item.description}</p>
                             </div>
                           ))}
                         </div>
