@@ -2,8 +2,11 @@ const products = [
   {
     id: 1,
     name: "Standup Zipper Pouch",
-    img: "/img/products/Standup-zipper-pouch.jpg",
-    hoverImg: "/img/products/Standup-zipper-pouch-Main.jpg",
+    img: [
+      "/img/products/amul/Standup-Zipper-Pouch1.jpg",
+      "/img/products/Standup-zipper-pouch.jpg",
+      "/img/products/Standup-zipper-pouch-Main.jpg",
+    ],
     bg: "bg-green-600",
     popularity: 81,
     Details:
@@ -56,8 +59,11 @@ const products = [
   {
     id: 2,
     name: "3 side seal  pouch",
-    img: "/img/products/3-Side-Seal-Pouch.jpg",
-    hoverImg: "/img/products/3-Side-Seal-Pouch-Main.jpg",
+    img: [
+        "/img/products/amul/3-side-seal-pouch.jpg",
+        "/img/products/3-Side-Seal-Pouch.jpg",
+        "/img/products/3-Side-Seal-Pouch-Main.jpg",
+    ],
     bg: "bg-pink-600",
     popularity: 92,
     Details:
@@ -105,8 +111,11 @@ const products = [
   {
     id: 3,
     name: "Flat Bottom Pouch",
-    img: "/img/products/Flat-Bottom-Pouch.jpg",
-    hoverImg: "/img/products/Flat-Bottom-Pouch-Main.jpg",
+    img: [
+      "/img/products/amul/Flat-Bottom-Pouch.jpg",
+      "/img/products/Flat-Bottom-Pouch.jpg",
+      "/img/products/Flat-Bottom-Pouch-Main.jpg",
+    ],
     bg: "bg-yellow-400",
     popularity: 88,
     Details:
@@ -158,8 +167,11 @@ const products = [
   {
     id: 4,
     name: "Centre Seal Pouch",
-    img: "/img/products/Centre Seal Pouch.jpg",
-    hoverImg: "/img/products/Centre-Seal-Pouch-Main.jpg",
+    img: [
+      "/img/products/amul/Centre-Seal-Pouch.jpg",
+      "/img/products/Centre Seal Pouch.jpg",
+      "/img/products/Centre-Seal-Pouch-Main.jpg",
+    ],
     bg: "bg-blue-600",
     popularity: 76,
     Details:
@@ -201,8 +213,11 @@ const products = [
   {
     id: 5,
     name: "Quad Seal Pouch",
-    img: "/img/products/Quad-Seal-Pouch.jpg",
-    hoverImg: "/img/products/Quad-Seal-Pouch-Main.jpg",
+    img: [
+      "/img/products/amul/Quad-Seal-Pouch.jpg",
+      "/img/products/Quad-Seal-Pouch.jpg",
+      "/img/products/Quad-Seal-Pouch-Main.jpg",
+    ],
     bg: "bg-red-500",
     popularity: 64,
     Details:
@@ -254,8 +269,11 @@ const products = [
   {
     id: 6,
     name: "Vacuum Pouch",
-    img: "/img/products/Vacuum-Pouch.jpg",
-    hoverImg: "/img/products/Vacuum-Pouch-Main.jpg",
+    img: [
+          "/img/products/amul/Vacuum-Pouch.jpg",
+          "/img/products/Vacuum-Pouch.jpg",
+          "/img/products/Vacuum-Pouch-Main.jpg",
+    ], 
     bg: "bg-red-500",
     popularity: 64,
     Details:
@@ -302,8 +320,11 @@ const products = [
   {
     id: 7,
     name: "Shaped Pouch",
-    img: "/img/products/Shaped-Pouch.jpg",
-    hoverImg: "/img/products/Shaped-Pouch-Main.jpg",
+    img: [
+      "/img/products/amul/Shaped-Pouch.jpg",
+      "/img/products/Shaped-Pouch.jpg",
+      "/img/products/Shaped-Pouch-Main.jpg",
+    ],
     bg: "bg-red-500",
     popularity: 64,
     Details:
@@ -351,8 +372,11 @@ const products = [
   {
     id: 8,
     name: "Spout Pouch",
-    img: "/img/products/Spout-Pouch.jpg",
-    hoverImg: "/img/products/Spout-Pouch-Main.jpg",
+    img: [
+      "/img/products/amul/Spout-Pouch.jpg",
+      "/img/products/Spout-Pouch.jpg",
+      "/img/products/Spout-Pouch-Main.jpg",
+    ],
     bg: "bg-green-600",
     popularity: 95,
     Details:
@@ -399,8 +423,11 @@ const products = [
   {
     id: 9,
     name: "Laminated Roll-Stock",
-    img: "/img/products/Laminated-Roll-Stock.jpg",
-    hoverImg: "/img/products/Laminated-Roll-Stock-Main.jpg",
+    img: [
+      "/img/products/amul/Laminated-Roll-Stock.jpg",
+      "/img/products/Laminated-Roll-Stock.jpg",
+      "/img/products/Laminated-Roll-Stock-Main.jpg",
+    ], 
     bg: "bg-red-500",
     popularity: 64,
     Details:
@@ -447,8 +474,11 @@ const products = [
   {
     id: 10,
     name: "Poly bags ",
-    img: "/img/products/Poly-bags.jpg",
-    hoverImg: "/img/products/Poly-bags-Main.jpg",
+    img: [
+      "/img/products/amul/Poly-bags.jpg",
+      "/img/products/Poly-bags.jpg",
+      "/img/products/Poly-bags-Main.jpg",
+    ],
     bg: "bg-green-600",
     popularity: 70,
     Details:
@@ -500,8 +530,11 @@ const products = [
   {
     id: 11,
     name: "Security Bags",
-    img: "/img/products/Security-Bags.jpg",
-    hoverImg: "/img/products/Security-Bags-Main.jpg",
+    img: [
+      "/img/products/amul/Security-Bags.jpg",
+      "/img/products/Security-Bags.jpg",
+      "/img/products/Security-Bags-Main.jpg",
+    ], 
     bg: "bg-red-500",
     popularity: 64,
     Details:
@@ -549,8 +582,11 @@ const products = [
   {
     id: 12,
     name: "Ziplock poly bags",
-    img: "/img/products/Ziplock-bags.jpg",
-    hoverImg: "/img/products/Ziplock-bags-Main.jpg",
+    img: [
+      "/img/products/amul/Ziplock-poly-bags.jpg",
+      "/img/products/Ziplock-bags.jpg",
+      "/img/products/Ziplock-bags-Main.jpg",
+    ], 
     bg: "bg-red-500",
     popularity: 64,
     Details:

@@ -134,7 +134,7 @@ const SingleProduct = () =>{
 												className="w-full h-full"
 												onSlideChange={(s) => setActiveIndex(s.activeIndex)}
 											>
-												{[product.img, product.hoverImg].filter(Boolean).map((src, idx) => (
+												{[...product.img].filter(Boolean).map((src, idx) => (
 													<SwiperSlide key={idx}>
 														<img
 															src={src}
@@ -156,7 +156,7 @@ const SingleProduct = () =>{
 												watchSlidesProgress
 												className="w-full"
 											>
-												{[product.img, product.hoverImg].filter(Boolean).map((src, idx) => (
+												{[...product.img].filter(Boolean).map((src, idx) => (
 													<SwiperSlide key={`thumb-${idx}`}>
 														<div className="border border-[#ededed] p-1 rounded-lg cursor-pointer hover:border-[var(--primary-color)] transition">
 															<img src={src} alt={`${product.name} thumb ${idx + 1}`} className="w-full h-20 object-cover rounded-md" />
