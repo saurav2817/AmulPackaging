@@ -308,7 +308,7 @@ const SingleProduct = () =>{
                             aria-label="Previous image"
                             onClick={(e) => {
                                 e.stopPropagation();
-                                const images = [product.img, product.hoverImg].filter(Boolean);
+                                const images = [...product.img].filter(Boolean);
                                 setActiveIndex((prev) => (prev - 1 + images.length) % images.length);
                             }}
                         >
@@ -320,7 +320,7 @@ const SingleProduct = () =>{
                             aria-label="Next image"
                             onClick={(e) => {
                                 e.stopPropagation();
-                                const images = [product.img, product.hoverImg].filter(Boolean);
+                                const images = [...product.img].filter(Boolean);
                                 setActiveIndex((prev) => (prev + 1) % images.length);
                             }}
                         >
@@ -329,7 +329,7 @@ const SingleProduct = () =>{
 
                         <div className="max-w-5xl w-[90%]" onClick={(e) => e.stopPropagation()}>
                             <img
-                                src={[product.img, product.hoverImg].filter(Boolean)[activeIndex]}
+                                src={[...product.img].filter(Boolean)[activeIndex]}
                                 alt={`${product.name} large ${activeIndex + 1}`}
                                 className="w-full max-h-[80vh] object-contain"
                             />

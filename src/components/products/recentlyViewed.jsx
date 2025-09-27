@@ -35,23 +35,30 @@ const RecentlyViewed = ({ max = 8 }) => {
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
-          {items.slice(0,4).map((product) => (
+
+        {items.slice(0,4).map(((product) => {
+           const mainImg = product.img[1] || ""
+           const hoverImg = product.img[2] || ""
+
+           return(
             <Link key={product.id} to={`/products/${product.id}`} className="group block">
               <div className="relative w-full overflow-hidden border-[0.8px] border-[#ededed]">
                 <img
-                  src={product.img}
+                  src={mainImg}
                   alt={product.name}
                   className="mx-auto w-full h-full object-cover transition-all duration-500 ease-out group-hover:opacity-0 group-hover:scale-105"
                 />
                 <img
-                  src={product.hoverImg}
+                  src={hoverImg}
                   alt={product.name + ' hover'}
                   className="absolute inset-0 mx-auto w-full h-full object-cover opacity-0 transition-all duration-500 ease-out group-hover:opacity-100 group-hover:scale-130"
                 />
               </div>
               <h3 className="font-medium mt-3 text-center">{product.name}</h3>
             </Link>
-          ))}
+           )
+          }))}
+
         </div>
       </div>
     </section>

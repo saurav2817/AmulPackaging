@@ -7,19 +7,24 @@ const ProductsSection = () => {
     <section className="py-12 xl:py-8 2xl:pt-8 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-10">
-          {products.slice(0, 8).map((product) => (
+
+        {products.slice(0, 8).map((product) => {
+           const mainImg = product.img[1] || ""
+           const hoverImg = product.img[2] || ""
+
+           return(
             <div key={product.id} className="group text-center relative">
             <Link to={`/products/${product.id}`} className="block">
             <div className="relative w-full overflow-hidden border-[0.8px] border-[#ededed]">
                 
                 <img
-                  src={product.img}
+                  src={mainImg}
                   alt={product.name}
                   className="mx-auto w-full h-full object-cover transition-all duration-500 ease-out group-hover:opacity-0 group-hover:scale-105"
                 />
                
                 <img
-                  src={product.hoverImg}
+                  src={hoverImg}
                   alt={product.name + ' hover'}
                   className="absolute inset-0 mx-auto w-full h-full object-cover opacity-0 transition-all duration-500 ease-out group-hover:opacity-100 group-hover:scale-130"
                 />
@@ -36,7 +41,9 @@ const ProductsSection = () => {
               </Link>
 
             </div>
-          ))}
+           )
+        })}
+
         </div>
       </div>
     </section>
