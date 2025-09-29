@@ -11,6 +11,7 @@ import Products from "../pages/Products";
 import SingleProduct from "../pages/singleProduct";
 import Services from "../pages/Services";
 import Contact from "../pages/Contact";
+import PrivacyPolicy from "../pages/privacyPolicy";
 
 
 const MainLayout = () => (
@@ -35,6 +36,7 @@ const AppRoutes = () => {
                 <Route path="products/:id" element={<SingleProduct/>} />
                 <Route path="services" element={<Services/>} />
                 <Route path="contact" element={<Contact/>} />
+                <Route path="privacyPolicy" element={<PrivacyPolicy/>} />
                 <Route path="*" element={<Navigate to="/" replace />} />
               </Route>
             </Routes>

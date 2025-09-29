@@ -108,7 +108,7 @@ const Footer = () => {
             <h3 className="font-semibold mb-3">Customer Service</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="#" className="hover:underline">
+                <a href="/privacyPolicy" className="hover:underline">
                   Privacy Policy
                 </a>
               </li>
