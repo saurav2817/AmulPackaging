@@ -40,7 +40,7 @@ const PrivacyPolicy = () => {
 
         <section className="max-w-7xl mx-auto mt-12 grid grid-cols-1  gap-10">
           <div>
-            <h2 className="text-xl font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
+            <h2 className="text-lg font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
               1. Introduction
             </h2>
             <div className="px-4 py-2">
@@ -63,7 +63,7 @@ const PrivacyPolicy = () => {
 
         <section className="max-w-7xl mx-auto  mt-4 grid grid-cols-1  gap-10">
           <div>
-            <h2 className="text-xl font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
+            <h2 className="text-lg font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
                 2. Information We Collect
             </h2>
             <div className="px-4 py-2">
@@ -91,7 +91,7 @@ const PrivacyPolicy = () => {
 
         <section className="max-w-7xl mx-auto  mt-4 grid grid-cols-1  gap-10">
           <div>
-            <h2 className="text-xl font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
+            <h2 className="text-lg font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
             3. Use of Your Information
             </h2>
             <div className="px-4 py-2">
@@ -113,7 +113,7 @@ const PrivacyPolicy = () => {
 
         <section className="max-w-7xl mx-auto  mt-4 grid grid-cols-1  gap-10">
           <div>
-            <h2 className="text-xl font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
+            <h2 className="text-lg font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
             4. Disclosure of Your Information
             </h2>
             <div className="px-4 py-2">
@@ -136,7 +136,7 @@ const PrivacyPolicy = () => {
 
         <section className="max-w-7xl mx-auto  mt-4 grid grid-cols-1  gap-10">
           <div>
-            <h2 className="text-xl font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
+            <h2 className="text-lg font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
             5. Cookies & Tracking Technologies
             </h2>
             <div className="px-4 py-2">
@@ -158,7 +158,7 @@ const PrivacyPolicy = () => {
 
         <section className="max-w-7xl mx-auto mt-4 grid grid-cols-1  gap-10">
           <div>
-            <h2 className="text-xl font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
+            <h2 className="text-lg font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
             6. Data Retention
             </h2>
             <div className="px-4 py-2">
@@ -171,7 +171,7 @@ const PrivacyPolicy = () => {
 
         <section className="max-w-7xl mx-auto mt-4 grid grid-cols-1  gap-10">
           <div>
-            <h2 className="text-xl font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
+            <h2 className="text-lg font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
             7. Security of Your Information
             </h2>
             <div className="px-4 py-2">
@@ -184,7 +184,7 @@ const PrivacyPolicy = () => {
 
         <section className="max-w-7xl mx-auto  mt-4 grid grid-cols-1  gap-10">
           <div>
-            <h2 className="text-xl font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
+            <h2 className="text-lg font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
             8. Your Rights
             </h2>
             <div className="px-4 py-2">
@@ -207,7 +207,7 @@ const PrivacyPolicy = () => {
 
         <section className="max-w-7xl mx-auto mt-4 grid grid-cols-1  gap-10">
           <div>
-            <h2 className="text-xl font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
+            <h2 className="text-lg font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
             9. Children’s Privacy
             </h2>
             <div className="px-4 py-2">
@@ -221,7 +221,7 @@ const PrivacyPolicy = () => {
 
         <section className="max-w-7xl mx-auto mt-4 grid grid-cols-1  gap-10">
           <div>
-            <h2 className="text-xl font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
+            <h2 className="text-lg font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
             10. Third-Party Links
             </h2>
             <div className="px-4 py-2">
@@ -233,7 +233,7 @@ const PrivacyPolicy = () => {
         </section>
         <section className="max-w-7xl mx-auto mt-4 grid grid-cols-1  gap-10">
           <div>
-            <h2 className="text-xl font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
+            <h2 className="text-lg font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
             11. Changes to This Policy
             </h2>
             <div className="px-4 py-2">
@@ -246,7 +246,7 @@ const PrivacyPolicy = () => {
 
         <section className="max-w-7xl mx-auto  mt-4 mb-12 grid grid-cols-1  gap-10">
           <div>
-            <h2 className="text-xl font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
+            <h2 className="text-lg font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
             12. Contact Us
             </h2>
             <div className="px-4 py-2">
@@ -254,9 +254,9 @@ const PrivacyPolicy = () => {
               If you have any questions, requests, or concerns about this Privacy Policy, you may contact:
               </p>
               <ul>
-                <li className="text-gray-600"><b className="text-blue-900">Address:</b> P-3A, Raj Laxmi HiTech Textile Park, Sonale Village, Bhiwandi, Maharashtra 421302</li>
-                <li className="text-gray-600"><b className="text-blue-900">Email:</b> amulpackingonline@gmail.com</li>
-                <li className="text-gray-600"><b className="text-blue-900">Phone:</b> Phone: +91 9004382696</li>
+                <li className="text-gray-600"><b className="text-blue-900">Address :</b> P-3A, Raj Laxmi HiTech Textile Park, Sonale Village, Bhiwandi, Maharashtra 421302</li>
+                <li className="text-gray-600"><b className="text-blue-900">Email :</b> amulpackingonline@gmail.com</li>
+                <li className="text-gray-600"><b className="text-blue-900">Phone :</b> Phone: +91 9004382696</li>
               </ul>
             </div>
           </div>
