@@ -1,4 +1,6 @@
 import React from "react";
+import { useParams, Link } from "react-router-dom";
+import { IoHomeOutline, IoChevronForward, IoStar, IoListCircle, IoCheckmarkCircle, IoApps, IoArrowBack, IoClose, IoChevronBack, IoChevronForward as IoChevronForwardIcon } from "react-icons/io5";
 import { FaLightbulb } from "react-icons/fa";
 import { TbStarsFilled } from "react-icons/tb";
 import { IoBarChart } from "react-icons/io5";
@@ -11,8 +13,25 @@ const About = () => {
     return (
         <>
             <main className="">
-                <section className="text-center py-30 bg-[url('/img/bgproduct.jpg')] bg-cover bg-center">
-                    <h1 className="text-3xl font-bold text-white">About Us</h1>
+                <section className="text-center py-30 bg-[url('/img/slider_banner/AboutUs.jpg')] bg-cover bg-center">
+                    <h1 className="text-3xl font-bold text-blue-900 ">About Us</h1>
+                    <div className="flex justify-center mt-3">
+                <nav aria-label="Breadcrumb" className="mb-6">
+                  <div className="flex flex-wrap items-center gap-2 text-sm">
+                    <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[var(--primary-color)]/10 text-[var(--primary-color)]">
+                      <IoHomeOutline />
+                      <Link to="/" className="hover:underline">
+                        Home
+                      </Link>
+                    </span>
+
+                    <IoChevronForward className="opacity-60" />
+                    <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#f1f4fb] text-[var(--primary-color)] font-medium">
+                    About Us
+                    </span>
+                  </div>
+                </nav>
+          </div>
                 </section>
 
                 <section className="py-16 px-6">
@@ -39,7 +58,7 @@ const About = () => {
                         {/* Right Image */}
                         <div className="w-full lg:w-1/2">
                             <img
-                            src="img/about.jpg"
+                            src="img/aboutsec.jpg"
                             alt="About Amul Packaging"
                             className="w-full h-auto object-cover rounded-xl shadow-lg"
                             />

@@ -26,7 +26,7 @@ const HeroSlider = () => {
     },
     {
       id: 2,
-      bg: "/img/Banner.jpg",
+      bg: "/img/slider_banner/HomePageBanner2.jpg",
       title: (
         <>
           Premium <br />
@@ -37,19 +37,19 @@ const HeroSlider = () => {
       description:
         "From food to lifestyle products, our packaging delivers quality, freshness and branding.",
     },
-    {
-      id: 3,
-      bg: "/img/Banner.jpg",
-      title: (
-        <>
-          Sustainable <br />
-          Eco-Friendly <br />
-          Packaging Solutions
-        </>
-      ),
-      description:
-        "We create innovative packaging with a focus on sustainability and reducing environmental impact.",
-    },
+    // {
+    //   id: 3,
+    //   bg: "/img/Banner.jpg",
+    //   title: (
+    //     <>
+    //       {/* Sustainable <br /> */}
+    //       {/* Eco-Friendly <br /> */}
+    //       {/* Packaging Solutions */}
+    //     </>
+    //   ),
+    //   description:
+    //     "We create innovative packaging with a focus on sustainability and reducing environmental impact.",
+    // },
   ];
 
   const swiperRef = useRef(null);

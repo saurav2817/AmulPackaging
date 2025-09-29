@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { useParams, Link } from "react-router-dom";
+import { IoHomeOutline, IoChevronForward, IoStar, IoListCircle, IoCheckmarkCircle, IoApps, IoArrowBack, IoClose, IoChevronBack, IoChevronForward as IoChevronForwardIcon } from "react-icons/io5";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { IoMdMail } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
@@ -67,10 +69,27 @@ const Contact = () => {
     return (
         <>
             <main className="mx-auto">
-                <section className="relative bg-cover bg-center" style={{ backgroundImage: "url('/img/comntactBg.jpg')" }}>
-                    <div className="absolute inset-0 bg-black/60 z-0"></div>
+                <section className="relative bg-cover bg-center" style={{ backgroundImage: "url('/img/slider_banner/contactus.jpg')" }}>
+                    <div className="absolute inset-0 bg-black/15 z-0"></div>
                     <div className="relative z-10 max-w-6xl mx-auto px-4 py-24 text-center">
                         <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight">Contact Us</h1>
+                        <div className="flex justify-center mt-3">
+                            <nav aria-label="Breadcrumb" className="mb-6">
+                              <div className="flex flex-wrap items-center gap-2 text-sm">
+                                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[var(--primary-color)]/10 text-[var(--primary-color)]">
+                                  <IoHomeOutline />
+                                  <Link to="/" className="hover:underline">
+                                    Home
+                                  </Link>
+                                </span>
+
+                                <IoChevronForward className="opacity-60" />
+                                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#f1f4fb] text-[var(--primary-color)] font-medium">
+                                    Contact Us
+                                </span>
+                              </div>
+                            </nav>
+                        </div>
                        
                     </div>
                 </section>

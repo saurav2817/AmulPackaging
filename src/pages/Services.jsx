@@ -1,11 +1,30 @@
 import React from "react";
+import { useParams, Link } from "react-router-dom";
+import { IoHomeOutline, IoChevronForward, IoStar, IoListCircle, IoCheckmarkCircle, IoApps, IoArrowBack, IoClose, IoChevronBack, IoChevronForward as IoChevronForwardIcon } from "react-icons/io5";
 
 const Services = () => {
     return (
         <>
             <main className="">
-                <section className="text-center py-30 bg-[url('/img/bgproduct.jpg')] bg-cover bg-center">
+                <section className="text-center py-30 bg-[url('/img/slider_banner/Products.jpg')] bg-cover bg-center">
                     <h1 className="text-3xl font-bold text-white">Services</h1>
+                    <div className="flex justify-center mt-3">
+                        <nav aria-label="Breadcrumb" className="mb-6">
+                          <div className="flex flex-wrap items-center gap-2 text-sm">
+                            <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[var(--primary-color)]/10 text-[var(--primary-color)]">
+                              <IoHomeOutline />
+                              <Link to="/" className="hover:underline">
+                                Home
+                              </Link>
+                            </span>
+            
+                            <IoChevronForward className="opacity-60" />
+                            <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#f1f4fb] text-[var(--primary-color)] font-medium">
+                            Services
+                            </span>
+                          </div>
+                        </nav>
+                    </div>
                 </section>
 
                 <section className="py-16 px-6">

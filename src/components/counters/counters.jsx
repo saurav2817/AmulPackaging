@@ -66,7 +66,7 @@ const CounterCard = ({ label, value, suffix = '%' }) => {
 			}}
 		>
 			<div className="text-[2.8rem] font-extrabold">{displayValue}{suffix}</div>
-			<div className="text-lg font-medium opacity-90 text-center">{label}</div>
+			<div className="text-2xl font-medium opacity-90 text-center">{label}</div>
 		</div>
 	);
 };
@@ -85,15 +85,13 @@ const Counters = () => {
 	return (
 		<section className="bg-white py-16">
 			<div className="max-w-7xl mx-auto px-6">
-				<div className="grid gap-y-6">
-					{/* First row */}
-					<div className="flex justify-center gap-6">
-						{countersData.slice(0, 3).map((item) => (
-							<CounterCard key={item.label} label={item.label} value={item.value} />
-						))}
-					</div>
-
-					
+				<div className="grid gap-y-6 justify-center">
+				{/* First row */}
+				<div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 justify-center gap-6">
+					{countersData.slice(0, 3).map((item) => (
+					<CounterCard key={item.label} label={item.label} value={item.value} />
+					))}
+				</div>
 				</div>
 			</div>
 		</section>
