@@ -31,7 +31,7 @@ const PrivacyPolicy = () => {
 
                 <IoChevronForward className="opacity-60" />
                 <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#f1f4fb] text-[var(--primary-color)] font-medium">
-                  About Us
+                Privacy Policy
                 </span>
               </div>
             </nav>
