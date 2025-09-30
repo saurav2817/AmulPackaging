@@ -75,7 +75,7 @@ const TermCondition = () => {
         <section className="max-w-7xl mx-auto  mt-4 grid grid-cols-1  gap-10">
           <div>
             <h2 className="text-lg font-medium text-blue-900 bg-[#f1f4fb] py-2 pl-4">
-              3.Eligibility
+              3. Eligibility
             </h2>
             <div className="px-4 py-2">
               <p className="text-gray-600">

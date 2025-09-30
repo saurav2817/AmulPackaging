@@ -40,13 +40,15 @@ const Header = () => {
       >
         <div className="container mx-auto px-4 flex justify-between items-center h-16">
           {/* Logo */}
-          <img
-            src="/img/logo.png"
-            alt="Logo"
-            width={200}
-            className="cursor-pointer"
-            onClick={() => navigate("/")}
-          />
+          <a href="/index">
+            <img
+              src="/img/logo.png"
+              alt="Logo"
+              width={200}
+              className="cursor-pointer"
+              onClick={() => navigate("/")}
+            />
+          </a>
 
           {/* Desktop Menu */}
           <ul className="hidden md:flex items-center space-x-6 font-medium">
@@ -56,22 +58,34 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about" className="hover:text-[var(--primary-color)]">
+              <NavLink
+                to="/about"
+                className="hover:text-[var(--primary-color)]"
+              >
                 About
               </NavLink>
             </li>
             <li>
-              <NavLink to="/products" className="hover:text-[var(--primary-color)]">
+              <NavLink
+                to="/products"
+                className="hover:text-[var(--primary-color)]"
+              >
                 Products
               </NavLink>
             </li>
             <li>
-              <NavLink to="/services" className="hover:text-[var(--primary-color)]">
+              <NavLink
+                to="/services"
+                className="hover:text-[var(--primary-color)]"
+              >
                 Services
               </NavLink>
             </li>
             <li>
-              <NavLink to="/contact" className="hover:text-[var(--primary-color)]">
+              <NavLink
+                to="/contact"
+                className="hover:text-[var(--primary-color)]"
+              >
                 Contact
               </NavLink>
             </li>

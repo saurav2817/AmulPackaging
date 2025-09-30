@@ -13,11 +13,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
           {/* Company + Newsletter */}
           <div className="space-y-4">
+          <a href="/index">
             <img
               src="/img/footerLogo.png"
               alt="Amul Packaging"
               className="h-12 w-auto mb-2"
             />
+          </a>
             <p className="text-sm leading-relaxed">
               We are now one of the leading manufacturers of stock packaging
               products in various formats like stand-up pouches, zipper
