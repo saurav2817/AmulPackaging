@@ -35,7 +35,7 @@ const Contact = () => {
         setSubmitted(true);
       
 		try {
-		  const API_BASE = import.meta.env.VITE_API_BASE_URL || `${window.location.origin}/api`;
+		  const API_BASE = `${window.location.origin}/api`;
           const response = await fetch(`${API_BASE}/send-mail-smtp.php`, {
             method: "POST",
             headers: {
