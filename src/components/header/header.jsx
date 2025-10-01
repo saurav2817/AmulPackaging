@@ -12,6 +12,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isInfoOpen, setIsInfoOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [active, setActive] = useState(location.pathname);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -27,6 +28,9 @@ const Header = () => {
   const closeAll = () => {
     setIsMenuOpen(false);
     setIsInfoOpen(false);
+  };
+  const handleActive = (path) => {
+    setActive(path);
   };
 
   return (
@@ -53,14 +57,15 @@ const Header = () => {
           {/* Desktop Menu */}
           <ul className="hidden md:flex items-center space-x-6 font-medium">
             <li>
-              <NavLink to="/" className="hover:text-[var(--primary-color)]" end>
+              <NavLink to="/" className={`hover:text-[var(--primary-color)] ${active === "/" ? "text-[var(--primary-color)]" : ""}`} end onClick={() => handleActive("/")}>
                 Home
               </NavLink>
             </li>
             <li>
               <NavLink
-                to="/about"
-                className="hover:text-[var(--primary-color)]"
+                to="/about" 
+                className={`hover:text-[var(--primary-color)] ${active === "/about" ? "text-[var(--primary-color)]" : ""}`}
+                onClick={() => handleActive("/about")}
               >
                 About
               </NavLink>
@@ -68,7 +73,8 @@ const Header = () => {
             <li>
               <NavLink
                 to="/products"
-                className="hover:text-[var(--primary-color)]"
+                className={`hover:text-[var(--primary-color)] ${active === "/products" ? "text-[var(--primary-color)]" : ""}`}
+                onClick={() => handleActive("/products")}
               >
                 Products
               </NavLink>
@@ -76,7 +82,8 @@ const Header = () => {
             <li>
               <NavLink
                 to="/services"
-                className="hover:text-[var(--primary-color)]"
+                className={`hover:text-[var(--primary-color)] ${active === "/services" ? "text-[var(--primary-color)]" : ""}`}
+                onClick={() => handleActive("/services")}
               >
                 Services
               </NavLink>
@@ -84,7 +91,8 @@ const Header = () => {
             <li>
               <NavLink
                 to="/contact"
-                className="hover:text-[var(--primary-color)]"
+                className={`hover:text-[var(--primary-color)] ${active === "/contact" ? "text-[var(--primary-color)]" : ""}`} 
+                onClick={() => handleActive("/contact")}
               >
                 Contact
               </NavLink>
@@ -328,7 +336,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/"
-              className="hover:text-blue-600"
+              className={`hover:text-blue-600 ${active === "/" ? "text-blue-600" : ""}`}
               onClick={closeAll}
               end
             >
@@ -338,7 +346,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/about"
-              className="hover:text-blue-600"
+              className={`hover:text-blue-600 ${active === "/about" ? "text-blue-600" : ""}`}
               onClick={closeAll}
             >
               About
@@ -347,7 +355,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/products"
-              className="hover:text-blue-600"
+              className={`hover:text-blue-600 ${active === "/products" ? "text-blue-600" : ""}`}
               onClick={closeAll}
             >
               Products
@@ -356,7 +364,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/services"
-              className="hover:text-blue-600"
+              className={`hover:text-blue-600 ${active === "/services" ? "text-blue-600" : ""}`}
               onClick={closeAll}
             >
               Services
@@ -365,7 +373,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/contact"
-              className="hover:text-blue-600"
+              className={`hover:text-blue-600 ${active === "/contact" ? "text-blue-600" : ""}`}
               onClick={closeAll}
             >
               Contact
