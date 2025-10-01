@@ -14,7 +14,7 @@ define('DB_USER', 'root');
 define('DB_PASS', '');
 
 // Site configuration
-define('SITE_URL', 'http://localhost:3000/');
+define('SITE_URL', 'https://amulpackaging.futurefacetech.in/');
 define('SITE_NAME', 'Amul Packaging');
 
 // Security
