@@ -165,7 +165,7 @@ const HeroSlider = () => {
             >
               {/* Text Section */}
               <div className="container mx-auto px-6 md:px-12 lg:px-20">
-                 <div className="max-w-xl">
+                 <div className="max-w-xl bg-[#ffffff80] p-4 md:bg-transparent md:p-0"> 
                   <h1 className="hero-title text-xl md:text-3xl lg:text-5xl xl:text-5xl font-extrabold text-blue-900 leading-snug leading-tight">
                     {slide.title}
                   </h1>
