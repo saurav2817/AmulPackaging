@@ -71,7 +71,7 @@ const Contact = () => {
             <main className="mx-auto">
                 <section className="relative bg-cover bg-center" style={{ backgroundImage: "url('/img/slider_banner/contactus.jpg')" }}>
                     <div className="absolute inset-0 bg-black/15 z-0"></div>
-                    <div className="relative z-10 max-w-6xl mx-auto px-4 py-24 text-center">
+                    <div className="relative z-10 max-w-6xl mx-auto px-4 md:py-24 py-10 text-center">
                         <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight">Contact Us</h1>
                         <div className="flex justify-center mt-3">
                             <nav aria-label="Breadcrumb" className="mb-6">

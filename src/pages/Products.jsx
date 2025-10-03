@@ -10,7 +10,7 @@ const Products = () => {
   return (
     <>
       <main className=" mx-auto ">
-        <section className="text-center py-30 bg-[url('/img/slider_banner/Service.jpg')] bg-cover bg-center">
+        <section className="text-center md:py-30 py-10 bg-[url('/img/slider_banner/Service.jpg')] bg-cover bg-center">
           <h1 className="text-3xl font-bold text-blue-900 ">Products</h1>
           <div className="flex justify-center mt-3">
                 <nav aria-label="Breadcrumb" className="mb-6">

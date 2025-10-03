@@ -13,7 +13,7 @@ const About = () => {
     return (
         <>
             <main className="">
-                <section className="text-center py-30 bg-[url('/img/slider_banner/AboutUs.jpg')] bg-cover bg-center">
+                <section className="text-center py-10 md:py-30 bg-[url('/img/slider_banner/AboutUs.jpg')] bg-cover bg-center">
                     <h1 className="text-3xl font-bold text-blue-900 ">About Us</h1>
                     <div className="flex justify-center mt-3">
                 <nav aria-label="Breadcrumb" className="mb-6">
