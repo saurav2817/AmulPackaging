@@ -33,27 +33,27 @@ const clients = [
     Name: "Oziva",
   },
   {
-    id: "5",
+    id: "6",
     ClientImg: "/img/clientlogo/markfoods.jpg", 
     Name: "Food studio ",
   },
   {
-    id: "5",
+    id: "7",
     ClientImg: "/img/clientlogo/Trunativ.jpg", 
     Name: "Trunativ",
   },
   {
-    id: "5",
+    id: "8",
     ClientImg: "/img/clientlogo/superyou.jpg", 
     Name: "Superyou",
   },
   {
-    id: "5",
+    id: "9",
     ClientImg: "/img/clientlogo/urban.jpg", 
     Name: "Urban platter",
   },
   {
-    id: "5",
+    id: "10",
     ClientImg: "/img/clientlogo/Consciousfoods.jpg", 
     Name: "Conscious foods",
   },
