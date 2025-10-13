@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useParams, Link } from "react-router-dom";
+import {  Link } from "react-router-dom";
 import AllProducts from "../components/products/allProducts";
 import products from "../api/products";
 import SearchBox from "../components/searchBox/SearchBox";

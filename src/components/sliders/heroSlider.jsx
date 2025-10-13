@@ -6,6 +6,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { IoChevronBack, IoChevronForward } from "react-icons/io5";
 import { gsap } from "gsap";
+import { Link } from "react-router-dom";
 
 const HeroSlider = () => {
   // Slider content array
@@ -183,7 +184,9 @@ const HeroSlider = () => {
                   transition-colors duration-200 
                   w-max
                 ">
-                  View More
+                  <Link to="/products" >
+                    View More
+                  </Link>
                 </button>
 
 

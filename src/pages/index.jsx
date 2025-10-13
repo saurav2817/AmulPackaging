@@ -5,7 +5,7 @@ import StepsSection from "../components/steps/stepsSection";
 import ClientsSection from "../components/clients/clientsSection";
 import Testimonials from "../components/testimonials/testimonials";
 import AnimateOnScroll from "../components/animations/AnimateOnScroll";
-
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
@@ -48,7 +48,9 @@ const Home = () => {
               Pouches, zipper pouches, tape bags, laminated pouches, etc.
             </p>
             <button className="mt-6 px-6 py-2 bg-white text-primary font-semibold rounded-full shadow hover:bg-yellow-400 transition-colors duration-200 w-max">
-              Read More
+                <Link to="/about" >
+                  Read More
+                </Link>
             </button>
           </AnimateOnScroll>
         </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 import { IoSend } from "react-icons/io5";
@@ -7,6 +7,36 @@ import { IoIosMail } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
+  const [email, setEmail] = useState("");
+  const [status, setStatus] = useState("idle"); // idle | loading | success | error
+  const [message, setMessage] = useState("");
+
+  const handleSubscribe = async (e) => {
+    e.preventDefault();
+    if (!email) return;
+    setStatus("loading");
+    setMessage("");
+    try {
+
+      const API_BASE = `${window.location.origin}/api`;
+      const res = await fetch(`${API_BASE}/send-newsletter.php`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email })
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok || !data?.success) {
+        throw new Error(data?.message || "Subscription failed");
+      }
+      setStatus("success");
+      setMessage("Subscribed successfully.");
+      setEmail("");
+    } catch (err) {
+      setStatus("error");
+      setMessage(err?.message || "Something went wrong. Please try again.");
+    }
+  };
+
   return (
     <footer className="bg-[#003580] text-white">
       <div className="container mx-auto px-6 py-10">
@@ -27,23 +57,33 @@ const Footer = () => {
             </p>
 
             {/* Newsletter */}
-            <form className="mt-4 flex w-full max-w-md" onSubmit={(e) => e.preventDefault()}>
+            <form className="mt-4 flex w-full max-w-md" onSubmit={handleSubscribe}>
               <div className="flex items-center bg-white rounded-l-md px-3 text-black h-10 flex-1 min-w-0">
                 <MdOutlineMail />
                 <input
                   type="email"
                   placeholder="Your email"
                   className="ml-2 outline-none bg-transparent text-sm w-full"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
                 />
               </div>
               <button
                 type="submit"
-                className="bg-yellow-400 px-4 rounded-r-md text-black flex items-center justify-center h-10 shrink-0"
+                className="bg-yellow-400 px-4 rounded-r-md text-black flex items-center justify-center h-10 shrink-0 disabled:opacity-60"
                 aria-label="Subscribe"
+                disabled={status === "loading"}
               >
-                <IoSend />
+                {status === "loading" ? "..." : <IoSend />}
               </button>
             </form>
+
+            {status !== "idle" && message && (
+              <p className={`text-sm mt-2 ${status === "success" ? "text-green-300" : "text-red-300"}`} aria-live="polite">
+                {message}
+              </p>
+            )}
 
             {/* Social Icons */}
             <div className="mt-6 flex flex-wrap gap-3">

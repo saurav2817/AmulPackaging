@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { IoHomeOutline, IoChevronForward, IoStar, IoListCircle, IoCheckmarkCircle, IoApps, IoArrowBack, IoClose, IoChevronBack, IoChevronForward as IoChevronForwardIcon } from "react-icons/io5";
 import { FaLightbulb } from "react-icons/fa";
 import { TbStarsFilled } from "react-icons/tb";
@@ -50,7 +50,9 @@ const About = () => {
 
                             <div className="flex justify-start mt-6">
                             <button className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-6 border-b-4 border-blue-700 hover:border-blue-500 rounded-lg shadow-md transition duration-300">
-                                Discover more
+                                <Link to="/products" >
+                                 Discover more
+                                </Link>
                             </button>
                             </div>
                         </div>
@@ -249,7 +251,9 @@ const About = () => {
                             We are leading manufacturers of flexographic and rotogravure packaging materials which include laminated printed rolls, center seal pouches, three side seal pouches, side gazzeted pouches, standee zipper, vaccum pouches, shaped pouches, poly bags, magazine covers, tape bags, security bags, ziplock bags and more.
                         </p>
                         <a href="#" className="inline-block bg-blue-500 hover:bg-blue-400 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition">
+                            <Link to="/contact" >
                             Get Started
+                            </Link>
                         </a>
                     </div>
                 </section>
