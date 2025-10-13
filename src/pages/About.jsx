@@ -419,8 +419,6 @@ const About = () => {
                 </section>
 
             </main>
-
-            
         </>
     );
 };
