@@ -9,6 +9,8 @@ import { GiPriceTag } from "react-icons/gi";
 import { GiThreeLeaves } from "react-icons/gi";
 import ClientsSection from "../components/clients/clientsSection";
 import Counters from "../components/counters/counters";
+import AnimateOnScroll from "../components/animations/AnimateOnScroll";
+
 const About = () => {
     return (
         <>
@@ -37,34 +39,49 @@ const About = () => {
                 <section className="py-16 px-6">
                     <div className="container mx-auto max-w-7xl ">
                         <div className="flex flex-col lg:flex-row gap-8 items-center">
-                        
-                        {/* Left Content */}
-                        <div className="w-full lg:w-1/2 flex flex-col justify-start">
-                            <h4 className="text-xl font-medium text-blue-900 mb-2">Our Story</h4>
-                            <h1 className="text-4xl font-bold text-blue-800 mb-4 leading-snug">
-                                We make brand communication easier through innovative packaging solutions
-                            </h1>
-                            <p className="text-gray-600 max-w-3xl">
-                                Amul Packaging is one of the most reliable and trustworthy brands in the flexible packaging sector with an experience of more than 30 years. The business has evolved from its modest beginnings to a contemporary setup under the leadership of Mr. Amul Bhanushali. We are now a team of 35 people focused on serving at our highest capability every single day.
-                            </p>
+                            
+                            {/* Left Content */}
+                            <AnimateOnScroll
+                                as="div"
+                                className="w-full lg:w-1/2 flex flex-col justify-start"
+                                variant="fadeUp"
+                                stagger={0.15}
+                                once={true}
+                                start="top 80%"
+                                itemsSelector="h1, h4, p, button"
+                            >
+                                <h4 className="text-xl font-medium text-blue-900 mb-2">Our Story</h4>
+                                <h1 className="text-4xl font-bold text-blue-800 mb-4 leading-snug">
+                                    We make brand communication easier through innovative packaging solutions
+                                </h1>
+                                <p className="text-gray-600 max-w-3xl">
+                                    Amul Packaging is one of the most reliable and trustworthy brands in the flexible packaging sector with an experience of more than 30 years. The business has evolved from its modest beginnings to a contemporary setup under the leadership of Mr. Amul Bhanushali. We are now a team of 35 people focused on serving at our highest capability every single day.
+                                </p>
 
-                            <div className="flex justify-start mt-6">
-                            <button className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-6 border-b-4 border-blue-700 hover:border-blue-500 rounded-lg shadow-md transition duration-300">
-                                <Link to="/products" >
-                                 Discover more
-                                </Link>
-                            </button>
-                            </div>
-                        </div>
+                                <div className="flex justify-start mt-6">
+                                <button className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-6 border-b-4 border-blue-700 hover:border-blue-500 rounded-lg shadow-md transition duration-300">
+                                    <Link to="/products" >
+                                    Discover more
+                                    </Link>
+                                </button>
+                                </div>
+                            </AnimateOnScroll>
 
-                        {/* Right Image */}
-                        <div className="w-full lg:w-1/2">
-                            <img
-                            src="img/aboutsec.jpg"
-                            alt="About Amul Packaging"
-                            className="w-full h-auto object-cover rounded-xl shadow-lg"
-                            />
-                        </div>
+                            {/* Right Image */}
+                            <AnimateOnScroll
+                                as="div"
+                                className="w-full lg:w-1/2"
+                                variant="zoomIn"
+                                stagger={0.15}
+                                once={true}
+                                start="top 80%"
+                            >
+                                <img
+                                src="img/aboutsec.jpg"
+                                alt="About Amul Packaging"
+                                className="w-full h-auto object-cover rounded-xl shadow-lg"
+                                />
+                            </AnimateOnScroll>
                         </div>
                     </div>
                 </section>
@@ -79,6 +96,7 @@ const About = () => {
                         <div className="absolute inset-0 bg-gradient-to-bl from-green-400 to-blue-400 opacity-[0.4]"></div>
                     </div>
                     <div class="max-w-7xl relative mx-auto px-6 lg:px-8 text-center">
+                        
                         <h2 class="text-3xl font-bold text-white">Why Us</h2>
                         <h3 class="text-xl font-semibold text-white mt-2">Our Infrastructure</h3>
                         <p class="mt-4 text-white max-w-3xl mx-auto">
@@ -90,9 +108,15 @@ const About = () => {
 
 
                         <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-
-
-                            <div class="bg-white shadow-lg rounded-2xl p-6 text-left hover:shadow-xl transition">
+                            <AnimateOnScroll
+                                as="div"
+                                className="bg-white shadow-lg rounded-2xl p-6 text-left hover:shadow-xl transition"
+                                variant="fadeUp"
+                                stagger={0.15}
+                                once={true}
+                                start="top 80%"
+                                
+                            >
                                 <div class="flex items-center mb-4">
                                     <svg class="w-10 h-10 text-secondary" fill="none" stroke="currentColor" stroke-width="2"
                                         viewBox="0 0 24 24">
@@ -106,10 +130,17 @@ const About = () => {
                                     <li>6 Colour Flexo Printing Machine</li>
                                     <li>4 Colour Flexo Printing Machine</li>
                                 </ul>
-                            </div>
+                            </AnimateOnScroll>
 
-
-                            <div class="bg-white shadow-lg rounded-2xl p-6 text-left hover:shadow-xl transition">
+                            <AnimateOnScroll
+                                as="div"
+                                className="bg-white shadow-lg rounded-2xl p-6 text-left hover:shadow-xl transition"
+                                variant="fadeUp"
+                                stagger={0.15}
+                                once={true}
+                                start="top 80%"
+                                
+                            >
                                 <div class="flex items-center mb-4">
                                     <svg class="w-10 h-10 text-secondary" fill="none" stroke="currentColor" stroke-width="2"
                                         viewBox="0 0 24 24">
@@ -121,10 +152,18 @@ const About = () => {
                                     Produced with stringent quality standards using a wide range of materials including PET, OPP, PE,
                                     HDPE, Metallocene PE, LLDPE, CPP, and Metallized films.
                                 </p>
-                            </div>
+                            </AnimateOnScroll>
 
 
-                            <div class="bg-white shadow-lg rounded-2xl p-6 text-left hover:shadow-xl transition">
+                            <AnimateOnScroll
+                                as="div"
+                                className="bg-white shadow-lg rounded-2xl p-6 text-left hover:shadow-xl transition"
+                                variant="fadeUp"
+                                stagger={0.15}
+                                once={true}
+                                start="top 80%"
+                                
+                            >
                                 <div class="flex items-center mb-4">
                                     <svg class="w-10 h-10 text-secondary" fill="none" stroke="currentColor" stroke-width="2"
                                         viewBox="0 0 24 24">
@@ -139,7 +178,7 @@ const About = () => {
                                     <li>High Speed Side Sealing Machines</li>
                                     <li>High Speed Bottom Sealing Machines</li>
                                 </ul>
-                            </div>
+                            </AnimateOnScroll>
                         </div>
                     </div>
                 </section>
@@ -151,8 +190,15 @@ const About = () => {
                             </h2>
 
                             <div class="grid md:grid-cols-2 gap-10">
-                        
-                                <div class="flex items-start space-x-4">
+                            <AnimateOnScroll
+                                as="div"
+                                className="flex items-start space-x-4"
+                                variant="zoomIn"
+                                stagger={0.15}
+                                once={true}
+                                start="top 80%"
+                                
+                            >
                                     <div class="bg-primary text-white p-2 rounded-md">
                                         <FaLightbulb />
                                     </div>
@@ -162,10 +208,17 @@ const About = () => {
                                         
                                     </p>
                                     </div>
-                                </div>
+                                </AnimateOnScroll>
 
-                            
-                                <div class="flex items-start space-x-4">
+                                <AnimateOnScroll
+                                as="div"
+                                className="flex items-start space-x-4"
+                                variant="zoomIn"
+                                stagger={0.15}
+                                once={true}
+                                start="top 80%"
+                                
+                            >
                                     <div class="bg-primary text-white p-2 rounded-md">
                                         <RiUserSettingsLine />
                                     </div>
@@ -175,10 +228,17 @@ const About = () => {
                                         
                                     </p>
                                     </div>
-                                </div>
+                                </AnimateOnScroll>
 
-                            
-                                <div class="flex items-start space-x-4">
+                                <AnimateOnScroll
+                                as="div"
+                                className="flex items-start space-x-4"
+                                variant="zoomIn"
+                                stagger={0.15}
+                                once={true}
+                                start="top 80%"
+                                
+                            >
                                     <div class="bg-primary text-white p-2 rounded-md">
                                         <TbStarsFilled />
                                     </div>
@@ -188,10 +248,17 @@ const About = () => {
                                         
                                     </p>
                                     </div>
-                                </div>
+                                </AnimateOnScroll>
 
+                                <AnimateOnScroll
+                                as="div"
+                                className="flex items-start space-x-4"
+                                variant="zoomIn"
+                                stagger={0.15}
+                                once={true}
+                                start="top 80%"
                                 
-                                <div class="flex items-start space-x-4">
+                            >
                                     <div class="bg-primary text-white p-2 rounded-md">
                                     <GiPriceTag />
                                     </div>
@@ -201,8 +268,17 @@ const About = () => {
                                         
                                     </p>
                                     </div>
-                                </div>
-                                <div class="flex items-start space-x-4">
+                                </AnimateOnScroll>
+
+                                <AnimateOnScroll
+                                as="div"
+                                className="flex items-start space-x-4"
+                                variant="zoomIn"
+                                stagger={0.15}
+                                once={true}
+                                start="top 80%"
+                                
+                            >
                                     <div class="bg-primary text-white p-2 rounded-md">
                                         <IoBarChart />
                                     </div>
@@ -212,8 +288,17 @@ const About = () => {
                                         
                                     </p>
                                     </div>
-                                </div>
-                                <div class="flex items-start space-x-4">
+                                </AnimateOnScroll>
+
+                                <AnimateOnScroll
+                                as="div"
+                                className="flex items-start space-x-4"
+                                variant="zoomIn"
+                                stagger={0.15}
+                                once={true}
+                                start="top 80%"
+                                
+                            >
                                     <div class="bg-primary text-white p-2 rounded-md">
                                         <GiThreeLeaves />
                                     </div>
@@ -223,7 +308,7 @@ const About = () => {
                                         
                                     </p>
                                     </div>
-                                </div>
+                                </AnimateOnScroll>
                             </div>
                         </div>
                 </section>
@@ -240,7 +325,14 @@ const About = () => {
                     </div>
 
                     {/* Content */}
-                    <div className="relative z-10 max-w-6xl px-6">
+                    <AnimateOnScroll
+                        as="div"
+                        className="relative z-10 max-w-6xl px-6"
+                        variant="fadeUp"
+                        stagger={0.15}
+                        once={true}
+                        start="top 80%"
+                    >
                         <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
                             What Do We Do
                         </h2>
@@ -255,7 +347,7 @@ const About = () => {
                             Get Started
                             </Link>
                         </a>
-                    </div>
+                    </AnimateOnScroll>
                 </section>
 
                 <Counters />
@@ -267,7 +359,13 @@ const About = () => {
                                 <img src="/img/vision.jpg" alt="Printing" className="rounded-lg shadow-lg" />
                             </div>
 
-                            <div>
+                            <AnimateOnScroll
+                                as="div"
+                                variant="fadeRight"
+                                stagger={0.15}
+                                once={true}
+                                start="top 80%"
+                            >
                                 <h2 class="text-5xl font-bold text-black relative">
                                     <span
                                         class="absolute -top-6 left-0 text-6xl text-secondary font-extrabold opacity-50">Vision</span>
@@ -279,11 +377,17 @@ const About = () => {
                                     quality and consistency. To be the leading provider of packaging solutions
                                     with a strong customer focus.
                                 </p>
-                            </div>
+                            </AnimateOnScroll>
                         </div>
 
                         <div class="container mx-auto max-w-7xl px-6 lg:px-8 mt-20 grid lg:grid-cols-2 gap-12 items-center">
-                            <div>
+                        <AnimateOnScroll
+                                as="div"
+                                variant="fadeLeft"
+                                stagger={0.15}
+                                once={true}
+                                start="top 80%"
+                            >
                                 <h2 class="text-5xl font-bold text-black relative">
                                     <span
                                         class="absolute -top-6 left-0 text-6xl text-secondary font-extrabold opacity-50">Mission</span>
@@ -294,7 +398,7 @@ const About = () => {
                                     innovative, economical, and high-quality packaging solutions while
                                     continuously delivering above our standards.
                                 </p>
-                            </div>
+                            </AnimateOnScroll>
 
                             <div>
                                 <img src="/img/mission.jpg" alt="Mission" className="rounded-lg shadow-lg w-full " />

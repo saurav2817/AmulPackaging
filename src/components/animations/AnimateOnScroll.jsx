@@ -18,11 +18,11 @@ const variantConfigs = {
     to: { y: 0, opacity: 1 }
   },
   fadeLeft: {
-    from: { x: 40, opacity: 0 },
-    to: { x: 0, opacity: 1 }
+    from: { x: -40, opacity: 0 },
+    to: { x: 0, opacity: 1 } 
   },
   fadeRight: {
-    from: { x: -40, opacity: 0 },
+    from: { x: 40, opacity: 0 },
     to: { x: 0, opacity: 1 }
   },
   slideLeft: {
