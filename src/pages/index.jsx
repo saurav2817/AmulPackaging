@@ -41,11 +41,7 @@ const Home = () => {
               One Stop Solution For All Your Brand Packaging Requirements
             </h4>
             <p className="text-white-700 text-lg font-medium">
-              Amul packaging offers rotogravure, flexographic & digital flexible
-              packaging enhancing tamper evidence, security & shelf appeal to
-              consumers worldwide. We are now one of the leading manufacturers
-              of stock packaging products in various formats like stand-up
-              Pouches, zipper pouches, tape bags, laminated pouches, etc.
+            Amul Packaging is a leading manufacturer of printed flexible packaging, specializing in rotogravure, flexographic, and digital printing technologies. With these capabilities, we offer brands the flexibility to choose the right solution from high-volume gravure printing with unmatched detail, to cost-effective flexo, and short-run digital printing for speed and customization.
             </p>
             <button className="mt-6 px-6 py-2 bg-white text-primary font-semibold rounded-full shadow hover:bg-yellow-400 transition-colors duration-200 w-max">
                 <Link to="/about" >
@@ -149,19 +145,10 @@ const Home = () => {
                 What We Do
               </h1>
               <h4 className="text-2xl sm:text-3xl md:text-3xl text-secondary font-bold mb-4">
-                End-to-end flexible packaging solutions for various applications
-                and industries
+              Tailored flexible packaging solutions that protect products and elevate brands.
               </h4>
               <p className=" text-white-700 text-lg font-medium">
-                At Thakkar Flexipack, we have been redefining flexible packaging
-                for 12+ years with a commitment to quality, innovation, and
-                precision. Since inception, we have grown into a trusted name in
-                the industry, delivering premium packaging solutions that
-                enhance product shelf life, brand appeal, and functionality.
-                With state-of-the-art in-house facilities, we offer tailor-made
-                packaging solutions across major industries, while being
-                pioneers in dry fruits, tea & coffee, snacks, frozen foods,
-                pharmaceuticals, and agrochemicals.
+              At Amul Packaging, we combine rotogravure, flexographic, and digital printing with precision lamination and pouch-making to deliver packaging that looks great, performs flawlessly, and meets industry-specific needs. From food and agro to nutraceuticals, pet care, and personal care, our end-to-end solutions help your products stand out on the shelf.
               </p>
             </AnimateOnScroll>
 

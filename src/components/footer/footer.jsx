@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube, FaLinkedin } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 import { IoSend } from "react-icons/io5";
 import { IoCall } from "react-icons/io5";
@@ -87,7 +87,7 @@ const Footer = () => {
 
             {/* Social Icons */}
             <div className="mt-6 flex flex-wrap gap-3">
-              <a
+              {/* <a
                 href="#"
                 className="bg-white p-2 rounded-full text-[#003580] hover:scale-110 transition inline-flex"
                 aria-label="Facebook"
@@ -114,6 +114,12 @@ const Footer = () => {
                 aria-label="YouTube"
               >
                 <FaYoutube />
+              </a> */}
+              <a href="#"
+              className="bg-white p-2 rounded-full text-[#003580] hover:scale-110 transition inline-flex"
+               aria-label="Linkedin"
+              >
+              <FaLinkedin />
               </a>
             </div>
           </div>
@@ -170,34 +176,74 @@ const Footer = () => {
               <span className="bg-white p-2 flex rounded-full text-[#003580]">
                 <IoCall />
               </span>
-              <a
+              <div>
+                <h5 className=" text-white text-xs">Phone</h5>
+                <a
                 href="tel:+919004382696"
-                className="hover:underline break-all"
+                className="hover:underline break-all font-bold"
               >
                 +91 9004382696
               </a>
+              </div>
+              
             </div>
 
             <div className="flex gap-2 items-center mt-4">
               <span className="bg-white p-2 flex rounded-full text-[#003580]">
                 <IoIosMail />
               </span>
-              <a
+              <div>
+                <h5 className=" text-white text-xs">Factory Email</h5>
+                <a
                 href="mailto:amulpackingonline@gmail.com"
-                className="hover:underline break-all"
+                className="hover:underline break-all font-bold"
               >
-                amulpackingonline@gmail.com
+                amulpackingonline@gmail.com 
               </a>
+              </div>
+              
+            </div>
+
+            <div className="flex gap-2 items-center mt-4">
+              <span className="bg-white p-2 flex rounded-full text-[#003580]">
+                <IoIosMail />
+              </span>
+              <div>
+                <h5 className=" text-white text-xs">Head Office Email</h5>
+                <a
+                href="mailto:Sales@amulpackaging.in"
+                className="hover:underline break-all font-bold"
+              >
+               Sales@amulpackaging.in 
+              </a>
+              </div>
+              
             </div>
 
             <div className="flex gap-2 items-start mt-4">
               <span className="bg-white p-2 flex rounded-full text-[#003580]">
                 <FaLocationDot />
               </span>
-              <address className="not-italic text-sm leading-relaxed max-w-xs">
-                P-3A, Raj Laxmi HiTech Textile Park, Sonale Village,
-                Bhiwandi, Maharashtra 421302
+              <div>
+                <h5 className=" text-white text-xs">Factory Address</h5>
+                <address className="not-italic text-sm leading-relaxed max-w-xs font-bold">
+                Bldg No.P4, Plot No.P, Shree Raj Laxmi Ind. Estate, Sonale Village, Bhiwandi
+                , Maharashtra 421302
               </address>
+              </div>
+            </div>
+
+            <div className="flex gap-2 items-start mt-4">
+              <span className="bg-white p-2 flex rounded-full text-[#003580]">
+                <FaLocationDot />
+              </span>
+              <div>
+                <h5 className=" text-white text-xs">Head Office Address</h5>
+                <address className="not-italic text-sm leading-relaxed max-w-xs font-bold">
+                2, Pramod Prasad Building, Plot No.232. Next to Brij Albela, 
+                Wadala (W), Mumbai 400 031.
+              </address>
+              </div>
             </div>
           </div>
         </div>

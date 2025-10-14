@@ -126,7 +126,7 @@ const About = () => {
                                     <h4 class="ml-3 text-lg font-semibold text-gray-900">Printing</h4>
                                 </div>
                                 <ul class="list-disc list-inside text-gray-600 space-y-2">
-                                    <li>7 Colour Rotogravure Printing Machine</li>
+                                    <li>8 Colour Rotogravure Printing Machine</li>
                                     <li>6 Colour Flexo Printing Machine</li>
                                     <li>4 Colour Flexo Printing Machine</li>
                                 </ul>
@@ -146,7 +146,7 @@ const About = () => {
                                         viewBox="0 0 24 24">
                                         <path d="M9 12h6m-6 4h6M5 4h14a2 2 0 012 2v12a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2z" />
                                     </svg>
-                                    <h4 class="ml-3 text-lg font-semibold text-gray-900">Solvent Based Lamination</h4>
+                                    <h4 class="ml-3 text-lg font-semibold text-gray-900">Solvent based lamination and solvent less lamination</h4>
                                 </div>
                                 <p class="text-gray-600 text-base">
                                     Produced with stringent quality standards using a wide range of materials including PET, OPP, PE,
