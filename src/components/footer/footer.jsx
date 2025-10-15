@@ -188,7 +188,7 @@ const Footer = () => {
               
             </div>
 
-            <div className="flex gap-2 items-center mt-4">
+            {/* <div className="flex gap-2 items-center mt-4">
               <span className="bg-white p-2 flex rounded-full text-[#003580]">
                 <IoIosMail />
               </span>
@@ -202,7 +202,7 @@ const Footer = () => {
               </a>
               </div>
               
-            </div>
+            </div> */}
 
             <div className="flex gap-2 items-center mt-4">
               <span className="bg-white p-2 flex rounded-full text-[#003580]">

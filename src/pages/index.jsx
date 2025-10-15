@@ -6,6 +6,8 @@ import ClientsSection from "../components/clients/clientsSection";
 import Testimonials from "../components/testimonials/testimonials";
 import AnimateOnScroll from "../components/animations/AnimateOnScroll";
 import { Link } from "react-router-dom";
+import OurValues from "../components/ourvalues/ourValues";
+
 const Home = () => {
   return (
     <>
@@ -55,7 +57,7 @@ const Home = () => {
       {/* about us end */}
 
       {/* Why Us start */}
-      <section className="bg-gray-100 py-12">
+      <section className=" py-12">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <AnimateOnScroll
             as="div"
@@ -127,6 +129,9 @@ const Home = () => {
         </div>
       </section>
       {/* Why Us end */}
+
+    <OurValues/>
+
 
       {/* what we do start */}
       <section>

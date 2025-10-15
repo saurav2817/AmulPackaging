@@ -10,6 +10,7 @@ import { GiThreeLeaves } from "react-icons/gi";
 import ClientsSection from "../components/clients/clientsSection";
 import Counters from "../components/counters/counters";
 import AnimateOnScroll from "../components/animations/AnimateOnScroll";
+import OurValues from "../components/ourvalues/ourValues";
 
 const About = () => {
     return (
@@ -183,7 +184,10 @@ const About = () => {
                     </div>
                 </section>
 
-                <section class="py-16 bg-white">
+                {/* our values */}
+                <OurValues/>
+              
+                <section class="py-16 bg-white ">
                         <div class="max-w-7xl mx-auto px-6">
                             <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
                             Our Best Qualities
