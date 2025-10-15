@@ -339,7 +339,7 @@ const PrivacyPolicy = () => {
                 </li>
                 <li className="text-gray-600">
                   <b className="text-blue-900">Email :</b>{" "}
-                  amulpackingonline@gmail.com
+                  Sales@amulpackaging.in
                 </li>
                 <li className="text-gray-600">
                   <b className="text-blue-900">Phone :</b> Phone: +91 9004382696

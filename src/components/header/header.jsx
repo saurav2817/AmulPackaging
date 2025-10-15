@@ -186,7 +186,7 @@ const Header = () => {
                 </div>
               </a>
               <a
-                href="mailto:amulpackingonline@gmail.com"
+                href="mailto:Sales@amulpackaging.in"
                 className="flex items-start space-x-3 p-3 rounded-lg border hover:border-blue-500 transition-colors"
               >
                 <span className="mt-0.5 text-primary">
@@ -197,7 +197,7 @@ const Header = () => {
                     Email
                   </p>
                   <p className="text-sm font-medium text-gray-900">
-                    amulpackingonline@gmail.com
+                    Sales@amulpackaging.in
                   </p>
                 </div>
               </a>

@@ -110,7 +110,7 @@ const Contact = () => {
                                 <IoMdMail className="text-4xl bg-primary p-2 text-white rounded-lg" />
                                 <div className="text-center">
                                     <p className="text-sm text-gray-500">Email</p>
-                                    <p className="">amulpackingonline@gmail.com</p>
+                                    <p className="">Sales@amulpackaging.in</p>
                                 </div>
                             </div>
                         </div>

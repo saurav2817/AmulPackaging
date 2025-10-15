@@ -28,7 +28,7 @@ composer install
 Edit `config.php` and update:
 
 ```php
-define('SMTP_USERNAME', 'amulpackingonline@gmail.com');
+define('SMTP_USERNAME', 'Sales@amulpackaging.in');
 define('SMTP_PASSWORD', 'your_app_password_here'); // Use App Password for Gmail
 ```
 

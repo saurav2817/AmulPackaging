@@ -195,10 +195,10 @@ const Footer = () => {
               <div>
                 <h5 className=" text-white text-xs">Factory Email</h5>
                 <a
-                href="mailto:amulpackingonline@gmail.com"
+                href="mailto:Sales@amulpackaging.in"
                 className="hover:underline break-all font-bold"
               >
-                amulpackingonline@gmail.com 
+                Sales@amulpackaging.in 
               </a>
               </div>
               

@@ -170,7 +170,7 @@ if ($mailSent) {
             </div>
             <div class='footer'>
                 <p>P-3A, Raj Laxmi HiTech Textile Park, Sonale Village, Bhiwandi, Maharashtra 421302</p>
-                <p>Email: amulpackingonline@gmail.com | Phone: +91 9004382696</p>
+                <p>Email: Sales@amulpackaging.in | Phone: +91 9004382696</p>
             </div>
         </div>
     </body>
