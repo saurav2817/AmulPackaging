@@ -119,7 +119,7 @@ const Contact = () => {
                                 <FaLocationDot className="text-4xl bg-primary p-2 text-white rounded-lg" />
                                 <div className="text-center">
                                     <p className="text-sm text-gray-500">Address</p>
-                                    <p className="">P-3A, Raj Laxmi HiTech Textile Park, Sonale Village, Bhiwandi, Maharashtra 421302</p>
+                                    <p className="">2, Pramod Prasad Building, Plot No.232. Next to Brij Albela, Wadala (W), Mumbai 400 031.</p>
                                 </div>
                             </div>
                         </div>

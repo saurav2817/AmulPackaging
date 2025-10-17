@@ -8,7 +8,7 @@ const ProductsSection = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-10">
 
-        {products.slice(0, 8).map((product) => {
+        {products.slice(0, 4).map((product) => {
            const mainImg = product.img[1] || ""
            const hoverImg = product.img[2] || ""
 
