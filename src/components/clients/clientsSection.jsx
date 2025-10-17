@@ -19,43 +19,49 @@ const clients = [
   },
   {
     id: "3",
-    ClientImg: "/img/clientlogo/chandan.jpg",
-    Name: "Chandan mukhwas",
+    ClientImg: "/img/clientlogo/toi.jpg",
+    Name: "Times Of India",
   },
   {
     id: "4",
-    ClientImg: "/img/clientlogo/hrx.jpg", 
-    Name: "Hrx",
+    ClientImg: "/img/clientlogo/chandan.jpg", 
+    Name: "Chandan mukhwas",
   },
   {
     id: "5",
     ClientImg: "/img/clientlogo/oziva.jpg", 
     Name: "Oziva",
   },
+  
   {
     id: "6",
-    ClientImg: "/img/clientlogo/markfoods.jpg", 
-    Name: "Food studio ",
+    ClientImg: "/img/clientlogo/hrx.jpg", 
+    Name: "HRX",
   },
   {
     id: "7",
-    ClientImg: "/img/clientlogo/Trunativ.jpg", 
-    Name: "Trunativ",
-  },
-  {
-    id: "8",
     ClientImg: "/img/clientlogo/superyou.jpg", 
     Name: "Superyou",
   },
   {
+    id: "8",
+    ClientImg: "/img/clientlogo/Trunativ.jpg", 
+    Name: "Trunativ",
+  },
+  {
     id: "9",
-    ClientImg: "/img/clientlogo/urban.jpg", 
-    Name: "Urban platter",
+    ClientImg: "/img/clientlogo/delta.jpg", 
+    Name: "Delta Nutritives",
   },
   {
     id: "10",
-    ClientImg: "/img/clientlogo/Consciousfoods.jpg", 
-    Name: "Conscious foods",
+    ClientImg: "/img/clientlogo/blg.jpg", 
+    Name: "BLG",
+  },
+  {
+    id: "11",
+    ClientImg: "/img/clientlogo/urban.jpg", 
+    Name: "Urban platte",
   },
 ];
 

@@ -13,7 +13,7 @@ import Services from "../pages/Services";
 import Contact from "../pages/Contact";
 import PrivacyPolicy from "../pages/privacyPolicy";
 import TermCondition from "../pages/termCondition";
-
+import IndustriesWeServe from "../pages/IndustriesWeServe";
 
 const MainLayout = () => (
     <>
@@ -36,6 +36,7 @@ const AppRoutes = () => {
                 <Route path="products" element={<Products/>} />
                 <Route path="products/:id" element={<SingleProduct/>} />
                 <Route path="services" element={<Services/>} />
+                <Route path="industriesweserve" element={<IndustriesWeServe/>} />
                 <Route path="contact" element={<Contact/>} />
                 <Route path="privacyPolicy" element={<PrivacyPolicy/>} />
                 <Route path="termCondition" element={<TermCondition/>} />

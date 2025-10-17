@@ -89,7 +89,7 @@ const Home = () => {
             </p>
             <p className="text-gray-600 max-w-3xl mx-auto mb-12">
               Amul packaging provides you with the optimum solution that you are
-              looking for, to promote your brand or product. Along with 30 years
+              looking for, to promote your brand or product. Along with 50+ years
               of experience, we have collaborated with diversified sectors and
               brands.
             </p>

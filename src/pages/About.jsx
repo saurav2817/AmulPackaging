@@ -78,6 +78,9 @@ const About = () => {
                   packaging solutions
                 </h1>
                 <p className="text-gray-600 max-w-3xl">
+                Amul Packaging is one of the most reliable and trustworthy brands in the flexible packaging sector with an experience of more than 50+ years. The business has evolved from its modest beginnings to a contemporary setup under the leadership of Mr. Amul Bhanushali. We are now a team of 35 people focused on serving at our highest capability every single day.
+                </p>
+                <p className="text-gray-600 max-w-3xl mt-2">
                   Amul Packaging is a leading manufacturer of printed flexible
                   packaging, specializing in rotogravure, flexographic, and
                   digital printing technologies. With these capabilities, we
@@ -99,7 +102,7 @@ const About = () => {
                   Our focus on quality, consistency, and customer satisfaction
                   has helped us build long-term partnerships across India and
                   international markets. At Amul Packaging, we don't just make
-                  packaging that help your products stand out and succeed. we
+                  packaging that help your products stand out and succeed, we
                   create solutions
                 </p>
 

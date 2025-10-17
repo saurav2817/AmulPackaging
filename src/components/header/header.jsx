@@ -87,6 +87,14 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
+              <NavLink 
+                to="/IndustriesWeServe"
+                className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`}
+              >
+                Industries We Serve
+              </NavLink>
+            </li>
+            <li>
               <NavLink
                 to="/contact"
                 className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`}
@@ -364,6 +372,15 @@ const Header = () => {
               onClick={closeAll}
             >
               Services
+            </NavLink>
+          </li>
+          <li>
+            <NavLink 
+              to="/IndustriesWeServe"
+              className={({isActive}) => `hover:text-blue-600 ${isActive ? "text-blue-600" : ""}`}
+              onClick={closeAll}
+            >
+              Industries We Serve
             </NavLink>
           </li>
           <li>
