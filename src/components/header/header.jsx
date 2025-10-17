@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate, NavLink } from "react-router-dom";
+import { useNavigate, NavLink, useLocation } from "react-router-dom";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { IoCloseSharp } from "react-icons/io5";
 import { AiOutlinePhone } from "react-icons/ai";
@@ -12,8 +12,8 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isInfoOpen, setIsInfoOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const [active, setActive] = useState(location.pathname);
   const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,9 +28,6 @@ const Header = () => {
   const closeAll = () => {
     setIsMenuOpen(false);
     setIsInfoOpen(false);
-  };
-  const handleActive = (path) => {
-    setActive(path);
   };
 
   return (
@@ -57,33 +54,34 @@ const Header = () => {
           {/* Desktop Menu */}
           <ul className="hidden md:flex items-center space-x-6 font-medium">
             <li>
-              <NavLink to="/" className={`hover:text-[var(--primary-color)] ${active === "/" ? "text-[var(--primary-color)]" : ""}`} end onClick={() => handleActive("/")}>
+              <NavLink 
+                to="/"
+                className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive && location.pathname === "/" ? "text-[var(--primary-color)]" : ""}`}
+                end
+              >
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink
-                to="/about" 
-                className={`hover:text-[var(--primary-color)] ${active === "/about" ? "text-[var(--primary-color)]" : ""}`}
-                onClick={() => handleActive("/about")}
+              <NavLink 
+                to="/about"
+                className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`}
               >
                 About
               </NavLink>
             </li>
             <li>
-              <NavLink
+              <NavLink 
                 to="/products"
-                className={`hover:text-[var(--primary-color)] ${active === "/products" ? "text-[var(--primary-color)]" : ""}`}
-                onClick={() => handleActive("/products")}
+                className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`}
               >
                 Products
               </NavLink>
             </li>
             <li>
-              <NavLink
+              <NavLink 
                 to="/services"
-                className={`hover:text-[var(--primary-color)] ${active === "/services" ? "text-[var(--primary-color)]" : ""}`}
-                onClick={() => handleActive("/services")}
+                className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`}
               >
                 Services
               </NavLink>
@@ -91,13 +89,12 @@ const Header = () => {
             <li>
               <NavLink
                 to="/contact"
-                className={`hover:text-[var(--primary-color)] ${active === "/contact" ? "text-[var(--primary-color)]" : ""}`} 
-                onClick={() => handleActive("/contact")}
+                className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`}
               >
                 Contact
               </NavLink>
             </li>
-            {/* Info Icon (only desktop) */}
+            {/* Info Icon */}
             <li className="hidden md:block">
               <button
                 className="p-2 rounded focus:outline-none"
@@ -107,7 +104,6 @@ const Header = () => {
               </button>
             </li>
           </ul>
-
           {/* Mobile Hamburger */}
           <div className="md:hidden">
             <button
@@ -336,9 +332,9 @@ const Header = () => {
           <li>
             <NavLink
               to="/"
-              className={`hover:text-blue-600 ${active === "/" ? "text-blue-600" : ""}`}
-              onClick={closeAll}
+              className={({isActive}) => `hover:text-blue-600 ${isActive && location.pathname === "/" ? "text-blue-600" : ""}`}
               end
+              onClick={closeAll}
             >
               Home
             </NavLink>
@@ -346,7 +342,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/about"
-              className={`hover:text-blue-600 ${active === "/about" ? "text-blue-600" : ""}`}
+              className={({isActive}) => `hover:text-blue-600 ${isActive ? "text-blue-600" : ""}`}
               onClick={closeAll}
             >
               About
@@ -355,7 +351,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/products"
-              className={`hover:text-blue-600 ${active === "/products" ? "text-blue-600" : ""}`}
+              className={({isActive}) => `hover:text-blue-600 ${isActive ? "text-blue-600" : ""}`}
               onClick={closeAll}
             >
               Products
@@ -364,7 +360,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/services"
-              className={`hover:text-blue-600 ${active === "/services" ? "text-blue-600" : ""}`}
+              className={({isActive}) => `hover:text-blue-600 ${isActive ? "text-blue-600" : ""}`}
               onClick={closeAll}
             >
               Services
@@ -373,7 +369,7 @@ const Header = () => {
           <li>
             <NavLink
               to="/contact"
-              className={`hover:text-blue-600 ${active === "/contact" ? "text-blue-600" : ""}`}
+              className={({isActive}) => `hover:text-blue-600 ${isActive ? "text-blue-600" : ""}`}
               onClick={closeAll}
             >
               Contact

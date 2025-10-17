@@ -21,10 +21,20 @@ import ClientsSection from "../components/clients/clientsSection";
 import Counters from "../components/counters/counters";
 import AnimateOnScroll from "../components/animations/AnimateOnScroll";
 import OurValues from "../components/ourvalues/ourValues";
+import { Helmet } from "react-helmet-async";
 
 const About = () => {
   return (
     <>
+      <Helmet>
+        <title>About Us | Amul Packaging</title>
+        <meta name="description" content="Learn about Amul Packaging's 30+ years of expertise in flexible packaging, printing, lamination, and client-focused solutions across various industries." />
+        <meta property="og:title" content="About Amul Packaging" />
+        <meta property="og:description" content="We make brand communication easier through innovative packaging solutions in Mumbai and beyond." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/img/about.jpg" />
+        <meta property="og:url" content="https://www.amulpackaging.in/about" />
+      </Helmet>
       <main className="">
         <section className="text-center py-10 md:py-30 bg-[url('/img/slider_banner/AboutUs.jpg')] bg-cover bg-center">
           <h1 className="text-3xl font-bold text-blue-900 ">About Us</h1>

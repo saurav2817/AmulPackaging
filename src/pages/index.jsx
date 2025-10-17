@@ -7,10 +7,22 @@ import Testimonials from "../components/testimonials/testimonials";
 import AnimateOnScroll from "../components/animations/AnimateOnScroll";
 import { Link } from "react-router-dom";
 import OurValues from "../components/ourvalues/ourValues";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   return (
     <>
+      <Helmet>
+        <title>Amul Packaging | Flexible Packaging Solutions & Printing</title>
+        <meta name="description" content="Amul Packaging offers cutting-edge flexible packaging solutions using rotogravure, flexographic, and digital printing technologies for all industries." />
+        <meta name="keywords" content="Amul Packaging, flexible packaging, rotogravure, flexographic, digital printing, Mumbai, manufacturer" />
+        <meta property="og:title" content="Amul Packaging | Flexible Packaging Solutions & Printing" />
+        <meta property="og:description" content="One Stop Solution For All Your Brand Packaging Requirements" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/img/Banner.jpg" />
+        <meta property="og:url" content="https://www.amulpackaging.in/" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
       {/* Slider start */}
       <HeroSlider />
       {/* Slider end */}

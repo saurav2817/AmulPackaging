@@ -6,6 +6,7 @@ import { IoMdMail } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 import { GoClockFill } from "react-icons/go";
 import toast from "react-hot-toast";
+import { Helmet } from "react-helmet-async";
 
 const Contact = () => {
     const [formData, setFormData] = useState({ name: "", email: "", phone: "", message: "" });
@@ -68,6 +69,15 @@ const Contact = () => {
 
     return (
         <>
+            <Helmet>
+                <title>Contact Us | Amul Packaging</title>
+                <meta name="description" content="Contact Amul Packaging for custom flexible packaging solutions, fast quotes, and expert guidance for all your packaging needs." />
+                <meta property="og:title" content="Contact Amul Packaging" />
+                <meta property="og:description" content="Reach out to Amul Packaging's team for packaging solutions, inquiries, and support." />
+                <meta property="og:type" content="website" />
+                <meta property="og:image" content="/img/slider_banner/contactus.jpg" />
+                <meta property="og:url" content="https://www.amulpackaging.in/contact" />
+            </Helmet>
             <main className="mx-auto">
                 <section className="relative bg-cover bg-center" style={{ backgroundImage: "url('/img/slider_banner/contactus.jpg')" }}>
                     <div className="absolute inset-0 bg-black/15 z-0"></div>
