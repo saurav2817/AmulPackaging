@@ -3,12 +3,17 @@ import {  Link } from "react-router-dom";
 import AllProducts from "../components/products/allProducts";
 import products from "../api/products";
 import SearchBox from "../components/searchBox/SearchBox";
+import SEO from "../components/seo/SEO";
+import { getSEOConfig } from "../config/seoConfig";
 import { IoHomeOutline, IoChevronForward, IoStar, IoListCircle, IoCheckmarkCircle, IoApps, IoArrowBack, IoClose, IoChevronBack, IoChevronForward as IoChevronForwardIcon } from "react-icons/io5";
 
 const Products = () => {
   const [sortBy] = useState("default");
+  const seoConfig = getSEOConfig('products');
+  
   return (
     <>
+      <SEO {...seoConfig} />
       <main className=" mx-auto ">
         <section className="text-center md:py-30 py-10 bg-[url('/img/slider_banner/Service.jpg')] bg-cover bg-center">
           <h1 className="text-3xl font-bold text-blue-900 ">Products</h1>
@@ -17,8 +22,8 @@ const Products = () => {
                   <div className="flex flex-wrap items-center gap-2 text-sm">
                     <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[var(--primary-color)]/10 text-[var(--primary-color)]">
                       <IoHomeOutline />
-                      <Link to="/" className="hover:underline">
-                        Home
+                      <Link to="/" className="hover:underline" aria-label="Go to Amul Packaging home page">
+                        Amul Packaging Home
                       </Link>
                     </span>
 

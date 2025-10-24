@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Home Page -->
+  <url>
+    <loc>https://www.amulpackaging.in/</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.amulpackaging.in/img/Banner.jpg</image:loc>
+      <image:title>Amul Packaging Flexible Packaging Solutions</image:title>
+      <image:caption>Leading flexible packaging solutions provider with 30+ years of expertise</image:caption>
+    </image:image>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://www.amulpackaging.in/about</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.amulpackaging.in/img/about.jpg</image:loc>
+      <image:title>About Amul Packaging</image:title>
+      <image:caption>Learn about our 30+ years of expertise in flexible packaging</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Products Page -->
+  <url>
+    <loc>https://www.amulpackaging.in/products</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.amulpackaging.in/img/slider_banner/Products.jpg</image:loc>
+      <image:title>Flexible Packaging Products</image:title>
+      <image:caption>Comprehensive range of flexible packaging products</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Services Page -->
+  <url>
+    <loc>https://www.amulpackaging.in/services</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.amulpackaging.in/img/slider_banner/Service.jpg</image:loc>
+      <image:title>Packaging Services</image:title>
+      <image:caption>Comprehensive packaging design and printing services</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Industries We Serve Page -->
+  <url>
+    <loc>https://www.amulpackaging.in/industriesweserve</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://www.amulpackaging.in/img/slider_banner/Products.jpg</image:loc>
+      <image:title>Industries We Serve</image:title>
+      <image:caption>Packaging solutions for various industries</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://www.amulpackaging.in/contact</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.amulpackaging.in/img/slider_banner/contactus.jpg</image:loc>
+      <image:title>Contact Amul Packaging</image:title>
+      <image:caption>Get in touch for custom packaging solutions</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Privacy Policy Page -->
+  <url>
+    <loc>https://www.amulpackaging.in/privacyPolicy</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Terms & Conditions Page -->
+  <url>
+    <loc>https://www.amulpackaging.in/termCondition</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Individual Product Pages (if they exist) -->
+  <!-- These would be dynamically generated based on your products -->
+  <!-- Example:
+  <url>
+    <loc>https://www.amulpackaging.in/products/standup-pouch</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.amulpackaging.in/img/products/standup-pouch.jpg</image:loc>
+      <image:title>Standup Pouch Packaging</image:title>
+      <image:caption>High-quality standup pouch packaging solutions</image:caption>
+    </image:image>
+  </url>
+  -->
+
+</urlset>

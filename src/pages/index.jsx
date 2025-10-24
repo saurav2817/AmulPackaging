@@ -7,22 +7,15 @@ import Testimonials from "../components/testimonials/testimonials";
 import AnimateOnScroll from "../components/animations/AnimateOnScroll";
 import { Link } from "react-router-dom";
 import OurValues from "../components/ourvalues/ourValues";
-import { Helmet } from "react-helmet-async";
+import SEO from "../components/seo/SEO";
+import { getSEOConfig } from "../config/seoConfig";
 
 const Home = () => {
+  const seoConfig = getSEOConfig('home');
+  
   return (
     <>
-      <Helmet>
-        <title>Amul Packaging | Flexible Packaging Solutions & Printing</title>
-        <meta name="description" content="Amul Packaging offers cutting-edge flexible packaging solutions using rotogravure, flexographic, and digital printing technologies for all industries." />
-        <meta name="keywords" content="Amul Packaging, flexible packaging, rotogravure, flexographic, digital printing, Mumbai, manufacturer" />
-        <meta property="og:title" content="Amul Packaging | Flexible Packaging Solutions & Printing" />
-        <meta property="og:description" content="One Stop Solution For All Your Brand Packaging Requirements" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="/img/Banner.jpg" />
-        <meta property="og:url" content="https://www.amulpackaging.in/" />
-        <meta name="twitter:card" content="summary_large_image" />
-      </Helmet>
+      <SEO {...seoConfig} />
       {/* Slider start */}
       <HeroSlider />
       {/* Slider end */}
@@ -89,7 +82,7 @@ const Home = () => {
             </p>
             <p className="text-gray-600 max-w-3xl mx-auto mb-12">
               Amul packaging provides you with the optimum solution that you are
-              looking for, to promote your brand or product. Along with 50+ years
+              looking for, to promote your brand or product. Along with 35+ years
               of experience, we have collaborated with diversified sectors and
               brands.
             </p>

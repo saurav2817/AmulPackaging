@@ -58,6 +58,7 @@ const Header = () => {
                 to="/"
                 className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive && location.pathname === "/" ? "text-[var(--primary-color)]" : ""}`}
                 end
+                aria-label="Go to Amul Packaging home page"
               >
                 Home
               </NavLink>
@@ -66,14 +67,16 @@ const Header = () => {
               <NavLink 
                 to="/about"
                 className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`}
+                aria-label="Learn about Amul Packaging company"
               >
-                About
+                About Us
               </NavLink>
             </li>
             <li>
               <NavLink 
                 to="/products"
                 className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`}
+                aria-label="View flexible packaging products"
               >
                 Products
               </NavLink>
@@ -82,6 +85,7 @@ const Header = () => {
               <NavLink 
                 to="/services"
                 className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`}
+                aria-label="Explore packaging services"
               >
                 Services
               </NavLink>
@@ -90,6 +94,7 @@ const Header = () => {
               <NavLink 
                 to="/IndustriesWeServe"
                 className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`}
+                aria-label="See industries we serve"
               >
                 Industries We Serve
               </NavLink>
@@ -98,8 +103,9 @@ const Header = () => {
               <NavLink
                 to="/contact"
                 className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`}
+                aria-label="Contact Amul Packaging"
               >
-                Contact
+                Contact Us
               </NavLink>
             </li>
             {/* Info Icon */}
@@ -211,14 +217,25 @@ const Header = () => {
                 </span>
                 <div>
                   <p className="text-xs uppercase tracking-wide text-gray-500">
-                    Address
+                  Head Office Address
                   </p>
+                  
                   <p className="text-sm font-medium text-gray-900">
-                    Amul Packaging Pvt. Ltd.
+                  2, Pramod Prasad Building, Plot No.232.<br/> Next to Brij Albela, Wadala (W), Mumbai 400 031.
                   </p>
-                  <p className="text-sm text-gray-700">
-                    P-3A, Raj Laxmi HiTech Textile Park, Sonale Village,
-                    Bhiwandi, Maharashtra 421302
+                </div>
+              </div>
+              <div className="flex items-start space-x-3 p-3 rounded-lg border">
+                <span className="mt-0.5 text-primary">
+                  <HiOutlineLocationMarker size={20} />
+                </span>
+                <div>
+                  <p className="text-xs uppercase tracking-wide text-gray-500">
+                  Factory Address
+                  </p>
+                  
+                  <p className="text-sm font-medium text-gray-900">
+                  Bldg No.P4, Plot No.P, Shree Raj Laxmi Ind. Estate, Sonale Village, Bhiwandi , Maharashtra 421302
                   </p>
                 </div>
               </div>
@@ -231,7 +248,7 @@ const Header = () => {
                     Hours
                   </p>
                   <p className="text-sm font-medium text-gray-900">
-                    Mon - Sat: 8:00 AM - 9:00 PM
+                    Mon - Sat: 9:00 AM - 8:00 PM
                   </p>
                 </div>
               </div>
@@ -286,35 +303,7 @@ const Header = () => {
               </a>
             </div>
 
-            {/* Social */}
-            <div>
-              <p className="text-xs uppercase tracking-wide text-gray-500 mb-2">
-                Follow Us
-              </p>
-              <div className="flex items-center gap-3">
-                <a
-                  href="#"
-                  aria-label="Facebook"
-                  className="h-9 w-9 rounded-full border flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors"
-                >
-                  <FaFacebookF size={16} />
-                </a>
-                <a
-                  href="#"
-                  aria-label="LinkedIn"
-                  className="h-9 w-9 rounded-full border flex items-center justify-center hover:bg-blue-700 hover:text-white transition-colors"
-                >
-                  <FaLinkedinIn size={16} />
-                </a>
-                <a
-                  href="#"
-                  aria-label="Instagram"
-                  className="h-9 w-9 rounded-full border flex items-center justify-center hover:bg-pink-600 hover:text-white transition-colors"
-                >
-                  <FaInstagram size={16} />
-                </a>
-              </div>
-            </div>
+           
           </div>
 
           {/* Footer small */}

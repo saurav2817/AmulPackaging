@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
+import SEO from "../components/seo/SEO";
+import { getProductSEO, getSEOConfig } from "../config/seoConfig";
 import {
   IoHomeOutline,
   IoChevronForward,
@@ -37,6 +39,9 @@ const SingleProduct = () => {
   //const [tiltStyle, setTiltStyle] = useState({ transform: 'rotateX(0deg) rotateY(0deg) scale(1)' });
   const productId = Number(id);
   const product = products.find((p) => p.id === productId);
+  
+  // Get SEO config for this product
+  const seoConfig = product ? getProductSEO(product) : getSEOConfig('products');
 
   useEffect(() => {
     if (!productId || !product) return;
@@ -124,6 +129,7 @@ const SingleProduct = () => {
 
   return (
     <>
+      <SEO {...seoConfig} />
       <main className="mx-auto soft-bg  min-h-screen">
         {/* Hero */}
         <section className="relative overflow-hidden soft-bg">

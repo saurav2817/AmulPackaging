@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import products from "../../api/products";
 import { FaSearch } from "react-icons/fa";
+import { createProductUrl } from "../../utils/productUrls";
 const normalize = (s) => (s || "").toLowerCase().trim();
 
 const SearchBox = () => {
@@ -62,7 +63,8 @@ const SearchBox = () => {
       setHighlight((h) => Math.max(h - 1, -1));
     } else if (e.key === "Enter") {
       if (highlight >= 0 && results[highlight]) {
-        navigate(`/products/${results[highlight].id}`);
+        const productUrl = createProductUrl(results[highlight].id, results[highlight].name);
+        navigate(productUrl);
         setOpen(false);
         return;
       }
@@ -107,7 +109,8 @@ const SearchBox = () => {
               onMouseLeave={() => setHighlight(-1)}
               onMouseDown={(e) => e.preventDefault()}
               onClick={() => {
-                navigate(`/products/${p.id}`);
+                const productUrl = createProductUrl(p.id, p.name);
+                navigate(productUrl);
                 setOpen(false);
               }}
               className={`flex items-center gap-3 px-3 py-2 cursor-pointer ${
@@ -115,7 +118,7 @@ const SearchBox = () => {
               }`}
             >
               {p.img ? (
-                <img src={p.img} alt={p.name} className="w-10 h-10 object-cover border" />
+                <img src={p.img[0] || ""} alt={p.name} className="w-10 h-10 object-cover " />
               ) : (
                 <div className="w-10 h-10 bg-gray-100 border" />
               )}

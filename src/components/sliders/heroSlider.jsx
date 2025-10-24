@@ -57,7 +57,7 @@ const HeroSlider = () => {
   const currentTlRef = useRef(null);
 
   const animateActiveSlide = (swiper, { isInitial = false } = {}) => {
-    if (!swiper) return;
+    if (!swiper || !swiper.el) return;
     // Reset all slide texts
     const allTitles = swiper.el.querySelectorAll(".hero-title");
     const allDescs = swiper.el.querySelectorAll(".hero-desc");
@@ -130,6 +130,7 @@ const HeroSlider = () => {
         }}
         onSlideChangeTransitionStart={(s) => {
           // Immediately hide all texts to avoid flash during slide move
+          if (!s || !s.el) return;
           const allTitles = s.el.querySelectorAll(".hero-title");
           const allDescs = s.el.querySelectorAll(".hero-desc");
           const allBtn = s.el.querySelectorAll(".hero-btn");
@@ -184,8 +185,8 @@ const HeroSlider = () => {
                   transition-colors duration-200 
                   w-max
                 ">
-                  <Link to="/products" >
-                    View More
+                  <Link to="/products" aria-label="View all flexible packaging products">
+                    View Our Products
                   </Link>
                 </button>
 

@@ -1,5 +1,7 @@
 import React from "react";
 import {  Link } from "react-router-dom";
+import SEO from "../components/seo/SEO";
+import { getSEOConfig } from "../config/seoConfig";
 import {
   IoHomeOutline,
   IoChevronForward,
@@ -14,8 +16,11 @@ import {
 } from "react-icons/io5";
 
 const TermCondition = () => {
+  const seoConfig = getSEOConfig('terms');
+  
   return (
     <>
+      <SEO {...seoConfig} />
       <main className="">
         <section className="text-center py-14 bg-gray-200 bg-center">
           <h1 className="text-3xl font-bold text-blue-900 ">

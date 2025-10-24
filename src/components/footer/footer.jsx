@@ -115,7 +115,7 @@ const Footer = () => {
               >
                 <FaYoutube />
               </a> */}
-              <a href="#"
+              <a href="https://www.linkedin.com/company/amul-packagingap/" target="_blank"
               className="bg-white p-2 rounded-full text-[#003580] hover:scale-110 transition inline-flex"
                aria-label="Linkedin"
               >
@@ -129,23 +129,33 @@ const Footer = () => {
             <h3 className="font-semibold mb-3">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="/index" className="hover:underline">
+                <a href="/" className="hover:underline" aria-label="Go to Amul Packaging home page">
                   Home
                 </a>
               </li>
               <li>
-                <a href="/About" className="hover:underline">
-                  About Us
+                <a href="/about" className="hover:underline" aria-label="Learn about Amul Packaging company">
+                  About
                 </a>
               </li>
               <li>
-                <a href="/Services" className="hover:underline">
-                  Services
+                <a href="/products" className="hover:underline" aria-label="View flexible packaging products">
+                  Products
                 </a>
               </li>
               <li>
-                <a href="/Contact" className="hover:underline">
-                  Contact Us
+                <a href="/services" className="hover:underline" aria-label="Explore packaging services">
+                   Services
+                </a>
+              </li>
+              <li>
+                <a href="/IndustriesWeServe" className="hover:underline" aria-label="Explore Industries We Serve">
+                Industries We Serve
+                </a>
+              </li>
+              <li>
+                <a href="/contact" className="hover:underline" aria-label="Contact Amul Packaging">
+                  Contact 
                 </a>
               </li>
             </ul>
@@ -156,12 +166,12 @@ const Footer = () => {
             <h3 className="font-semibold mb-3">Customer Service</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="/privacyPolicy" className="hover:underline">
+                <a href="/privacyPolicy" className="hover:underline" aria-label="Read Amul Packaging privacy policy">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="/termCondition" className="hover:underline">
+                <a href="/termCondition" className="hover:underline" aria-label="Read Amul Packaging terms and conditions">
                   Terms & Conditions
                 </a>
               </li>

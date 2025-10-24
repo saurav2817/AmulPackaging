@@ -1,6 +1,7 @@
 import React, { useMemo } from "react";
 import { Link } from "react-router-dom";
 import products from "../../api/products";
+import { createProductUrl } from "../../utils/productUrls";
 
 const AllProducts = ({ sortBy = "default" }) => {
   const sortedProducts = useMemo(() => {
@@ -25,10 +26,11 @@ const AllProducts = ({ sortBy = "default" }) => {
         {sortedProducts.map((product) => {
             const mainImg = product.img[1] || ""
             const hoverImg = product.img[2] || ""
+            const productUrl = createProductUrl(product.id, product.name);
 
             return (
               <div key={product.id} className="group text-center relative">
-                <Link to={`/products/${product.id}`} className="block">
+                <Link to={productUrl} className="block">
                   <div className="relative w-full overflow-hidden border-[0.8px] border-[#ededed]">
                     <img
                       src={mainImg}
@@ -48,7 +50,7 @@ const AllProducts = ({ sortBy = "default" }) => {
                   <h3 className="font-bold mt-4">{product.name}</h3>
                 </Link>
 
-                <Link to={`/products/${product.id}`} className="inline-block">
+                <Link to={productUrl} className="inline-block">
                   <button className="mt-3 px-6 py-1 border border-[var(--primary-color)] text-[var(--primary-color)] rounded-full hover:bg-[var(--primary-color)] hover:text-[var(--white)] transition">
                     Get Details
                   </button>

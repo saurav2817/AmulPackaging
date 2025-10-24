@@ -1,6 +1,7 @@
 import React, { useMemo } from "react";
 import { Link } from "react-router-dom";
 import products from "../../api/products";
+import { createProductUrl } from "../../utils/productUrls";
 
 const RecentlyViewed = ({ max = 8 }) => {
   const viewedIds = useMemo(() => {
@@ -39,9 +40,10 @@ const RecentlyViewed = ({ max = 8 }) => {
         {items.slice(0,4).map(((product) => {
            const mainImg = product.img[1] || ""
            const hoverImg = product.img[2] || ""
+           const productUrl = createProductUrl(product.id, product.name);
 
            return(
-            <Link key={product.id} to={`/products/${product.id}`} className="group block">
+            <Link key={product.id} to={productUrl} className="group block">
               <div className="relative w-full overflow-hidden border-[0.8px] border-[#ededed]">
                 <img
                   src={mainImg}

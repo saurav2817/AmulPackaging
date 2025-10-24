@@ -6,13 +6,15 @@ import { IoMdMail } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 import { GoClockFill } from "react-icons/go";
 import toast from "react-hot-toast";
-import { Helmet } from "react-helmet-async";
+import SEO from "../components/seo/SEO";
+import { getSEOConfig } from "../config/seoConfig";
 
 const Contact = () => {
     const [formData, setFormData] = useState({ name: "", email: "", phone: "", message: "" });
     const [errors, setErrors] = useState({});
     const [submitted, setSubmitted] = useState(false);
     const [sendError, setSendError] = useState("");
+    const seoConfig = getSEOConfig('contact');
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -69,15 +71,7 @@ const Contact = () => {
 
     return (
         <>
-            <Helmet>
-                <title>Contact Us | Amul Packaging</title>
-                <meta name="description" content="Contact Amul Packaging for custom flexible packaging solutions, fast quotes, and expert guidance for all your packaging needs." />
-                <meta property="og:title" content="Contact Amul Packaging" />
-                <meta property="og:description" content="Reach out to Amul Packaging's team for packaging solutions, inquiries, and support." />
-                <meta property="og:type" content="website" />
-                <meta property="og:image" content="/img/slider_banner/contactus.jpg" />
-                <meta property="og:url" content="https://www.amulpackaging.in/contact" />
-            </Helmet>
+            <SEO {...seoConfig} />
             <main className="mx-auto">
                 <section className="relative bg-cover bg-center" style={{ backgroundImage: "url('/img/slider_banner/contactus.jpg')" }}>
                     <div className="absolute inset-0 bg-black/15 z-0"></div>
@@ -88,8 +82,8 @@ const Contact = () => {
                               <div className="flex flex-wrap items-center gap-2 text-sm">
                                 <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[var(--primary-color)]/10 text-[var(--primary-color)]">
                                   <IoHomeOutline />
-                                  <Link to="/" className="hover:underline">
-                                    Home
+                                  <Link to="/" className="hover:underline" aria-label="Go to Amul Packaging home page">
+                                    Amul Packaging Home
                                   </Link>
                                 </span>
 
@@ -138,7 +132,7 @@ const Contact = () => {
                                 <GoClockFill className="text-4xl bg-primary p-2 text-white rounded-lg" />
                                 <div className="text-center">
                                     <p className="text-sm text-gray-500">Work Hours</p>
-                                    <p className="">Mon - Sat: 8:00 AM - 9:00 PM</p>
+                                    <p className="">Mon - Sat: 9:00 AM - 8:00 PM</p>
                                 </div>
                             </div>
                         </div>

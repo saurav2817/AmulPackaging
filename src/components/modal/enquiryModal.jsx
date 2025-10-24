@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import toast from "react-hot-toast";
 
 const EnquiryModal = ({ open, onClose, product }) =>{
     const dialogRef = useRef(null);
@@ -11,8 +12,6 @@ const EnquiryModal = ({ open, onClose, product }) =>{
         message: "",
     });
     const [submitting, setSubmitting] = useState(false);
-    const [error, setError] = useState("");
-    const [sent, setSent] = useState(false);
 
     useEffect(() => {
         if (open) {
@@ -36,7 +35,6 @@ const EnquiryModal = ({ open, onClose, product }) =>{
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        setError("");
         setSubmitting(true);
 		try {
 			const API_BASE = `${window.location.origin}/api`;
@@ -59,11 +57,11 @@ const EnquiryModal = ({ open, onClose, product }) =>{
             if (!result.success) {
                 throw new Error(result.message || "Submission failed");
             }
-            setSent(true);
+            toast.success("Enquiry sent successfully!");
             setFormData({ name: "", email: "", phone: "", companyName: "", CompanyWebsite: "", message: "" });
-            setTimeout(() => { setSent(false); onClose?.(); }, 1500);
+            setTimeout(() => { onClose?.(); }, 1500);
         } catch (err) {
-            setError("Failed to send. Please try again or email us.");
+            toast.error("Failed to send. Please try again or email us.");
             console.error(err);
         } finally {
             setSubmitting(false);
@@ -182,8 +180,6 @@ const EnquiryModal = ({ open, onClose, product }) =>{
                             {submitting ? "Sending..." : "Send Enquiry"}
                         </button>
                     </div>
-                    {error ? <p className="text-red-600 text-sm text-center">{error}</p> : null}
-                    {sent ? <p className="text-green-600 text-sm text-center">Enquiry sent successfully.</p> : null}
                 </form>
             </div>
         </div>

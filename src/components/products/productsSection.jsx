@@ -1,6 +1,7 @@
 import React from "react";
 import products from "../../api/products";
 import { Link } from "react-router-dom";
+import { createProductUrl } from "../../utils/productUrls";
 
 const ProductsSection = () => {
   return (
@@ -11,10 +12,11 @@ const ProductsSection = () => {
         {products.slice(0, 4).map((product) => {
            const mainImg = product.img[1] || ""
            const hoverImg = product.img[2] || ""
+           const productUrl = createProductUrl(product.id, product.name);
 
            return(
             <div key={product.id} className="group text-center relative">
-            <Link to={`/products/${product.id}`} className="block">
+            <Link to={productUrl} className="block">
             <div className="relative w-full overflow-hidden border-[0.8px] border-[#ededed]">
                 
                 <img
@@ -34,7 +36,7 @@ const ProductsSection = () => {
             </Link>
               
 
-              <Link to={`/products/${product.id}`} className="inline-block">
+              <Link to={productUrl} className="inline-block">
                 <button className="mt-3 px-6 py-1 border border-[var(--primary-color)] text-[var(--primary-color)] rounded-full hover:bg-[var(--primary-color)] hover:text-[var(--white)] transition">
                   Get Details
                 </button>

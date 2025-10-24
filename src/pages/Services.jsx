@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import SEO from "../components/seo/SEO";
+import { getSEOConfig } from "../config/seoConfig";
 import {
   IoHomeOutline,
   IoChevronForward,
@@ -77,8 +79,12 @@ const SERVICES = [
 ];
 
 const Services = () => {
+  const seoConfig = getSEOConfig('services');
+  
   return (
-    <main className="bg-[#f4f7fa] min-h-screen">
+    <>
+      <SEO {...seoConfig} />
+      <main className="bg-[#f4f7fa] min-h-screen">
       {/* Banner Section */}
       <section className="text-center md:py-30 py-10 bg-[url('/img/slider_banner/Products.jpg')] bg-cover bg-center">
         <h1 className="text-3xl font-bold text-white">Services</h1>
@@ -87,8 +93,8 @@ const Services = () => {
             <div className="flex flex-wrap items-center gap-2 text-sm">
               <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[var(--primary-color)]/10 text-[var(--primary-color)]">
                 <IoHomeOutline />
-                <Link to="/" className="hover:underline">
-                  Home
+                <Link to="/" className="hover:underline" aria-label="Go to Amul Packaging home page">
+                  Amul Packaging Home
                 </Link>
               </span>
 
@@ -144,7 +150,8 @@ const Services = () => {
           ))}
         </div>
       </section>
-    </main>
+      </main>
+    </>
   );
 };
 
