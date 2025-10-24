@@ -208,7 +208,7 @@ const IndustriesWeServe = () => {
                             {industriesData.map((industry) => (
                                 <div 
                                     key={industry.id}
-                                    className="flex flex-col items-center bg-white shadow-lg hover:shadow-xl p-6 rounded-xl cursor-pointer transform hover:scale-105 transition-all duration-300 border border-gray-100"
+                                    className="flex flex-col items-center bg-white shadow-lg hover:shadow-xl px-2 py-6 md:px-6 md:py-6 lg:px-6 lg:py-6  rounded-xl cursor-pointer transform hover:scale-105 transition-all duration-300 border border-gray-100"
                                     onClick={() => setSelectedIndustry(industry)}
                                 >
                                     <div className="flex items-center justify-center rounded-full bg-gradient-to-br from-blue-50 to-indigo-100 p-4 mb-4">
