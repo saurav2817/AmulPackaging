@@ -173,8 +173,8 @@ const IndustriesWeServe = () => {
         <>
             <SEO {...seoConfig} />
             <main className="">
-                <section className="text-center md:py-30 py-10 bg-[url('/img/slider_banner/Products.jpg')] bg-cover bg-center">
-                    <h1 className="text-3xl font-bold text-white">Industries We Serve</h1>
+                <section className="text-center md:py-30 py-10 bg-[url('/img/slider_banner/IndustriesWeServe.jpg')] bg-cover bg-center">
+                    <h1 className="text-3xl font-bold text-primary">Industries We Serve</h1>
                     <div className="flex justify-center mt-3">
                         <nav aria-label="Breadcrumb" className="mb-6">
                           <div className="flex flex-wrap items-center gap-2 text-sm">
@@ -197,7 +197,7 @@ const IndustriesWeServe = () => {
                 <section className="py-16 px-6">
                     <div className="container mx-auto max-w-7xl">
                         <div className="text-center mb-12">
-                            <h2 className="text-3xl font-bold text-gray-800 mb-4">Industries We Serve</h2>
+                            
                             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                                 Discover how our specialized packaging solutions cater to diverse industries, 
                                 ensuring product protection, freshness, and brand appeal across sectors.
