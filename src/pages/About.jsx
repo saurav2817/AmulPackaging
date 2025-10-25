@@ -166,7 +166,7 @@ const About = () => {
                     className="w-10 h-10 text-secondary"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
+                    strokeWidth="2"
                     viewBox="0 0 24 24"
                   >
                     <path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2M6 14h.01M10 14h4" />
@@ -195,7 +195,7 @@ const About = () => {
                     className="w-10 h-10 text-secondary"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
+                    strokeWidth="2"
                     viewBox="0 0 24 24"
                   >
                     <path d="M9 12h6m-6 4h6M5 4h14a2 2 0 012 2v12a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2z" />
@@ -224,7 +224,7 @@ const About = () => {
                     className="w-10 h-10 text-secondary"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
+                    strokeWidth="2"
                     viewBox="0 0 24 24"
                   >
                     <path d="M12 3v18m9-9H3" />
@@ -444,12 +444,14 @@ const About = () => {
               standee zipper, vaccum pouches, shaped pouches, poly bags,
               magazine covers, tape bags, security bags, ziplock bags and more.
             </p>
-            <a
-              href="#"
-              className="inline-block bg-blue-500 hover:bg-blue-400 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition"
-            >
-              <Link to="/contact">Get Started</Link>
-            </a>
+
+          <Link
+            to="/contact"
+            className="inline-block bg-blue-500 hover:bg-blue-400 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition"
+          >
+            Get Started
+          </Link>
+
           </AnimateOnScroll>
         </section>
 
