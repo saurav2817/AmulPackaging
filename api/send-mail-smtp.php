@@ -214,7 +214,7 @@ if (class_exists('PHPMailer\\PHPMailer\\PHPMailer')) {
                     <p>Best regards,<br>Amul Packaging Team</p>
                 </div>
                 <div class='footer'>
-                    <p>P-3A, Raj Laxmi HiTech Textile Park, Sonale Village, Bhiwandi, Maharashtra 421302</p>
+                    <p>2, Pramod Prasad Building, Plot No.232. Next to Brij Albela, Wadala (W), Mumbai 400 031.</p>
                     <p>Email: Sales@amulpackaging.in | Phone: +91 9004382696</p>
                 </div>
             </div>
