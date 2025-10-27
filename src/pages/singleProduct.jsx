@@ -235,10 +235,17 @@ const SingleProduct = () => {
                 <h1 className="mt-4 text-3xl md:text-5xl font-extrabold tracking-tight text-[var(--primary-color)]">
                   {product.name}
                 </h1>
-                <p className="mt-4 text-gray-700 leading-7 max-w-xl md:max-w-none">
-                  {product.Details ||
+                <div className="mt-5">
+                <h3 className=" text-2xl text-gray-700 leading-7 max-w-xl md:max-w-none">
+                  {product.Tagline ||
+                    "Versatile and space-efficient packaging for maximum shelf visibility."}
+                </h3>
+                <p className="mt-2 text-gray-700 leading-7 max-w-xl md:max-w-none">
+                  {product.HeroText ||
                     "Versatile and space-efficient packaging for maximum shelf visibility."}
                 </p>
+                </div>
+                
                 <div className="mt-6 flex flex-wrap gap-3 justify-center md:justify-start">
                   <button
                     type="button"

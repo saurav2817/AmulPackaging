@@ -9,6 +9,8 @@ const products = [
     ],
     bg: "bg-green-600",
     popularity: 81,
+    Tagline:"Resealable. Reliable. Remarkable.",
+    HeroText:"Flexible, durable, and designed to perform — our Standup Zipper Pouches ensure your products stay protected and your brand stays visible.",
     Details:
       "Standup zipper pouches are a modern, flexible packaging solution designed to keep products fresh, secure, and visually appealing. With a stable base, they stand upright on shelves, ensuring better visibility and brand presence.",
     Features: [
@@ -66,6 +68,8 @@ const products = [
     ],
     bg: "bg-pink-600",
     popularity: 92,
+    Tagline:"Strong Seals. Strong Impressions.",
+    HeroText:"From food to personal care, our 3 Side Seal Pouches ensure maximum protection, premium appearance, and lasting brand visibility.",
     Details:
       "Three side seal pouches are simple, secure, and highly versatile packaging solutions. Sealed on three sides with one open end for filling, they are ideal for single-use or portion-sized products, ensuring freshness and product protection.",
     Features: [
@@ -118,6 +122,8 @@ const products = [
     ],
     bg: "bg-yellow-400",
     popularity: 88,
+    Tagline:"Stable. Stylish. Strong.",
+    HeroText:"Our Flat Bottom Pouches combine durability, excellent shelf presence, and versatile design — giving your products a premium look with reliable protection.",
     Details:
       "Flat bottom pouches are premium packaging solutions designed for maximum stability, storage efficiency, and shelf appeal. With a strong base and five printable panels, they offer excellent branding space while maintaining product freshness and durability.",
     Features: [
@@ -174,6 +180,8 @@ const products = [
     ],
     bg: "bg-blue-600",
     popularity: 76,
+    Tagline:"Precision Sealed for Lasting Freshness.",
+HeroText:"Our high-quality Centre Seal Pouches ensure airtight protection, optimal shelf life, and a polished look — perfect for a wide range of applications.",
     Details:
       "Center seal pouches are one of the most common and cost-effective packaging formats, designed with a seal running down the back of the pouch. They provide excellent protection, extended shelf life, and are ideal for high-volume packaging needs.",
     Features: [
@@ -220,6 +228,8 @@ const products = [
     ],
     bg: "bg-red-500",
     popularity: 64,
+    Tagline:"Strong Structure. Sleek Presentation.",
+HeroText:"With reinforced side seals and a durable design, our Quad Seal Pouches provide exceptional barrier protection and a commanding presence on display.",
     Details:
       "Quad seal pouches are premium packaging formats designed with four vertical seals, giving them superior strength and a box-like structure. This design allows them to hold heavier products, stand firm on shelves, and maximize branding with multiple printable panels.",
     Features: [
@@ -276,6 +286,8 @@ const products = [
     ], 
     bg: "bg-red-500",
     popularity: 64,
+    Tagline:"Precision Sealed. Perfectly Preserved.",
+HeroText:"Our high-barrier Vacuum Pouches remove excess air and moisture, ensuring maximum protection and freshness for food and non-food items alike.",
     Details:
       "Vacuum pouches are specially designed packaging solutions that remove excess air, keeping products fresh for longer periods. They provide an excellent barrier against moisture, oxygen, and contaminants, making them ideal for perishable and sensitive products.",
     Features: [
@@ -327,6 +339,8 @@ const products = [
     ],
     bg: "bg-red-500",
     popularity: 64,
+    Tagline:"Designed to Fit. Built to Stand Out.",
+HeroText:"From unique silhouettes to durable structure, our Shaped Pouches provide a modern, memorable, and reliable packaging solution for any product type.",
     Details:
       "Shaped pouches are uniquely designed packaging solutions that break the monotony of traditional formats. Customized into creative shapes, they enhance shelf appeal, attract consumer attention, and help brands stand out while maintaining product freshness and protection.",
     Features: [
@@ -379,6 +393,8 @@ const products = [
     ],
     bg: "bg-green-600",
     popularity: 95,
+    Tagline:"Flexible Form. Functional Flow.",
+HeroText:"Our Spout Pouches combine portability and performance — keeping your liquids fresh, easy to use, and beautifully presented.",
     Details:
       "Spout pouches are innovative, flexible packaging solutions designed for liquid and semi-liquid products. With a secure spout and cap, they offer convenient pouring, reusability, and safe storage, while reducing packaging weight compared to rigid bottles or jars.",
     Features: [
@@ -430,6 +446,8 @@ const products = [
     ], 
     bg: "bg-red-500",
     popularity: 64,
+    Tagline:"Flexible Packaging Starts Here.",
+HeroText:"Our Laminated Roll-Stock delivers the strength, versatility, and customizability you need to produce pouches, sachets, or wraps that fit your brand perfectly.",
     Details:
       "Laminated roll stock is a versatile and cost-efficient packaging material supplied in roll form. It is widely used with automated form-fill-seal (FFS) machines to create pouches and sachets. With excellent barrier properties and customization options, laminated rolls ensure product freshness, durability, and vibrant branding.",
     Features: [
@@ -481,6 +499,8 @@ const products = [
     ],
     bg: "bg-green-600",
     popularity: 70,
+    Tagline:"Lightweight Protection That Works.",
+HeroText:"From retail to industrial use, our Poly Bags deliver cost-effective protection and clean presentation for products of all shapes and sizes.",
     Details:
       "Poly bags are one of the most widely used and economical packaging solutions, made from high-quality polyethylene or polypropylene. They are lightweight, durable, and versatile, offering protection and convenience across various industries.",
     Features: [
@@ -537,6 +557,8 @@ const products = [
     ], 
     bg: "bg-red-500",
     popularity: 64,
+    Tagline:"Protection You Can Depend On.",
+HeroText:"Designed for banks, logistics, and retail industries, our Security Bags feature high-strength materials and advanced sealing technology for unmatched safety.",
     Details:
       "Security bags are tamper-evident packaging solutions designed to protect valuable items, confidential documents, and sensitive products during storage or transit. Built with high-strength materials and advanced sealing features, they provide safety, reliability, and peace of mind.",
     Features: [
@@ -589,6 +611,8 @@ const products = [
     ], 
     bg: "bg-red-500",
     popularity: 64,
+    Tagline:"Secure Today. Reuse Tomorrow.",
+HeroText:"Our eco-conscious Ziplock Poly Bags are designed for multiple uses — reducing waste while offering the strength and clarity your brand deserves.",
     Details:
       "Ziplock poly bags are reusable and convenient packaging solutions designed with a secure interlocking closure. They offer excellent protection against dust, moisture, and contaminants while allowing easy opening and resealing, making them ideal for both consumer and industrial use.",
     Features: [

@@ -309,16 +309,14 @@ const TermCondition = () => {
               </p>
               <ul>
                 <li className="text-gray-600">
-                  <b className="text-blue-900">Address :</b> P-3A, Raj Laxmi
-                  HiTech Textile Park, Sonale Village, Bhiwandi, Maharashtra
-                  421302
+                  <b className="text-blue-900">Address :</b> 2, Pramod Prasad Building, Plot No.232. Next to Brij Albela, Wadala (W), Mumbai 400 031.
                 </li>
                 <li className="text-gray-600">
                   <b className="text-blue-900">Email :</b>{" "}
                   Sales@amulpackaging.in
                 </li>
                 <li className="text-gray-600">
-                  <b className="text-blue-900">Phone :</b> Phone: +91 9004382696
+                  <b className="text-blue-900">Phone :</b> +91 9004382696
                 </li>
               </ul>
             </div>
