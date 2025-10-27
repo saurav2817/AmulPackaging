@@ -117,6 +117,17 @@ const Header = () => {
                 <HiMenuAlt3 size={28} />
               </button>
             </li>
+            <li>
+            <NavLink
+             to="/AmulPackagingCatalogue.pdf"
+             target="_blank"
+                className="mt-6 px-6 py-2 bg-primary text-white font-semibold rounded-full shadow hover:bg-yellow-400 transition-colors duration-200 w-max"
+                aria-label="Download Catalogue"
+              >
+                Download Catalogue
+            </NavLink>
+            
+            </li>
           </ul>
           {/* Mobile Hamburger */}
           <div className="md:hidden">
@@ -290,17 +301,13 @@ const Header = () => {
             {/* CTA Buttons */}
             <div className="flex gap-3 pt-2">
               <a
-                href="/contact"
+                href="/AmulPackagingCatalogue.pdf" target="_blank"
                 className="inline-flex items-center justify-center px-4 py-2 rounded-md bg-primary text-white text-sm font-medium hover:bg-blue-700 transition-colors w-full"
               >
-                Request Quote
+                Download Catalogue
               </a>
-              <a
-                href="tel:+919876543210"
-                className="inline-flex items-center justify-center px-4 py-2 rounded-md border border-blue-600 text-blue-600 text-sm font-medium hover:bg-blue-50 transition-colors w-full"
-              >
-                Call Now
-              </a>
+              
+              
             </div>
 
            
@@ -381,6 +388,17 @@ const Header = () => {
               Contact
             </NavLink>
           </li>
+          <li>
+            <NavLink
+                to="/AmulPackagingCatalogue.pdf"
+                target="_blank"
+                className="mt-6 px-6 py-2 bg-primary text-white font-semibold rounded-full shadow hover:bg-yellow-400 transition-colors duration-200 w-max"
+                aria-label="Download Catalogue"
+              >
+                Download Catalogue
+            </NavLink>
+            
+            </li>
         </ul>
       </div>
     </>

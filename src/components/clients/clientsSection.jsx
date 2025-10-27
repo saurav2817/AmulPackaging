@@ -63,6 +63,16 @@ const clients = [
     ClientImg: "/img/clientlogo/urban.jpg", 
     Name: "Urban platte",
   },
+  {
+    id: "12",
+    ClientImg: "/img/clientlogo/purshottam.jpg", 
+    Name: "Purshottam Kandoi",
+  },
+  {
+    id: "13",
+    ClientImg: "/img/clientlogo/whole-truth.jpg", 
+    Name: "Whoile Truth",
+  },
 ];
 
 
