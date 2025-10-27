@@ -82,8 +82,8 @@ const Contact = () => {
                               <div className="flex flex-wrap items-center gap-2 text-sm">
                                 <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[var(--primary-color)]/10 text-[var(--primary-color)]">
                                   <IoHomeOutline />
-                                  <Link to="/" className="hover:underline" aria-label="Go to Amul Packaging home page">
-                                    Amul Packaging Home
+                                  <Link to="/" className="hover:underline" aria-label="Go to home page">
+                                    Home
                                   </Link>
                                 </span>
 

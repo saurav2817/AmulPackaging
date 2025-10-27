@@ -265,9 +265,9 @@ const IndustriesWeServe = () => {
                   <Link
                     to="/"
                     className="hover:underline"
-                    aria-label="Go to Amul Packaging home page"
+                    aria-label="Go to home page"
                   >
-                    Amul Packaging Home
+                    Home
                   </Link>
                 </span>
 
