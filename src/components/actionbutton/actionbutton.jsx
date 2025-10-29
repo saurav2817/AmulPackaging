@@ -6,7 +6,7 @@ export default function FloatingFab() {
 
   return (
     <div
-      className="fixed bottom-6 right-6 flex flex-col items-end z-50 group"
+      className="fixed bottom-6 left-6 flex flex-col items-end z-50 group"
       onMouseEnter={() => setOpen(true)}
       onMouseLeave={() => setOpen(false)}
     >
