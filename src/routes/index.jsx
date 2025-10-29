@@ -14,10 +14,12 @@ import Contact from "../pages/Contact";
 import PrivacyPolicy from "../pages/privacyPolicy";
 import TermCondition from "../pages/termCondition";
 import IndustriesWeServe from "../pages/IndustriesWeServe";
+import ActionBtn from "../components/actionbutton/actionbutton";
 
 const MainLayout = () => (
     <>
       <ScrollToTop />
+      <ActionBtn />
       <Header/>
         <Outlet/>
       <BackToTop/>
