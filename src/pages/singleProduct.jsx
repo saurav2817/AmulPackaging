@@ -40,6 +40,12 @@ const SingleProduct = () => {
   const productId = Number(id);
   const product = products.find((p) => p.id === productId);
   
+  // Reorder images so that indices appear as 2,3,4,5,... then 0,1
+  const images = [...(product?.img || [])].filter(Boolean);
+  const reorderedImages = images.length > 2
+    ? images.slice(2).concat(images.slice(0, 2))
+    : images;
+  
   // Get SEO config for this product
   const seoConfig = product ? getProductSEO(product) : getSEOConfig('products');
 
@@ -167,7 +173,7 @@ const SingleProduct = () => {
                       className="w-full h-full"
                       onSlideChange={(s) => setActiveIndex(s.activeIndex)}
                     >
-                      {[...product.img].filter(Boolean).map((src, idx) => (
+                      {reorderedImages.map((src, idx) => (
                         <SwiperSlide key={idx}>
                           <img
                             src={src}
@@ -192,7 +198,7 @@ const SingleProduct = () => {
                       watchSlidesProgress
                       className="w-full"
                     >
-                      {[...product.img].filter(Boolean).map((src, idx) => (
+                      {reorderedImages.map((src, idx) => (
                         <SwiperSlide key={`thumb-${idx}`}>
                           <div className="border border-[#ededed] p-1 rounded-lg cursor-pointer hover:border-[var(--primary-color)] transition">
                             <img
@@ -391,10 +397,8 @@ const SingleProduct = () => {
               aria-label="Previous image"
               onClick={(e) => {
                 e.stopPropagation();
-                const images = [...product.img].filter(Boolean);
-                setActiveIndex(
-                  (prev) => (prev - 1 + images.length) % images.length
-                );
+                const len = reorderedImages.length;
+                setActiveIndex((prev) => (prev - 1 + len) % len);
               }}
             >
               <IoChevronBack className="text-2xl" />
@@ -405,8 +409,8 @@ const SingleProduct = () => {
               aria-label="Next image"
               onClick={(e) => {
                 e.stopPropagation();
-                const images = [...product.img].filter(Boolean);
-                setActiveIndex((prev) => (prev + 1) % images.length);
+                const len = reorderedImages.length;
+                setActiveIndex((prev) => (prev + 1) % len);
               }}
             >
               <IoChevronForwardIcon className="text-2xl" />
@@ -417,7 +421,7 @@ const SingleProduct = () => {
               onClick={(e) => e.stopPropagation()}
             >
               <img
-                src={[...product.img].filter(Boolean)[activeIndex]}
+                src={reorderedImages[activeIndex]}
                 alt={`${product.name} large ${activeIndex + 1}`}
                 className="w-full max-h-[80vh] object-contain"
               />
