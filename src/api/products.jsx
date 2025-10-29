@@ -3,9 +3,9 @@ const products = [
     id: 1,
     name: "Standup Zipper Pouch",
     img: [
-      "/img/products/amul/Standup-Zipper-Pouch1.jpg",
       "/img/products/Standup-zipper-pouch.jpg",
       "/img/products/Standup-zipper-pouch-Main.jpg",
+      "/img/products/amul/Standup-Zipper-Pouch1.jpg",
     ],
     bg: "bg-green-600",
     popularity: 81,
@@ -62,9 +62,10 @@ const products = [
     id: 2,
     name: "3 side seal  pouch",
     img: [
-        "/img/products/amul/3-side-seal-pouch.jpg",
-        "/img/products/3-Side-Seal-Pouch.jpg",
+      "/img/products/3-Side-Seal-Pouch.jpg",
         "/img/products/3-Side-Seal-Pouch-Main.jpg",
+        "/img/products/amul/3-side-seal-pouch.jpg",
+        
     ],
     bg: "bg-pink-600",
     popularity: 92,
@@ -116,9 +117,11 @@ const products = [
     id: 3,
     name: "Flat Bottom Pouch",
     img: [
-      "/img/products/amul/Flat-Bottom-Pouch.jpg",
       "/img/products/Flat-Bottom-Pouch.jpg",
       "/img/products/Flat-Bottom-Pouch-Main.jpg",
+      "/img/products/amul/Flat-Bottom-Pouch.jpg",
+      "/img/products/amul/Cardamompouchpackaging.jpg",
+      "/img/products/amul/HightProteinCeral.jpg",
     ],
     bg: "bg-yellow-400",
     popularity: 88,
@@ -174,9 +177,10 @@ const products = [
     id: 4,
     name: "Centre Seal Pouch",
     img: [
-      "/img/products/amul/Centre-Seal-Pouch.jpg",
       "/img/products/Centre Seal Pouch.jpg",
       "/img/products/Centre-Seal-Pouch-Main.jpg",
+      "/img/products/amul/Centre-Seal-Pouch.jpg",
+     
     ],
     bg: "bg-blue-600",
     popularity: 76,
@@ -222,9 +226,10 @@ HeroText:"Our high-quality Centre Seal Pouches ensure airtight protection, optim
     id: 5,
     name: "Quad Seal Pouch",
     img: [
-      "/img/products/amul/Quad-Seal-Pouch.jpg",
       "/img/products/Quad-Seal-Pouch.jpg",
       "/img/products/Quad-Seal-Pouch-Main.jpg",
+      "/img/products/amul/Quad-Seal-Pouch.jpg",
+      
     ],
     bg: "bg-red-500",
     popularity: 64,
@@ -280,9 +285,10 @@ HeroText:"With reinforced side seals and a durable design, our Quad Seal Pouches
     id: 6,
     name: "Vacuum Pouch",
     img: [
+      "/img/products/Vacuum-Pouch.jpg",
+      "/img/products/Vacuum-Pouch-Main.jpg",
           "/img/products/amul/Vacuum-Pouch.jpg",
-          "/img/products/Vacuum-Pouch.jpg",
-          "/img/products/Vacuum-Pouch-Main.jpg",
+        
     ], 
     bg: "bg-red-500",
     popularity: 64,
@@ -333,9 +339,10 @@ HeroText:"Our high-barrier Vacuum Pouches remove excess air and moisture, ensuri
     id: 7,
     name: "Shaped Pouch",
     img: [
-      "/img/products/amul/Shaped-Pouch.jpg",
       "/img/products/Shaped-Pouch.jpg",
       "/img/products/Shaped-Pouch-Main.jpg",
+      "/img/products/amul/Shaped-Pouch.jpg",
+      
     ],
     bg: "bg-red-500",
     popularity: 64,
@@ -387,9 +394,10 @@ HeroText:"From unique silhouettes to durable structure, our Shaped Pouches provi
     id: 8,
     name: "Spout Pouch",
     img: [
-      "/img/products/amul/Spout-Pouch.jpg",
       "/img/products/Spout-Pouch.jpg",
       "/img/products/Spout-Pouch-Main.jpg",
+      "/img/products/amul/Spout-Pouch.jpg",
+     
     ],
     bg: "bg-green-600",
     popularity: 95,
@@ -440,9 +448,10 @@ HeroText:"Our Spout Pouches combine portability and performance — keeping your
     id: 9,
     name: "Laminated Roll-Stock",
     img: [
-      "/img/products/amul/Laminated-Roll-Stock.jpg",
       "/img/products/Laminated-Roll-Stock.jpg",
       "/img/products/Laminated-Roll-Stock-Main.jpg",
+      "/img/products/amul/Laminated-Roll-Stock.jpg",
+      
     ], 
     bg: "bg-red-500",
     popularity: 64,
@@ -493,9 +502,10 @@ HeroText:"Our Laminated Roll-Stock delivers the strength, versatility, and custo
     id: 10,
     name: "Poly bags ",
     img: [
-      "/img/products/amul/Poly-bags.jpg",
       "/img/products/Poly-bags.jpg",
       "/img/products/Poly-bags-Main.jpg",
+      "/img/products/amul/Poly-bags.jpg",
+      
     ],
     bg: "bg-green-600",
     popularity: 70,
@@ -551,9 +561,10 @@ HeroText:"From retail to industrial use, our Poly Bags deliver cost-effective pr
     id: 11,
     name: "Security Bags",
     img: [
-      "/img/products/amul/Security-Bags.jpg",
       "/img/products/Security-Bags.jpg",
       "/img/products/Security-Bags-Main.jpg",
+      "/img/products/amul/Security-Bags.jpg",
+      
     ], 
     bg: "bg-red-500",
     popularity: 64,
@@ -605,9 +616,10 @@ HeroText:"Designed for banks, logistics, and retail industries, our Security Bag
     id: 12,
     name: "Ziplock poly bags",
     img: [
-      "/img/products/amul/Ziplock-poly-bags.jpg",
       "/img/products/Ziplock-bags.jpg",
       "/img/products/Ziplock-bags-Main.jpg",
+      "/img/products/amul/Ziplock-poly-bags.jpg",
+      
     ], 
     bg: "bg-red-500",
     popularity: 64,
