@@ -10,8 +10,8 @@ const ProductsSection = () => {
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-10">
 
         {products.slice(0, 4).map((product) => {
-           const mainImg = product.img[1] || ""
-           const hoverImg = product.img[2] || ""
+           const mainImg = product.img[0] || ""
+           const hoverImg = product.img[1] || ""
            const productUrl = createProductUrl(product.id, product.name);
 
            return(
