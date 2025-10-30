@@ -6,6 +6,9 @@ const products = [
       "/img/products/Standup-zipper-pouch.jpg",
       "/img/products/Standup-zipper-pouch-Main.jpg",
       "/img/products/amul/Standup-Zipper-Pouch1.jpg",
+      "/img/products/amul/StandupZipperPouch01.jpg",
+      "/img/products/amul/StandupZipperPouch02.jpg",
+      "/img/products/amul/StandupZipperPouch03.jpg",
     ],
     bg: "bg-green-600",
     popularity: 81,
@@ -65,6 +68,8 @@ const products = [
       "/img/products/3-Side-Seal-Pouch.jpg",
         "/img/products/3-Side-Seal-Pouch-Main.jpg",
         "/img/products/amul/3-side-seal-pouch.jpg",
+        "/img/products/amul/3sidesealpouch01.jpg",
+        "/img/products/amul/3sidesealpouch02.jpg",
         
     ],
     bg: "bg-pink-600",
