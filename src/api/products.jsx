@@ -120,8 +120,6 @@ const products = [
       "/img/products/Flat-Bottom-Pouch.jpg",
       "/img/products/Flat-Bottom-Pouch-Main.jpg",
       "/img/products/amul/Flat-Bottom-Pouch.jpg",
-      "/img/products/amul/Cardamompouchpackaging.jpg",
-      "/img/products/amul/HightProteinCeral.jpg",
     ],
     bg: "bg-yellow-400",
     popularity: 88,

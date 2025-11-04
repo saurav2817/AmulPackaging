@@ -31,15 +31,15 @@ const RecentlyViewed = ({ max = 8 }) => {
     <section className="py-10 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl font-semibold">Recently viewed</h2>
+          <h2 className="text-2xl font-semibold">View More</h2>
           <Link to="/products" className="text-[var(--primary-color)] underline">View all</Link>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
 
         {items.slice(0,4).map(((product) => {
-           const mainImg = product.img[1] || ""
-           const hoverImg = product.img[2] || ""
+           const mainImg = product.img[0] || ""
+           const hoverImg = product.img[1] || ""
            const productUrl = createProductUrl(product.id, product.name);
 
            return(
