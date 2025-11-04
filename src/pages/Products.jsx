@@ -34,9 +34,15 @@ const Products = () => {
                   </div>
                 </nav>
           </div>
-          
+        </section>
 
-          
+        <section className=" relative bg-[#f1f4fb] py-6"  >
+          <div className="our-values-inner">
+            
+            <p className="our-values-subheading">
+            Driven by innovation and built on precision, our flexible packaging solutions are tailored to meet the highest standards of performance, safety, and sustainability. From design to delivery, every product is crafted to enhance shelf presence, protect contents, and support your brand's value in a competitive market.
+            </p>
+          </div>
         </section>
 
         <section className="max-w-7xl mx-auto px-4">

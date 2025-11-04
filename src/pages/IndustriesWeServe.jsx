@@ -88,7 +88,7 @@ const IndustriesWeServe = () => {
       id: "food",
       name: "Food Industry",
       emoji: "🥗",
-      tagline: "From Farm to Fork, Freshness Sealed.",
+      tagline: "Sealing Freshness. Elevating Taste.",
       description: [
         "Food packaging is about more than containment — it’s about preserving taste, aroma, and trust. Whether it’s a crispy snack, a rich blend of spices, or a ready-to-eat meal, our solutions ensure that every bite tastes as fresh as it was intended.",
         "Our multilayer films and high-barrier laminates protect products from oxygen, moisture, and contamination. Each pouch is designed for convenience, long shelf life, and brand impact — turning packaging into a silent salesman on retail shelves.",
@@ -106,7 +106,7 @@ const IndustriesWeServe = () => {
       id: "beverage",
       name: "Beverage Industry",
       emoji: "🥤",
-      tagline: "Packaging Fluid Innovation.",
+      tagline: "Pack Bold. Pour Fresh.",
       description: [
         "Beverages demand packaging that’s durable, portable, and safe — without compromising on freshness or flavor. Our beverage pouches are designed to handle liquid and semi-liquid products efficiently while offering flexibility and convenience to the end consumer.",
         "From spouted pouches for juices and energy drinks to laminated rollstock for automatic filling machines, our materials ensure superior seal integrity and product safety — ideal for both ambient and cold storage.",
@@ -122,7 +122,7 @@ const IndustriesWeServe = () => {
       id: "pet",
       name: "Pet Food Industry",
       emoji: "🐾",
-      tagline: "Strong, Safe, and Tail-Wag Approved.",
+      tagline: "Keeping Nutrition Fresh for Every Paw.",
       description: [
         "Pet owners trust packaging to preserve freshness, nutrients, and aroma — we deliver all three. Our pouches are built to handle heavy fills, prevent punctures, and maintain the natural aroma and crunch of pet food.",
         "These pouches stand tall on shelves and reflect the strength and reliability your brand stands for. Whether you’re packing dry kibble, treats, or wet meals, our packaging combines durability with convenience.",
@@ -136,9 +136,9 @@ const IndustriesWeServe = () => {
     },
     {
       id: "pharma",
-      name: "Pharmaceutical & Healthcare Industry",
+      name: "Pharma Industry",
       emoji: "💊",
-      tagline: "Precision Packaging for Sensitive Products.",
+      tagline: "Protecting What Heals.",
       description: [
         "In the pharmaceutical and healthcare sector, safety, hygiene, and compliance are non-negotiable. We design packaging that upholds the highest standards of product integrity — from moisture barriers to tamper-evident seals.",
         "Our laminates and pouches maintain medicinal stability and extend shelf life while preventing contamination or degradation. We provide solutions for both over-the-counter and specialized healthcare products.",
@@ -148,9 +148,9 @@ const IndustriesWeServe = () => {
     },
     {
       id: "agro",
-      name: "Agro & Fertilizer Industry",
+      name: "Agro Industry",
       emoji: "🌾",
-      tagline: "Strong Protection from Field to Farm.",
+      tagline: "Tough Protection for Every Harvest.",
       description: [
         "Agro and fertilizer products require tough, weather-resistant, and long-lasting packaging. Our high-barrier laminated structures ensure that products stay protected against moisture, sunlight, and rough handling during storage and transport.",
         "We engineer our pouches to meet the unique needs of the agricultural sector — from compact seed packs to large fertilizer bags — with optimal sealing strength and print quality.",
@@ -160,9 +160,9 @@ const IndustriesWeServe = () => {
     },
     {
       id: "industrial",
-      name: "Industrial & Chemical Industry",
+      name: "Industrial Sector",
       emoji: "🏭",
-      tagline: "Durability That Outlasts the Elements.",
+      tagline: "Strength That Holds It All Together.",
       description: [
         "For industrial and chemical products, packaging must withstand extreme conditions. Our pouches and films are designed to be chemically resistant, tamper-proof, and capable of holding dense or abrasive materials without failure.",
         "We use advanced barrier laminations to contain and protect powders, granules, and liquids — ensuring that your products reach safely from factory to field.",
@@ -177,9 +177,9 @@ const IndustriesWeServe = () => {
     },
     {
       id: "fitness",
-      name: "Fitness & Nutrition Industry",
+      name: "Fitness & Nutrition ",
       emoji: "🏋️",
-      tagline: "Power-Packed Packaging for a Power-Packed Lifestyle.",
+      tagline: "Power-Packed Packaging for Power-Packed Products.",
       description: [
         "The fitness and nutrition industry thrives on quality, hygiene, and brand loyalty. Our packaging ensures that every scoop of protein or supplement stays fresh, safe, and potent until it’s consumed.",
         "We offer premium matte or glossy pouches that combine strong barrier protection with modern aesthetics — perfect for direct-to-consumer and retail brands alike.",
@@ -193,9 +193,9 @@ const IndustriesWeServe = () => {
     },
     {
       id: "confectionery",
-      name: "Confectionery & Bakery Industry",
+      name: "Confectionery Industry",
       emoji: "🍬",
-      tagline: "Sweetness Sealed with Style.",
+      tagline: "Sweet Packaging That Sells.",
       description: [
         "Confectionery products require packaging that protects delicate textures while standing out on shelves. Our pouches are engineered to maintain crispness, prevent melting, and showcase premium branding through vibrant printing.",
         "We combine performance with visual appeal — because packaging isn’t just a wrapper, it’s an experience.",
@@ -209,9 +209,9 @@ const IndustriesWeServe = () => {
     },
     {
       id: "clothing",
-      name: "Clothing & Garment Industry",
+      name: "Clothing & Apparel",
       emoji: "👕",
-      tagline: "Elegance in Every Fold.",
+      tagline: "Packaging That Speaks Style.",
       description: [
         "Clothing packaging should reflect brand identity while keeping garments safe during transit and storage. Our poly and ziplock bags are crystal-clear, smooth, and strong — designed to maintain product presentation and protection.",
         "",
@@ -221,9 +221,9 @@ const IndustriesWeServe = () => {
     },
     {
       id: "beauty",
-      name: "Beauty & Personal Care Industry",
+      name: "Beauty & Personal Care",
       emoji: "💄",
-      tagline: "Beauty That Lasts, Inside and Out.",
+      tagline: "Where Elegance Meets Protection.",
       description: [
         "For personal care products, packaging must combine aesthetics with protection. Our flexible packaging prevents leakage, oxidation, and contamination — ensuring your products look luxurious and stay effective longer.",
         "We help brands express elegance through packaging that feels premium and performs perfectly.",
