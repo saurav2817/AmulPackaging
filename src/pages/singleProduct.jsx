@@ -142,7 +142,7 @@ const SingleProduct = () => {
   return (
     <>
       <SEO {...seoConfig} />
-      <main className="mx-auto soft-bg  min-h-screen">
+      <main className="mx-auto  min-h-screen">
         {/* Hero */}
         <section className="relative overflow-hidden soft-bg">
           <div className="absolute inset-0 bg-gradient-to-br from-[var(--secondary-color)] via-[#ffd95a] to-[#ffb703] opacity-30" />
@@ -314,10 +314,10 @@ const SingleProduct = () => {
 
         {/* Main content */}
         {/* Overview Section */}
-        <section className="max-w-7xl mx-auto pt-4 pb-0 py-10 px-4">
+        <section className="max-w-7xl mx-auto py-16 px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Overview Card */}
-            <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <div className="bg-white p-8 rounded-xl soft-bg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
               <div className="flex items-start gap-4 mb-6">
                 <div className="w-12 h-12 rounded-lg bg-[var(--primary-color)] flex items-center justify-center">
                   <IoListCircle className="text-2xl text-white" />
@@ -338,7 +338,7 @@ const SingleProduct = () => {
 
             {/* Premium Packaging Card */}
             {product.About && (
-              <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+              <div className="bg-white p-8 rounded-xl soft-bg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                 <div className="flex items-start gap-4 mb-6">
                   <div className="w-12 h-12 rounded-lg bg-[var(--primary-color)] flex items-center justify-center">
                     <IoStar className="text-2xl text-white" />
@@ -532,6 +532,36 @@ const SingleProduct = () => {
               </div>
             )}
 
+              {/* Applications by Industry tiles */}
+        <section className="max-w-7xl mx-auto px-6 py-12 ">
+          <div className="max-w-7xl ">
+            <h3 className="text-xl md:text-2xl font-bold mb-10 text-center text-primary">
+              Applications by Industry
+            </h3>
+            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+              {product.Industry?.map((item, idx) => (
+                <div
+                  key={item.name || idx}
+                  className="group p-6 bg-white rounded-2xl shadow-md border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition transform flex flex-col items-center text-center"
+                >
+                  {/* Icon */}
+                  <div className="w-14 h-14 flex items-center justify-center rounded-full bg-gradient-to-br from-indigo-100 to-indigo-200 text-3xl mb-4 group-hover:scale-110 transition">
+                    {item.Icons}
+                  </div>
+                  {/* Title */}
+                  <h4 className="text-green-600 font-semibold uppercase tracking-wide text-sm">
+                    {item.name}
+                  </h4>
+                  {/* Description */}
+                  <p className="text-gray-600 text-sm mt-2">
+                    {item.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
             {/* Materials Section */}
             {product.MaterialOptions && (
               <div className="mt-12 relative">
@@ -562,6 +592,7 @@ const SingleProduct = () => {
                             default:
                               Icon = IoSparklesOutline;
                           }
+                          
                           return (
                             <li
                               key={index}
@@ -575,6 +606,7 @@ const SingleProduct = () => {
                               </div>
                             </li>
                           );
+
                         })}
                       </ul>
                     )}
@@ -631,7 +663,7 @@ const SingleProduct = () => {
 
             {/* FAQ Section */}
             {Array.isArray(product.FAQs) && product.FAQs.length > 0 && (
-              <div className="mt-16 relative overflow-hidden">
+              <div className="mt-16 relative overflow-hidden py-6">
                 <div className="absolute inset-0 bg-gradient-to-br from-[var(--primary-color)]/5 via-transparent to-[var(--secondary-color)]/5" />
                 <div className="relative">
                   <div className="text-center mb-12">
@@ -685,35 +717,7 @@ const SingleProduct = () => {
           </div>
         </section>
 
-        {/* Applications by Industry tiles */}
-        <section className="max-w-7xl mx-auto px-6 py-12 ">
-          <div className="max-w-7xl ">
-            <h3 className="text-xl md:text-2xl font-bold mb-10 text-center text-primary">
-              Applications by Industry
-            </h3>
-            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
-              {product.Industry?.map((item, idx) => (
-                <div
-                  key={item.name || idx}
-                  className="group p-6 bg-white rounded-2xl shadow-md border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition transform flex flex-col items-center text-center"
-                >
-                  {/* Icon */}
-                  <div className="w-14 h-14 flex items-center justify-center rounded-full bg-gradient-to-br from-indigo-100 to-indigo-200 text-3xl mb-4 group-hover:scale-110 transition">
-                    {item.Icons}
-                  </div>
-                  {/* Title */}
-                  <h4 className="text-green-600 font-semibold uppercase tracking-wide text-sm">
-                    {item.name}
-                  </h4>
-                  {/* Description */}
-                  <p className="text-gray-600 text-sm mt-2">
-                    {item.description}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+      
 
         <section className="relative overflow-hidden soft-bg">
           <RecentlyViewed max={4} />
