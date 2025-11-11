@@ -404,7 +404,7 @@ const SingleProduct = () => {
             {product.WhyChoose && (
               <div className="mb-10">
                 <div className="text-center mb-12">
-                  <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] text-white font-semibold text-xl mb-6">
+                  <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-[#b13675] to-[#2286bb] text-white font-semibold text-xl mb-6">
                     <IoStar className="text-2xl" />
                     {product.WhyChoose.Title}
                   </div>
@@ -422,7 +422,7 @@ const SingleProduct = () => {
                         className="group bg-white p-6 rounded-2xl shadow-lg border border-[var(--primary-color)]/10 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                       >
                         <div className="flex items-start gap-4">
-                          <span className="shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-[var(--primary-color)] to-[var(--secondary-color)] flex items-center justify-center text-white group-hover:scale-110 transition-transform">
+                          <span className="shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-[#0078b3] to-[#66994e] flex items-center justify-center text-white group-hover:scale-110 transition-transform">
                             <IoCheckmarkCircle className="text-xl" />
                           </span>
                           <span className="text-gray-800">{feature}</span>
@@ -445,7 +445,7 @@ const SingleProduct = () => {
             {!product.WhyChoose && Array.isArray(product.Features) && product.Features.length > 0 && (
               <div className="mb-10">
                 <div className="text-center mb-12">
-                  <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] text-white font-semibold text-xl">
+                  <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-[#b13675] to-[#2286bb] text-white font-semibold text-xl">
                     <IoStar className="text-2xl" />
                     Key Features
                   </div>
@@ -457,7 +457,7 @@ const SingleProduct = () => {
                       className="group bg-white p-6 rounded-2xl shadow-lg border border-[var(--primary-color)]/10 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                     >
                       <div className="flex items-start gap-4">
-                        <span className="shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-[var(--primary-color)] to-[var(--secondary-color)] flex items-center justify-center text-white group-hover:scale-110 transition-transform">
+                        <span className="shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-[#0078b3] to-[#66994e] flex items-center justify-center text-white group-hover:scale-110 transition-transform">
                           <IoCheckmarkCircle className="text-xl" />
                         </span>
                         <span className="text-gray-800">{feature}</span>
@@ -474,7 +474,7 @@ const SingleProduct = () => {
               <div className="mt-12 relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-[var(--primary-color)]/5 via-white to-[var(--secondary-color)]/5" />
                 <div className="relative bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[var(--primary-color)]/10">
-                  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] text-white font-semibold mb-6">
+                  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#b13675] to-[#2286bb] text-white font-semibold mb-6">
                     <IoApps className="text-xl" />
                     {product.Customization.Title}
                   </div>
@@ -565,9 +565,9 @@ const SingleProduct = () => {
             {/* Materials Section */}
             {product.MaterialOptions && (
               <div className="mt-12 relative">
-                <div className="bg-gradient-to-br from-[var(--primary-color)] to-[var(--secondary-color)] rounded-2xl p-1">
+                <div className="bg-gradient-to-br from-[#0078b3] to-[#66994e] rounded-2xl p-1">
                   <div className="bg-white rounded-xl p-8">
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] text-white font-semibold mb-6">
+                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[#b13675] to-[#2286bb] text-white font-semibold mb-6">
                       <IoStar className="text-xl" />
                       {product.MaterialOptions.Title}
                     </div>
@@ -599,7 +599,7 @@ const SingleProduct = () => {
                               className="group bg-white p-6 rounded-xl shadow-md hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
                             >
                               <div className="flex items-center gap-4">
-                                <span className="w-12 h-12 rounded-xl bg-gradient-to-br from-[var(--primary-color)]/10 to-[var(--secondary-color)]/10 flex items-center justify-center group-hover:from-[var(--primary-color)] group-hover:to-[var(--secondary-color)] transition-all duration-300">
+                                <span className="w-12 h-12 rounded-xl bg-gradient-to-br from-[var(--primary-color)]/10 to-[var(--secondary-color)]/10 flex items-center justify-center group-hover:from-[#0078b3]  group-hover:to-[#66994e] transition-all duration-300">
                                   <Icon className="text-2xl text-[var(--primary-color)] group-hover:text-white" />
                                 </span>
                                 <span className="font-medium text-gray-700">{material}</span>
@@ -626,7 +626,7 @@ const SingleProduct = () => {
             {product.WhyAmulPackaging && (
               <div className="mt-12 relative overflow-hidden">
                 <div className="absolute inset-0 bg-[url('/img/products/pattern-bg.png')] opacity-5" />
-                <div className="relative bg-gradient-to-br from-[var(--primary-color)] to-[var(--secondary-color)] text-white rounded-2xl p-8 shadow-lg">
+                <div className="relative bg-gradient-to-br from-[#0078b3] to-[#66994e] text-white rounded-2xl p-8 shadow-lg">
                   <div className="text-center mb-8">
                     <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white text-[var(--primary-color)] font-semibold text-xl">
                       <IoStar className="text-[var(--secondary-color)]" />
@@ -667,7 +667,7 @@ const SingleProduct = () => {
                 <div className="absolute inset-0 bg-gradient-to-br from-[var(--primary-color)]/5 via-transparent to-[var(--secondary-color)]/5" />
                 <div className="relative">
                   <div className="text-center mb-12">
-                    <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] text-white font-semibold text-xl">
+                    <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-[#b13675] to-[#2286bb] text-white font-semibold text-xl">
                       <IoListCircle className="text-2xl" />
                       Frequently Asked Questions
                     </div>
@@ -680,12 +680,12 @@ const SingleProduct = () => {
                       >
                         <button
                           onClick={() => setOpenFAQ(openFAQ === index ? null : index)}
-                          className="w-full p-6 flex items-center justify-between gap-4 hover:bg-[var(--primary-color)]/5 transition-colors duration-300"
+                          className="w-full p-6 flex items-center justify-between gap-4 bg-[var(--primary-color)]/5 transition-colors duration-300"
                         >
                           <div className="flex items-center gap-4">
                             <span className={`shrink-0 w-10 h-10 rounded-xl flex items-center justify-center transition-all duration-300 ${
                               openFAQ === index 
-                                ? 'bg-gradient-to-br from-[var(--primary-color)] to-[var(--secondary-color)] text-white'
+                                ? 'bg-gradient-to-br from-[#0078b3] to-[#66994e] text-white'
                                 : 'bg-[var(--primary-color)]/10 text-[var(--primary-color)]'
                             }`}>
                               <IoStar className="text-lg" />
@@ -701,7 +701,7 @@ const SingleProduct = () => {
                         <div className={`overflow-hidden transition-all duration-300 ${
                           openFAQ === index ? 'max-h-96' : 'max-h-0'
                         }`}>
-                          <p className="text-gray-700 px-6 pb-6 pl-20">
+                          <p className="text-gray-700 px-6 py-6 pl-20">
                             {faq.answer}
                           </p>
                         </div>
