@@ -13,6 +13,12 @@ import {
   IoClose,
   IoChevronBack,
   IoChevronForward as IoChevronForwardIcon,
+  IoLayersOutline,
+  IoShieldOutline,
+  IoLeafOutline,
+  IoSparklesOutline,
+  IoCubeOutline,
+  IoChevronDown,
 } from "react-icons/io5";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
@@ -36,7 +42,7 @@ const SingleProduct = () => {
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(0);
   const [isEnquiryOpen, setIsEnquiryOpen] = useState(false);
-  //const [tiltStyle, setTiltStyle] = useState({ transform: 'rotateX(0deg) rotateY(0deg) scale(1)' });
+  const [openFAQ, setOpenFAQ] = useState(null);
   const productId = Number(id);
   const product = products.find((p) => p.id === productId);
   
@@ -268,46 +274,9 @@ const SingleProduct = () => {
                     Back to Products
                   </Link>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
-        {/* Main content */}
-        <section className="max-w-7xl mx-auto pt-4 pb-0 py-10 px-4 grid grid-cols-1 md:grid-cols-2 gap-10">
-          <div>
-            <h3 className="text-xl md:text-2xl font-semibold mb-2 mt-4 text-primary ">
-              Overview
-            </h3>
-            {product.Details && (
-              <p className="text-gray-700 leading-7">{product.Details}</p>
-            )}
-          </div>
-        </section>
-
-        <section className="max-w-7xl mx-auto px-4 py-10 ">
-          <div>
-            {Array.isArray(product.Features) && product.Features.length > 0 && (
-              <div className="">
-                <h3 className="text-lg md:text-xl font-semibold mb-3 text-primary">
-                  Key Features
-                </h3>
-                <ul className="grid sm:grid-cols-2 gap-3">
-                  {product.Features.map((feature, index) => (
-                    <li
-                      key={index}
-                      className="flex items-start gap-3 p-3 rounded-xl bg-[var(--primary-color)]/5 border border-[var(--primary-color)]/10"
-                    >
-                      <IoCheckmarkCircle className="text-[var(--secondary-color)] mt-[2px] shrink-0" />
-                      <span className="text-gray-800">{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-            {/* CTA moved to hero */}
-
-            <div className="mt-8 flex items-center text-primary gap-3">
+                {/* Share Section */}
+            <div className="mt-12 flex items-center text-primary gap-3">
               <span className="text-sm font-semibold">Share</span>
               <button
                 aria-label="Share on Facebook"
@@ -338,6 +307,381 @@ const SingleProduct = () => {
                 <FaWhatsapp />
               </button>
             </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Main content */}
+        {/* Overview Section */}
+        <section className="max-w-7xl mx-auto pt-4 pb-0 py-10 px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Overview Card */}
+            <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+              <div className="flex items-start gap-4 mb-6">
+                <div className="w-12 h-12 rounded-lg bg-[var(--primary-color)] flex items-center justify-center">
+                  <IoListCircle className="text-2xl text-white" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-[var(--primary-color)]">Overview</h3>
+                  <div className="h-0.5 w-12 bg-[var(--primary-color)] mt-2"></div>
+                </div>
+              </div>
+              {product.Details && (
+                <div className="prose max-w-none">
+                  <p className="text-gray-600">
+                    {product.Details}
+                  </p>
+                </div>
+              )}
+            </div>
+
+            {/* Premium Packaging Card */}
+            {product.About && (
+              <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+                <div className="flex items-start gap-4 mb-6">
+                  <div className="w-12 h-12 rounded-lg bg-[var(--primary-color)] flex items-center justify-center">
+                    <IoStar className="text-2xl text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bold text-[var(--primary-color)]">
+                      {product.About.Title}
+                    </h3>
+                    <div className="h-0.5 w-12 bg-[var(--primary-color)] mt-2"></div>
+                  </div>
+                </div>
+                <div className="space-y-6">
+                  <div className="prose max-w-none">
+                    <p className="text-gray-600">
+                      {product.About.Description}
+                    </p>
+                  </div>
+                  {product.About.Extended && (
+                    <div className="mt-6 border-t border-gray-100 pt-6">
+                      <h4 className="text-sm font-semibold text-[var(--primary-color)] uppercase tracking-wide mb-3">
+                        Additional Information
+                      </h4>
+                      <p className="text-gray-600">
+                        {product.About.Extended}
+                      </p>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+          </div>
+        </section>
+
+        {/* What Is Section */}
+        {product.WhatIs && (
+          <section className="relative overflow-hidden">
+            <div className="absolute inset-0 bg-gradient-to-br from-[var(--primary-color)]/10 via-[var(--secondary-color)]/5 to-[#ffb703]/10" />
+            <div className="relative max-w-7xl mx-auto px-4 py-16">
+              <div className="max-w-3xl mx-auto text-center">
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white shadow-md text-[var(--primary-color)] font-semibold mb-8">
+                  <IoApps className="text-xl text-[var(--secondary-color)]" />
+                  {product.WhatIs.Title}
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-lg border border-[var(--primary-color)]/10">
+                  <p className="text-gray-700 leading-7 mb-4">
+                    {product.WhatIs.Description}
+                  </p>
+                  {product.WhatIs.Extra && (
+                    <p className="text-gray-700 leading-7 p-4 bg-[var(--primary-color)]/5 rounded-xl mt-4">
+                      {product.WhatIs.Extra}
+                    </p>
+                  )}
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* Why Choose Section */}
+        <section className="relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-br from-[var(--primary-color)]/5 via-transparent to-[var(--secondary-color)]/5" />
+          <div className="relative max-w-7xl mx-auto px-4 py-16">
+            {product.WhyChoose && (
+              <div className="mb-10">
+                <div className="text-center mb-12">
+                  <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] text-white font-semibold text-xl mb-6">
+                    <IoStar className="text-2xl" />
+                    {product.WhyChoose.Title}
+                  </div>
+                  {product.WhyChoose.Summary && (
+                    <p className="text-gray-700 leading-7 max-w-3xl mx-auto bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-md">
+                      {product.WhyChoose.Summary}
+                    </p>
+                  )}
+                </div>
+                {Array.isArray(product.WhyChoose.KeyFeatures) && (
+                  <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {product.WhyChoose.KeyFeatures.map((feature, index) => (
+                      <li
+                        key={index}
+                        className="group bg-white p-6 rounded-2xl shadow-lg border border-[var(--primary-color)]/10 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                      >
+                        <div className="flex items-start gap-4">
+                          <span className="shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-[var(--primary-color)] to-[var(--secondary-color)] flex items-center justify-center text-white group-hover:scale-110 transition-transform">
+                            <IoCheckmarkCircle className="text-xl" />
+                          </span>
+                          <span className="text-gray-800">{feature}</span>
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {product.WhyChoose.Conclusion && (
+                  <div className="mt-12 text-center">
+                    <p className="text-gray-700 leading-7 max-w-3xl mx-auto bg-[var(--primary-color)]/5 p-6 rounded-2xl border border-[var(--primary-color)]/10 italic">
+                      {product.WhyChoose.Conclusion}
+                    </p>
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Features Section if no WhyChoose section exists */}
+            {!product.WhyChoose && Array.isArray(product.Features) && product.Features.length > 0 && (
+              <div className="mb-10">
+                <div className="text-center mb-12">
+                  <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] text-white font-semibold text-xl">
+                    <IoStar className="text-2xl" />
+                    Key Features
+                  </div>
+                </div>
+                <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {product.Features.map((feature, index) => (
+                    <li
+                      key={index}
+                      className="group bg-white p-6 rounded-2xl shadow-lg border border-[var(--primary-color)]/10 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                    >
+                      <div className="flex items-start gap-4">
+                        <span className="shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-[var(--primary-color)] to-[var(--secondary-color)] flex items-center justify-center text-white group-hover:scale-110 transition-transform">
+                          <IoCheckmarkCircle className="text-xl" />
+                        </span>
+                        <span className="text-gray-800">{feature}</span>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {/* CTA moved to hero */}
+
+            {/* Customization Section */}
+            {product.Customization && (
+              <div className="mt-12 relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-[var(--primary-color)]/5 via-white to-[var(--secondary-color)]/5" />
+                <div className="relative bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[var(--primary-color)]/10">
+                  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] text-white font-semibold mb-6">
+                    <IoApps className="text-xl" />
+                    {product.Customization.Title}
+                  </div>
+                  <p className="text-gray-700 leading-7 mb-8 bg-white/80 p-4 rounded-xl">
+                    {product.Customization.Description}
+                  </p>
+                  {Array.isArray(product.Customization.Options) && (
+                    <div className="mb-8">
+                      <h4 className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[var(--secondary-color)] text-[var(--primary-color)] font-semibold mb-4">
+                        Customization Options
+                      </h4>
+                      <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+                        {product.Customization.Options.map((option, index) => (
+                          <li
+                            key={index}
+                            className="flex items-center gap-3 p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow group"
+                          >
+                            <span className="shrink-0 w-8 h-8 rounded-full bg-[var(--primary-color)]/10 flex items-center justify-center group-hover:bg-[var(--primary-color)] group-hover:text-white transition-colors">
+                              <IoListCircle className="text-lg" />
+                            </span>
+                            <span className="text-gray-700">{option}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                  {Array.isArray(product.Customization.PrintingCapabilities) && (
+                    <div>
+                      <h4 className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[var(--secondary-color)] text-[var(--primary-color)] font-semibold mb-4">
+                        Printing Capabilities
+                      </h4>
+                      <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+                        {product.Customization.PrintingCapabilities.map((capability, index) => (
+                          <li
+                            key={index}
+                            className="flex items-center gap-3 p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow group"
+                          >
+                            <span className="shrink-0 w-8 h-8 rounded-full bg-[var(--primary-color)]/10 flex items-center justify-center group-hover:bg-[var(--primary-color)] group-hover:text-white transition-colors">
+                              <IoApps className="text-lg" />
+                            </span>
+                            <span className="text-gray-700">{capability}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                  {product.Customization.PrintingNote && (
+                    <div className="mt-6 p-4 bg-[var(--primary-color)]/5 rounded-xl border border-[var(--primary-color)]/10">
+                      <p className="text-gray-700 italic">
+                        {product.Customization.PrintingNote}
+                      </p>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* Materials Section */}
+            {product.MaterialOptions && (
+              <div className="mt-12 relative">
+                <div className="bg-gradient-to-br from-[var(--primary-color)] to-[var(--secondary-color)] rounded-2xl p-1">
+                  <div className="bg-white rounded-xl p-8">
+                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] text-white font-semibold mb-6">
+                      <IoStar className="text-xl" />
+                      {product.MaterialOptions.Title}
+                    </div>
+                    {Array.isArray(product.MaterialOptions.Materials) && (
+                      <ul className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                        {product.MaterialOptions.Materials.map((material, index) => {
+                          let Icon;
+                          // Assign different icons based on material type
+                          switch(true) {
+                            case /PET|BOPP/.test(material):
+                              Icon = IoCubeOutline;
+                              break;
+                            case /PE|film/.test(material):
+                              Icon = IoLayersOutline;
+                              break;
+                            case /Kraft|paper/.test(material):
+                              Icon = IoLeafOutline;
+                              break;
+                            case /barrier|Foil/.test(material):
+                              Icon = IoShieldOutline;
+                              break;
+                            default:
+                              Icon = IoSparklesOutline;
+                          }
+                          return (
+                            <li
+                              key={index}
+                              className="group bg-white p-6 rounded-xl shadow-md hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
+                            >
+                              <div className="flex items-center gap-4">
+                                <span className="w-12 h-12 rounded-xl bg-gradient-to-br from-[var(--primary-color)]/10 to-[var(--secondary-color)]/10 flex items-center justify-center group-hover:from-[var(--primary-color)] group-hover:to-[var(--secondary-color)] transition-all duration-300">
+                                  <Icon className="text-2xl text-[var(--primary-color)] group-hover:text-white" />
+                                </span>
+                                <span className="font-medium text-gray-700">{material}</span>
+                              </div>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    )}
+                    {product.MaterialOptions.Note && (
+                      <div className="mt-6 p-4 bg-[var(--primary-color)]/5 rounded-xl">
+                        <p className="text-gray-700">
+                          {product.MaterialOptions.Note}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* Why Amul Packaging Section */}
+            {product.WhyAmulPackaging && (
+              <div className="mt-12 relative overflow-hidden">
+                <div className="absolute inset-0 bg-[url('/img/products/pattern-bg.png')] opacity-5" />
+                <div className="relative bg-gradient-to-br from-[var(--primary-color)] to-[var(--secondary-color)] text-white rounded-2xl p-8 shadow-lg">
+                  <div className="text-center mb-8">
+                    <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white text-[var(--primary-color)] font-semibold text-xl">
+                      <IoStar className="text-[var(--secondary-color)]" />
+                      {product.WhyAmulPackaging.Title}
+                    </div>
+                  </div>
+                  {Array.isArray(product.WhyAmulPackaging.Points) && (
+                    <ul className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                      {product.WhyAmulPackaging.Points.map((point, index) => (
+                        <li
+                          key={index}
+                          className="group bg-white/10 backdrop-blur-sm p-4 rounded-xl hover:bg-white/20 transition-colors duration-300"
+                        >
+                          <div className="flex items-start gap-3">
+                            <span className="shrink-0 w-8 h-8 rounded-full bg-white/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+                              <IoCheckmarkCircle className="text-[var(--secondary-color)]" />
+                            </span>
+                            <span className="text-white/90 group-hover:text-white">{point}</span>
+                          </div>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                  {product.WhyAmulPackaging.ClosingLine && (
+                    <div className="mt-8 text-center">
+                      <p className="inline-block font-medium px-6 py-3 bg-white/10 rounded-full backdrop-blur-sm">
+                        {product.WhyAmulPackaging.ClosingLine}
+                      </p>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* FAQ Section */}
+            {Array.isArray(product.FAQs) && product.FAQs.length > 0 && (
+              <div className="mt-16 relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-[var(--primary-color)]/5 via-transparent to-[var(--secondary-color)]/5" />
+                <div className="relative">
+                  <div className="text-center mb-12">
+                    <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] text-white font-semibold text-xl">
+                      <IoListCircle className="text-2xl" />
+                      Frequently Asked Questions
+                    </div>
+                  </div>
+                  <div className="grid gap-4 max-w-3xl mx-auto">
+                    {product.FAQs.map((faq, index) => (
+                      <div
+                        key={index}
+                        className="bg-white rounded-2xl shadow-lg border border-[var(--primary-color)]/10 overflow-hidden"
+                      >
+                        <button
+                          onClick={() => setOpenFAQ(openFAQ === index ? null : index)}
+                          className="w-full p-6 flex items-center justify-between gap-4 hover:bg-[var(--primary-color)]/5 transition-colors duration-300"
+                        >
+                          <div className="flex items-center gap-4">
+                            <span className={`shrink-0 w-10 h-10 rounded-xl flex items-center justify-center transition-all duration-300 ${
+                              openFAQ === index 
+                                ? 'bg-gradient-to-br from-[var(--primary-color)] to-[var(--secondary-color)] text-white'
+                                : 'bg-[var(--primary-color)]/10 text-[var(--primary-color)]'
+                            }`}>
+                              <IoStar className="text-lg" />
+                            </span>
+                            <h4 className="font-semibold text-[var(--primary-color)] text-left">
+                              {faq.question}
+                            </h4>
+                          </div>
+                          <IoChevronDown className={`text-xl text-[var(--primary-color)] transform transition-transform duration-300 ${
+                            openFAQ === index ? 'rotate-180' : ''
+                          }`} />
+                        </button>
+                        <div className={`overflow-hidden transition-all duration-300 ${
+                          openFAQ === index ? 'max-h-96' : 'max-h-0'
+                        }`}>
+                          <p className="text-gray-700 px-6 pb-6 pl-20">
+                            {faq.answer}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
+
+            
+
           </div>
         </section>
 

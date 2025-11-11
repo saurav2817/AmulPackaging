@@ -13,14 +13,70 @@ const products = [
     HeroText:"Flexible, durable, and designed to perform — our Standup Zipper Pouches ensure your products stay protected and your brand stays visible.",
     Details:
       "Standup zipper pouches are a modern, flexible packaging solution designed to keep products fresh, secure, and visually appealing. With a stable base, they stand upright on shelves, ensuring better visibility and brand presence.",
-    Features: [
-      "Resealable zipper for multiple uses",
-      "Strong laminated material for durability",
-      "Excellent barrier against moisture, air, and aroma",
-      "Lightweight, easy to store & transport",
-      "Available in matte, glossy, or transparent finishes",
-      "Fully customizable in size, print & design",
-    ],
+    About: {
+      Title: "Stand Up Pouch – Premium Standup Zipper Packaging for Every Industry",
+      Description:
+        "At Amul Packaging, we make high-quality stand up pouches designed to protect your product, keep it fresh, and help your brand look strong on the shelf. Whether you sell snacks, spices, pet food, cosmetics, or supplements — our stand up pouch packaging solutions help your product speak for itself.",
+      Extended:
+        "Our team manufactures and prints custom stand up pouches in different materials, sizes, colors, and finishes. With durable laminated structure, secure zipper, and strong base, our pouches are built for performance and made to highlight your brand clearly."
+    },
+    WhatIs: {
+      Title: "What Is a Stand Up Pouch?",
+      Description:
+        "A stand up pouch is a flexible packaging bag with a bottom gusset that allows it to stand upright. It usually comes with a zipper seal, helping customers open and reseal the pouch easily. These pouches are lightweight, strong, and ideal for products that need freshness, aroma protection, and visual appeal.",
+      Extra:
+        "From supermarkets to online brands — stand up pouches are everywhere because they store well, ship safely, and offer great branding space for product labels and printing."
+    },
+
+    WhyChoose: {
+      Title: "Why Choose Our Standup Zipper Pouch?",
+      Summary:
+        "We do not sell “one-size-fits-all” pouches. We manufacture pouches based on your product needs and printing preference.",
+      KeyFeatures: [
+        "Resealable zipper for multiple uses",
+        "Strong laminated material for durability",
+        "Excellent barrier against moisture, air, and aroma",
+        "Lightweight, easy to store & transport",
+        "Available in matte, glossy, or transparent finishes",
+        "Fully customizable in size, print & design",
+        "Secure zipper lock — open and reseal multiple times",
+        "Laminated film structure for strength and barrier protection",
+        "Blocks moisture, oxygen, dust, aroma leakage",
+        "Leak-proof and tamper-resistant options",
+        "Food-grade, safe, and durable materials",
+        "Lightweight and takes minimal space during transport",
+        "Available in matte, glossy, metallic, kraft, and transparent finishes",
+        "Clear window pouches available",
+        "Full printing & custom branding support",
+        "Multiple sizes and shapes available"
+      ],
+      Conclusion:
+        "These features make our stand up zipper bags ideal for brands that care about product safety and appearance."
+    },
+
+    Customization: {
+      Title: "Stand Up Pouch Printing & Customization Options",
+      Description:
+        "We help you design packaging that looks good, feels premium, and clearly communicates your product value.",
+      Options: [
+        "Size & thickness",
+        "Base shape",
+        "Material combination (PET, BOPP, PE, Kraft, Foil)",
+        "Window area & shape",
+        "Printing style & finishes",
+        "Zipper type",
+        "Spout option",
+        "Tear-notch & punch options"
+      ],
+      PrintingCapabilities: [
+        "Rotogravure printing",
+        "Flexographic printing",
+        "Digital printing"
+      ],
+      PrintingNote:
+        "You get sharp color, high clarity images, and durable print that does not fade or scratch easily."
+    },
+
     Applications: [
       "Dry fruits, nuts, and snacks",
       "Spices, pulses & cereals",
@@ -55,7 +111,58 @@ const products = [
       "name": "E-commerce & Retail",
       "description": "Customizable packaging for direct-to-consumer products requiring strong branding and easy handling."
     },
-   ]
+   ],
+     MaterialOptions: {
+      Title: "Stand Up Pouch Material Options",
+      Materials: [
+        "PET",
+        "BOPP",
+        "PE",
+        "Kraft paper",
+        "Foil laminated film",
+        "High-barrier film",
+        "Recyclable & eco-friendly options"
+      ],
+      Note:
+        "Barrier properties ensure product stays fresh, protected, and shelf-ready."
+    },
+       WhyAmulPackaging: {
+      Title: "Why Amul Packaging?",
+      Points: [
+        "In-house manufacturing",
+        "Quality-checked material",
+        "Food-safe certified supplies",
+        "Bulk and wholesale availability",
+        "Fast turnaround",
+        "Sharp colors & premium finish",
+        "Professional printing support",
+        "Decades of packaging experience"
+      ],
+      ClosingLine:
+        "Your product deserves packaging that builds trust. We help you achieve that."
+    },
+        FAQs: [
+      {
+        question: "Are stand up pouches food-safe?",
+        answer: "Yes, we use certified, food-grade materials."
+      },
+      {
+        question: "Can I print my logo and design?",
+        answer: "Yes, we offer full stand up pouch printing services."
+      },
+      {
+        question: "Do you offer wholesale pricing?",
+        answer: "Yes, we supply stand up pouches wholesale with competitive rates."
+      },
+      {
+        question: "What is the minimum order quantity?",
+        answer: "MOQ depends on size, material, and print type. Contact us for details."
+      },
+      {
+        question: "Can I get sample pouches?",
+        answer: "Yes, samples can be arranged before bulk orders."
+      }
+    ]
   },
 
   {
