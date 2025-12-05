@@ -748,15 +748,18 @@ HeroText:"With reinforced side seals and a durable design, our Quad Seal Pouches
       Extended:
         "At Amul Packaging, we manufacture custom quad seal pouches that stay firm on shelves, protect product freshness, and support high-quality printing across multiple panels. This makes them ideal for brands that want strong packaging with a clean, premium look — especially in food, pet care, wellness, coffee, snacks, and export-grade goods. If your product needs a pouch that is tough, stable, and visually impressive, a quad seal pouch is the right fit."
     },
-   
-      Features: [
-      "Four reinforced seals for extra strength & durability",
+    WhyChoose: {
+      Title: "Why Choose Quad Seal Pouch?",
+      KeyFeatures: [
+       "Four reinforced seals for extra strength & durability",
       "Box-shaped structure for better shelf stability",
       "Ample branding space on front, back & side panels",
       "High barrier protection against moisture, aroma & air",
       "Available in matte, glossy, kraft & metallic finishes",
       "Customizable with zipper, valve & various sizes",
-    ],
+      ],
+    },
+      
    
     Industry: [
   {
@@ -1088,14 +1091,18 @@ HeroText:"From unique silhouettes to durable structure, our Shaped Pouches provi
       Extended:
         "At Amul Packaging, we create durable, eye-catching shaped pouches for food, beverages, snacks, cosmetics, pharma, and lifestyle brands. Each pouch is made with strong laminated film, custom die-cut shapes, and optional features like zippers, spouts, and valves. This makes them perfect for brands that want packaging that not only protects the product but also becomes part of the product’s appeal. If you want your product to look unique on shelves or online marketplaces, a shaped pouch is one of the best ways to stand out."
     },
-      Features: [
-      "Eye-catching custom shapes for strong brand identity",
+
+    WhyChoose: {
+      Title: "Why Choose Shaped Pouch?",
+      KeyFeatures: [
+        "Eye-catching custom shapes for strong brand identity",
       "High-quality laminated films for durability & strength",
       "Excellent barrier against moisture, aroma & contaminants",
       "Compatible with resealable zippers, spouts, or valves",
       "Lightweight, portable & convenient for consumers",
       "Fully customizable in size, design & finishes",
-    ],
+      ],
+    },
       Industry: [
   {
     Icons: "🍪",
