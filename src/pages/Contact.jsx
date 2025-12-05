@@ -63,7 +63,7 @@ const Contact = () => {
           setFormData({ name: "", email: "", phone: "", message: "" });
           // Redirect to thank you page after 1.5 seconds
           setTimeout(() => {
-            navigate('/thank-you');
+            window.location.href = '/thank-you';
           }, 1500);
         } catch (err) {
           setSendError("Failed to send. Please try again.");

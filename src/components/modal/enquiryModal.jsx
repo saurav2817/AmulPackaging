@@ -63,7 +63,7 @@ const EnquiryModal = ({ open, onClose, product }) =>{
             setFormData({ name: "", email: "", phone: "", companyName: "", CompanyWebsite: "", message: "" });
             setTimeout(() => { 
                 onClose?.();
-                navigate('/thank-you');
+                window.location.href = '/thank-you';
             }, 1500);
         } catch (err) {
             toast.error("Failed to send. Please try again or email us.");
