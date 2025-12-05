@@ -1,8 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import toast from "react-hot-toast";
+import { useNavigate } from "react-router-dom";
 
 const EnquiryModal = ({ open, onClose, product }) =>{
     const dialogRef = useRef(null);
+    const navigate = useNavigate();
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -59,7 +61,10 @@ const EnquiryModal = ({ open, onClose, product }) =>{
             }
             toast.success("Enquiry sent successfully!");
             setFormData({ name: "", email: "", phone: "", companyName: "", CompanyWebsite: "", message: "" });
-            setTimeout(() => { onClose?.(); }, 1500);
+            setTimeout(() => { 
+                onClose?.();
+                navigate('/thank-you');
+            }, 1500);
         } catch (err) {
             toast.error("Failed to send. Please try again or email us.");
             console.error(err);

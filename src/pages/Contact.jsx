@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {  Link } from "react-router-dom";
+import {  Link, useNavigate } from "react-router-dom";
 import { IoHomeOutline, IoChevronForward, IoStar, IoListCircle, IoCheckmarkCircle, IoApps, IoArrowBack, IoClose, IoChevronBack, IoChevronForward as IoChevronForwardIcon } from "react-icons/io5";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { IoMdMail } from "react-icons/io";
@@ -10,6 +10,7 @@ import SEO from "../components/seo/SEO";
 import { getSEOConfig } from "../config/seoConfig";
 
 const Contact = () => {
+    const navigate = useNavigate();
     const [formData, setFormData] = useState({ name: "", email: "", phone: "", message: "" });
     const [errors, setErrors] = useState({});
     const [submitted, setSubmitted] = useState(false);
@@ -60,6 +61,10 @@ const Contact = () => {
       
           toast.success("Message sent successfully!");
           setFormData({ name: "", email: "", phone: "", message: "" });
+          // Redirect to thank you page after 1.5 seconds
+          setTimeout(() => {
+            navigate('/thank-you');
+          }, 1500);
         } catch (err) {
           setSendError("Failed to send. Please try again.");
           console.error(err);

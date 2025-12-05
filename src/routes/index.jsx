@@ -15,6 +15,7 @@ import PrivacyPolicy from "../pages/privacyPolicy";
 import TermCondition from "../pages/termCondition";
 import IndustriesWeServe from "../pages/IndustriesWeServe";
 import ActionBtn from "../components/actionbutton/actionbutton";
+import ThankYou from "../pages/thank-you";
 
 const MainLayout = () => (
     <>
@@ -43,6 +44,7 @@ const AppRoutes = () => {
                 <Route path="privacyPolicy" element={<PrivacyPolicy/>} />
                 <Route path="termCondition" element={<TermCondition/>} />
                 <Route path="*" element={<Navigate to="/" replace />} />
+                <Route path="thank-you" element={<ThankYou/>} />
               </Route>
             </Routes>
         </>

@@ -3,7 +3,7 @@
 define('SMTP_HOST', 'smtp.hostinger.com');
 define('SMTP_PORT', 587);
 define('SMTP_USERNAME', 'sales@amulpackaging.in');
-define('SMTP_PASSWORD', '9004382696Ap$'); // Use App Password for Gmail
+define('SMTP_PASSWORD', '9821144238Ap$'); // Use App Password for Gmail
 define('SMTP_FROM_EMAIL', 'sales@amulpackaging.in');
 define('SMTP_FROM_NAME', 'Amul Packaging');
 
