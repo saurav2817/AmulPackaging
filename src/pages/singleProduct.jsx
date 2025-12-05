@@ -350,10 +350,10 @@ const SingleProduct = () => {
                     </p>
                   </div>
                   {product.About.Extended && (
-                    <div className="mt-6 border-t-2 border-gray-100 pt-6">
-                      <h4 className="text-sm font-semibold text-[var(--primary-color)] uppercase tracking-widest mb-3">
+                    <div className="mt-6 ">
+                      {/* <h4 className="text-sm font-semibold text-[var(--primary-color)] uppercase tracking-widest mb-3">
                         📌 Additional Information
-                      </h4>
+                      </h4> */}
                       <p className="text-gray-600 md:text-lg leading-relaxed">
                         {product.About.Extended}
                       </p>

@@ -29,8 +29,8 @@ const products = [
 
     WhyChoose: {
       Title: "Why Choose Our Standup Zipper Pouch?",
-      Summary:
-        "We do not sell “one-size-fits-all” pouches. We manufacture pouches based on your product needs and printing preference.",
+      // Summary:
+      //   "We do not sell “one-size-fits-all” pouches. We manufacture pouches based on your product needs and printing preference.",
       KeyFeatures: [
         "Secure zipper lock — open and reseal multiple times",
         "Laminated film structure for strength and barrier protection",
@@ -242,17 +242,17 @@ const products = [
    
       WhyChoose: {
       Title: "Why Brands Prefer Three Side Sealed Pouches",
-      subfeatures: [
-        "Flat design saves storage space",
-        "Strong heat-sealed sides reduce leak risk",
-        "Great for powders, liquids, granules, tablets, and creams",
-        "Budget-friendly for mass production",
-        "Ideal for sample and single-dose packaging",
-        "Perfect for tear-open or notch-open packs",
-        "Easy to print and design branding on",
-      ],
-      Summary:
-        "This pouch style keeps product fresh, easy to ship, and shelf-ready.",
+      // subfeatures: [
+      //   "Flat design saves storage space",
+      //   "Strong heat-sealed sides reduce leak risk",
+      //   "Great for powders, liquids, granules, tablets, and creams",
+      //   "Budget-friendly for mass production",
+      //   "Ideal for sample and single-dose packaging",
+      //   "Perfect for tear-open or notch-open packs",
+      //   "Easy to print and design branding on",
+      // ],
+      // Summary:
+      //   "This pouch style keeps product fresh, easy to ship, and shelf-ready.",
       KeyFeatures: [
         "Heat-sealed on three sides",
         "Good barrier to moisture, air, dust, and aroma loss",
@@ -401,17 +401,17 @@ const products = [
    
       WhyChoose: {
       Title: "Why Choose a Flat Bottom Pouch?",
-      subfeatures: [
-        "Superior shelf display and bag stability",
-        "Great for medium to heavy products",
-        "Keeps shape even after opening",
-        "Less material usage compared to rigid containers",
-        "Better freshness and aroma protection",
-        "More design space for branding and product labels",
-        "Lightweight and easier to ship than jars or tins",
-      ],
-      Summary:
-        "Brands choose flat bottom pouches because they look premium, feel strong in hand, and offer great visibility on shelves. This style is ideal when appearance and product safety both matter.",
+      // subfeatures: [
+      //   "Superior shelf display and bag stability",
+      //   "Great for medium to heavy products",
+      //   "Keeps shape even after opening",
+      //   "Less material usage compared to rigid containers",
+      //   "Better freshness and aroma protection",
+      //   "More design space for branding and product labels",
+      //   "Lightweight and easier to ship than jars or tins",
+      // ],
+      // Summary:
+      //   "Brands choose flat bottom pouches because they look premium, feel strong in hand, and offer great visibility on shelves. This style is ideal when appearance and product safety both matter.",
       KeyFeatures: [
         "Sturdy flat base for upright display",
         "Five printable panels for full branding",
@@ -589,8 +589,8 @@ HeroText:"Our high-quality Centre Seal Pouches ensure airtight protection, optim
       
        WhyChoose: {
       Title: "Why Choose a Flat Bottom Pouch?",
-      Summary:
-        "Center seal pouches are chosen because they are strong, compact, and cost-effective for mass production. They offer secure sealing while using less material than other packaging formats.",
+      // Summary:
+      //   "Center seal pouches are chosen because they are strong, compact, and cost-effective for mass production. They offer secure sealing while using less material than other packaging formats.",
       KeyFeatures: [
         "Good sealing strength for product safety",
         "Suitable for fast filling machines",
@@ -907,18 +907,18 @@ HeroText:"Our high-barrier Vacuum Pouches remove excess air and moisture, ensuri
  
 WhyChoose: {
   Title: "Why Choose Vacuum Pouches?",
-  subfeatures: [
-    "Extends shelf life",
-    "Prevents oxidation, moisture, and odor loss",
-    "Protects from contamination and freezer burn",
-    "Helps maintain taste, color, and texture",
-    "Reduces spoilage and wastage",
-    "Suitable for liquid, solid, and powdered items",
-    "Compact, space-saving storage",
-    "Helps products survive long-distance shipping"
-  ],
-  Summary:
-    "Vacuum packaging is trusted across industries for long-term protection, ensuring the product’s original quality stays intact.",
+  // subfeatures: [
+  //   "Extends shelf life",
+  //   "Prevents oxidation, moisture, and odor loss",
+  //   "Protects from contamination and freezer burn",
+  //   "Helps maintain taste, color, and texture",
+  //   "Reduces spoilage and wastage",
+  //   "Suitable for liquid, solid, and powdered items",
+  //   "Compact, space-saving storage",
+  //   "Helps products survive long-distance shipping"
+  // ],
+  // Summary:
+  //   "Vacuum packaging is trusted across industries for long-term protection, ensuring the product’s original quality stays intact.",
   KeyFeatures: [
     "Multi-layer high-barrier film construction",
     "Strong air-tight sealing",
@@ -1249,19 +1249,19 @@ HeroText:"Our Spout Pouches combine portability and performance — keeping your
     },
       WhyChoose: {
   Title: "Why Choose a Spout Pouch?",
-  subfeatures: [
-    "Easy to carry, use, and store",
-    "Suitable for liquids, gels, and powders",
-    "Strong laminated film that prevents leakage",
-    "Lower cost compared to rigid containers",
-    "More shelf presence due to attractive design",
-    "Environment-friendly due to reduced material usage",
-    "Reduced material usage — more eco-friendly",
-    "Safe for kids (no glass breakage)",
-    "Ideal for scoop-and-pour or drink-and-reseal products"
-  ],
-  Summary:
-    "Spout pouches combine the convenience of a bottle with the flexibility of soft packaging. They are ideal for brands wanting a modern, portable, and cost-efficient packaging format.",
+  // subfeatures: [
+  //   "Easy to carry, use, and store",
+  //   "Suitable for liquids, gels, and powders",
+  //   "Strong laminated film that prevents leakage",
+  //   "Lower cost compared to rigid containers",
+  //   "More shelf presence due to attractive design",
+  //   "Environment-friendly due to reduced material usage",
+  //   "Reduced material usage — more eco-friendly",
+  //   "Safe for kids (no glass breakage)",
+  //   "Ideal for scoop-and-pour or drink-and-reseal products"
+  // ],
+  // Summary:
+  //   "Spout pouches combine the convenience of a bottle with the flexibility of soft packaging. They are ideal for brands wanting a modern, portable, and cost-efficient packaging format.",
   KeyFeatures: [
     "Functional spout & cap system",
     "Strong barrier against moisture, oxygen, and aroma loss",
@@ -1428,18 +1428,18 @@ HeroText:"Our Laminated Roll-Stock delivers the strength, versatility, and custo
     },
     WhyChoose: {
   Title: "Why Choose Laminated Roll Stock?",
-  subfeatures: [
-    "Supports high-speed FFS machine production",
-    "Consistent quality in every run",
-    "Suitable for products with long shelf life",
-    "Can be tailored to protect moisture-sensitive and aroma-sensitive items",
-    "Lightweight and easy to transport",
-    "Lower packaging cost compared to pre-made pouches",
-    "Works for multiple industries",
-    "Offers high clarity and strong print output"
-  ],
-  Summary:
-    "Laminated roll stock is preferred by manufacturers because it is efficient, customizable, and compatible with almost all automated packaging lines. From food manufacturers to pharma companies, roll stock is essential for smooth, continuous packaging operations.",
+  // subfeatures: [
+  //   "Supports high-speed FFS machine production",
+  //   "Consistent quality in every run",
+  //   "Suitable for products with long shelf life",
+  //   "Can be tailored to protect moisture-sensitive and aroma-sensitive items",
+  //   "Lightweight and easy to transport",
+  //   "Lower packaging cost compared to pre-made pouches",
+  //   "Works for multiple industries",
+  //   "Offers high clarity and strong print output"
+  // ],
+  // Summary:
+  //   "Laminated roll stock is preferred by manufacturers because it is efficient, customizable, and compatible with almost all automated packaging lines. From food manufacturers to pharma companies, roll stock is essential for smooth, continuous packaging operations.",
   KeyFeatures: [
     "Multi-layer films built for strength and durability",
     "Excellent barrier protection against moisture, oxygen, UV light, and aroma loss",
@@ -1579,20 +1579,20 @@ HeroText:"From retail to industrial use, our Poly Bags deliver cost-effective pr
     },
       WhyChoose: {
   Title: "Why Choose Laminated Roll Stock?",
-  subfeatures: [
-    "Affordable packaging option",
-    "Lightweight and easy to carry",
-    "Good moisture and dust protection",
-    "Available in clear or printed designs",
-    "Durable enough for industrial applications",
-    "Available in many thicknesses and sizes",
-    "Ideal for both retail and wholesale packing",
-    "Easily customizable with printing",
-    "Strong sealing and high tear resistance",
-    "Suitable for machine and manual packing"
-  ],
-  Summary:
-    "Poly bags offer unbeatable versatility and value. They are easy to store, easy to use, and suitable for packaging thousands of different products. Because of their cost and versatility, poly bags continue to be the top choice for packaging across multiple industries.",
+  // subfeatures: [
+  //   "Affordable packaging option",
+  //   "Lightweight and easy to carry",
+  //   "Good moisture and dust protection",
+  //   "Available in clear or printed designs",
+  //   "Durable enough for industrial applications",
+  //   "Available in many thicknesses and sizes",
+  //   "Ideal for both retail and wholesale packing",
+  //   "Easily customizable with printing",
+  //   "Strong sealing and high tear resistance",
+  //   "Suitable for machine and manual packing"
+  // ],
+  // Summary:
+  //   "Poly bags offer unbeatable versatility and value. They are easy to store, easy to use, and suitable for packaging thousands of different products. Because of their cost and versatility, poly bags continue to be the top choice for packaging across multiple industries.",
   KeyFeatures: [
     "Lightweight and flexible",
     "High tensile strength",
@@ -1756,18 +1756,18 @@ HeroText:"Designed for banks, logistics, and retail industries, our Security Bag
     },
         WhyChoose: {
   Title: "Why Choose Security Bag?",
-  subfeatures: [
-    "Protects contents from theft and unauthorized access",
-    "Maintains chain-of-custody records",
-    "Shows visible tamper evidence",
-    "Supports tracking with numbering and barcodes",
-    "Prevents pilferage during shipping",
-    "Adds accountability across supply chains",
-    "Strengthens compliance protocols",
-    "Suitable for high-value products"
-  ],
-  Summary:
-    "Security bags offer peace of mind by providing clear, irreversible indicators of tampering. Businesses handling sensitive or high-risk items rely on tamper-evident bags to ensure trust and safety.",
+  // subfeatures: [
+  //   "Protects contents from theft and unauthorized access",
+  //   "Maintains chain-of-custody records",
+  //   "Shows visible tamper evidence",
+  //   "Supports tracking with numbering and barcodes",
+  //   "Prevents pilferage during shipping",
+  //   "Adds accountability across supply chains",
+  //   "Strengthens compliance protocols",
+  //   "Suitable for high-value products"
+  // ],
+  // Summary:
+  //   "Security bags offer peace of mind by providing clear, irreversible indicators of tampering. Businesses handling sensitive or high-risk items rely on tamper-evident bags to ensure trust and safety.",
   KeyFeatures: [
     "Tamper-evident adhesive or heat-seal closure",
     "Visible signs of tampering if opened",
@@ -1920,18 +1920,18 @@ HeroText:"Our eco-conscious Ziplock Poly Bags are designed for multiple uses —
     },
          WhyChoose: {
   Title: "Why Choose Small Ziplock Bags?",
-  subfeatures: [
-    "Protect sensitive items from dust, dirt, and moisture",
-    "Easy to carry and store",
-    "Safe for food and non-food items",
-    "Keeps small objects organized",
-    "Transparent for quick visibility",
-    "Reusable, reducing waste",
-    "Perfect for retail, home use, travel, and industrial packing",
-    "Safe for freezer storage (depending on material thickness)"
-  ],
-  Summary:
-    "Small ziplock bags offer secure, compact storage for tiny items that are prone to getting lost, damaged, or mixed with others. Because they are resealable, ziplock bags are ideal for items that need repeated access without compromising cleanliness.",
+  // subfeatures: [
+  //   "Protect sensitive items from dust, dirt, and moisture",
+  //   "Easy to carry and store",
+  //   "Safe for food and non-food items",
+  //   "Keeps small objects organized",
+  //   "Transparent for quick visibility",
+  //   "Reusable, reducing waste",
+  //   "Perfect for retail, home use, travel, and industrial packing",
+  //   "Safe for freezer storage (depending on material thickness)"
+  // ],
+  // Summary:
+  //   "Small ziplock bags offer secure, compact storage for tiny items that are prone to getting lost, damaged, or mixed with others. Because they are resealable, ziplock bags are ideal for items that need repeated access without compromising cleanliness.",
   KeyFeatures: [
     "Strong, reusable ziplock closure",
     "Crystal-clear visibility",
