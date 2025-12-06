@@ -156,16 +156,19 @@ export const getSEOConfig = (page) => {
 // Helper function to generate product-specific SEO
 export const getProductSEO = (product) => {
   return {
-    title: `${product.name} | Flexible Packaging | Amul Packaging`,
-    description: `${product.description} - Custom ${product.name} packaging solutions by Amul Packaging. High-quality flexible packaging for your business needs.`,
-    keywords: `${product.name}, ${product.category} packaging, flexible packaging, custom packaging, Amul Packaging`,
+    // Use custom seoTitle if available, otherwise fallback to generated title
+    title: product.seoTitle || `${product.name} | Flexible Packaging | Amul Packaging`,
+    // Use custom seoDescription if available, otherwise fallback to generated description
+    description: product.seoDescription || `${product.description} - Custom ${product.name} packaging solutions by Amul Packaging. High-quality flexible packaging for your business needs.`,
+    // Use custom seoKeywords if available, otherwise fallback to generated keywords
+    keywords: product.seoKeywords || `${product.name}, ${product.category} packaging, flexible packaging, custom packaging, Amul Packaging`,
     image: product.image || "/img/products/default.jpg",
     url: `https://www.amulpackaging.in/products/${product.id}/${product.name.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').trim()}`,
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Product",
       "name": product.name,
-      "description": product.description,
+      "description": product.seoDescription || product.description,
       "image": product.image,
       "brand": {
         "@type": "Brand",
