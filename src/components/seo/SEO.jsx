@@ -1,10 +1,9 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-
 const SEO = ({
-  title = "Amul Packaging | Flexible Packaging Solutions & Printing",
-  description = "Amul Packaging offers cutting-edge flexible packaging solutions using rotogravure, flexographic, and digital printing technologies for all industries.",
-  keywords = "Amul Packaging, flexible packaging, rotogravure, flexographic, digital printing, Mumbai, manufacturer",
+  title = "Flexible & Product Packaging Services by Amul Packaging",
+  description = "Amul Packaging delivers reliable flexible packaging and product packaging with superior quality, custom designs, and fast service for businesses of all sizes.",
+  keywords = "flexible packaging, product packging",
   image = "/img/Banner.jpg",
   url = "https://www.amulpackaging.in",
   type = "website",
