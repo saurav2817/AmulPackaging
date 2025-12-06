@@ -2,9 +2,9 @@ const products = [
   {
     id: 1,
     name: "Standup Zipper Pouch",
-    seoTitle: "Premium Standup Zipper Pouches | Resealable Packaging | Amul Packaging",
-    seoDescription: "High-quality standup zipper pouches with secure seals and custom printing. Ideal for snacks, spices, pet food, cosmetics & supplements. Resealable, durable flexible packaging.",
-    seoKeywords: "standup zipper pouches, resealable pouches, zipper pouches, food packaging, snack pouches, pet food packaging, flexible packaging, custom pouches",
+    seoTitle: "Stronger, Fresher Stand Up Pouche | Amul Packaging",
+    seoDescription: "Get strong, fresh-keeping stand up pouche made for food, pet, cosmetic, and nutraceutical brands. Custom sizes, printing, and fast delivery from Amul Packaging",
+    seoKeywords: "stand up pouch",
     img: [
       "/img/products/Standup-zipper-pouch.jpg",
       "/img/products/Standup-zipper-pouch-Main.jpg",
@@ -222,9 +222,9 @@ const products = [
   {
     id: 2,
     name: "3 side seal  pouch",
-    seoTitle: "Three Side Seal Pouches | Secure Food Packaging | Amul Packaging",
-    seoDescription: "Durable three side seal pouches for spices, sachets, and pharmaceutical products. Food-grade, leak-proof, and custom-printed. Reliable flexible packaging solutions.",
-    seoKeywords: "three side seal pouches, 3 side seal pouch, sachets, spice pouches, pharmaceutical packaging, leak-proof pouches, food packaging",
+    seoTitle: "Smart, Secure Three Side Seal Pouch | Amul Packaging",
+    seoDescription: "Get smart, secure Three Side Seal Pouch for food, pharma, cosmetics, and more. Custom sizes, strong sealing, and clean printing from Amul Packaging.",
+    seoKeywords: "three side seal pouch",
     img: [
       "/img/products/3-Side-Seal-Pouch.jpg",
         "/img/products/3-Side-Seal-Pouch-Main.jpg",
@@ -384,9 +384,9 @@ const products = [
   {
     id: 3,
     name: "Flat Bottom Pouch",
-    seoTitle: "Flat Bottom Pouches | Premium Shelf Appeal | Amul Packaging",
-    seoDescription: "Premium flat bottom pouches with strong shelf appeal and five printable panels. Ideal for coffee, pet food, and wellness products. Stable, durable flexible packaging.",
-    seoKeywords: "flat bottom pouches, flat bottom bags, coffee packaging, pet food pouches, premium packaging, shelf-ready pouches, flexible packaging",
+    seoTitle: "Make Your Brand Look Premium with Flat Bottom Pouch",
+    seoDescription: "Give your product a premium look with flat bottom Pouch designed for strength, freshness, and clean branding. Custom sizes and printing available at Amul Packaging.",
+    seoKeywords: "flat bottom pouch",
     img: [
       "/img/products/Flat-Bottom-Pouch.jpg",
       "/img/products/Flat-Bottom-Pouch-Main.jpg",
@@ -575,9 +575,9 @@ const products = [
   {
     id: 4,
     name: "Centre Seal Pouch",
-    seoTitle: "Centre Seal Pouches | Economical Food Packaging | Amul Packaging",
-    seoDescription: "Cost-effective centre seal pouches for snacks, biscuits, and food products. Simple, strong design with excellent barrier protection. Affordable flexible packaging solution.",
-    seoKeywords: "centre seal pouches, center seal pouch, snack pouches, biscuit packaging, food packaging pouches, economical packaging",
+    seoTitle: "Center Seal Pouch Made to Protect | Amul Packaging",
+    seoDescription: "Get strong, clean-finished center seal pouch designed to protect food, snacks, pharma, and FMCG products. Custom sizes and printing available at Amul Packaging.",
+    seoKeywords: "center seal pouch",
     img: [
       "/img/products/Centre Seal Pouch.jpg",
       "/img/products/Centre-Seal-Pouch-Main.jpg",
@@ -740,9 +740,9 @@ HeroText:"Our high-quality Centre Seal Pouches ensure airtight protection, optim
   {
     id: 5,
     name: "Quad Seal Pouch",
-    seoTitle: "Quad Seal Pouches | Heavy-Duty Packaging | Amul Packaging",
-    seoDescription: "Strong quad seal pouches with four reinforced seals for heavy products. Box-shaped structure, maximum shelf stability. Premium flexible packaging for coffee, pet food & snacks.",
-    seoKeywords: "quad seal pouches, four seal pouches, heavy-duty packaging, coffee pouches, premium pouches, box pouches, reinforced packaging",
+    seoTitle: "Quad Seal Pouch That Hold Shape & Style | Amul Packaging",
+    seoDescription: "Keep your product secure with quad seal pouch that hold shape, protect freshness, and look premium. Custom sizes and printing available at Amul Packaging.",
+    seoKeywords: "quad seal pouch",
     img: [
       "/img/products/Quad-Seal-Pouch.jpg",
       "/img/products/Quad-Seal-Pouch-Main.jpg",
@@ -902,9 +902,9 @@ HeroText:"With reinforced side seals and a durable design, our Quad Seal Pouches
   {
     id: 6,
     name: "Vacuum Pouch",
-    seoTitle: "Vacuum Pouches | High-Barrier Food Packaging | Amul Packaging",
-    seoDescription: "High-barrier vacuum pouches for long-lasting freshness. Suitable for meat, snacks, frozen foods, and pharmaceuticals. Air-tight sealing for maximum protection.",
-    seoKeywords: "vacuum pouches, vacuum bags, high-barrier packaging, meat packaging, food preservation, frozen food pouches, air-tight pouches",
+    seoTitle: "Vacuum Seal Pouch That Preserve Quality | Amul Packaging",
+    seoDescription: "Safely store meat, snacks, pharma and more with vacuum seal pouch that block air and moisture. Strong, durable and custom-made for your product at Amul Packaging.",
+    seoKeywords: "vacuum pouch",
     img: [
       "/img/products/Vacuum-Pouch.jpg",
       "/img/products/Vacuum-Pouch-Main.jpg",
@@ -1089,9 +1089,9 @@ Industry: [
   {
     id: 7,
     name: "Shaped Pouch",
-    seoTitle: "Custom Shaped Pouches | Creative Packaging Design | Amul Packaging",
-    seoDescription: "Custom-shaped pouches that stand out on retail shelves. Creative die-cut designs for snacks, beverages, and cosmetics. Unique packaging for brand differentiation.",
-    seoKeywords: "shaped pouches, custom pouches, die-cut pouches, creative packaging, unique pouches, branded packaging, beverage pouches",
+    seoTitle: "Shape Pouch That Turn Heads on Shelves | Amul Packaging",
+    seoDescription: "Create packaging that grabs attention with custom shape pouch designed to match your product style. Strong, attractive & fully customizable at Amul Packaging.",
+    seoKeywords: "shape pouch",
     img: [
       "/img/products/Shaped-Pouch.jpg",
       "/img/products/Shaped-Pouch-Main.jpg",
@@ -1254,10 +1254,9 @@ HeroText:"From unique silhouettes to durable structure, our Shaped Pouches provi
   {
     id: 8,
     name: "Spout Pouch",
-    seoTitle: "Spout Pouches | Convenient Liquid Packaging | Amul Packaging",
-    seoDescription: "Leak-proof spout pouches for juices, sauces, baby food, and beverages. Convenient pouring and reusable design. Perfect liquid packaging solution.",
-    seoKeywords: "spout pouches, liquid pouches, juice pouches, baby food pouches, pouring spout bags, beverage packaging, flexible pouches",
-    seoKeywords: "spout pouches, liquid pouches, juice pouches, baby food pouches, pouring spout bags, beverage packaging, flexible pouches",
+    seoTitle: "Spout Pouch Made for Easy Pouring | Amul Packaging",
+    seoDescription: "Make liquids easier to pour, store, and carry with custom spout pouch that stay leak-proof and durable. Designed for sauces, juices, gels and more at Amul Packaging.",
+    seoKeywords: "spout pouch",
     img: [
       "/img/products/Spout-Pouch.jpg",
       "/img/products/Spout-Pouch-Main.jpg",
@@ -1437,10 +1436,9 @@ Industry: [
   {
     id: 9,
     name: "Laminated Roll-Stock",
-    seoTitle: "Laminated Roll-Stock | FFS Packaging Material | Amul Packaging",
-    seoDescription: "High-barrier laminated roll-stock for automated FFS machines. Custom film combinations for food, pharma, and industrial applications. Versatile, cost-effective packaging material.",
-    seoKeywords: "laminated roll stock, FFS material, form fill seal, packaging rolls, laminated films, food packaging material, automated packaging",
-    seoKeywords: "laminated roll stock, FFS material, form fill seal, packaging rolls, laminated films, food packaging material, automated packaging",
+    seoTitle: "Laminated Roll Stock Built for High-Speed Packing",
+    seoDescription: "Get laminated roll stock designed for fast, smooth machine packing. Strong barrier films, custom printing, and consistent roll quality for every product at Amul Packaging.",
+    seoKeywords: "laminated roll stock",
     img: [
       "/img/products/Laminated-Roll-Stock.jpg",
       "/img/products/Laminated-Roll-Stock-Main.jpg",
@@ -1592,9 +1590,9 @@ HeroText:"Our Laminated Roll-Stock delivers the strength, versatility, and custo
   {
     id: 10,
     name: "Poly bags ",
-    seoTitle: "Poly Bags | Cost-Effective Packaging | Amul Packaging",
-    seoDescription: "Lightweight and durable poly bags for retail, food, industrial and logistics use. Custom-printed, food-safe, and available in bulk. Affordable flexible packaging.",
-    seoKeywords: "poly bags, plastic bags, shopping bags, food bags, packaging bags, bulk bags, wholesale poly bags",
+    seoTitle: "Poly Bag That Protect, Store & Display Well | Amul Packaging",
+    seoDescription: "Get poly bag that protect products, store them safely, and offer clean display. Custom sizes, strong materials, and printing options available at Amul Packaging.",
+    seoKeywords: "poly bag",
     img: [
       "/img/products/Poly-bags.jpg",
       "/img/products/Poly-bags-Main.jpg",
@@ -1772,9 +1770,9 @@ HeroText:"From retail to industrial use, our Poly Bags deliver cost-effective pr
   {
     id: 11,
     name: "Security Bags",
-    seoTitle: "Security Bags | Tamper-Evident Packaging | Amul Packaging",
-    seoDescription: "Tamper-evident security bags for banks, logistics, and pharmaceutical use. High-strength materials with visible tamper indicators. Secure packaging for valuables.",
-    seoKeywords: "security bags, tamper-evident bags, bank bags, courier bags, security pouches, high-security packaging, evidence bags",
+    seoTitle: "Security Bag Made to Protect Valuables | Amul Packaging",
+    seoDescription: "Keep cash, documents, medicines, and sensitive items safe with tamper-evident security bags designed to show any unauthorized access. Made dependable by Amul Packaging.",
+    seoKeywords: "security bag",
     img: [
       "/img/products/Security-Bags.jpg",
       "/img/products/Security-Bags-Main.jpg",
@@ -1938,9 +1936,9 @@ HeroText:"Designed for banks, logistics, and retail industries, our Security Bag
   {
     id: 12,
     name: "Ziplock poly bags",
-    seoTitle: "Ziplock Bags | Resealable Packaging | Amul Packaging",
-    seoDescription: "Durable and reusable ziplock bags for food storage, cosmetics, and industrial use. Crystal-clear, food-safe, and available in custom sizes. Eco-friendly packaging.",
-    seoKeywords: "ziplock bags, resealable bags, storage bags, freezer bags, food storage pouches, clear bags, reusable bags",
+    seoTitle: "Convenient Small Ziplock Bags for Every Need | Amul Packaging",
+    seoDescription: "Keep items protected and organized with small ziplock bags for jewelry, pills, hardware, food and more. Durable, reusable and custom-made by Amul Packaging.",
+    seoKeywords: "small ziplock bags",
     img: [
       "/img/products/Ziplock-bags.jpg",
       "/img/products/Ziplock-bags-Main.jpg",

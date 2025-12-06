@@ -41,9 +41,9 @@ export const seoConfig = {
   },
 
   products: {
-    title: "Products | Flexible Packaging Solutions | Amul Packaging",
-    description: "Explore our comprehensive range of flexible packaging products including pouches, bags, roll stock, and custom packaging solutions for food, pharma, and industrial sectors.",
-    keywords: "flexible packaging products, packaging pouches, standup pouches, vacuum pouches, poly bags, roll stock, custom packaging, food packaging, pharma packaging",
+    title: "Cool Product Packaging for Better Customer Reach",
+    description: "Upgrade your brand with cool product packaging that blends style, strength, and creativity to make your products stand out on any shelf.",
+    keywords: "cool product packaging",
     image: "/img/slider_banner/Products.jpg",
     url: "https://www.amulpackaging.in/products",
     structuredData: {
