@@ -1,9 +1,9 @@
 // SEO configurations for different pages
 export const seoConfig = {
   home: {
-    title: "Amul Packaging | Flexible Packaging Solutions & Printing",
-    description: "Amul Packaging offers cutting-edge flexible packaging solutions using rotogravure, flexographic, and digital printing technologies for all industries. 30+ years of expertise in Mumbai.",
-    keywords: "Amul Packaging, flexible packaging, rotogravure printing, flexographic printing, digital printing, packaging solutions, Mumbai packaging company, custom packaging",
+    title: "Flexible & Product Packaging Services by Amul Packaging",
+    description: "Amul Packaging delivers reliable flexible packaging and product packaging with superior quality, custom designs, and fast service for businesses of all sizes.",
+    keywords: "flexible packaging, product packging",
     image: "/img/Banner.jpg",
     url: "https://www.amulpackaging.in",
     structuredData: {
@@ -21,9 +21,9 @@ export const seoConfig = {
   },
 
   about: {
-    title: "About Us | Amul Packaging - 30+ Years of Packaging Excellence",
-    description: "Learn about Amul Packaging's 30+ years of expertise in flexible packaging, printing, lamination, and client-focused solutions across various industries in Mumbai.",
-    keywords: "about Amul Packaging, packaging company history, flexible packaging expertise, Mumbai packaging manufacturer, packaging team",
+    title: "Who We Are: Amul Packaging & Our Good Packaging Products",
+    description: "Learn how Amul Packaging designs and manufactures good packaging products trusted across industries. Explore our history, expertise, and commitment to quality.",
+    keywords: "good packaging products",
     image: "/img/about.jpg",
     url: "https://www.amulpackaging.in/about",
     structuredData: {
@@ -60,9 +60,9 @@ export const seoConfig = {
   },
 
   services: {
-    title: "Services | Packaging Design & Printing Services | Amul Packaging",
-    description: "Comprehensive packaging services including design, prototyping, digital printing, rotogravure, and flexographic printing. End-to-end packaging solutions for all industries.",
-    keywords: "packaging services, packaging design, digital printing, rotogravure printing, flexographic printing, packaging prototyping, custom packaging services",
+    title: "Amul Packaging Services | Great Product Packaging Solutions",
+    description: "Explore Amul Packaging’s services offering great product packaging designed for durability, branding, and performance across multiple industries.",
+    keywords: "great product packaging",
     image: "/img/slider_banner/Service.jpg",
     url: "https://www.amulpackaging.in/services",
     structuredData: {
@@ -80,9 +80,9 @@ export const seoConfig = {
   },
 
   contact: {
-    title: "Contact Us | Get Custom Packaging Quote | Amul Packaging",
-    description: "Contact Amul Packaging for custom flexible packaging solutions, fast quotes, and expert guidance. Located in Mumbai with 30+ years of packaging expertise.",
-    keywords: "contact Amul Packaging, packaging quote, custom packaging inquiry, Mumbai packaging company, packaging consultation",
+    title: "For the Best Product Packaging | Contact Us | Amul Packaging",
+    description: "Contact Amul Packaging for the best product packaging solutions. Get expert support, custom options, and reliable service for all your packaging needs.",
+    keywords: "best product packaging",
     image: "/img/slider_banner/contactus.jpg",
     url: "https://www.amulpackaging.in/contact",
     structuredData: {
@@ -104,9 +104,9 @@ export const seoConfig = {
   },
 
   industries: {
-    title: "Industries We Serve | Packaging Solutions for All Sectors | Amul Packaging",
-    description: "Amul Packaging serves diverse industries including food, beverage, pharma, pet care, agriculture, fitness, and more with specialized flexible packaging solutions.",
-    keywords: "packaging for food industry, pharma packaging, beverage packaging, pet food packaging, agricultural packaging, fitness packaging, industrial packaging",
+    title: "Food Product Packaging Design for Industries | Amul Packaging",
+    description: "Industry-specific food product packaging design by Amul Packaging, ensuring quality, protection, and appeal for every product category.",
+    keywords: "food product packaging design",
     image: "/img/slider_banner/Products.jpg",
     url: "https://www.amulpackaging.in/industriesweserve",
     structuredData: {
