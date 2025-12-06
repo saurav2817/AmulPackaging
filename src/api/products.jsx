@@ -219,7 +219,6 @@ const products = [
       }
     ]
   },
-
   {
     id: 2,
     name: "3 side seal  pouch",
@@ -388,7 +387,6 @@ const products = [
     seoTitle: "Flat Bottom Pouches | Premium Shelf Appeal | Amul Packaging",
     seoDescription: "Premium flat bottom pouches with strong shelf appeal and five printable panels. Ideal for coffee, pet food, and wellness products. Stable, durable flexible packaging.",
     seoKeywords: "flat bottom pouches, flat bottom bags, coffee packaging, pet food pouches, premium packaging, shelf-ready pouches, flexible packaging",
-    img: [cription: "Premium flat bottom pouches with strong shelf appeal and five printable panels. Ideal for coffee, pet food, and wellness products. Stable, durable flexible packaging.",
     img: [
       "/img/products/Flat-Bottom-Pouch.jpg",
       "/img/products/Flat-Bottom-Pouch-Main.jpg",
@@ -447,6 +445,7 @@ const products = [
       {
        "Icons": "☕",
        "name": "Coffee & Tea",
+
        "description": "Flat bottom pouches are popular in coffee packaging because they preserve aroma, stand firm on shelves, and look premium.",
        "items": [
          "Preserve aroma and freshness",
@@ -572,13 +571,13 @@ const products = [
         answer: "Coffee, tea, snacks, pet food, health supplements, and beauty products."
       }
     ]
+  },
   {
     id: 4,
     name: "Centre Seal Pouch",
     seoTitle: "Centre Seal Pouches | Economical Food Packaging | Amul Packaging",
     seoDescription: "Cost-effective centre seal pouches for snacks, biscuits, and food products. Simple, strong design with excellent barrier protection. Affordable flexible packaging solution.",
     seoKeywords: "centre seal pouches, center seal pouch, snack pouches, biscuit packaging, food packaging pouches, economical packaging",
-    img: [cription: "Cost-effective centre seal pouches for snacks, biscuits, and food products. Simple, strong design with excellent barrier protection. Affordable flexible packaging solution.",
     img: [
       "/img/products/Centre Seal Pouch.jpg",
       "/img/products/Centre-Seal-Pouch-Main.jpg",
@@ -737,13 +736,13 @@ HeroText:"Our high-quality Centre Seal Pouches ensure airtight protection, optim
         answer: "Yes, bulk and wholesale supply options available."
       }
     ]
+  },
   {
     id: 5,
     name: "Quad Seal Pouch",
     seoTitle: "Quad Seal Pouches | Heavy-Duty Packaging | Amul Packaging",
     seoDescription: "Strong quad seal pouches with four reinforced seals for heavy products. Box-shaped structure, maximum shelf stability. Premium flexible packaging for coffee, pet food & snacks.",
     seoKeywords: "quad seal pouches, four seal pouches, heavy-duty packaging, coffee pouches, premium pouches, box pouches, reinforced packaging",
-    img: [cription: "Strong quad seal pouches with four reinforced seals for heavy products. Box-shaped structure, maximum shelf stability. Premium flexible packaging for coffee, pet food & snacks.",
     img: [
       "/img/products/Quad-Seal-Pouch.jpg",
       "/img/products/Quad-Seal-Pouch-Main.jpg",
@@ -1086,13 +1085,13 @@ Industry: [
         answer: "Yes, especially for non-chamber vacuum sealing machines."
       }
     ]
+  },
   {
     id: 7,
     name: "Shaped Pouch",
     seoTitle: "Custom Shaped Pouches | Creative Packaging Design | Amul Packaging",
     seoDescription: "Custom-shaped pouches that stand out on retail shelves. Creative die-cut designs for snacks, beverages, and cosmetics. Unique packaging for brand differentiation.",
     seoKeywords: "shaped pouches, custom pouches, die-cut pouches, creative packaging, unique pouches, branded packaging, beverage pouches",
-    img: [cription: "Custom-shaped pouches that stand out on retail shelves. Creative die-cut designs for snacks, beverages, and cosmetics. Unique packaging for brand differentiation.",
     img: [
       "/img/products/Shaped-Pouch.jpg",
       "/img/products/Shaped-Pouch-Main.jpg",
@@ -1258,7 +1257,7 @@ HeroText:"From unique silhouettes to durable structure, our Shaped Pouches provi
     seoTitle: "Spout Pouches | Convenient Liquid Packaging | Amul Packaging",
     seoDescription: "Leak-proof spout pouches for juices, sauces, baby food, and beverages. Convenient pouring and reusable design. Perfect liquid packaging solution.",
     seoKeywords: "spout pouches, liquid pouches, juice pouches, baby food pouches, pouring spout bags, beverage packaging, flexible pouches",
-    img: [cription: "Leak-proof spout pouches for juices, sauces, baby food, and beverages. Convenient pouring and reusable design. Perfect liquid packaging solution.",
+    seoKeywords: "spout pouches, liquid pouches, juice pouches, baby food pouches, pouring spout bags, beverage packaging, flexible pouches",
     img: [
       "/img/products/Spout-Pouch.jpg",
       "/img/products/Spout-Pouch-Main.jpg",
@@ -1434,13 +1433,14 @@ Industry: [
         answer: "Yes, shaped designs are available for juice and kids’ products."
       }
     ]
+  },
   {
     id: 9,
     name: "Laminated Roll-Stock",
     seoTitle: "Laminated Roll-Stock | FFS Packaging Material | Amul Packaging",
     seoDescription: "High-barrier laminated roll-stock for automated FFS machines. Custom film combinations for food, pharma, and industrial applications. Versatile, cost-effective packaging material.",
     seoKeywords: "laminated roll stock, FFS material, form fill seal, packaging rolls, laminated films, food packaging material, automated packaging",
-    img: [cription: "High-barrier laminated roll-stock for automated FFS machines. Custom film combinations for food, pharma, and industrial applications. Versatile, cost-effective packaging material.",
+    seoKeywords: "laminated roll stock, FFS material, form fill seal, packaging rolls, laminated films, food packaging material, automated packaging",
     img: [
       "/img/products/Laminated-Roll-Stock.jpg",
       "/img/products/Laminated-Roll-Stock-Main.jpg",
@@ -1587,14 +1587,14 @@ HeroText:"Our Laminated Roll-Stock delivers the strength, versatility, and custo
         question: "Do you supply in bulk?",
         answer: "Yes, we offer wholesale and bulk orders for manufacturers and co-packers."
       }
+    ]
+  },
   {
     id: 10,
     name: "Poly bags ",
     seoTitle: "Poly Bags | Cost-Effective Packaging | Amul Packaging",
     seoDescription: "Lightweight and durable poly bags for retail, food, industrial and logistics use. Custom-printed, food-safe, and available in bulk. Affordable flexible packaging.",
     seoKeywords: "poly bags, plastic bags, shopping bags, food bags, packaging bags, bulk bags, wholesale poly bags",
-    img: [le: "Poly Bags | Cost-Effective Packaging | Amul Packaging",
-    seoDescription: "Lightweight and durable poly bags for retail, food, industrial and logistics use. Custom-printed, food-safe, and available in bulk. Affordable flexible packaging.",
     img: [
       "/img/products/Poly-bags.jpg",
       "/img/products/Poly-bags-Main.jpg",
@@ -1767,14 +1767,14 @@ HeroText:"From retail to industrial use, our Poly Bags deliver cost-effective pr
         question: "How is the poly bag price calculated?",
         answer: "Based on size, thickness, printing, and order quantity."
       }
+    ]
+  },
   {
     id: 11,
     name: "Security Bags",
     seoTitle: "Security Bags | Tamper-Evident Packaging | Amul Packaging",
     seoDescription: "Tamper-evident security bags for banks, logistics, and pharmaceutical use. High-strength materials with visible tamper indicators. Secure packaging for valuables.",
     seoKeywords: "security bags, tamper-evident bags, bank bags, courier bags, security pouches, high-security packaging, evidence bags",
-    img: [le: "Security Bags | Tamper-Evident Packaging | Amul Packaging",
-    seoDescription: "Tamper-evident security bags for banks, logistics, and pharmaceutical use. High-strength materials with visible tamper indicators. Secure packaging for valuables.",
     img: [
       "/img/products/Security-Bags.jpg",
       "/img/products/Security-Bags-Main.jpg",
@@ -1934,14 +1934,13 @@ HeroText:"Designed for banks, logistics, and retail industries, our Security Bag
         answer: "Yes, wholesale orders are available."
       }
     ]
+  },
   {
     id: 12,
     name: "Ziplock poly bags",
     seoTitle: "Ziplock Bags | Resealable Packaging | Amul Packaging",
     seoDescription: "Durable and reusable ziplock bags for food storage, cosmetics, and industrial use. Crystal-clear, food-safe, and available in custom sizes. Eco-friendly packaging.",
     seoKeywords: "ziplock bags, resealable bags, storage bags, freezer bags, food storage pouches, clear bags, reusable bags",
-    img: [le: "Ziplock Bags | Resealable Packaging | Amul Packaging",
-    seoDescription: "Durable and reusable ziplock bags for food storage, cosmetics, and industrial use. Crystal-clear, food-safe, and available in custom sizes. Eco-friendly packaging.",
     img: [
       "/img/products/Ziplock-bags.jpg",
       "/img/products/Ziplock-bags-Main.jpg",
