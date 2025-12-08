@@ -110,7 +110,14 @@ const Contact = () => {
                                 <BiSolidPhoneCall className="text-4xl bg-primary p-2 text-white rounded-lg" />
                                 <div className="text-center">
                                     <p className="text-sm text-gray-500">Phone</p>
-                                    <p className="">+91 9004382696</p>
+                                    <p className="">  
+                                        <a
+                                            href="tel:+919004382696"
+                                            className="hover:underline break-all "
+                                        >
+                                            +91 9004382696
+                                        </a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -119,7 +126,14 @@ const Contact = () => {
                                 <IoMdMail className="text-4xl bg-primary p-2 text-white rounded-lg" />
                                 <div className="text-center">
                                     <p className="text-sm text-gray-500">Email</p>
-                                    <p className="">Sales@amulpackaging.in</p>
+                                    <p className="">
+                                        <a
+                                            href="mailto:Sales@amulpackaging.in"
+                                            className="hover:underline break-all "
+                                        >
+                                        Sales@amulpackaging.in 
+                                        </a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
