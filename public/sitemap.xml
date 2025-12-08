@@ -96,20 +96,149 @@
     <priority>0.3</priority>
   </url>
 
-  <!-- Individual Product Pages (if they exist) -->
-  <!-- These would be dynamically generated based on your products -->
-  <!-- Example:
+  <!-- Individual Product Pages -->
   <url>
-    <loc>https://www.amulpackaging.in/products/standup-pouch</loc>
+    <loc>https://www.amulpackaging.in/products/1/standup-zipper-pouch</loc>
     <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://www.amulpackaging.in/img/products/standup-pouch.jpg</image:loc>
-      <image:title>Standup Pouch Packaging</image:title>
-      <image:caption>High-quality standup pouch packaging solutions</image:caption>
+      <image:loc>https://www.amulpackaging.in/img/products/Standup-zipper-pouch.jpg</image:loc>
+      <image:title>Standup Zipper Pouch</image:title>
+      <image:caption>Resealable, reliable standup zipper pouches for food, pet, cosmetic, and nutraceutical packaging</image:caption>
     </image:image>
   </url>
-  -->
+
+  <url>
+    <loc>https://www.amulpackaging.in/products/2/3-side-seal-pouch</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.amulpackaging.in/img/products/3-Side-Seal-Pouch.jpg</image:loc>
+      <image:title>3 Side Seal Pouch</image:title>
+      <image:caption>Strong seals, strong impressions - three side seal pouches for secure packaging</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.amulpackaging.in/products/3/flat-bottom-pouch</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.amulpackaging.in/img/products/Flat-Bottom-Pouch.jpg</image:loc>
+      <image:title>Flat Bottom Pouch</image:title>
+      <image:caption>Premium flat bottom pouches with stable base and excellent shelf appeal</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.amulpackaging.in/products/4/centre-seal-pouch</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.amulpackaging.in/img/products/Centre%20Seal%20Pouch.jpg</image:loc>
+      <image:title>Centre Seal Pouch</image:title>
+      <image:caption>Precision sealed center seal pouches for lasting freshness and protection</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.amulpackaging.in/products/5/quad-seal-pouch</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.amulpackaging.in/img/products/Quad-Seal-Pouch.jpg</image:loc>
+      <image:title>Quad Seal Pouch</image:title>
+      <image:caption>Strong structure and sleek presentation with reinforced quad seal pouches</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.amulpackaging.in/products/6/vacuum-pouch</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.amulpackaging.in/img/products/Vacuum-Pouch.jpg</image:loc>
+      <image:title>Vacuum Pouch</image:title>
+      <image:caption>High-barrier vacuum pouches for maximum freshness and preservation</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.amulpackaging.in/products/7/shaped-pouch</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.amulpackaging.in/img/products/Shaped-Pouch.jpg</image:loc>
+      <image:title>Shaped Pouch</image:title>
+      <image:caption>Creative custom shaped pouches designed to fit your product and stand out</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.amulpackaging.in/products/8/spout-pouch</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.amulpackaging.in/img/products/Spout-Pouch.jpg</image:loc>
+      <image:title>Spout Pouch</image:title>
+      <image:caption>Flexible form with functional flow - spout pouches for easy pouring and use</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.amulpackaging.in/products/9/laminated-roll-stock</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.amulpackaging.in/img/products/Laminated-Roll-Stock.jpg</image:loc>
+      <image:title>Laminated Roll Stock</image:title>
+      <image:caption>High-speed machine-compatible laminated roll stock for automated packaging</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.amulpackaging.in/products/10/poly-bags</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.amulpackaging.in/img/products/Poly-bags.jpg</image:loc>
+      <image:title>Poly Bags</image:title>
+      <image:caption>Lightweight protection that works - durable poly bags for all industries</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.amulpackaging.in/products/11/security-bags</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.amulpackaging.in/img/products/Security-Bags.jpg</image:loc>
+      <image:title>Security Bags</image:title>
+      <image:caption>Tamper-evident security bags for protecting valuables and sensitive items</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.amulpackaging.in/products/12/ziplock-poly-bags</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://www.amulpackaging.in/img/products/Ziplock-bags.jpg</image:loc>
+      <image:title>Ziplock Poly Bags</image:title>
+      <image:caption>Secure today, reuse tomorrow - convenient resealable ziplock bags</image:caption>
+    </image:image>
+  </url>
 
 </urlset>
