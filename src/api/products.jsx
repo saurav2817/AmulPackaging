@@ -1761,10 +1761,7 @@ HeroText:"From retail to industrial use, our Poly Bags deliver cost-effective pr
         question: "Are industrial poly bags available?",
         answer: "Yes, we manufacture heavy-duty bags for industrial use."
       },
-      {
-        question: "How is the poly bag price calculated?",
-        answer: "Based on size, thickness, printing, and order quantity."
-      }
+     
     ]
   },
   {
