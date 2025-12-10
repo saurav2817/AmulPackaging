@@ -155,6 +155,33 @@ export const getSEOConfig = (page) => {
 
 // Helper function to generate product-specific SEO
 export const getProductSEO = (product) => {
+  const baseStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": product.name,
+    "description": product.seoDescription || product.description,
+    "image": product.image,
+    "brand": {
+      "@type": "Brand",
+      "name": "Amul Packaging"
+    },
+    "category": product.category,
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@type": "Organization",
+        "name": "Amul Packaging"
+      }
+    }
+  };
+
+  // Use faqSchema from product if available
+  const faqSchema = product.faqSchema || null;
+  
+  // Return both schemas as an array if FAQ schema exists
+  const structuredData = faqSchema ? [baseStructuredData, faqSchema] : baseStructuredData;
+
   return {
     // Use custom seoTitle if available, otherwise fallback to generated title
     title: product.seoTitle || `${product.name} | Flexible Packaging | Amul Packaging`,
@@ -164,25 +191,6 @@ export const getProductSEO = (product) => {
     keywords: product.seoKeywords || `${product.name}, ${product.category} packaging, flexible packaging, custom packaging, Amul Packaging`,
     image: product.image || "/img/products/default.jpg",
     url: `https://www.amulpackaging.in/products/${product.id}/${product.name.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').trim()}`,
-    structuredData: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": product.name,
-      "description": product.seoDescription || product.description,
-      "image": product.image,
-      "brand": {
-        "@type": "Brand",
-        "name": "Amul Packaging"
-      },
-      "category": product.category,
-      "offers": {
-        "@type": "Offer",
-        "availability": "https://schema.org/InStock",
-        "seller": {
-          "@type": "Organization",
-          "name": "Amul Packaging"
-        }
-      }
-    }
+    structuredData: structuredData
   };
 };
