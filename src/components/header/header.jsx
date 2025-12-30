@@ -108,6 +108,15 @@ const Header = () => {
                 Contact Us
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                to="/Blog"
+                className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`}
+                aria-label="Blog of Amul Packaging"
+              >
+                Blogs
+              </NavLink>
+            </li>
             {/* Info Icon */}
             <li className="hidden md:block">
               <button
@@ -295,6 +304,12 @@ const Header = () => {
                 >
                   Contact
                 </a>
+                <a
+                  href="/blog"
+                  className="p-2 rounded border hover:border-blue-500"
+                >
+                  Blogs
+                </a>
               </div>
             </div>
 
@@ -386,6 +401,15 @@ const Header = () => {
               onClick={closeAll}
             >
               Contact
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/blog"
+              className={({isActive}) => `hover:text-blue-600 ${isActive ? "text-blue-600" : ""}`}
+              onClick={closeAll}
+            >
+              Blogs
             </NavLink>
           </li>
           <li>

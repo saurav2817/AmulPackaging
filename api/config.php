@@ -7,11 +7,20 @@ define('SMTP_PASSWORD', '9821144238Ap$'); // Use App Password for Gmail
 define('SMTP_FROM_EMAIL', 'sales@amulpackaging.in');
 define('SMTP_FROM_NAME', 'Amul Packaging');
 
-// Database configuration (if needed for future features)
-define('DB_HOST', 'localhost');
+// local database configuration
+define('DB_HOST', 'localhost'); // MySQL host
 define('DB_NAME', 'amul_packaging');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_USER', 'root'); // MySQL default user for XAMPP
+define('DB_PASS', ''); // MySQL password (empty by default in XAMPP)
+define('DB_PORT', '3306'); // Default MySQL port
+
+// Database configuration for MySQL
+// MySQL is included with XAMPP by default
+// define('DB_HOST', 'localhost'); // MySQL host
+// define('DB_NAME', 'u600764534_amul_packaging');
+// define('DB_USER', 'u600764534_root'); // MySQL default user for XAMPP
+// define('DB_PASS', 'amulPkg@123'); // MySQL password (empty by default in XAMPP)
+// define('DB_PORT', '3306'); // Default MySQL port
 
 // Site configuration
 define('SITE_URL', 'https://amulpackaging.in/');

@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Outlet, Navigate } from "react-router-dom";
+import { Routes, Route, Outlet, Navigate, useLocation } from "react-router-dom";
 
 import Header from "../components/header/header";
 import Footer from "../components/footer/footer";
@@ -16,6 +16,12 @@ import TermCondition from "../pages/termCondition";
 import IndustriesWeServe from "../pages/IndustriesWeServe";
 import ActionBtn from "../components/actionbutton/actionbutton";
 import ThankYou from "../pages/thank-you";
+import BlogList from "../pages/BlogList";
+import BlogDetail from "../pages/BlogDetail";
+import AdminBlogs from "../pages/admin/AdminBlogs";
+import AdminBlogForm from "../pages/admin/AdminBlogForm";
+import AdminLogin from "../pages/admin/AdminLogin";
+import { isAuthenticated } from "../utils/auth";
 
 const MainLayout = () => (
     <>
@@ -27,6 +33,16 @@ const MainLayout = () => (
       <Footer/>
     </>
   );
+
+const RequireAuth = ({ children }) => {
+  const location = useLocation();
+
+  if (!isAuthenticated()) {
+    return <Navigate to="/admin/login" state={{ from: location }} replace />;
+  }
+
+  return children;
+};
 
 const AppRoutes = () => {
     return(
@@ -43,9 +59,37 @@ const AppRoutes = () => {
                 <Route path="contact" element={<Contact/>} />
                 <Route path="privacyPolicy" element={<PrivacyPolicy/>} />
                 <Route path="termCondition" element={<TermCondition/>} />
-                <Route path="*" element={<Navigate to="/" replace />} />
+                <Route path="blog" element={<BlogList/>} />
+                <Route path="blog/:slug" element={<BlogDetail/>} />
                 <Route path="thank-you" element={<ThankYou/>} />
+                <Route path="*" element={<Navigate to="/" replace />} />
               </Route>
+              {/* Admin Routes (without main layout) */}
+              <Route path="/admin/login" element={<AdminLogin />} />
+              <Route
+                path="/admin/blogs"
+                element={
+                  <RequireAuth>
+                    <AdminBlogs />
+                  </RequireAuth>
+                }
+              />
+              <Route
+                path="/admin/blogs/new"
+                element={
+                  <RequireAuth>
+                    <AdminBlogForm />
+                  </RequireAuth>
+                }
+              />
+              <Route
+                path="/admin/blogs/edit/:id"
+                element={
+                  <RequireAuth>
+                    <AdminBlogForm />
+                  </RequireAuth>
+                }
+              />
             </Routes>
         </>
     )

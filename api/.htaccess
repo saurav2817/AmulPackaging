@@ -1,37 +1,20 @@
-RewriteEngine On
+# Enable CORS
+Header set Access-Control-Allow-Origin "*"
+Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, PATCH, OPTIONS"
+Header set Access-Control-Allow-Headers "Content-Type, Authorization"
 
-# Handle CORS preflight requests
+# Handle preflight requests
+RewriteEngine On
 RewriteCond %{REQUEST_METHOD} OPTIONS
 RewriteRule ^(.*)$ $1 [R=200,L]
 
-# Enable CORS headers
-Header always set Access-Control-Allow-Origin "*"
-Header always set Access-Control-Allow-Methods "GET, POST, OPTIONS"
-Header always set Access-Control-Allow-Headers "Content-Type, Authorization"
+# Enable PUT, DELETE, PATCH methods
+<Limit GET POST PUT DELETE PATCH OPTIONS>
+    Allow from all
+</Limit>
 
-# Security headers
-Header always set X-Content-Type-Options nosniff
-Header always set X-Frame-Options DENY
-Header always set X-XSS-Protection "1; mode=block"
-
-# Hide sensitive files
-<Files "config.php">
-    Order Allow,Deny
-    Deny from all
-</Files>
-
-<Files "composer.json">
-    Order Allow,Deny
-    Deny from all
-</Files>
-
-<Files "composer.lock">
-    Order Allow,Deny
-    Deny from all
-</Files>
-
-# Rate limiting files
-<Files "rate_limit_*.txt">
-    Order Allow,Deny
-    Deny from all
-</Files>
+# URL Rewriting for RESTful API
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^blogs\.php/(.*)$ blogs.php?path=$1 [QSA,L]

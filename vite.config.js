@@ -10,7 +10,16 @@ export default defineConfig({
   server: {
     port: 3000, // Change this if needed
     open: true,
-    historyApiFallback: true
+    historyApiFallback: true,
+    proxy: {
+      '/api': {
+        // Point to the PHP built-in server (see instructions)
+        target: 'http://localhost:8000',
+        changeOrigin: true,
+        secure: false,
+        rewrite: (path) => path.replace(/^\/api/, ''),
+      }
+    }
   },
   preview: {
     port: 3000,
