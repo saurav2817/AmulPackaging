@@ -23,8 +23,18 @@ import AdminBlogForm from "../pages/admin/AdminBlogForm";
 import AdminLogin from "../pages/admin/AdminLogin";
 import { isAuthenticated } from "../utils/auth";
 
+import StandupZipperPouch from "../pages/services/StandupZipperPouch";
+import FlatBottomPouch from "../pages/services/FlatBottomPouch";
+import SpoutPouch from "../pages/services/SpoutPouch";
+import VacuumPouch from "../pages/services/VacuumPouch";
+import LaminatedRollStock from "../pages/services/LaminatedRollStock";
+import PolyBags from "../pages/services/PolyBags";
+
+import SchemaManager from "../seo/SchemaManager";
+
 const MainLayout = () => (
     <>
+      <SchemaManager />
       <ScrollToTop />
       <ActionBtn />
       <Header/>
@@ -62,8 +72,15 @@ const AppRoutes = () => {
                 <Route path="blog" element={<BlogList/>} />
                 <Route path="blog/:slug" element={<BlogDetail/>} />
                 <Route path="thank-you" element={<ThankYou/>} />
+                <Route path="services/stand-up-pouch-manufacturer-in-bhiwandi" element={<StandupZipperPouch />} />
+                <Route path="services/flat-bottom-pouch-supplier-in-bhiwandi" element={<FlatBottomPouch />} />
+                <Route path="services/spout-pouch-in-mumbai" element={<SpoutPouch />} />
+                <Route path="services/vacuum-pouch-In-bhiwandi" element={<VacuumPouch />} />
+                <Route path="services/laminated-roll-stock-in-mumbai" element={<LaminatedRollStock />} />
+                <Route path="services/poly-bags-manufacturer-in-mumbai" element={<PolyBags />} />
                 <Route path="*" element={<Navigate to="/" replace />} />
               </Route>
+
               {/* Admin Routes (without main layout) */}
               <Route path="/admin/login" element={<AdminLogin />} />
               <Route
