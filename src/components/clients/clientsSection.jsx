@@ -43,35 +43,55 @@ const clients = [
     ClientImg: "/img/clientlogo/superyou.jpg", 
     Name: "Superyou",
   },
-  {
-    id: "8",
-    ClientImg: "/img/clientlogo/Trunativ.jpg", 
-    Name: "Trunativ",
-  },
-  {
-    id: "9",
-    ClientImg: "/img/clientlogo/delta.jpg", 
-    Name: "Delta Nutritives",
-  },
-  {
-    id: "10",
-    ClientImg: "/img/clientlogo/blg.jpg", 
-    Name: "BLG",
-  },
+  // {
+  //   id: "8",
+  //   ClientImg: "/img/clientlogo/Trunativ.jpg", 
+  //   Name: "Trunativ",
+  // },
+  // {
+  //   id: "9",
+  //   ClientImg: "/img/clientlogo/delta.jpg", 
+  //   Name: "Delta Nutritives",
+  // },
+  // {
+  //   id: "10",
+  //   ClientImg: "/img/clientlogo/blg.jpg", 
+  //   Name: "BLG",
+  // },
   {
     id: "11",
     ClientImg: "/img/clientlogo/urban.jpg", 
     Name: "Urban platte",
   },
-  {
-    id: "12",
-    ClientImg: "/img/clientlogo/purshottam.jpg", 
-    Name: "Purshottam Kandoi",
-  },
+  // {
+  //   id: "12",
+  //   ClientImg: "/img/clientlogo/purshottam.jpg", 
+  //   Name: "Purshottam Kandoi",
+  // },
   {
     id: "13",
     ClientImg: "/img/clientlogo/whole-truth.jpg", 
     Name: "Whoile Truth",
+  },
+  {
+    id: "14",
+    ClientImg: "/img/clientlogo/bazana.jpg", 
+    Name: "bazana",
+  },
+  {
+    id: "15",
+    ClientImg: "/img/clientlogo/candor.jpg", 
+    Name: " candor",
+  },
+  {
+    id: "16",
+    ClientImg: "/img/clientlogo/prov.jpg", 
+    Name: " prov",
+  },
+  {
+    id: "17",
+    ClientImg: "/img/clientlogo/fazlaniexports.jpg", 
+    Name: "fazlani exports",
   },
 ];
 
