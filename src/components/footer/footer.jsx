@@ -237,8 +237,10 @@ const Footer = () => {
               <div>
                 <h5 className=" text-white text-xs">Factory Address</h5>
                 <address className="not-italic text-sm leading-relaxed max-w-xs font-bold">
-                Bldg No.P4, Plot No.P, Shree Raj Laxmi Ind. Estate, Sonale Village, Bhiwandi
-                , Maharashtra 421302
+                <a href="https://maps.app.goo.gl/n1vzNBjfbmoEgoKF6" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                  Bldg No.P4, Plot No.P, Shree Raj Laxmi Ind. Estate, Sonale Village, Bhiwandi
+                  , Maharashtra 421302
+                </a>
               </address>
               </div>
             </div>

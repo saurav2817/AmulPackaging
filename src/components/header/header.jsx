@@ -54,9 +54,11 @@ const Header = () => {
           {/* Desktop Menu */}
           <ul className="hidden md:flex items-center space-x-6 font-medium">
             <li>
-              <NavLink 
+              <NavLink
                 to="/"
-                className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive && location.pathname === "/" ? "text-[var(--primary-color)]" : ""}`}
+                className={({ isActive }) =>
+                  `hover:text-[var(--primary-color)] ${isActive && location.pathname === "/" ? "text-[var(--primary-color)]" : ""}`
+                }
                 end
                 aria-label="Go to Amul Packaging home page"
               >
@@ -64,36 +66,44 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink 
+              <NavLink
                 to="/about"
-                className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`}
+                className={({ isActive }) =>
+                  `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`
+                }
                 aria-label="Learn about Amul Packaging company"
               >
                 About Us
               </NavLink>
             </li>
             <li>
-              <NavLink 
+              <NavLink
                 to="/products"
-                className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`}
+                className={({ isActive }) =>
+                  `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`
+                }
                 aria-label="View flexible packaging products"
               >
                 Products
               </NavLink>
             </li>
             <li>
-              <NavLink 
+              <NavLink
                 to="/services"
-                className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`}
+                className={({ isActive }) =>
+                  `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`
+                }
                 aria-label="Explore packaging services"
               >
                 Services
               </NavLink>
             </li>
             <li>
-              <NavLink 
+              <NavLink
                 to="/IndustriesWeServe"
-                className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`}
+                className={({ isActive }) =>
+                  `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`
+                }
                 aria-label="See industries we serve"
               >
                 Industries We Serve
@@ -102,7 +112,9 @@ const Header = () => {
             <li>
               <NavLink
                 to="/contact"
-                className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`}
+                className={({ isActive }) =>
+                  `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`
+                }
                 aria-label="Contact Amul Packaging"
               >
                 Contact Us
@@ -111,7 +123,9 @@ const Header = () => {
             <li>
               <NavLink
                 to="/Blog"
-                className={({isActive}) => `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`}
+                className={({ isActive }) =>
+                  `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`
+                }
                 aria-label="Blog of Amul Packaging"
               >
                 Blogs
@@ -127,15 +141,14 @@ const Header = () => {
               </button>
             </li>
             <li>
-            <NavLink
-             to="/AmulPackagingCatalogue.pdf"
-             target="_blank"
+              <NavLink
+                to="/AmulPackagingCatalogue.pdf"
+                target="_blank"
                 className="mt-6 px-6 py-2 bg-primary text-white font-semibold rounded-full shadow hover:bg-yellow-400 transition-colors duration-200 w-max"
                 aria-label="Download Catalogue"
               >
                 Download Catalogue
-            </NavLink>
-            
+              </NavLink>
             </li>
           </ul>
           {/* Mobile Hamburger */}
@@ -237,11 +250,12 @@ const Header = () => {
                 </span>
                 <div>
                   <p className="text-xs uppercase tracking-wide text-gray-500">
-                  Head Office Address
+                    Head Office Address
                   </p>
-                  
+
                   <p className="text-sm font-medium text-gray-900">
-                  2, Pramod Prasad Building, Plot No.232.<br/> Next to Brij Albela, Wadala (W), Mumbai 400 031.
+                    2, Pramod Prasad Building, Plot No.232.
+                    <br /> Next to Brij Albela, Wadala (W), Mumbai 400 031.
                   </p>
                 </div>
               </div>
@@ -250,13 +264,20 @@ const Header = () => {
                   <HiOutlineLocationMarker size={20} />
                 </span>
                 <div>
-                  <p className="text-xs uppercase tracking-wide text-gray-500">
-                  Factory Address
-                  </p>
-                  
-                  <p className="text-sm font-medium text-gray-900">
-                  Bldg No.P4, Plot No.P, Shree Raj Laxmi Ind. Estate, Sonale Village, Bhiwandi , Maharashtra 421302
-                  </p>
+                  <a
+                    href="https://maps.app.goo.gl/n1vzNBjfbmoEgoKF6"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline"
+                  >
+                    <p className="text-xs uppercase tracking-wide text-gray-500">
+                      Factory Address
+                    </p>
+                    <p className="text-sm font-medium text-gray-900">
+                      Bldg No.P4, Plot No.P, Shree Raj Laxmi Ind. Estate, Sonale
+                      Village, Bhiwandi , Maharashtra 421302
+                    </p>
+                  </a>
                 </div>
               </div>
               <div className="flex items-start space-x-3 p-3 rounded-lg border">
@@ -316,16 +337,13 @@ const Header = () => {
             {/* CTA Buttons */}
             <div className="flex gap-3 pt-2">
               <a
-                href="/AmulPackagingCatalogue.pdf" target="_blank"
+                href="/AmulPackagingCatalogue.pdf"
+                target="_blank"
                 className="inline-flex items-center justify-center px-4 py-2 rounded-md bg-primary text-white text-sm font-medium hover:bg-blue-700 transition-colors w-full"
               >
                 Download Catalogue
               </a>
-              
-              
             </div>
-
-           
           </div>
 
           {/* Footer small */}
@@ -351,7 +369,9 @@ const Header = () => {
           <li>
             <NavLink
               to="/"
-              className={({isActive}) => `hover:text-blue-600 ${isActive && location.pathname === "/" ? "text-blue-600" : ""}`}
+              className={({ isActive }) =>
+                `hover:text-blue-600 ${isActive && location.pathname === "/" ? "text-blue-600" : ""}`
+              }
               end
               onClick={closeAll}
             >
@@ -361,7 +381,9 @@ const Header = () => {
           <li>
             <NavLink
               to="/about"
-              className={({isActive}) => `hover:text-blue-600 ${isActive ? "text-blue-600" : ""}`}
+              className={({ isActive }) =>
+                `hover:text-blue-600 ${isActive ? "text-blue-600" : ""}`
+              }
               onClick={closeAll}
             >
               About
@@ -370,7 +392,9 @@ const Header = () => {
           <li>
             <NavLink
               to="/products"
-              className={({isActive}) => `hover:text-blue-600 ${isActive ? "text-blue-600" : ""}`}
+              className={({ isActive }) =>
+                `hover:text-blue-600 ${isActive ? "text-blue-600" : ""}`
+              }
               onClick={closeAll}
             >
               Products
@@ -379,16 +403,20 @@ const Header = () => {
           <li>
             <NavLink
               to="/services"
-              className={({isActive}) => `hover:text-blue-600 ${isActive ? "text-blue-600" : ""}`}
+              className={({ isActive }) =>
+                `hover:text-blue-600 ${isActive ? "text-blue-600" : ""}`
+              }
               onClick={closeAll}
             >
               Services
             </NavLink>
           </li>
           <li>
-            <NavLink 
+            <NavLink
               to="/IndustriesWeServe"
-              className={({isActive}) => `hover:text-blue-600 ${isActive ? "text-blue-600" : ""}`}
+              className={({ isActive }) =>
+                `hover:text-blue-600 ${isActive ? "text-blue-600" : ""}`
+              }
               onClick={closeAll}
             >
               Industries We Serve
@@ -397,7 +425,9 @@ const Header = () => {
           <li>
             <NavLink
               to="/contact"
-              className={({isActive}) => `hover:text-blue-600 ${isActive ? "text-blue-600" : ""}`}
+              className={({ isActive }) =>
+                `hover:text-blue-600 ${isActive ? "text-blue-600" : ""}`
+              }
               onClick={closeAll}
             >
               Contact
@@ -406,7 +436,9 @@ const Header = () => {
           <li>
             <NavLink
               to="/blog"
-              className={({isActive}) => `hover:text-blue-600 ${isActive ? "text-blue-600" : ""}`}
+              className={({ isActive }) =>
+                `hover:text-blue-600 ${isActive ? "text-blue-600" : ""}`
+              }
               onClick={closeAll}
             >
               Blogs
@@ -414,15 +446,14 @@ const Header = () => {
           </li>
           <li>
             <NavLink
-                to="/AmulPackagingCatalogue.pdf"
-                target="_blank"
-                className="mt-6 px-6 py-2 bg-primary text-white font-semibold rounded-full shadow hover:bg-yellow-400 transition-colors duration-200 w-max"
-                aria-label="Download Catalogue"
-              >
-                Download Catalogue
+              to="/AmulPackagingCatalogue.pdf"
+              target="_blank"
+              className="mt-6 px-6 py-2 bg-primary text-white font-semibold rounded-full shadow hover:bg-yellow-400 transition-colors duration-200 w-max"
+              aria-label="Download Catalogue"
+            >
+              Download Catalogue
             </NavLink>
-            
-            </li>
+          </li>
         </ul>
       </div>
     </>
