@@ -29,6 +29,7 @@ import SpoutPouch from "../pages/services/SpoutPouch";
 import VacuumPouch from "../pages/services/VacuumPouch";
 import LaminatedRollStock from "../pages/services/LaminatedRollStock";
 import PolyBags from "../pages/services/PolyBags";
+import PillowPouch from "../pages/services/PillowPouch";
 
 import SchemaManager from "../seo/SchemaManager";
 
@@ -78,6 +79,7 @@ const AppRoutes = () => {
                 <Route path="services/vacuum-pouch-In-bhiwandi" element={<VacuumPouch />} />
                 <Route path="services/laminated-roll-stock-in-mumbai" element={<LaminatedRollStock />} />
                 <Route path="services/poly-bags-manufacturer-in-mumbai" element={<PolyBags />} />
+                <Route path="services/pillow-pouch" element={<PillowPouch />} />
                 <Route path="*" element={<Navigate to="/" replace />} />
               </Route>
 
