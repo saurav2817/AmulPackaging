@@ -70,6 +70,41 @@ $seoConfig = [
         'keywords' => 'flat bottom pouch supplier bhiwandi, premium packaging bhiwandi',
         'image' => 'https://www.amulpackaging.in/img/products/Flat-Bottom-Pouch.jpg',
         'url' => 'https://www.amulpackaging.in/services/flat-bottom-pouch-supplier-in-bhiwandi'
+    ],
+    'service_spout' => [
+        'title' => 'Spout Pouch in Mumbai | Leak-Proof Packaging | Amul Packaging',
+        'description' => 'High-quality spout pouches in Mumbai. Ideal for liquids, sauces, and detergents. Durable and leak-proof packaging solutions.',
+        'keywords' => 'spout pouch mumbai, liquid packaging mumbai',
+        'image' => 'https://www.amulpackaging.in/img/products/Spout-Pouch.jpg',
+        'url' => 'https://www.amulpackaging.in/services/spout-pouch-in-mumbai'
+    ],
+    'service_vacuum' => [
+        'title' => 'Vacuum Pouch in Bhiwandi | Preserve Freshness | Amul Packaging',
+        'description' => 'Premium vacuum pouches in Bhiwandi for food preservation. High-barrier films to extend shelf life of meat, snacks, and more.',
+        'keywords' => 'vacuum pouch bhiwandi, food preservation packaging',
+        'image' => 'https://www.amulpackaging.in/img/products/Vacuum-Pouch.jpg',
+        'url' => 'https://www.amulpackaging.in/services/vacuum-pouch-In-bhiwandi'
+    ],
+    'service_rollstock' => [
+        'title' => 'Laminated Roll Stock in Mumbai | Machine Packing | Amul Packaging',
+        'description' => 'High-speed laminated roll stock in Mumbai. Perfect for automated packaging lines. Custom printing and barrier options available.',
+        'keywords' => 'laminated roll stock mumbai, packaging rolls mumbai',
+        'image' => 'https://www.amulpackaging.in/img/products/Laminated-Roll-Stock.jpg',
+        'url' => 'https://www.amulpackaging.in/services/laminated-roll-stock-in-mumbai'
+    ],
+    'service_polybags' => [
+        'title' => 'Poly Bags Manufacturer in Mumbai | Amul Packaging',
+        'description' => 'Leading poly bags manufacturer in Mumbai. Durable and versatile polyethylene bags for retail, industrial, and grocery needs.',
+        'keywords' => 'poly bags manufacturer mumbai, plastic bags mumbai',
+        'image' => 'https://www.amulpackaging.in/img/products/Poly-bags.jpg',
+        'url' => 'https://www.amulpackaging.in/services/poly-bags-manufacturer-in-mumbai'
+    ],
+    'service_pillow' => [
+        'title' => 'Pillow Pouch | Cost-Effective Packaging | Amul Packaging',
+        'description' => 'Versatile pillow pouches for snacks, spices, and small retail items. Efficient and economical packaging solutions.',
+        'keywords' => 'pillow pouch, snack packaging, sachet packaging',
+        'image' => 'https://www.amulpackaging.in/img/products/Centre Seal Pouch.jpg',
+        'url' => 'https://www.amulpackaging.in/services/pillow-pouch'
     ]
 ];
 

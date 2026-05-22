@@ -87,6 +87,16 @@ if ($path === '' || $path === '/') {
     $page_seo = safeGetSEO('service_standup', $site_url);
 } elseif ($path === '/services/flat-bottom-pouch-supplier-in-bhiwandi') {
     $page_seo = safeGetSEO('service_flatbottom', $site_url);
+} elseif ($path === '/services/spout-pouch-in-mumbai') {
+    $page_seo = safeGetSEO('service_spout', $site_url);
+} elseif ($path === '/services/vacuum-pouch-In-bhiwandi') {
+    $page_seo = safeGetSEO('service_vacuum', $site_url);
+} elseif ($path === '/services/laminated-roll-stock-in-mumbai') {
+    $page_seo = safeGetSEO('service_rollstock', $site_url);
+} elseif ($path === '/services/poly-bags-manufacturer-in-mumbai') {
+    $page_seo = safeGetSEO('service_polybags', $site_url);
+} elseif ($path === '/services/pillow-pouch') {
+    $page_seo = safeGetSEO('service_pillow', $site_url);
 } elseif (preg_match('/^\\/products\\/(\\d+)\\/?([a-zA-Z0-9-]+)?$/', $path, $matches)) {
     // Product Detail Page
     $product_id = intval($matches[1]);
