@@ -155,12 +155,35 @@ export const getSEOConfig = (page) => {
 
 // Helper function to generate product-specific SEO
 export const getProductSEO = (product) => {
+  const siteUrl = "https://www.amulpackaging.in";
+
+  const productUrl = `https://www.amulpackaging.in/products/${product.id}/${product.name
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-")
+    .trim()}`;
+
+  // Most product images live in `product.img[]` (not `product.image`).
+  const rawImage =
+    product.image ||
+    (Array.isArray(product.img) ? product.img.find(Boolean) : null) ||
+    null;
+  const imageUrl = rawImage
+    ? rawImage.startsWith("http")
+      ? rawImage
+      : `${siteUrl}${rawImage}`
+    : null;
+
+  const description =
+    product.seoDescription || product.description || product.HeroText || "";
+
   const baseStructuredData = {
     "@context": "https://schema.org",
     "@type": "Product",
     "name": product.name,
-    "description": product.seoDescription || product.description,
-    "image": product.image,
+    "description": description,
+    "image": imageUrl || undefined,
     "brand": {
       "@type": "Brand",
       "name": "Amul Packaging"
@@ -178,9 +201,36 @@ export const getProductSEO = (product) => {
 
   // Use faqSchema from product if available
   const faqSchema = product.faqSchema || null;
-  
-  // Return both schemas as an array if FAQ schema exists
-  const structuredData = faqSchema ? [baseStructuredData, faqSchema] : baseStructuredData;
+
+  // Prefer manual serviceSchema from product if present.
+  // Otherwise, fall back to an auto-generated Service schema.
+  const manualServiceSchema = product.serviceSchema || null;
+
+  // Service schema (JSON-LD) to improve service-related SEO per product page.
+  const autoServiceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": `${(product.name || "").trim()} Manufacturing`.trim(),
+    "name": (product.name || "").trim(),
+    "description": description,
+    "url": productUrl,
+    ...(imageUrl ? { "image": imageUrl } : {}),
+    "provider": {
+      "@type": "Organization",
+      "name": "Amul Packaging",
+      "url": siteUrl
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "India"
+    }
+  };
+
+  const serviceSchema = manualServiceSchema || autoServiceSchema;
+
+  const structuredData = faqSchema
+    ? [baseStructuredData, serviceSchema, faqSchema]
+    : [baseStructuredData, serviceSchema];
 
   return {
     // Use custom seoTitle if available, otherwise fallback to generated title
@@ -189,8 +239,8 @@ export const getProductSEO = (product) => {
     description: product.seoDescription || `${product.description} - Custom ${product.name} packaging solutions by Amul Packaging. High-quality flexible packaging for your business needs.`,
     // Use custom seoKeywords if available, otherwise fallback to generated keywords
     keywords: product.seoKeywords || `${product.name}, ${product.category} packaging, flexible packaging, custom packaging, Amul Packaging`,
-    image: product.image || "/img/products/default.jpg",
-    url: `https://www.amulpackaging.in/products/${product.id}/${product.name.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').trim()}`,
+    image: rawImage || "/img/products/default.jpg",
+    url: productUrl,
     structuredData: structuredData
   };
 };

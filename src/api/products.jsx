@@ -218,6 +218,25 @@ const products = [
         answer: "Yes, samples can be arranged before bulk orders."
       }
     ],
+    serviceSchema: {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Stand Up Zipper Pouch Manufacturing",
+      "name": "Stand Up Zipper Pouch",
+      "description": "Get strong, fresh-keeping stand up zipper pouches made for food, pet, cosmetic, and nutraceutical brands. Custom sizes, printing, and fast delivery from Amul Packaging.",
+      "url": "https://www.amulpackaging.in/products/1/standup-zipper-pouch",
+      "image": "https://www.amulpackaging.in/img/products/Standup-zipper-pouch.jpg",
+      "provider": {
+        "@type": "Organization",
+        "name": "Amul Packaging",
+        "url": "https://www.amulpackaging.in"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    }
+    ,
     faqSchema: {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -420,6 +439,25 @@ const products = [
         answer: "Yes, materials are safe and meet hygiene standards."
       }
     ],
+    serviceSchema: {
+      "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Three Side Seal Pouch Manufacturing",
+  "name": "Three Side Seal Pouch",
+  "description": "Get smart, secure Three Side Seal Pouch for food, pharma, cosmetics, and more. Custom sizes, strong sealing, and clean printing from Amul Packaging.",
+  "url": "https://www.amulpackaging.in/products/2/3-side-seal-pouch",
+  "image": "https://www.amulpackaging.in/img/products/3-Side-Seal-Pouch.jpg",
+  "provider": {
+    "@type": "Organization",
+    "name": "Amul Packaging",
+    "url": "https://www.amulpackaging.in"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India"
+  }
+
+    },
     faqSchema: {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -651,6 +689,24 @@ const products = [
         answer: "Coffee, tea, snacks, pet food, health supplements, and beauty products."
       }
     ],
+    serviceSchema: {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Flat Bottom Pouch Manufacturing",
+      "name": "Flat Bottom Pouch",
+      "description": "Give your product a premium look with flat bottom pouch designed for strength, freshness, and clean branding. Custom sizes and printing available at Amul Packaging.",
+      "url": "https://www.amulpackaging.in/products/3/flat-bottom-pouch",
+      "image": "https://www.amulpackaging.in/img/products/Flat-Bottom-Pouch.jpg",
+      "provider": {
+        "@type": "Organization",
+        "name": "Amul Packaging",
+        "url": "https://www.amulpackaging.in"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }    
+    },
     faqSchema: {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -863,6 +919,24 @@ HeroText:"Our high-quality Centre Seal Pouches ensure airtight protection, optim
         answer: "Yes, bulk and wholesale supply options available."
       }
     ],
+    serviceSchema: {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Centre Seal Pouch Manufacturing",
+      "name": "Centre Seal Pouch",
+      "description": "Get strong, clean-finished center seal pouch designed to protect food, snacks, pharma, and FMCG products. Custom sizes and printing available at Amul Packaging.",
+      "url": "https://www.amulpackaging.in/products/4/centre-seal-pouch",
+      "image": "https://www.amulpackaging.in/img/products/Centre-Seal-Pouch.jpg",
+      "provider": {
+        "@type": "Organization",
+        "name": "Amul Packaging",
+        "url": "https://www.amulpackaging.in"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }    
+    },
     faqSchema: {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -1072,6 +1146,24 @@ HeroText:"With reinforced side seals and a durable design, our Quad Seal Pouches
         answer: "Yes, we supply to brands, distributors, and exporters."
       }
     ],
+    serviceSchema: {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Quad Seal Pouch Manufacturing",
+      "name": "Quad Seal Pouch",
+      "description": "Keep your product secure with quad seal pouch that holds shape, protects freshness, and delivers premium shelf appeal. Custom sizes and printing available at Amul Packaging.",
+      "url": "https://www.amulpackaging.in/products/5/quad-seal-pouch",
+      "image": "https://www.amulpackaging.in/img/products/Quad-Seal-Pouch.jpg",
+      "provider": {
+        "@type": "Organization",
+        "name": "Amul Packaging",
+        "url": "https://www.amulpackaging.in"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }    
+    },
     faqSchema: {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -1306,6 +1398,24 @@ Industry: [
         answer: "Yes, especially for non-chamber vacuum sealing machines."
       }
     ],
+    serviceSchema: {
+      "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Vacuum Pouch Manufacturing",
+  "name": "Vacuum Pouch",
+  "description": "Safely store meat, snacks, pharma, and other products with vacuum seal pouches that block air and moisture. Strong, durable, and custom-made packaging solutions from Amul Packaging.",
+  "url": "https://www.amulpackaging.in/products/6/vacuum-pouch",
+  "image": "https://www.amulpackaging.in/img/products/Vacuum-Pouch.jpg",
+  "provider": {
+    "@type": "Organization",
+    "name": "Amul Packaging",
+    "url": "https://www.amulpackaging.in"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India"
+  }
+    },
     faqSchema: {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -1518,6 +1628,24 @@ HeroText:"From unique silhouettes to durable structure, our Shaped Pouches provi
         answer: "MOQ depends on shape complexity and printing type."
       }
     ],
+    serviceSchema: {
+     "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Shaped Pouch Manufacturing",
+  "name": "Shaped Pouch",
+  "description": "Create packaging that grabs attention with custom shaped pouches designed to match your product style. Strong, attractive, and fully customizable packaging solutions from Amul Packaging.",
+  "url": "https://www.amulpackaging.in/products/7/shaped-pouch",
+  "image": "https://www.amulpackaging.in/img/products/Shaped-Pouch.jpg",
+  "provider": {
+    "@type": "Organization",
+    "name": "Amul Packaging",
+    "url": "https://www.amulpackaging.in"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India"
+  }
+    },
     faqSchema: {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -1747,6 +1875,24 @@ Industry: [
         answer: "Yes, shaped designs are available for juice and kids’ products."
       }
     ],
+    serviceSchema: {
+      "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Spout Pouch Manufacturing",
+  "name": "Spout Pouch",
+  "description": "Make liquids easier to pour, store, and carry with custom spout pouches that stay leak-proof and durable. Ideal for sauces, juices, gels, and liquid packaging solutions from Amul Packaging.",
+  "url": "https://www.amulpackaging.in/products/8/spout-pouch",
+  "image": "https://www.amulpackaging.in/img/products/Spout-Pouch.jpg",
+  "provider": {
+    "@type": "Organization",
+    "name": "Amul Packaging",
+    "url": "https://www.amulpackaging.in"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India"
+  }
+    },
     faqSchema: {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -1948,6 +2094,24 @@ HeroText:"Our Laminated Roll-Stock delivers the strength, versatility, and custo
         answer: "Yes, we offer wholesale and bulk orders for manufacturers and co-packers."
       }
     ],
+    serviceSchema: {
+      "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Laminated Roll Stock Manufacturing",
+  "name": "Laminated Roll Stock",
+  "description": "Get laminated roll stock designed for fast and smooth machine packing with strong barrier films, custom printing, and consistent roll quality from Amul Packaging.",
+  "url": "https://www.amulpackaging.in/products/9/laminated-roll-stock",
+  "image": "https://www.amulpackaging.in/img/products/Laminated-Roll-Stock.jpg",
+  "provider": {
+    "@type": "Organization",
+    "name": "Amul Packaging",
+    "url": "https://www.amulpackaging.in"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India"
+  }
+    },
     faqSchema: {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -2171,6 +2335,24 @@ HeroText:"From retail to industrial use, our Poly Bags deliver cost-effective pr
         answer: "Yes, we manufacture heavy-duty bags for industrial use."
       }
     ],
+    serviceSchema: {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Poly Bag Manufacturing",
+      "name": "Poly Bags",
+      "description": "Get durable poly bags that protect products, store them safely, and provide clean product presentation. Custom sizes, strong materials, and printing solutions from Amul Packaging.",
+      "url": "https://www.amulpackaging.in/products/10/poly-bags",
+      "image": "https://www.amulpackaging.in/img/products/Poly-bags.jpg",
+      "provider": {
+        "@type": "Organization",
+        "name": "Amul Packaging",
+        "url": "https://www.amulpackaging.in"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
     faqSchema: {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -2377,6 +2559,24 @@ HeroText:"Designed for banks, logistics, and retail industries, our Security Bag
         answer: "Yes, wholesale orders are available."
       }
     ],
+    serviceSchema: {
+      "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Security Bag Manufacturing",
+  "name": "Security Bags",
+  "description": "Keep cash, documents, medicines, and sensitive items safe with tamper-evident security bags designed to reveal unauthorized access. Durable and dependable packaging solutions from Amul Packaging.",
+  "url": "https://www.amulpackaging.in/products/11/security-bags",
+  "image": "https://www.amulpackaging.in/img/products/Security-Bags.jpg",
+  "provider": {
+    "@type": "Organization",
+    "name": "Amul Packaging",
+    "url": "https://www.amulpackaging.in"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India"
+  }
+    },
     faqSchema: {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -2653,6 +2853,24 @@ HeroText:"Our eco-conscious Ziplock Poly Bags are designed for multiple uses —
         answer: "Yes, bulk orders with wholesale pricing are available."
       }
     ],
+    serviceSchema: {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Ziplock Poly Bag Manufacturing",
+      "name": "Ziplock Poly Bags",
+      "description": "Keep items protected and organized with durable ziplock poly bags for jewelry, pills, hardware, food, and more. Reusable and custom-made packaging solutions from Amul Packaging.",
+      "url": "https://www.amulpackaging.in/products/12/ziplock-poly-bags",
+      "image": "https://www.amulpackaging.in/img/products/Ziplock-bags.jpg",
+      "provider": {
+        "@type": "Organization",
+        "name": "Amul Packaging",
+        "url": "https://www.amulpackaging.in"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+     },
     faqSchema: {
       "@context": "https://schema.org",
       "@type": "FAQPage",
