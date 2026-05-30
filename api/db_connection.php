@@ -3,7 +3,7 @@
  * MySQL Database Connection
  * Uses PDO for MySQL database connection
  */
-require_once 'config.php';
+require_once __DIR__ . '/config.php';
 
 class DatabasePDO {
     private $conn;

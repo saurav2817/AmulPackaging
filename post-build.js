@@ -119,21 +119,37 @@ if ($path === '' || $path === '/') {
             'url' => $site_url . $path
         ];
         
-        $schema = '<script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "Product",
-          "name": "' . addslashes($product['name']) . '",
-          "description": "' . addslashes($product['seoDescription']) . '",
-          "image": "' . $site_url . $product['image'] . '",
-          "brand": { "@type": "Brand", "name": "Amul Packaging" },
-          "offers": {
-            "@type": "Offer",
-            "availability": "https://schema.org/InStock",
-            "seller": { "@type": "Organization", "name": "Amul Packaging" }
-          }
+        $schemas = [];
+        
+        // 1. Product Schema
+        $schemas[] = [
+          "@context" => "https://schema.org",
+          "@type" => "Product",
+          "name" => $product['name'],
+          "description" => $product['seoDescription'],
+          "image" => $site_url . $product['image'],
+          "brand" => [ "@type" => "Brand", "name" => "Amul Packaging" ],
+          "offers" => [
+            "@type" => "Offer",
+            "availability" => "https://schema.org/InStock",
+            "seller" => [ "@type" => "Organization", "name" => "Amul Packaging" ]
+          ]
+        ];
+
+        // 2. Service Schema (if exists in data)
+        if (isset($product['serviceSchema'])) {
+            $schemas[] = $product['serviceSchema'];
         }
-        </script>';
+        
+        // 3. FAQ Schema (if exists in data)
+        if (isset($product['faqSchema'])) {
+            $schemas[] = $product['faqSchema'];
+        }
+
+        $schema = "";
+        foreach ($schemas as $s) {
+            $schema .= '<script type="application/ld+json">' . "\n" . json_encode($s, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT) . "\n" . '</script>' . "\n";
+        }
     }
 } elseif ($path === '/blog') {
     $page_seo = safeGetSEO('home', $site_url); // Or a specific blog list SEO
