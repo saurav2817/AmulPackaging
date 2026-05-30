@@ -121,20 +121,20 @@ if ($path === '' || $path === '/') {
         
         $schemas = [];
         
-        // 1. Product Schema
-        $schemas[] = [
-          "@context" => "https://schema.org",
-          "@type" => "Product",
-          "name" => $product['name'],
-          "description" => $product['seoDescription'],
-          "image" => $site_url . $product['image'],
-          "brand" => [ "@type" => "Brand", "name" => "Amul Packaging" ],
-          "offers" => [
-            "@type" => "Offer",
-            "availability" => "https://schema.org/InStock",
-            "seller" => [ "@type" => "Organization", "name" => "Amul Packaging" ]
-          ]
-        ];
+        // // 1. Product Schema
+        // $schemas[] = [
+        //   "@context" => "https://schema.org",
+        //   "@type" => "Product",
+        //   "name" => $product['name'],
+        //   "description" => $product['seoDescription'],
+        //   "image" => $site_url . $product['image'],
+        //   "brand" => [ "@type" => "Brand", "name" => "Amul Packaging" ],
+        //   "offers" => [
+        //     "@type" => "Offer",
+        //     "availability" => "https://schema.org/InStock",
+        //     "seller" => [ "@type" => "Organization", "name" => "Amul Packaging" ]
+        //   ]
+        // ];
 
         // 2. Service Schema (if exists in data)
         if (isset($product['serviceSchema'])) {
