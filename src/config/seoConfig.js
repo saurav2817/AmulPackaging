@@ -178,35 +178,14 @@ export const getProductSEO = (product) => {
   const description =
     product.seoDescription || product.description || product.HeroText || "";
 
-  const baseStructuredData = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": product.name,
-    "description": description,
-    "image": imageUrl || undefined,
-    "brand": {
-      "@type": "Brand",
-      "name": "Amul Packaging"
-    },
-    "category": product.category,
-    "offers": {
-      "@type": "Offer",
-      "availability": "https://schema.org/InStock",
-      "seller": {
-        "@type": "Organization",
-        "name": "Amul Packaging"
-      }
-    }
-  };
-
   // Use faqSchema from product if available
   const faqSchema = product.faqSchema || null;
 
   // Prefer manual serviceSchema from product if present.
   // Otherwise, fall back to an auto-generated Service schema.
+  // Service (not Product) is used because these are custom B2B offerings with no fixed price.
   const manualServiceSchema = product.serviceSchema || null;
 
-  // Service schema (JSON-LD) to improve service-related SEO per product page.
   const autoServiceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -229,8 +208,8 @@ export const getProductSEO = (product) => {
   const serviceSchema = manualServiceSchema || autoServiceSchema;
 
   const structuredData = faqSchema
-    ? [baseStructuredData, serviceSchema, faqSchema]
-    : [baseStructuredData, serviceSchema];
+    ? [serviceSchema, faqSchema]
+    : [serviceSchema];
 
   return {
     // Use custom seoTitle if available, otherwise fallback to generated title
