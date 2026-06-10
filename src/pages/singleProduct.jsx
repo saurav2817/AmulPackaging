@@ -18,6 +18,7 @@ import {
   IoLeafOutline,
   IoSparklesOutline,
   IoCubeOutline,
+  IoChevronDown,
 } from "react-icons/io5";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
@@ -41,6 +42,7 @@ const SingleProduct = () => {
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(0);
   const [isEnquiryOpen, setIsEnquiryOpen] = useState(false);
+  const [openFAQ, setOpenFAQ] = useState(null);
   const [expandedIndustry, setExpandedIndustry] = useState(null);
   const productId = Number(id);
   const product = products.find((p) => p.id === productId);
@@ -844,17 +846,41 @@ const SingleProduct = () => {
                         key={index}
                         className="bg-white rounded-3xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-xl transition-shadow"
                       >
-                        <div className="p-7 flex items-center gap-4 bg-gradient-to-r from-[var(--primary-color)]/5 to-[var(--secondary-color)]/5">
-                          <span className="shrink-0 w-12 h-12 rounded-2xl flex items-center justify-center md:text-xl bg-[var(--primary-color)]/15 text-[var(--primary-color)]">
-                            <IoStar />
-                          </span>
-                          <h4 className="font-semibold text-[var(--primary-color)] text-left leading-relaxed">
-                            {faq.question}
-                          </h4>
+                        <button
+                          onClick={() =>
+                            setOpenFAQ(openFAQ === index ? null : index)
+                          }
+                          className="w-full p-7 flex items-center justify-between gap-4 bg-gradient-to-r from-[var(--primary-color)]/5 to-[var(--secondary-color)]/5 hover:from-[var(--primary-color)]/10 hover:to-[var(--secondary-color)]/10 transition-all duration-300"
+                        >
+                          <div className="flex items-center gap-4">
+                            <span
+                              className={`shrink-0 w-12 h-12 rounded-2xl flex items-center justify-center transition-all duration-300 md:text-xl ${
+                                openFAQ === index
+                                  ? "bg-gradient-to-br from-[#0078b3] to-[#66994e] text-white"
+                                  : "bg-[var(--primary-color)]/15 text-[var(--primary-color)]"
+                              }`}
+                            >
+                              <IoStar />
+                            </span>
+                            <h4 className="font-semibold text-[var(--primary-color)] text-left  leading-relaxed">
+                              {faq.question}
+                            </h4>
+                          </div>
+                          <IoChevronDown
+                            className={`md:text-2xl text-[var(--primary-color)] transform transition-transform duration-300 shrink-0 ${
+                              openFAQ === index ? "rotate-180" : ""
+                            }`}
+                          />
+                        </button>
+                        <div
+                          className={`overflow-hidden transition-all duration-300 ${
+                            openFAQ === index ? "max-h-96" : "max-h-0"
+                          }`}
+                        >
+                          <p className="text-gray-700 px-7 py-7 pl-24 md:text-lg leading-relaxed bg-gradient-to-r from-white to-gray-50">
+                            {faq.answer}
+                          </p>
                         </div>
-                        <p className="text-gray-700 px-7 py-7 pl-24 md:text-lg leading-relaxed bg-gradient-to-r from-white to-gray-50">
-                          {faq.answer}
-                        </p>
                       </div>
                     ))}
                   </div>

@@ -30,7 +30,7 @@ $products = [
             'mainEntity' => [
                 [
                     '@type' => 'Question',
-                    'name' => 'Are stand up pouches food-safe?',
+                    'name' => 'Q. Are stand up pouches food-safe?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we use certified, food-grade materials.'
@@ -38,7 +38,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Can I print my logo and design?',
+                    'name' => 'Q. Can I print my logo and design?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we offer full stand up pouch printing services.'
@@ -46,7 +46,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do you offer wholesale pricing?',
+                    'name' => 'Q. Do you offer wholesale pricing?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we supply stand up pouches wholesale with competitive rates.'
@@ -54,7 +54,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'What is the minimum order quantity?',
+                    'name' => 'Q. What is the minimum order quantity?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'MOQ depends on size, material, and print type. Contact us for details.'
@@ -62,7 +62,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Can I get sample pouches?',
+                    'name' => 'Q. Can I get sample pouches?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, samples can be arranged before bulk orders.'
@@ -101,7 +101,7 @@ $products = [
             'mainEntity' => [
                 [
                     '@type' => 'Question',
-                    'name' => 'What is a three side seal pouch?',
+                    'name' => 'Q. What is a three side seal pouch?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'A pouch sealed on three sides, used for single-serve or compact packaging. One open side is sealed after filling.'
@@ -109,7 +109,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Where are these pouches used?',
+                    'name' => 'Q. Where are these pouches used?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Food, cosmetics, pharma, chemical, and industrial packaging.'
@@ -117,7 +117,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Can I print my brand logo?',
+                    'name' => 'Q. Can I print my brand logo?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we offer full custom printing.'
@@ -125,7 +125,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do you offer sample packs for testing?',
+                    'name' => 'Q. Do you offer sample packs for testing?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, samples can be provided before bulk production.'
@@ -133,7 +133,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Are these pouches food safe?',
+                    'name' => 'Q. Are these pouches food safe?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, materials are safe and meet hygiene standards.'
@@ -172,7 +172,7 @@ $products = [
             'mainEntity' => [
                 [
                     '@type' => 'Question',
-                    'name' => 'What is the main benefit of a flat bottom pouch?',
+                    'name' => 'Q. What is the main benefit of a flat bottom pouch?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Stability, premium look, and strong shelf display.'
@@ -180,7 +180,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Can you print custom designs?',
+                    'name' => 'Q. Can you print custom designs?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes - full printing support is available.'
@@ -188,7 +188,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Are these pouches food-safe?',
+                    'name' => 'Q. Are these pouches food-safe?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, all materials are safe and approved for food products.'
@@ -196,7 +196,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do you offer sample pouches?',
+                    'name' => 'Q. Do you offer sample pouches?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, samples can be arranged based on requirement.'
@@ -204,7 +204,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Can I get recyclable options?',
+                    'name' => 'Q. Can I get recyclable options?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we provide eco-friendly pouch material options.'
@@ -212,7 +212,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'What industries commonly use this pouch?',
+                    'name' => 'Q. What industries commonly use this pouch?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Coffee, tea, snacks, pet food, health supplements, and beauty products.'
@@ -251,7 +251,7 @@ $products = [
             'mainEntity' => [
                 [
                     '@type' => 'Question',
-                    'name' => 'What is a center seal pouch?',
+                    'name' => 'Q. What is a center seal pouch?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'A pouch sealed on the back (center), often used for food, personal care, and industrial products.'
@@ -259,7 +259,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Are center seal pouches food-safe?',
+                    'name' => 'Q. Are center seal pouches food-safe?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we use food-grade materials suitable for safe packing.'
@@ -267,7 +267,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Can I print my design?',
+                    'name' => 'Q. Can I print my design?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we offer full custom printing and finishing.'
@@ -275,7 +275,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do you supply small sachet packaging?',
+                    'name' => 'Q. Do you supply small sachet packaging?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we manufacture small and large sealed pouches.'
@@ -283,7 +283,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Can I get recyclable pouch material?',
+                    'name' => 'Q. Can I get recyclable pouch material?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, sustainable options are available on request.'
@@ -291,7 +291,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do you offer wholesale pricing?',
+                    'name' => 'Q. Do you offer wholesale pricing?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, bulk and wholesale supply options available.'
@@ -330,7 +330,7 @@ $products = [
             'mainEntity' => [
                 [
                     '@type' => 'Question',
-                    'name' => 'What is a quad seal pouch?',
+                    'name' => 'Q. What is a quad seal pouch?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'A pouch with four vertical seals for extra strength and a box-like structure.'
@@ -338,7 +338,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Is a quad seal pouch suitable for heavy products?',
+                    'name' => 'Q. Is a quad seal pouch suitable for heavy products?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, it is ideal for heavy and bulk packaging.'
@@ -346,7 +346,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Can I add a zipper or valve?',
+                    'name' => 'Q. Can I add a zipper or valve?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, both zipper and degassing valves can be added.'
@@ -354,7 +354,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Are these pouches food-safe?',
+                    'name' => 'Q. Are these pouches food-safe?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, all laminates and inks used are food-grade.'
@@ -362,7 +362,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do quad seal bags offer more branding space?',
+                    'name' => 'Q. Do quad seal bags offer more branding space?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, four panels allow for more design and information.'
@@ -370,7 +370,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do you provide wholesale or bulk supply?',
+                    'name' => 'Q. Do you provide wholesale or bulk supply?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we supply to brands, distributors, and exporters.'
@@ -409,7 +409,7 @@ $products = [
             'mainEntity' => [
                 [
                     '@type' => 'Question',
-                    'name' => 'Are vacuum pouches food-safe?',
+                    'name' => 'Q. Are vacuum pouches food-safe?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes. All materials used are certified and safe for food contact.'
@@ -417,7 +417,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Can I use these pouches for freezing?',
+                    'name' => 'Q. Can I use these pouches for freezing?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, our vacuum pouches are suitable for deep freezing and cold storage.'
@@ -425,7 +425,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do you offer printed vacuum pouch bags?',
+                    'name' => 'Q. Do you offer printed vacuum pouch bags?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, custom printing is available.'
@@ -433,7 +433,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Can I order vacuum pouches in bulk?',
+                    'name' => 'Q. Can I order vacuum pouches in bulk?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we provide wholesale and large-volume supply.'
@@ -441,7 +441,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'What thickness should I choose?',
+                    'name' => 'Q. What thickness should I choose?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'We guide you based on the product weight, sharpness, and storage conditions.'
@@ -449,7 +449,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do you manufacture embossed vacuum pouches?',
+                    'name' => 'Q. Do you manufacture embossed vacuum pouches?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, especially for non-chamber vacuum sealing machines.'
@@ -488,7 +488,7 @@ $products = [
             'mainEntity' => [
                 [
                     '@type' => 'Question',
-                    'name' => 'Can you make any shape for a shaped pouch?',
+                    'name' => 'Q. Can you make any shape for a shaped pouch?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we can design and manufacture custom shapes based on your brand need.'
@@ -496,7 +496,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Are shaped pouches food-safe?',
+                    'name' => 'Q. Are shaped pouches food-safe?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we use food-grade laminates and inks.'
@@ -504,7 +504,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Can bottle shape juice pouches be made with spouts?',
+                    'name' => 'Q. Can bottle shape juice pouches be made with spouts?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, spouts are commonly added for juice and liquid products.'
@@ -512,7 +512,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do jar shaped pouches look like real jars?',
+                    'name' => 'Q. Do jar shaped pouches look like real jars?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, they often use transparent films to mimic glass jars.'
@@ -520,7 +520,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Can you print full graphics on shaped pouches?',
+                    'name' => 'Q. Can you print full graphics on shaped pouches?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, full custom printing is available.'
@@ -528,7 +528,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'What is the minimum order quantity?',
+                    'name' => 'Q. What is the minimum order quantity?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'MOQ depends on shape complexity and printing type.'
@@ -567,7 +567,7 @@ $products = [
             'mainEntity' => [
                 [
                     '@type' => 'Question',
-                    'name' => 'Are spout pouches safe for food?',
+                    'name' => 'Q. Are spout pouches safe for food?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we use certified food-safe materials.'
@@ -575,7 +575,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Can I choose the spout size and color?',
+                    'name' => 'Q. Can I choose the spout size and color?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we offer multiple spout and cap options.'
@@ -583,7 +583,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Are these pouches leak-proof?',
+                    'name' => 'Q. Are these pouches leak-proof?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, the film and spout connection are tested for durability.'
@@ -591,7 +591,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do you supply in bulk?',
+                    'name' => 'Q. Do you supply in bulk?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we provide bulk and wholesale supply to brands & distributors.'
@@ -599,7 +599,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Can spout pouches hold hot-fill products?',
+                    'name' => 'Q. Can spout pouches hold hot-fill products?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, material can be selected based on hot-fill requirements.'
@@ -607,7 +607,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Can you make shaped spout pouches?',
+                    'name' => 'Q. Can you make shaped spout pouches?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, shaped designs are available for juice and kids\' products.'
@@ -646,7 +646,7 @@ $products = [
             'mainEntity' => [
                 [
                     '@type' => 'Question',
-                    'name' => 'What is laminated roll stock used for?',
+                    'name' => 'Q. What is laminated roll stock used for?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'It is used to produce pouches, sachets, and wrappers on automated machines.'
@@ -654,7 +654,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Is laminated roll stock food-safe?',
+                    'name' => 'Q. Is laminated roll stock food-safe?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, all laminates and inks used are food-grade and safe.'
@@ -662,7 +662,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Can the roll width and thickness be customized?',
+                    'name' => 'Q. Can the roll width and thickness be customized?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, both can be customized based on your machine requirements.'
@@ -670,7 +670,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do you offer printed roll stock?',
+                    'name' => 'Q. Do you offer printed roll stock?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, full-color custom printing is available.'
@@ -678,7 +678,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Can I use laminated roll stock for liquid products?',
+                    'name' => 'Q. Can I use laminated roll stock for liquid products?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, with the right lamination structure, it supports liquids and gels.'
@@ -686,7 +686,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do you supply in bulk?',
+                    'name' => 'Q. Do you supply in bulk?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we offer wholesale and bulk orders for manufacturers and co-packers.'
@@ -725,7 +725,7 @@ $products = [
             'mainEntity' => [
                 [
                     '@type' => 'Question',
-                    'name' => 'What materials are used for poly bags?',
+                    'name' => 'Q. What materials are used for poly bags?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'LDPE, HDPE, PP, LLDPE, and recyclable material.'
@@ -733,7 +733,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do you supply small poly bags?',
+                    'name' => 'Q. Do you supply small poly bags?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we offer custom sizes from very small to large.'
@@ -741,7 +741,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do you offer wholesale pricing?',
+                    'name' => 'Q. Do you offer wholesale pricing?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we supply poly bags wholesale for bulk orders.'
@@ -749,7 +749,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Can poly bags be printed?',
+                    'name' => 'Q. Can poly bags be printed?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we offer high-quality printing options.'
@@ -757,7 +757,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Are industrial poly bags available?',
+                    'name' => 'Q. Are industrial poly bags available?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we manufacture heavy-duty bags for industrial use.'
@@ -796,7 +796,7 @@ $products = [
             'mainEntity' => [
                 [
                     '@type' => 'Question',
-                    'name' => 'Are security bags tamper-proof or tamper-evident?',
+                    'name' => 'Q. Are security bags tamper-proof or tamper-evident?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'They are tamper-evident, meaning any attempt to open the bag becomes visible.'
@@ -804,7 +804,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Can I customize the size?',
+                    'name' => 'Q. Can I customize the size?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, all sizes can be customized.'
@@ -812,7 +812,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do you print barcodes and serial numbers?',
+                    'name' => 'Q. Do you print barcodes and serial numbers?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we offer both.'
@@ -820,7 +820,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Are these bags suitable for cash handling?',
+                    'name' => 'Q. Are these bags suitable for cash handling?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we manufacture strong, opaque, tamper-evident cash bags.'
@@ -828,7 +828,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do you offer secure evidence bags for police use?',
+                    'name' => 'Q. Do you offer secure evidence bags for police use?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, with chain-of-custody panels.'
@@ -836,7 +836,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do you supply in bulk?',
+                    'name' => 'Q. Do you supply in bulk?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, wholesale orders are available.'
@@ -875,7 +875,7 @@ $products = [
             'mainEntity' => [
                 [
                     '@type' => 'Question',
-                    'name' => 'Can I get custom ziplock bags with my brand logo?',
+                    'name' => 'Q. Can I get custom ziplock bags with my brand logo?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we offer full custom printing options.'
@@ -883,7 +883,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do you supply small ziplock bags?',
+                    'name' => 'Q. Do you supply small ziplock bags?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, we manufacture very small to large resealable bags.'
@@ -891,7 +891,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Are ziplock bags food-safe?',
+                    'name' => 'Q. Are ziplock bags food-safe?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, our materials are food-grade and safe.'
@@ -899,7 +899,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Can I get ziplock bags in different thicknesses?',
+                    'name' => 'Q. Can I get ziplock bags in different thicknesses?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, thickness can be customized as needed.'
@@ -907,7 +907,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do you supply personalized ziplock bags for retail?',
+                    'name' => 'Q. Do you supply personalized ziplock bags for retail?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, personalized bags are available for brands and stores.'
@@ -915,7 +915,7 @@ $products = [
                 ],
                 [
                     '@type' => 'Question',
-                    'name' => 'Do you offer wholesale supply?',
+                    'name' => 'Q. Do you offer wholesale supply?',
                     'acceptedAnswer' => [
                         '@type' => 'Answer',
                         'text' => 'Yes, bulk orders with wholesale pricing are available.'
