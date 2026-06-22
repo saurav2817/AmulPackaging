@@ -35,6 +35,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa6";
 import EnquiryModal from "../components/modal/enquiryModal";
+import SchemaInjector from "../seo/SchemaInjector";
 
 const SingleProduct = () => {
   const { id } = useParams();
@@ -142,6 +143,8 @@ const SingleProduct = () => {
   return (
     <>
       <SEO {...seoConfig} />
+      {product.serviceSchema && <SchemaInjector data={product.serviceSchema} />}
+      {product.faqSchema && <SchemaInjector data={product.faqSchema} />}
       <main className="mx-auto min-h-screen bg-gradient-to-b from-white via-[#fafbfc] to-white">
         {/* Hero */}
         <section className="relative overflow-hidden">

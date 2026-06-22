@@ -3,12 +3,13 @@ import SchemaInjector from "./SchemaInjector";
 import { schemas } from "./schemas";
 
 const routeSchemaMap = {
-  "/services/standup-zipper-pouch": schemas.StandupZipperPouch,
-  "/services/flat-bottom-pouch": schemas.FlatBottomPouch,
-  "/services/spout-pouch": schemas.SpoutPouch,
-  "/services/vacuum-pouch": schemas.VacuumPouch,
-  "/services/laminated-roll-stock": schemas.LaminatedRollStock,
-  "/services/poly-bags": schemas.PolyBags,
+  "/services/stand-up-pouch-manufacturer-in-bhiwandi": schemas.StandupZipperPouch,
+  "/services/flat-bottom-pouch-supplier-in-bhiwandi": schemas.FlatBottomPouch,
+  "/services/spout-pouch-in-mumbai": schemas.SpoutPouch,
+  "/services/vacuum-pouch-In-bhiwandi": schemas.VacuumPouch,
+  "/services/laminated-roll-stock-in-mumbai": schemas.LaminatedRollStock,
+  "/services/poly-bags-manufacturer-in-mumbai": schemas.PolyBags,
+  "/services/pillow-pouch": schemas.PillowPouch,
 };
 
 const SchemaManager = () => {

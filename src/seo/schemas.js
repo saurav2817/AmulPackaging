@@ -502,4 +502,75 @@ PolyBags: {
     "areaServed": "IN"
   }
 },
+PillowPouch: {
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Pillow Pouch Manufacturer in India for Custom Printed Packaging",
+  "description": "Pillow pouch manufacturer in India offering durable, cost-effective centre seal packaging for food, snacks, spices, powders, FMCG, and industrial products with custom printing.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Amul Packaging"
+  },
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "Amul Packaging",
+    "url": "https://www.amulpackaging.in"
+  },
+  "category": "Flexible Packaging / Pillow Pouches",
+  "material": "PET, BOPP, CPP, LDPE, MET PET, Multi-layer laminated film",
+  "sku": "PP-INDIA-001",
+  "areaServed": {
+    "@type": "Place",
+    "name": "India"
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Seal Type",
+      "value": "Centre seal / back seal / T-seal"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Features",
+      "value": "Lightweight, cost-effective, good printable space, suitable for automated filling, moisture-resistant, aroma protection"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Printing Options",
+      "value": "Rotogravure, Flexographic, Digital Printing"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Finish",
+      "value": "Glossy, matte, transparent, metallized"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Usage",
+      "value": "Food, snacks, spices, powders, grains, confectionery, frozen products, FMCG, household items, pet food, industrial components"
+    }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.amulpackaging.in",
+    "priceCurrency": "INR",
+    "price": "0",
+    "availability": "https://schema.org/InStock",
+    "priceSpecification": {
+      "@type": "PriceSpecification",
+      "priceCurrency": "INR",
+      "price": "On Request"
+    },
+    "seller": {
+      "@type": "Organization",
+      "name": "Amul Packaging"
+    }
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-9004382696",
+    "contactType": "customer service",
+    "areaServed": "IN"
+  }
+},
 };

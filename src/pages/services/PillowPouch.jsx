@@ -28,6 +28,7 @@ import {
   FaPinterest,
   FaWhatsapp,
 } from "react-icons/fa6";
+import SchemaInjector from "../../seo/SchemaInjector";
 
 const PillowPouch = () => {
   const [isEnquiryOpen, setIsEnquiryOpen] = useState(false);
@@ -80,47 +81,123 @@ const PillowPouch = () => {
     }
   };
 
-  const faqItems = [
+  const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Pillow Pouch Manufacturing",
+  "name": "Pillow Pouch",
+  "description": "Get durable, cost-effective pillow pouch (centre seal) packaging for food, snacks, spices, powders, FMCG, and industrial products with custom printing from Amul Packaging.",
+  "url": "https://www.amulpackaging.in/services/pillow-pouch",
+  "image": "https://www.amulpackaging.in/img/pillowpouch.png",
+  "provider": {
+    "@type": "Organization",
+    "name": "Amul Packaging",
+    "url": "https://www.amulpackaging.in"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "India"
+  }
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-      id: "used-for",
-      question: "What is a Pillow Pouch used for?",
-      answer:
-        "A Pillow Pouch is used for packing food, snacks, spices, flour, powders, FMCG products, household items, pet food, and other retail products that need lightweight and secure flexible packaging.",
+      "@type": "Question",
+      "name": "What is a Pillow Pouch used for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Pillow Pouch is used for packing food, snacks, spices, flour, powders, FMCG products, household items, pet food, and other retail products that need lightweight and secure flexible packaging."
+      }
     },
     {
-      id: "same-as-centre",
-      question: "Is a Pillow Pouch the same as a centre seal pouch?",
-      answer:
-        "Yes. A Pillow Pouch is commonly called a centre seal pouch, back seal pouch, or T-seal pouch because the main seal runs vertically at the back of the pack.",
+      "@type": "Question",
+      "name": "Is a Pillow Pouch the same as a centre seal pouch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A Pillow Pouch is commonly called a centre seal pouch, back seal pouch, or T-seal pouch because the main seal runs vertically at the back of the pack."
+      }
     },
     {
-      id: "custom-print",
-      question: "Can I get custom printed packaging?",
-      answer:
-        "Yes. Amul Packaging provides custom printed pouch solutions with your brand logo, colours, product details, artwork, barcode, and required packaging information.",
+      "@type": "Question",
+      "name": "Can I get custom printed packaging?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Amul Packaging provides custom printed pouch solutions with your brand logo, colours, product details, artwork, barcode, and required packaging information."
+      }
     },
     {
-      id: "which-material",
-      question: "Which material is best for this type of pouch?",
-      answer:
-        "The best material depends on your product. Food items, powders, spices, snacks, and frozen products may need different laminate structures for moisture control, aroma protection, strength, or display quality.",
+      "@type": "Question",
+      "name": "Which material is best for this type of pouch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The best material depends on your product. Food items, powders, spices, snacks, and frozen products may need different laminate structures for moisture control, aroma protection, strength, or display quality."
+      }
     },
     {
-      id: "suitable",
-      question: "Is this pouch suitable for food packaging?",
-      answer:
-        "Yes, it is widely used for food packaging. The final suitability depends on the selected material, sealing requirement, product type, and storage conditions.",
+      "@type": "Question",
+      "name": "Is this pouch suitable for food packaging?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it is widely used for food packaging. The final suitability depends on the selected material, sealing requirement, product type, and storage conditions."
+      }
     },
     {
-      id: "quote",
-      question: "How can I get a quote?",
-      answer:
-        "You can share your product name, pouch size, quantity, artwork requirement, and material preference with Amul Packaging. Our team will review your requirement and suggest a suitable packaging solution.",
-    },
-  ];
+      "@type": "Question",
+      "name": "How can I get a quote?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can share your product name, pouch size, quantity, artwork requirement, and material preference with Amul Packaging. Our team will review your requirement and suggest a suitable packaging solution."
+      }
+    }
+  ]
+};
+
+const faqItems = [
+  {
+    id: "used-for",
+    question: "What is a Pillow Pouch used for?",
+    answer:
+      "A Pillow Pouch is used for packing food, snacks, spices, flour, powders, FMCG products, household items, pet food, and other retail products that need lightweight and secure flexible packaging.",
+  },
+  {
+    id: "same-as-centre",
+    question: "Is a Pillow Pouch the same as a centre seal pouch?",
+    answer:
+      "Yes. A Pillow Pouch is commonly called a centre seal pouch, back seal pouch, or T-seal pouch because the main seal runs vertically at the back of the pack.",
+  },
+  {
+    id: "custom-print",
+    question: "Can I get custom printed packaging?",
+    answer:
+      "Yes. Amul Packaging provides custom printed pouch solutions with your brand logo, colours, product details, artwork, barcode, and required packaging information.",
+  },
+  {
+    id: "which-material",
+    question: "Which material is best for this type of pouch?",
+    answer:
+      "The best material depends on your product. Food items, powders, spices, snacks, and frozen products may need different laminate structures for moisture control, aroma protection, strength, or display quality.",
+  },
+  {
+    id: "suitable",
+    question: "Is this pouch suitable for food packaging?",
+    answer:
+      "Yes, it is widely used for food packaging. The final suitability depends on the selected material, sealing requirement, product type, and storage conditions.",
+  },
+  {
+    id: "quote",
+    question: "How can I get a quote?",
+    answer:
+      "You can share your product name, pouch size, quantity, artwork requirement, and material preference with Amul Packaging. Our team will review your requirement and suggest a suitable packaging solution.",
+  },
+];
 
   return (
     <>
+      <SchemaInjector data={serviceSchema} />
+      <SchemaInjector data={faqSchema} />
       <main className="mx-auto min-h-screen bg-gradient-to-b from-white via-[#fafbfc] to-white">
         <section className="relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-[var(--secondary-color)]/20 via-[#ffd95a]/15 to-[#ffb703]/20 opacity-60" />
