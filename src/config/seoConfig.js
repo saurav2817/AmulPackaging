@@ -188,10 +188,23 @@ export const getProductSEO = (product) => {
       "@type": "Brand",
       "name": "Amul Packaging"
     },
-    "category": product.category,
+    "manufacturer": {
+      "@type": "Organization",
+      "name": "Amul Packaging",
+      "url": "https://www.amulpackaging.in"
+    },
+    "category": product.category || "Flexible Packaging",
     "offers": {
       "@type": "Offer",
+      "url": "https://www.amulpackaging.in",
+      "priceCurrency": "INR",
+      "price": "0",
       "availability": "https://schema.org/InStock",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "INR",
+        "price": "On Request"
+      },
       "seller": {
         "@type": "Organization",
         "name": "Amul Packaging"
