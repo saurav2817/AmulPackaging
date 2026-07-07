@@ -19,80 +19,76 @@ const clients = [
   },
   {
     id: "3",
-    ClientImg: "/img/clientlogo/toi.jpg",
-    Name: "Times Of India",
-  },
-  {
-    id: "4",
     ClientImg: "/img/clientlogo/chandan.jpg", 
-    Name: "Chandan mukhwas",
+    Name: "Chandan",
   },
+    {
+    id: "4",
+    ClientImg: "/img/clientlogo/whole-truth.jpg", 
+    Name: "Whole Truth",
+  },  
   {
     id: "5",
-    ClientImg: "/img/clientlogo/oziva.jpg", 
-    Name: "Oziva",
-  },
-  
-  {
-    id: "6",
-    ClientImg: "/img/clientlogo/hrx.jpg", 
-    Name: "HRX",
-  },
-  {
-    id: "7",
-    ClientImg: "/img/clientlogo/superyou.jpg", 
-    Name: "Superyou",
-  },
-  // {
-  //   id: "8",
-  //   ClientImg: "/img/clientlogo/Trunativ.jpg", 
-  //   Name: "Trunativ",
-  // },
-  // {
-  //   id: "9",
-  //   ClientImg: "/img/clientlogo/delta.jpg", 
-  //   Name: "Delta Nutritives",
-  // },
-  // {
-  //   id: "10",
-  //   ClientImg: "/img/clientlogo/blg.jpg", 
-  //   Name: "BLG",
-  // },
-  {
-    id: "11",
-    ClientImg: "/img/clientlogo/urban.jpg", 
-    Name: "Urban platte",
-  },
-  // {
-  //   id: "12",
-  //   ClientImg: "/img/clientlogo/purshottam.jpg", 
-  //   Name: "Purshottam Kandoi",
-  // },
-  {
-    id: "13",
-    ClientImg: "/img/clientlogo/whole-truth.jpg", 
-    Name: "Whoile Truth",
-  },
-  {
-    id: "14",
     ClientImg: "/img/clientlogo/bazana.jpg", 
     Name: "bazana",
   },
   {
-    id: "15",
+    id: "6",
+    ClientImg: "/img/clientlogo/oziva.jpg", 
+    Name: "Oziva",
+  },
+    {
+    id: "7",
+    ClientImg: "/img/clientlogo/fazlaniexports.jpg", 
+    Name: "fazlani exports",
+  },
+    {
+    id: "8",
+    ClientImg: "/img/clientlogo/himedia.jpg", 
+    Name: "Himedia",
+  },
+   {
+    id: "9",
+    ClientImg: "/img/clientlogo/superyou.jpg", 
+    Name: "Superyou",
+  },
+  {
+    id: "10",
+    ClientImg: "/img/clientlogo/nykaa.jpg", 
+    Name: "Nykaa",
+  },
+  {
+    id: "11",
+    ClientImg: "/img/clientlogo/cachet.jpg", 
+    Name: "Cachet",
+  },
+    {
+    id: "12",
+    ClientImg: "/img/clientlogo/prov.jpg", 
+    Name: " prov",
+  },
+   {
+    id: "13",
     ClientImg: "/img/clientlogo/candor.jpg", 
     Name: " candor",
   },
   {
-    id: "16",
-    ClientImg: "/img/clientlogo/prov.jpg", 
-    Name: " prov",
+    id: "14",
+    ClientImg: "/img/clientlogo/Consciousfoods.jpg", 
+    Name: "Conscious",
+  },
+ 
+  {
+    id: "15",
+    ClientImg: "/img/clientlogo/khetika.jpg", 
+    Name: "Khetika",
   },
   {
-    id: "17",
-    ClientImg: "/img/clientlogo/fazlaniexports.jpg", 
-    Name: "fazlani exports",
+    id: "16",
+    ClientImg: "/img/clientlogo/toi.jpg", 
+    Name: "The Times of India",
   },
+  
 ];
 
 
