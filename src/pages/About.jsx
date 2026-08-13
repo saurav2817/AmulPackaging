@@ -31,7 +31,7 @@ const About = () => {
     <>
       <SEO {...seoConfig} />
       <main className="">
-        <section className="text-center py-10 md:py-30 bg-[url('/img/slider_banner/AboutUs.jpg')] bg-cover bg-center">
+        <section className="text-center py-10 md:py-30 bg-[url('/img/slider_banner/AboutUs.webp')] bg-cover bg-center">
           <h1 className="text-3xl font-bold text-blue-900 ">About Us</h1>
           <div className="flex justify-center mt-3">
             <nav aria-label="Breadcrumb" className="mb-6">
@@ -462,7 +462,7 @@ const About = () => {
             <div className="container mx-auto max-w-7xl px-6 lg:px-8 mt-20 grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <img
-                  src="/img/vision.jpg"
+                  src="/img/vision.webp"
                   alt="Printing"
                   className="rounded-lg shadow-lg"
                 />
@@ -515,7 +515,7 @@ const About = () => {
 
               <div>
                 <img
-                  src="/img/mission.jpg"
+                  src="/img/mission.webp"
                   alt="Mission"
                   className="rounded-lg shadow-lg w-full "
                 />

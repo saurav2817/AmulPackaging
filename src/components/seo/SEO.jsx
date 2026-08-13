@@ -4,7 +4,7 @@ const SEO = ({
   title = "Flexible & Product Packaging Services by Amul Packaging",
   description = "Amul Packaging delivers reliable flexible packaging and product packaging with superior quality, custom designs, and fast service for businesses of all sizes.",
   keywords = "flexible packaging, product packging",
-  image = "/img/Banner.jpg",
+  image = "/img/Banner.webp",
   url = "https://www.amulpackaging.in",
   type = "website",
   structuredData = null,
@@ -18,8 +18,11 @@ const SEO = ({
   tags = []
 }) => {
   const fullTitle = title.includes('Amul Packaging') ? title : `${title} | Amul Packaging`;
-  const fullUrl = canonical || `${url}${typeof window !== 'undefined' ? window.location.pathname : ''}`;
-  const fullImage = image.startsWith('http') ? image : `${url}${image}`;
+  const currentPath = typeof window !== 'undefined' ? window.location.pathname : '';
+  const normalizedUrl = url?.replace(/\/$/, '');
+  const hasPathInUrl = /^https?:\/\/[\w-]+(\.[\w-]+)+(\/.*)/.test(normalizedUrl);
+  const fullUrl = canonical || (hasPathInUrl ? normalizedUrl : `${normalizedUrl || 'https://www.amulpackaging.in'}${currentPath}`);
+  const fullImage = image.startsWith('http') ? image : `${normalizedUrl || 'https://www.amulpackaging.in'}${image}`;
 
   // Default structured data for organization
   const defaultStructuredData = {
@@ -27,7 +30,7 @@ const SEO = ({
     "@type": "Organization",
     "name": "Amul Packaging",
     "url": "https://www.amulpackaging.in",
-    "logo": "https://www.amulpackaging.in/img/logo.png",
+    "logo": "https://www.amulpackaging.in/img/logo.webp",
     "description": "Leading flexible packaging solutions provider with 30+ years of expertise in rotogravure, flexographic, and digital printing.",
     "address": {
       "@type": "PostalAddress",

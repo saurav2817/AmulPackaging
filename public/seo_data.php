@@ -41,7 +41,7 @@ $seoConfig = [
         'description' => 'Industry-specific food product packaging design by Amul Packaging, ensuring quality, protection, and appeal for every product category.',
         'keywords' => 'food product packaging design',
         'image' => 'https://www.amulpackaging.in/img/slider_banner/Products.jpg',
-        'url' => 'https://www.amulpackaging.in/industriesweserve'
+        'url' => 'https://www.amulpackaging.in/industries-we-serve'
     ],
     'privacy' => [
         'title' => 'Privacy Policy | Amul Packaging',

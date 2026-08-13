@@ -1,244 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  
-  <!-- Home Page -->
-  <url>
-    <loc>https://www.amulpackaging.in/</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://www.amulpackaging.in/img/Banner.jpg</image:loc>
-      <image:title>Amul Packaging Flexible Packaging Solutions</image:title>
-      <image:caption>Leading flexible packaging solutions provider with 30+ years of expertise</image:caption>
-    </image:image>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core Pages -->
+  <url><loc>https://www.amulpackaging.in/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.amulpackaging.in/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.amulpackaging.in/products</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.amulpackaging.in/services</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.amulpackaging.in/industries-we-serve</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.amulpackaging.in/contact</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.amulpackaging.in/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 
-  <!-- About Page -->
-  <url>
-    <loc>https://www.amulpackaging.in/about</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://www.amulpackaging.in/img/about.jpg</image:loc>
-      <image:title>About Amul Packaging</image:title>
-      <image:caption>Learn about our 30+ years of expertise in flexible packaging</image:caption>
-    </image:image>
-  </url>
+  <!-- Product Pages -->
+  <url><loc>https://www.amulpackaging.in/products/standup-zipper-pouch</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.amulpackaging.in/products/3-side-seal-pouch</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.amulpackaging.in/products/flat-bottom-pouch</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.amulpackaging.in/products/centre-seal-pouch</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.amulpackaging.in/products/quad-seal-pouch</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.amulpackaging.in/products/vacuum-pouch</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.amulpackaging.in/products/shaped-pouch</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.amulpackaging.in/products/spout-pouch</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.amulpackaging.in/products/laminated-roll-stock</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.amulpackaging.in/products/poly-bags</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.amulpackaging.in/products/security-bags</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.amulpackaging.in/products/ziplock-poly-bags</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
-  <!-- Products Page -->
-  <url>
-    <loc>https://www.amulpackaging.in/products</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://www.amulpackaging.in/img/slider_banner/Products.jpg</image:loc>
-      <image:title>Flexible Packaging Products</image:title>
-      <image:caption>Comprehensive range of flexible packaging products</image:caption>
-    </image:image>
-  </url>
-
-  <!-- Services Page -->
-  <url>
-    <loc>https://www.amulpackaging.in/services</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://www.amulpackaging.in/img/slider_banner/Service.jpg</image:loc>
-      <image:title>Packaging Services</image:title>
-      <image:caption>Comprehensive packaging design and printing services</image:caption>
-    </image:image>
-  </url>
-
-  <!-- Industries We Serve Page -->
-  <url>
-    <loc>https://www.amulpackaging.in/industriesweserve</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://www.amulpackaging.in/img/slider_banner/Products.jpg</image:loc>
-      <image:title>Industries We Serve</image:title>
-      <image:caption>Packaging solutions for various industries</image:caption>
-    </image:image>
-  </url>
-
-  <!-- Contact Page -->
-  <url>
-    <loc>https://www.amulpackaging.in/contact</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://www.amulpackaging.in/img/slider_banner/contactus.jpg</image:loc>
-      <image:title>Contact Amul Packaging</image:title>
-      <image:caption>Get in touch for custom packaging solutions</image:caption>
-    </image:image>
-  </url>
-
-  <!-- Privacy Policy Page -->
-  <url>
-    <loc>https://www.amulpackaging.in/privacyPolicy</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
-  <!-- Terms & Conditions Page -->
-  <url>
-    <loc>https://www.amulpackaging.in/termCondition</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
-  <!-- Individual Product Pages -->
-  <url>
-    <loc>https://www.amulpackaging.in/products/1/standup-zipper-pouch</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.amulpackaging.in/img/products/Standup-zipper-pouch.jpg</image:loc>
-      <image:title>Standup Zipper Pouch</image:title>
-      <image:caption>Resealable, reliable standup zipper pouches for food, pet, cosmetic, and nutraceutical packaging</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://www.amulpackaging.in/products/2/3-side-seal-pouch</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.amulpackaging.in/img/products/3-Side-Seal-Pouch.jpg</image:loc>
-      <image:title>3 Side Seal Pouch</image:title>
-      <image:caption>Strong seals, strong impressions - three side seal pouches for secure packaging</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://www.amulpackaging.in/products/3/flat-bottom-pouch</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.amulpackaging.in/img/products/Flat-Bottom-Pouch.jpg</image:loc>
-      <image:title>Flat Bottom Pouch</image:title>
-      <image:caption>Premium flat bottom pouches with stable base and excellent shelf appeal</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://www.amulpackaging.in/products/4/centre-seal-pouch</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.amulpackaging.in/img/products/Centre%20Seal%20Pouch.jpg</image:loc>
-      <image:title>Centre Seal Pouch</image:title>
-      <image:caption>Precision sealed center seal pouches for lasting freshness and protection</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://www.amulpackaging.in/products/5/quad-seal-pouch</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.amulpackaging.in/img/products/Quad-Seal-Pouch.jpg</image:loc>
-      <image:title>Quad Seal Pouch</image:title>
-      <image:caption>Strong structure and sleek presentation with reinforced quad seal pouches</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://www.amulpackaging.in/products/6/vacuum-pouch</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.amulpackaging.in/img/products/Vacuum-Pouch.jpg</image:loc>
-      <image:title>Vacuum Pouch</image:title>
-      <image:caption>High-barrier vacuum pouches for maximum freshness and preservation</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://www.amulpackaging.in/products/7/shaped-pouch</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.amulpackaging.in/img/products/Shaped-Pouch.jpg</image:loc>
-      <image:title>Shaped Pouch</image:title>
-      <image:caption>Creative custom shaped pouches designed to fit your product and stand out</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://www.amulpackaging.in/products/8/spout-pouch</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.amulpackaging.in/img/products/Spout-Pouch.jpg</image:loc>
-      <image:title>Spout Pouch</image:title>
-      <image:caption>Flexible form with functional flow - spout pouches for easy pouring and use</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://www.amulpackaging.in/products/9/laminated-roll-stock</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.amulpackaging.in/img/products/Laminated-Roll-Stock.jpg</image:loc>
-      <image:title>Laminated Roll Stock</image:title>
-      <image:caption>High-speed machine-compatible laminated roll stock for automated packaging</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://www.amulpackaging.in/products/10/poly-bags</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.amulpackaging.in/img/products/Poly-bags.jpg</image:loc>
-      <image:title>Poly Bags</image:title>
-      <image:caption>Lightweight protection that works - durable poly bags for all industries</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://www.amulpackaging.in/products/11/security-bags</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.amulpackaging.in/img/products/Security-Bags.jpg</image:loc>
-      <image:title>Security Bags</image:title>
-      <image:caption>Tamper-evident security bags for protecting valuables and sensitive items</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://www.amulpackaging.in/products/12/ziplock-poly-bags</loc>
-    <lastmod>2024-01-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <image:image>
-      <image:loc>https://www.amulpackaging.in/img/products/Ziplock-bags.jpg</image:loc>
-      <image:title>Ziplock Poly Bags</image:title>
-      <image:caption>Secure today, reuse tomorrow - convenient resealable ziplock bags</image:caption>
-    </image:image>
-  </url>
-
+  <!-- Service Pages -->
+  <url><loc>https://www.amulpackaging.in/services/stand-up-pouch-manufacturer-in-bhiwandi</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.amulpackaging.in/services/flat-bottom-pouch-supplier-in-bhiwandi</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.amulpackaging.in/services/spout-pouch-in-mumbai</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.amulpackaging.in/services/vacuum-pouch-In-bhiwandi</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.amulpackaging.in/services/laminated-roll-stock-in-mumbai</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.amulpackaging.in/services/poly-bags-manufacturer-in-mumbai</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.amulpackaging.in/services/pillow-pouch</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

@@ -4,7 +4,7 @@ export const seoConfig = {
     title: "Flexible & Product Packaging Services by Amul Packaging",
     description: "Amul Packaging delivers reliable flexible packaging and product packaging with superior quality, custom designs, and fast service for businesses of all sizes.",
     keywords: "flexible packaging, product packging",
-    image: "/img/Banner.jpg",
+    image: "/img/Banner.webp",
     url: "https://www.amulpackaging.in",
     structuredData: {
       "@context": "https://schema.org",
@@ -24,7 +24,7 @@ export const seoConfig = {
     title: "Who We Are: Amul Packaging & Our Good Packaging Products",
     description: "Learn how Amul Packaging designs and manufactures good packaging products trusted across industries. Explore our history, expertise, and commitment to quality.",
     keywords: "good packaging products",
-    image: "/img/about.jpg",
+    image: "/img/about.webp",
     url: "https://www.amulpackaging.in/about",
     structuredData: {
       "@context": "https://schema.org",
@@ -44,7 +44,7 @@ export const seoConfig = {
     title: "Cool Product Packaging for Better Customer Reach",
     description: "Upgrade your brand with cool product packaging that blends style, strength, and creativity to make your products stand out on any shelf.",
     keywords: "cool product packaging",
-    image: "/img/slider_banner/Products.jpg",
+    image: "/img/slider_banner/Products.webp",
     url: "https://www.amulpackaging.in/products",
     structuredData: {
       "@context": "https://schema.org",
@@ -63,7 +63,7 @@ export const seoConfig = {
     title: "Amul Packaging Services | Great Product Packaging Solutions",
     description: "Explore Amul Packaging’s services offering great product packaging designed for durability, branding, and performance across multiple industries.",
     keywords: "great product packaging",
-    image: "/img/slider_banner/Service.jpg",
+    image: "/img/slider_banner/Service.webp",
     url: "https://www.amulpackaging.in/services",
     structuredData: {
       "@context": "https://schema.org",
@@ -83,7 +83,7 @@ export const seoConfig = {
     title: "For the Best Product Packaging | Contact Us | Amul Packaging",
     description: "Contact Amul Packaging for the best product packaging solutions. Get expert support, custom options, and reliable service for all your packaging needs.",
     keywords: "best product packaging",
-    image: "/img/slider_banner/contactus.jpg",
+    image: "/img/slider_banner/contactus.webp",
     url: "https://www.amulpackaging.in/contact",
     structuredData: {
       "@context": "https://schema.org",
@@ -107,8 +107,8 @@ export const seoConfig = {
     title: "Food Product Packaging Design for Industries | Amul Packaging",
     description: "Industry-specific food product packaging design by Amul Packaging, ensuring quality, protection, and appeal for every product category.",
     keywords: "food product packaging design",
-    image: "/img/slider_banner/Products.jpg",
-    url: "https://www.amulpackaging.in/industriesweserve",
+    image: "/img/slider_banner/Products.webp",
+    url: "https://www.amulpackaging.in/industries-we-serve",
     structuredData: {
       "@context": "https://schema.org",
       "@type": "WebPage",
@@ -133,7 +133,7 @@ export const seoConfig = {
     title: "Privacy Policy | Amul Packaging",
     description: "Privacy policy and data protection information for Amul Packaging website visitors and customers.",
     keywords: "privacy policy, data protection, Amul Packaging privacy",
-    image: "/img/logo.png",
+    image: "/img/logo.webp",
     url: "https://www.amulpackaging.in/privacyPolicy",
     noindex: true
   },
@@ -142,7 +142,7 @@ export const seoConfig = {
     title: "Terms & Conditions | Amul Packaging",
     description: "Terms and conditions for using Amul Packaging services and website.",
     keywords: "terms conditions, Amul Packaging terms",
-    image: "/img/logo.png",
+    image: "/img/logo.webp",
     url: "https://www.amulpackaging.in/termCondition",
     noindex: true
   }
@@ -157,12 +157,13 @@ export const getSEOConfig = (page) => {
 export const getProductSEO = (product) => {
   const siteUrl = "https://www.amulpackaging.in";
 
-  const productUrl = `https://www.amulpackaging.in/products/${product.id}/${product.name
+  const productSlug = product.name
     .toLowerCase()
     .replace(/[^a-z0-9\s-]/g, "")
     .replace(/\s+/g, "-")
     .replace(/-+/g, "-")
-    .trim()}`;
+    .trim();
+  const productUrl = `https://www.amulpackaging.in/products/${productSlug}`;
 
   // Most product images live in `product.img[]` (not `product.image`).
   const rawImage =
@@ -252,7 +253,7 @@ export const getProductSEO = (product) => {
     description: product.seoDescription || `${product.description} - Custom ${product.name} packaging solutions by Amul Packaging. High-quality flexible packaging for your business needs.`,
     // Use custom seoKeywords if available, otherwise fallback to generated keywords
     keywords: product.seoKeywords || `${product.name}, ${product.category} packaging, flexible packaging, custom packaging, Amul Packaging`,
-    image: rawImage || "/img/products/default.jpg",
+    image: rawImage || "/img/products/default.webp",
     url: productUrl,
     structuredData: structuredData
   };

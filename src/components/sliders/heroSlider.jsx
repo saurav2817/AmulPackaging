@@ -13,7 +13,7 @@ const HeroSlider = () => {
   const slides = [
     {
       id: 1,
-      bg: "/img/Banner.jpg",
+      bg: "/img/Banner.webp",
       title: (
         <>
           Delivering <br />
@@ -27,7 +27,7 @@ const HeroSlider = () => {
     },
     {
       id: 2,
-      bg: "/img/slider_banner/HomePageBanner2.jpg",
+      bg: "/img/slider_banner/HomePageBanner2.webp",
       title: (
         <>
           Premium <br />
@@ -40,7 +40,7 @@ const HeroSlider = () => {
     },
     // {
     //   id: 3,
-    //   bg: "/img/Banner.jpg",
+    //   bg: "/img/Banner.webp",
     //   title: (
     //     <>
     //       {/* Sustainable <br /> */}
@@ -161,10 +161,14 @@ const HeroSlider = () => {
         </button>
         {slides.map((slide) => (
           <SwiperSlide key={slide.id}>
-            <div
-              className="relative h-full bg-cover bg-center flex items-center"
-              style={{ backgroundImage: `url(${slide.bg})` }}
-            >
+            <div className="relative h-full flex items-center">
+              <img
+                src={slide.bg}
+                alt={typeof slide.title === 'string' ? slide.title : "Hero Image"}
+                fetchPriority={slide.id === 1 ? "high" : "auto"}
+                loading={slide.id === 1 ? "eager" : "lazy"}
+                className="absolute inset-0 w-full h-full object-cover -z-10"
+              />
               {/* Text Section */}
               <div className="container mx-auto px-6 md:px-12 lg:px-20">
                  <div className="max-w-xl bg-[#ffffff80] p-4 md:bg-transparent md:p-0"> 

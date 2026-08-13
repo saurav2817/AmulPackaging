@@ -9,83 +9,83 @@ import { IoChevronBack, IoChevronForward } from "react-icons/io5";
 const clients = [
   {
     id: "1",
-    ClientImg: "/img/clientlogo/thyrocare.jpg",
+    ClientImg: "/img/clientlogo/thyrocare.webp",
     Name: "Thyrocare",
   },
   {
     id: "2",
-    ClientImg: "/img/clientlogo/lupin.jpg",
+    ClientImg: "/img/clientlogo/lupin.webp",
     Name: "Lupin",
   },
   {
     id: "3",
-    ClientImg: "/img/clientlogo/chandan.jpg", 
+    ClientImg: "/img/clientlogo/chandan.webp", 
     Name: "Chandan",
   },
     {
     id: "4",
-    ClientImg: "/img/clientlogo/whole-truth.jpg", 
+    ClientImg: "/img/clientlogo/whole-truth.webp", 
     Name: "Whole Truth",
   },  
   {
     id: "5",
-    ClientImg: "/img/clientlogo/bazana.jpg", 
+    ClientImg: "/img/clientlogo/bazana.webp", 
     Name: "bazana",
   },
   {
     id: "6",
-    ClientImg: "/img/clientlogo/oziva.jpg", 
+    ClientImg: "/img/clientlogo/oziva.webp", 
     Name: "Oziva",
   },
     {
     id: "7",
-    ClientImg: "/img/clientlogo/fazlaniexports.jpg", 
+    ClientImg: "/img/clientlogo/fazlaniexports.webp", 
     Name: "fazlani exports",
   },
     {
     id: "8",
-    ClientImg: "/img/clientlogo/himedia.jpg", 
+    ClientImg: "/img/clientlogo/himedia.webp", 
     Name: "Himedia",
   },
    {
     id: "9",
-    ClientImg: "/img/clientlogo/superyou.jpg", 
+    ClientImg: "/img/clientlogo/superyou.webp", 
     Name: "Superyou",
   },
   {
     id: "10",
-    ClientImg: "/img/clientlogo/nykaa.jpg", 
+    ClientImg: "/img/clientlogo/nykaa.webp", 
     Name: "Nykaa",
   },
   {
     id: "11",
-    ClientImg: "/img/clientlogo/cachet.jpg", 
+    ClientImg: "/img/clientlogo/cachet.webp", 
     Name: "Cachet",
   },
     {
     id: "12",
-    ClientImg: "/img/clientlogo/prov.jpg", 
+    ClientImg: "/img/clientlogo/prov.webp", 
     Name: " prov",
   },
    {
     id: "13",
-    ClientImg: "/img/clientlogo/candor.jpg", 
+    ClientImg: "/img/clientlogo/candor.webp", 
     Name: " candor",
   },
   {
     id: "14",
-    ClientImg: "/img/clientlogo/Consciousfoods.jpg", 
+    ClientImg: "/img/clientlogo/Consciousfoods.webp", 
     Name: "Conscious",
   },
  
   {
     id: "15",
-    ClientImg: "/img/clientlogo/khetika.jpg", 
+    ClientImg: "/img/clientlogo/khetika.webp", 
     Name: "Khetika",
   },
   {
     id: "16",
-    ClientImg: "/img/clientlogo/toi.jpg", 
+    ClientImg: "/img/clientlogo/toi.webp", 
     Name: "The Times of India",
   },
   
@@ -145,7 +145,10 @@ const ClientsSection = () => {
                 <img
                   src={client.ClientImg}
                   alt={client.Name}
-                  className="max-h-18 object-cover  "
+                  loading="lazy"
+                  width="160"
+                  height="80"
+                  className="max-h-18 object-contain"
                 />
               </div>
             </SwiperSlide>

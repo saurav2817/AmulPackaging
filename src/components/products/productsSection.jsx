@@ -22,12 +22,18 @@ const ProductsSection = () => {
                 <img
                   src={mainImg}
                   alt={product.name}
+                  loading="lazy"
+                  width="400"
+                  height="400"
                   className="mx-auto w-full h-full object-cover transition-all duration-500 ease-out group-hover:opacity-0 group-hover:scale-105"
                 />
                
                 <img
                   src={hoverImg}
                   alt={product.name + ' hover'}
+                  loading="lazy"
+                  width="400"
+                  height="400"
                   className="absolute inset-0 mx-auto w-full h-full object-cover opacity-0 transition-all duration-500 ease-out group-hover:opacity-100 group-hover:scale-130"
                 />
               </div>

@@ -21,7 +21,7 @@ const ThankYou = () => {
             />
             <main className="mx-auto">
                 {/* Hero Section */}
-                <section className="relative bg-cover bg-center" style={{ backgroundImage: "url('/img/slider_banner/contactus.jpg')" }}>
+                <section className="relative bg-cover bg-center" style={{ backgroundImage: "url('/img/slider_banner/contactus.webp')" }}>
                     <div className="absolute inset-0 bg-black/15 z-0"></div>
                     <div className="relative z-10 max-w-6xl mx-auto px-4 md:py-24 py-10 text-center">
                         <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight">Thank You!</h1>

@@ -38,9 +38,9 @@ const PillowPouch = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const pillowPouchImages = [
-    "../img/pillowpouch.png",
-    "../img/pillowpouch2.png",
-    "../img/pillowpouch3.png",
+    "../img/pillowpouch.webp",
+    "../img/pillowpouch2.webp",
+    "../img/pillowpouch3.webp",
     // Add more image URLs here if needed
   ];
 
@@ -88,7 +88,7 @@ const PillowPouch = () => {
   "name": "Pillow Pouch",
   "description": "Get durable, cost-effective pillow pouch (centre seal) packaging for food, snacks, spices, powders, FMCG, and industrial products with custom printing from Amul Packaging.",
   "url": "https://www.amulpackaging.in/services/pillow-pouch",
-  "image": "https://www.amulpackaging.in/img/pillowpouch.png",
+  "image": "https://www.amulpackaging.in/img/pillowpouch.webp",
   "provider": {
     "@type": "Organization",
     "name": "Amul Packaging",

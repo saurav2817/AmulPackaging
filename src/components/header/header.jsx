@@ -43,7 +43,7 @@ const Header = () => {
           {/* Logo */}
           <a href="/index">
             <img
-              src="/img/logo.png"
+              src="/img/logo.webp"
               alt="Logo"
               width={200}
               className="cursor-pointer"
@@ -100,7 +100,7 @@ const Header = () => {
             </li>
             <li>
               <NavLink
-                to="/IndustriesWeServe"
+                to="/industries-we-serve"
                 className={({ isActive }) =>
                   `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`
                 }
@@ -181,7 +181,7 @@ const Header = () => {
         <div className="sticky top-0 bg-white border-b px-5 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <img
-              src="/img/logo.png"
+              src="/img/logo.webp"
               alt="Amul Packaging"
               className="h-8 w-auto"
             />
@@ -413,7 +413,7 @@ const Header = () => {
           </li>
           <li>
             <NavLink
-              to="/IndustriesWeServe"
+              to="/industries-we-serve"
               className={({ isActive }) =>
                 `hover:text-blue-600 ${isActive ? "text-blue-600" : ""}`
               }

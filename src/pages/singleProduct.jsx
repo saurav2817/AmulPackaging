@@ -38,15 +38,24 @@ import EnquiryModal from "../components/modal/enquiryModal";
 import SchemaInjector from "../seo/SchemaInjector";
 
 const SingleProduct = () => {
-  const { id } = useParams();
+  const { slug } = useParams();
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(0);
   const [isEnquiryOpen, setIsEnquiryOpen] = useState(false);
   const [openFAQ, setOpenFAQ] = useState(null);
   const [expandedIndustry, setExpandedIndustry] = useState(null);
-  const productId = Number(id);
-  const product = products.find((p) => p.id === productId);
+  const product = products.find((p) => {
+    const normalizedSlug = (p.name || "")
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, "")
+      .replace(/\s+/g, "-")
+      .replace(/-+/g, "-")
+      .trim();
+
+    return normalizedSlug === slug;
+  });
+  const productId = product?.id;
 
   // Reorder images so that indices appear as 2,3,4,5,... then 0,1
   const images = [...(product?.img || [])].filter(Boolean);

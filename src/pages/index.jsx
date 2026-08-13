@@ -26,8 +26,11 @@ const Home = () => {
         <div className="flex flex-col lg:flex-row">
           <div className="w-full lg:w-1/2 flex items-center justify-center">
             <img
-              src="/img/about.jpg"
+              src="/img/about.webp"
               alt="About Amul Packaging"
+              loading="lazy"
+              width="600"
+              height="400"
               className="w-full h-auto object-cover"
             />
           </div>
@@ -101,7 +104,7 @@ const Home = () => {
             {/* Card 1 */}
             <div className="flex flex-col items-center">
               <div className="bg-[#ec2a4f]  rounded-lg mb-4 p-6 ">
-                <img src="/img/quality.png" alt="quality" width={80} />
+                <img src="/img/quality.webp" alt="quality" width={80} height={80} loading="lazy" />
               </div>
               <h3 className="font-bold text-lg">
                 Quality And <br /> Innovative Packaging
@@ -113,7 +116,7 @@ const Home = () => {
 
             <div className="flex flex-col items-center mt-6 sm:mt-0 md:mt-0">
               <div className="bg-[#ec2a4f]  rounded-lg mb-4 p-6 ">
-                <img src="/img/experience.png" alt="quality" width={80} />
+                <img src="/img/experience.webp" alt="quality" width={80} height={80} loading="lazy" />
               </div>
               <h3 className="font-bold text-lg">Experienced</h3>
               <p className="text-gray-600 mt-2 text-sm">
@@ -123,7 +126,7 @@ const Home = () => {
 
             <div className="flex flex-col items-center mt-6 sm:mt-0 md:mt-0">
               <div className="bg-[#ec2a4f]  rounded-lg mb-4 p-6 ">
-                <img src="/img/Sustainable.png" alt="quality" width={80} />
+                <img src="/img/Sustainable.webp" alt="quality" width={80} height={80} loading="lazy" />
               </div>
               <h3 className="font-bold text-lg">Sustainable</h3>
               <p className="text-gray-600 mt-2 text-sm">
@@ -164,7 +167,7 @@ const Home = () => {
 
             <div className="w-full lg:w-1/2 flex items-center justify-center">
               <img
-                src="/img/whatwedo.jpg"
+                src="/img/whatwedo.webp"
                 alt="What we do"
                 className=" w-full h-auto object-cover"
               />

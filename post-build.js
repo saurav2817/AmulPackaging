@@ -77,7 +77,7 @@ if ($path === '' || $path === '/') {
     $page_seo = safeGetSEO('services', $site_url);
 } elseif ($path === '/contact') {
     $page_seo = safeGetSEO('contact', $site_url);
-} elseif ($path === '/industriesweserve') {
+} elseif ($path === '/industries-we-serve' || strtolower($path) === '/industriesweserve') {
     $page_seo = safeGetSEO('industries', $site_url);
 } elseif ($path === '/privacyPolicy') {
     $page_seo = safeGetSEO('privacy', $site_url);
@@ -97,13 +97,14 @@ if ($path === '' || $path === '/') {
     $page_seo = safeGetSEO('service_polybags', $site_url);
 } elseif ($path === '/services/pillow-pouch') {
     $page_seo = safeGetSEO('service_pillow', $site_url);
-} elseif (preg_match('/^\\/products\\/(\\d+)\\/?([a-zA-Z0-9-]+)?$/', $path, $matches)) {
+} elseif (preg_match('/^\\/products\\/([a-zA-Z0-9-]+)$/', $path, $matches)) {
     // Product Detail Page
-    $product_id = intval($matches[1]);
+    $slug = $matches[1];
     $product = null;
     if (isset($products) && is_array($products)) {
         foreach ($products as $p) {
-            if ($p['id'] === $product_id) {
+            $normalizedSlug = trim(preg_replace('/-+/', '-', preg_replace('/\\s+/', '-', preg_replace('/[^a-z0-9\\s-]/', '', strtolower($p['name'])))));
+            if ($normalizedSlug === $slug) {
                 $product = $p;
                 break;
             }
@@ -199,6 +200,15 @@ if ($path === '' || $path === '/') {
     } catch (Exception $e) {
         // Silently fail and use default SEO
     }
+} else {
+    http_response_code(404);
+    $page_seo = [
+        'title' => '404 Not Found | Amul Packaging',
+        'description' => 'The page you are looking for does not exist.',
+        'keywords' => '404, not found',
+        'image' => '/img/logo.png',
+        'url' => $site_url . $path
+    ];
 }
 
 // 4. Final Data Preparation
@@ -207,6 +217,16 @@ $description = htmlspecialchars($page_seo['description']);
 $keywords = htmlspecialchars($page_seo['keywords']);
 $image = htmlspecialchars($page_seo['image']);
 $canonical = htmlspecialchars($full_url);
+// 5. Prerendered HTML Injection
+$prerendered = [];
+if (file_exists(__DIR__ . '/prerendered.json')) {
+    $prerendered_content = file_get_contents(__DIR__ . '/prerendered.json');
+    if ($prerendered_content) {
+        $prerendered = json_decode($prerendered_content, true) ?: [];
+    }
+}
+$path_to_check = $path === '' ? '/' : $path;
+$route_html = isset($prerendered[$path_to_check]) ? $prerendered[$path_to_check] : '';
 ?>`;
 
 // Replace the static tags in the HTML with PHP echoes
@@ -215,6 +235,9 @@ html = html.replace(/<meta name="title" content=".*?" \/>/g, '<meta name="title"
 html = html.replace(/<meta name="description" content=".*?" \/>/g, '<meta name="description" content="<?php echo $description; ?>" />');
 html = html.replace(/<meta name="keywords" content=".*?" \/>/g, '<meta name="keywords" content="<?php echo $keywords; ?>" />');
 html = html.replace(/<link rel="canonical" href=".*?" \/>/g, '<link rel="canonical" href="<?php echo $canonical; ?>" />');
+
+// Root Div Replacement
+html = html.replace(/<div id="root"><\/div>/, '<div id="root"><?php echo $route_html; ?></div>');
 
 // OG Tags
 html = html.replace(/<meta property="og:title" content=".*?" \/>/g, '<meta property="og:title" content="<?php echo $title; ?>" />');

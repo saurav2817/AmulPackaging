@@ -34,51 +34,51 @@ const IndustriesWeServe = () => {
   // Mapping pouch types to their corresponding images and product links
   const pouchImageMapping = {
     "Standup Zipper Pouch": {
-      image: "/img/products/Standup-zipper-pouch-Main.jpg",
+      image: "/img/products/Standup-zipper-pouch-Main.webp",
       product: getProductByName("Standup Zipper Pouch"),
     },
     "Flat Bottom Pouches": {
-      image: "/img/products/Flat-Bottom-Pouch-Main.jpg",
+      image: "/img/products/Flat-Bottom-Pouch-Main.webp",
       product: getProductByName("Flat Bottom Pouch"),
     },
     "Center Seal Pouch": {
-      image: "/img/products/Centre-Seal-Pouch-Main.jpg",
+      image: "/img/products/Centre-Seal-Pouch-Main.webp",
       product: getProductByName("Centre Seal Pouch"),
     },
     "Spout Pouch": {
-      image: "/img/products/Spout-Pouch-Main.jpg",
+      image: "/img/products/Spout-Pouch-Main.webp",
       product: getProductByName("Spout Pouch"),
     },
     "Shaped Pouch": {
-      image: "/img/products/Shaped-Pouch-Main.jpg",
+      image: "/img/products/Shaped-Pouch-Main.webp",
       product: getProductByName("Shaped Pouch"),
     },
     "Laminated Roll-Stock": {
-      image: "/img/products/Laminated-Roll-Stock-Main.jpg",
+      image: "/img/products/Laminated-Roll-Stock-Main.webp",
       product: getProductByName("Laminated Roll-Stock"),
     },
     "Quad Seal Pouch": {
-      image: "/img/products/Quad-Seal-Pouch-Main.jpg",
+      image: "/img/products/Quad-Seal-Pouch-Main.webp",
       product: getProductByName("Quad Seal Pouch"),
     },
     "Three-Side Seal Pouch": {
-      image: "/img/products/3-Side-Seal-Pouch-Main.jpg",
+      image: "/img/products/3-Side-Seal-Pouch-Main.webp",
       product: getProductByName("3 side seal  pouch"),
     },
     "Polybags": {
-      image: "/img/products/Poly-bags-Main.jpg",
+      image: "/img/products/Poly-bags-Main.webp",
       product: getProductByName("Poly bags"),
     },
     "Security Bags": {
-        image: "/img/products/Security-Bags.jpg",
+        image: "/img/products/Security-Bags.webp",
         product: getProductByName("Security Bags"),
       },
     "Ziplock Pouch": {
-      image: "/img/products/Ziplock-bags-Main.jpg",
+      image: "/img/products/Ziplock-bags-Main.webp",
       product: getProductByName("Ziplock poly bags"),
     },
     "Vacuum Pouch": {
-      image: "/img/products/Vacuum-Pouch-Main.jpg",
+      image: "/img/products/Vacuum-Pouch-Main.webp",
       product: getProductByName("Vacuum Pouch"),
     },
   };
@@ -100,7 +100,7 @@ const IndustriesWeServe = () => {
         "Three-Side Seal Pouch",
         "Laminated Roll-Stock",
       ],
-      icon: "/img/serviceICN/food.png",
+      icon: "/img/serviceICN/food.webp",
     },
     {
       id: "beverage",
@@ -116,7 +116,7 @@ const IndustriesWeServe = () => {
         "Standup Zipper Pouch",
         "Laminated Roll-Stock",
       ],
-      icon: "/img/serviceICN/beverage.png",
+      icon: "/img/serviceICN/beverage.webp",
     },
     {
       id: "pet",
@@ -132,7 +132,7 @@ const IndustriesWeServe = () => {
         "Quad Seal Pouch",
         "Standup Zipper Pouch",
       ],
-      icon: "/img/serviceICN/pet.png",
+      icon: "/img/serviceICN/pet.webp",
     },
     {
       id: "pharma",
@@ -144,7 +144,7 @@ const IndustriesWeServe = () => {
         "Our laminates and pouches maintain medicinal stability and extend shelf life while preventing contamination or degradation. We provide solutions for both over-the-counter and specialized healthcare products.",
       ],
       pouchTypes: ["Three-Side Seal Pouch", "Center Seal Pouch", "Vacuum Pouch","Security Bags", ],
-      icon: "/img/serviceICN/pharma.png",
+      icon: "/img/serviceICN/pharma.webp",
     },
     {
       id: "agro",
@@ -156,7 +156,7 @@ const IndustriesWeServe = () => {
         "We engineer our pouches to meet the unique needs of the agricultural sector — from compact seed packs to large fertilizer bags — with optimal sealing strength and print quality.",
       ],
       pouchTypes: ["Center Seal Pouch", "Quad Seal Pouch", "Flat Bottom Pouches", "Laminated Roll-Stock"],
-      icon: "/img/serviceICN/agri.png",
+      icon: "/img/serviceICN/agri.webp",
     },
     {
       id: "industrial",
@@ -173,7 +173,7 @@ const IndustriesWeServe = () => {
         "Laminated Roll-Stock",
         "Security Bags",
       ],
-      icon: "/img/serviceICN/indstrial.png",
+      icon: "/img/serviceICN/indstrial.webp",
     },
     {
       id: "fitness",
@@ -189,7 +189,7 @@ const IndustriesWeServe = () => {
         "Standup Zipper Pouch",
         "Three-Side Seal Pouch",
       ],
-      icon: "/img/serviceICN/fitness.png",
+      icon: "/img/serviceICN/fitness.webp",
     },
     {
       id: "confectionery",
@@ -205,7 +205,7 @@ const IndustriesWeServe = () => {
         "Three-Side Seal Pouch",
         "Standup Zipper Pouch",
       ],
-      icon: "/img/serviceICN/confectionery.png",
+      icon: "/img/serviceICN/confectionery.webp",
     },
     {
       id: "clothing",
@@ -217,7 +217,7 @@ const IndustriesWeServe = () => {
         "",
       ],
       pouchTypes: ["Polybags", "Ziplock Pouch", "Security Bags",],
-      icon: "/img/serviceICN/clothing.png",
+      icon: "/img/serviceICN/clothing.webp",
     },
     {
       id: "beauty",
@@ -229,7 +229,7 @@ const IndustriesWeServe = () => {
         "We help brands express elegance through packaging that feels premium and performs perfectly.",
       ],
       pouchTypes: ["Spout Pouch", "Standup Zipper Pouch", "Three-Side Seal Pouch",],
-      icon: "/img/serviceICN/beauty&personalcare.png",
+      icon: "/img/serviceICN/beauty&personalcare.webp",
     },
     {
       id: "dairy",
@@ -245,7 +245,7 @@ const IndustriesWeServe = () => {
         "Spout Pouch",
         "Laminated Roll-Stock",
       ],
-      icon: "/img/serviceICN/dairy.png",
+      icon: "/img/serviceICN/dairy.webp",
     },
   ];
 
@@ -253,7 +253,7 @@ const IndustriesWeServe = () => {
     <>
       <SEO {...seoConfig} />
       <main className="">
-        <section className="text-center md:py-30 py-10 bg-[url('/img/slider_banner/IndustriesWeServe.jpg')] bg-cover bg-center">
+        <section className="text-center md:py-30 py-10 bg-[url('/img/slider_banner/IndustriesWeServe.webp')] bg-cover bg-center">
           <h1 className="text-3xl font-bold text-primary">
             Industries We Serve
           </h1>
@@ -363,7 +363,7 @@ const IndustriesWeServe = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                     {selectedIndustry.pouchTypes.map((pouch, index) => {
                       const pouchData = pouchImageMapping[pouch] || {
-                        image: "/img/products/3-Side-Seal-Pouch-Main.jpg",
+                        image: "/img/products/3-Side-Seal-Pouch-Main.webp",
                         product: null,
                       };
 
@@ -390,7 +390,7 @@ const IndustriesWeServe = () => {
                                   className="w-16 h-16 object-cover object-center rounded-lg border border-gray-100 group-hover:border-blue-200 transition-colors"
                                   onError={(e) => {
                                     e.target.src =
-                                      "/img/products/3-Side-Seal-Pouch-Main.jpg";
+                                      "/img/products/3-Side-Seal-Pouch-Main.webp";
                                   }}
                                 />
                               </div>

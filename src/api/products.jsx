@@ -6,9 +6,9 @@ const products = [
     seoDescription: "Get strong, fresh-keeping stand up pouche made for food, pet, cosmetic, and nutraceutical brands. Custom sizes, printing, and fast delivery from Amul Packaging",
     seoKeywords: "stand up pouch",
     img: [
-      "/img/products/Standup-zipper-pouch.jpg",
-      "/img/products/Standup-zipper-pouch-Main.jpg",
-      "/img/products/amul/Standup-Zipper-Pouch1.jpg",
+      "/img/products/Standup-zipper-pouch.webp",
+      "/img/products/Standup-zipper-pouch-Main.webp",
+      "/img/products/amul/Standup-Zipper-Pouch1.webp",
     ],
     bg: "bg-green-600",
     Tagline:"Resealable. Reliable. Remarkable.",
@@ -225,7 +225,7 @@ const products = [
       "name": "Stand Up Zipper Pouch",
       "description": "Get strong, fresh-keeping stand up zipper pouches made for food, pet, cosmetic, and nutraceutical brands. Custom sizes, printing, and fast delivery from Amul Packaging.",
       "url": "https://www.amulpackaging.in/products/1/standup-zipper-pouch",
-      "image": "https://www.amulpackaging.in/img/products/Standup-zipper-pouch.jpg",
+      "image": "https://www.amulpackaging.in/img/products/Standup-zipper-pouch.webp",
       "provider": {
         "@type": "Organization",
         "name": "Amul Packaging",
@@ -285,9 +285,9 @@ const products = [
     seoDescription: "Get smart, secure Three Side Seal Pouch for food, pharma, cosmetics, and more. Custom sizes, strong sealing, and clean printing from Amul Packaging.",
     seoKeywords: "three side seal pouch",
     img: [
-      "/img/products/3-Side-Seal-Pouch.jpg",
-        "/img/products/3-Side-Seal-Pouch-Main.jpg",
-        "/img/products/amul/3-side-seal-pouch.jpg",
+      "/img/products/3-Side-Seal-Pouch.webp",
+        "/img/products/3-Side-Seal-Pouch-Main.webp",
+        "/img/products/amul/3-side-seal-pouch.webp",
         
     ],
     bg: "bg-pink-600",
@@ -446,7 +446,7 @@ const products = [
   "name": "Three Side Seal Pouch",
   "description": "Get smart, secure Three Side Seal Pouch for food, pharma, cosmetics, and more. Custom sizes, strong sealing, and clean printing from Amul Packaging.",
   "url": "https://www.amulpackaging.in/products/2/3-side-seal-pouch",
-  "image": "https://www.amulpackaging.in/img/products/3-Side-Seal-Pouch.jpg",
+  "image": "https://www.amulpackaging.in/img/products/3-Side-Seal-Pouch.webp",
   "provider": {
     "@type": "Organization",
     "name": "Amul Packaging",
@@ -506,9 +506,9 @@ const products = [
     seoDescription: "Give your product a premium look with flat bottom Pouch designed for strength, freshness, and clean branding. Custom sizes and printing available at Amul Packaging.",
     seoKeywords: "flat bottom pouch",
     img: [
-      "/img/products/Flat-Bottom-Pouch.jpg",
-      "/img/products/Flat-Bottom-Pouch-Main.jpg",
-      "/img/products/amul/Flat-Bottom-Pouch.jpg",
+      "/img/products/Flat-Bottom-Pouch.webp",
+      "/img/products/Flat-Bottom-Pouch-Main.webp",
+      "/img/products/amul/Flat-Bottom-Pouch.webp",
     ],
     bg: "bg-yellow-400",
     popularity: 88,
@@ -696,7 +696,7 @@ const products = [
       "name": "Flat Bottom Pouch",
       "description": "Give your product a premium look with flat bottom pouch designed for strength, freshness, and clean branding. Custom sizes and printing available at Amul Packaging.",
       "url": "https://www.amulpackaging.in/products/3/flat-bottom-pouch",
-      "image": "https://www.amulpackaging.in/img/products/Flat-Bottom-Pouch.jpg",
+      "image": "https://www.amulpackaging.in/img/products/Flat-Bottom-Pouch.webp",
       "provider": {
         "@type": "Organization",
         "name": "Amul Packaging",
@@ -762,9 +762,9 @@ const products = [
     seoDescription: "Get strong, clean-finished center seal pouch designed to protect food, snacks, pharma, and FMCG products. Custom sizes and printing available at Amul Packaging.",
     seoKeywords: "center seal pouch",
     img: [
-      "/img/products/Centre Seal Pouch.jpg",
-      "/img/products/Centre-Seal-Pouch-Main.jpg",
-      "/img/products/amul/Centre-Seal-Pouch.jpg",
+      "/img/products/Centre Seal Pouch.webp",
+      "/img/products/Centre-Seal-Pouch-Main.webp",
+      "/img/products/amul/Centre-Seal-Pouch.webp",
      
     ],
     bg: "bg-blue-600",
@@ -926,7 +926,7 @@ HeroText:"Our high-quality Centre Seal Pouches ensure airtight protection, optim
       "name": "Centre Seal Pouch",
       "description": "Get strong, clean-finished center seal pouch designed to protect food, snacks, pharma, and FMCG products. Custom sizes and printing available at Amul Packaging.",
       "url": "https://www.amulpackaging.in/products/4/centre-seal-pouch",
-      "image": "https://www.amulpackaging.in/img/products/Centre-Seal-Pouch.jpg",
+      "image": "https://www.amulpackaging.in/img/products/Centre-Seal-Pouch.webp",
       "provider": {
         "@type": "Organization",
         "name": "Amul Packaging",
@@ -992,9 +992,9 @@ HeroText:"Our high-quality Centre Seal Pouches ensure airtight protection, optim
     seoDescription: "Keep your product secure with quad seal pouch that hold shape, protect freshness, and look premium. Custom sizes and printing available at Amul Packaging.",
     seoKeywords: "quad seal pouch",
     img: [
-      "/img/products/Quad-Seal-Pouch.jpg",
-      "/img/products/Quad-Seal-Pouch-Main.jpg",
-      "/img/products/amul/Quad-Seal-Pouch.jpg",
+      "/img/products/Quad-Seal-Pouch.webp",
+      "/img/products/Quad-Seal-Pouch-Main.webp",
+      "/img/products/amul/Quad-Seal-Pouch.webp",
       
     ],
     bg: "bg-red-500",
@@ -1153,7 +1153,7 @@ HeroText:"With reinforced side seals and a durable design, our Quad Seal Pouches
       "name": "Quad Seal Pouch",
       "description": "Keep your product secure with quad seal pouch that holds shape, protects freshness, and delivers premium shelf appeal. Custom sizes and printing available at Amul Packaging.",
       "url": "https://www.amulpackaging.in/products/5/quad-seal-pouch",
-      "image": "https://www.amulpackaging.in/img/products/Quad-Seal-Pouch.jpg",
+      "image": "https://www.amulpackaging.in/img/products/Quad-Seal-Pouch.webp",
       "provider": {
         "@type": "Organization",
         "name": "Amul Packaging",
@@ -1219,9 +1219,9 @@ HeroText:"With reinforced side seals and a durable design, our Quad Seal Pouches
     seoDescription: "Safely store meat, snacks, pharma and more with vacuum seal pouch that block air and moisture. Strong, durable and custom-made for your product at Amul Packaging.",
     seoKeywords: "vacuum pouch",
     img: [
-      "/img/products/Vacuum-Pouch.jpg",
-      "/img/products/Vacuum-Pouch-Main.jpg",
-          "/img/products/amul/Vacuum-Pouch.jpg",
+      "/img/products/Vacuum-Pouch.webp",
+      "/img/products/Vacuum-Pouch-Main.webp",
+          "/img/products/amul/Vacuum-Pouch.webp",
         
     ], 
     bg: "bg-red-500",
@@ -1405,7 +1405,7 @@ Industry: [
   "name": "Vacuum Pouch",
   "description": "Safely store meat, snacks, pharma, and other products with vacuum seal pouches that block air and moisture. Strong, durable, and custom-made packaging solutions from Amul Packaging.",
   "url": "https://www.amulpackaging.in/products/6/vacuum-pouch",
-  "image": "https://www.amulpackaging.in/img/products/Vacuum-Pouch.jpg",
+  "image": "https://www.amulpackaging.in/img/products/Vacuum-Pouch.webp",
   "provider": {
     "@type": "Organization",
     "name": "Amul Packaging",
@@ -1471,9 +1471,9 @@ Industry: [
     seoDescription: "Create packaging that grabs attention with custom shape pouch designed to match your product style. Strong, attractive & fully customizable at Amul Packaging.",
     seoKeywords: "shape pouch",
     img: [
-      "/img/products/Shaped-Pouch.jpg",
-      "/img/products/Shaped-Pouch-Main.jpg",
-      "/img/products/amul/Shaped-Pouch.jpg",
+      "/img/products/Shaped-Pouch.webp",
+      "/img/products/Shaped-Pouch-Main.webp",
+      "/img/products/amul/Shaped-Pouch.webp",
       
     ],
     bg: "bg-red-500",
@@ -1635,7 +1635,7 @@ HeroText:"From unique silhouettes to durable structure, our Shaped Pouches provi
   "name": "Shaped Pouch",
   "description": "Create packaging that grabs attention with custom shaped pouches designed to match your product style. Strong, attractive, and fully customizable packaging solutions from Amul Packaging.",
   "url": "https://www.amulpackaging.in/products/7/shaped-pouch",
-  "image": "https://www.amulpackaging.in/img/products/Shaped-Pouch.jpg",
+  "image": "https://www.amulpackaging.in/img/products/Shaped-Pouch.webp",
   "provider": {
     "@type": "Organization",
     "name": "Amul Packaging",
@@ -1701,9 +1701,9 @@ HeroText:"From unique silhouettes to durable structure, our Shaped Pouches provi
     seoDescription: "Make liquids easier to pour, store, and carry with custom spout pouch that stay leak-proof and durable. Designed for sauces, juices, gels and more at Amul Packaging.",
     seoKeywords: "spout pouch",
     img: [
-      "/img/products/Spout-Pouch.jpg",
-      "/img/products/Spout-Pouch-Main.jpg",
-      "/img/products/amul/Spout-Pouch.jpg",
+      "/img/products/Spout-Pouch.webp",
+      "/img/products/Spout-Pouch-Main.webp",
+      "/img/products/amul/Spout-Pouch.webp",
      
     ],
     bg: "bg-green-600",
@@ -1882,7 +1882,7 @@ Industry: [
   "name": "Spout Pouch",
   "description": "Make liquids easier to pour, store, and carry with custom spout pouches that stay leak-proof and durable. Ideal for sauces, juices, gels, and liquid packaging solutions from Amul Packaging.",
   "url": "https://www.amulpackaging.in/products/8/spout-pouch",
-  "image": "https://www.amulpackaging.in/img/products/Spout-Pouch.jpg",
+  "image": "https://www.amulpackaging.in/img/products/Spout-Pouch.webp",
   "provider": {
     "@type": "Organization",
     "name": "Amul Packaging",
@@ -1948,9 +1948,9 @@ Industry: [
     seoDescription: "Get laminated roll stock designed for fast, smooth machine packing. Strong barrier films, custom printing, and consistent roll quality for every product at Amul Packaging.",
     seoKeywords: "laminated roll stock",
     img: [
-      "/img/products/Laminated-Roll-Stock.jpg",
-      "/img/products/Laminated-Roll-Stock-Main.jpg",
-      "/img/products/amul/Laminated-Roll-Stock.jpg",
+      "/img/products/Laminated-Roll-Stock.webp",
+      "/img/products/Laminated-Roll-Stock-Main.webp",
+      "/img/products/amul/Laminated-Roll-Stock.webp",
       
     ], 
     bg: "bg-red-500",
@@ -2101,7 +2101,7 @@ HeroText:"Our Laminated Roll-Stock delivers the strength, versatility, and custo
   "name": "Laminated Roll Stock",
   "description": "Get laminated roll stock designed for fast and smooth machine packing with strong barrier films, custom printing, and consistent roll quality from Amul Packaging.",
   "url": "https://www.amulpackaging.in/products/9/laminated-roll-stock",
-  "image": "https://www.amulpackaging.in/img/products/Laminated-Roll-Stock.jpg",
+  "image": "https://www.amulpackaging.in/img/products/Laminated-Roll-Stock.webp",
   "provider": {
     "@type": "Organization",
     "name": "Amul Packaging",
@@ -2167,9 +2167,9 @@ HeroText:"Our Laminated Roll-Stock delivers the strength, versatility, and custo
     seoDescription: "Get poly bag that protect products, store them safely, and offer clean display. Custom sizes, strong materials, and printing options available at Amul Packaging.",
     seoKeywords: "poly bag",
     img: [
-      "/img/products/Poly-bags.jpg",
-      "/img/products/Poly-bags-Main.jpg",
-      "/img/products/amul/Poly-bags.jpg",
+      "/img/products/Poly-bags.webp",
+      "/img/products/Poly-bags-Main.webp",
+      "/img/products/amul/Poly-bags.webp",
       
     ],
     bg: "bg-green-600",
@@ -2342,7 +2342,7 @@ HeroText:"From retail to industrial use, our Poly Bags deliver cost-effective pr
       "name": "Poly Bags",
       "description": "Get durable poly bags that protect products, store them safely, and provide clean product presentation. Custom sizes, strong materials, and printing solutions from Amul Packaging.",
       "url": "https://www.amulpackaging.in/products/10/poly-bags",
-      "image": "https://www.amulpackaging.in/img/products/Poly-bags.jpg",
+      "image": "https://www.amulpackaging.in/img/products/Poly-bags.webp",
       "provider": {
         "@type": "Organization",
         "name": "Amul Packaging",
@@ -2401,9 +2401,9 @@ HeroText:"From retail to industrial use, our Poly Bags deliver cost-effective pr
     seoDescription: "Keep cash, documents, medicines, and sensitive items safe with tamper-evident security bags designed to show any unauthorized access. Made dependable by Amul Packaging.",
     seoKeywords: "security bag",
     img: [
-      "/img/products/Security-Bags.jpg",
-      "/img/products/Security-Bags-Main.jpg",
-      "/img/products/amul/Security-Bags.jpg",
+      "/img/products/Security-Bags.webp",
+      "/img/products/Security-Bags-Main.webp",
+      "/img/products/amul/Security-Bags.webp",
       
     ], 
     bg: "bg-red-500",
@@ -2566,7 +2566,7 @@ HeroText:"Designed for banks, logistics, and retail industries, our Security Bag
   "name": "Security Bags",
   "description": "Keep cash, documents, medicines, and sensitive items safe with tamper-evident security bags designed to reveal unauthorized access. Durable and dependable packaging solutions from Amul Packaging.",
   "url": "https://www.amulpackaging.in/products/11/security-bags",
-  "image": "https://www.amulpackaging.in/img/products/Security-Bags.jpg",
+  "image": "https://www.amulpackaging.in/img/products/Security-Bags.webp",
   "provider": {
     "@type": "Organization",
     "name": "Amul Packaging",
@@ -2632,9 +2632,9 @@ HeroText:"Designed for banks, logistics, and retail industries, our Security Bag
     seoDescription: "Keep items protected and organized with small ziplock bags for jewelry, pills, hardware, food and more. Durable, reusable and custom-made by Amul Packaging.",
     seoKeywords: "small ziplock bags",
     img: [
-      "/img/products/Ziplock-bags.jpg",
-      "/img/products/Ziplock-bags-Main.jpg",
-      "/img/products/amul/Ziplock-poly-bags.jpg",
+      "/img/products/Ziplock-bags.webp",
+      "/img/products/Ziplock-bags-Main.webp",
+      "/img/products/amul/Ziplock-poly-bags.webp",
       
     ], 
     bg: "bg-red-500",
@@ -2860,7 +2860,7 @@ HeroText:"Our eco-conscious Ziplock Poly Bags are designed for multiple uses —
       "name": "Ziplock Poly Bags",
       "description": "Keep items protected and organized with durable ziplock poly bags for jewelry, pills, hardware, food, and more. Reusable and custom-made packaging solutions from Amul Packaging.",
       "url": "https://www.amulpackaging.in/products/12/ziplock-poly-bags",
-      "image": "https://www.amulpackaging.in/img/products/Ziplock-bags.jpg",
+      "image": "https://www.amulpackaging.in/img/products/Ziplock-bags.webp",
       "provider": {
         "@type": "Organization",
         "name": "Amul Packaging",

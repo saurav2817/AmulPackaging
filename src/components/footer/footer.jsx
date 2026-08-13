@@ -43,10 +43,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
           {/* Company + Newsletter */}
           <div className="space-y-4">
-          <a href="/index">
+          <a href="/">
             <img
-              src="/img/footerLogo.png"
+              src="/img/footerLogo.webp"
               alt="Amul Packaging"
+              loading="lazy"
+              width="200"
+              height="48"
               className="h-12 w-auto mb-2"
             />
           </a>
@@ -149,7 +152,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="/IndustriesWeServe" className="hover:underline" aria-label="Explore Industries We Serve">
+                <a href="/industries-we-serve" className="hover:underline" aria-label="Explore Industries We Serve">
                 Industries We Serve
                 </a>
               </li>

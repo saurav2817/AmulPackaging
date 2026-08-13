@@ -86,7 +86,7 @@ const Services = () => {
       <SEO {...seoConfig} />
       <main className="bg-[#f4f7fa] min-h-screen">
       {/* Banner Section */}
-      <section className="text-center md:py-30 py-10 bg-[url('/img/slider_banner/Products.jpg')] bg-cover bg-center">
+      <section className="text-center md:py-30 py-10 bg-[url('/img/slider_banner/Products.webp')] bg-cover bg-center">
         <h1 className="text-3xl font-bold text-white">Services</h1>
         <div className="flex justify-center mt-3">
           <nav aria-label="Breadcrumb" className="mb-6">

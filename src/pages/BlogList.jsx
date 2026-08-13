@@ -90,7 +90,7 @@ const BlogList = () => {
                           alt={blog.title}
                           className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                           onError={(e) => {
-                            e.target.src = '/img/about.jpg'; // Fallback image
+                            e.target.src = '/img/about.webp'; // Fallback image
                           }}
                         />
                       </div>

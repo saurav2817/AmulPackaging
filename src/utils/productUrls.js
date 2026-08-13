@@ -8,7 +8,7 @@ export const createProductUrl = (productId, productName) => {
     .replace(/-+/g, '-') // Replace multiple hyphens with single hyphen
     .trim();
   
-  return `/products/${productId}/${slug}`;
+  return `/products/${slug}`;
 };
 
 // Helper function to get product ID from URL
