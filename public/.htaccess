@@ -1,5 +1,9 @@
 Options -MultiViews
 RewriteEngine On
 RewriteRule ^/?(IndustriesWeServe|industriesweserve)/?$ /industries-we-serve [R=301,L]
+
+# Route sitemap.xml to the dynamic PHP sitemap generator
+RewriteRule ^/?sitemap\.xml$ /api/sitemap.php [L]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^ index.php [QSA,L]

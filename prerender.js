@@ -13,31 +13,60 @@ app.use((req, res) => {
     res.sendFile(path.join(distDir, 'index.html'));
 });
 
-// Extract routes from sitemap.xml
-function getRoutesFromSitemap() {
-    const sitemapPath = path.join(process.cwd(), 'public', 'sitemap.xml');
-    if (fs.existsSync(sitemapPath)) {
-        const xml = fs.readFileSync(sitemapPath, 'utf8');
-        const urls = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m => m[1]);
-        return urls
-            .map(url => {
-                const parsed = new URL(url);
-                return parsed.pathname;
-            })
-            // Filter out files or unwanted paths if needed
-            .filter(pathname => pathname !== '/sitemap.xml' && pathname !== '/robots.txt');
+import { execSync } from 'child_process';
+
+// Extract routes from dynamic PHP sitemap
+async function getRoutesFromSitemap() {
+    try {
+        let xml = '';
+        try {
+            // Try fetching from the local PHP server that is currently running
+            const res = await fetch('http://localhost:8000/sitemap.php');
+            if (res.ok) {
+                xml = await res.text();
+            } else {
+                throw new Error("HTTP " + res.status);
+            }
+        } catch (fetchErr) {
+            // Fallback to calling the php executable directly using XAMPP path
+            const sitemapPath = path.join(process.cwd(), 'api', 'sitemap.php');
+            if (fs.existsSync(sitemapPath)) {
+                xml = execSync(`D:\\xampp\\php\\php.exe "${sitemapPath}"`).toString();
+            }
+        }
+
+        if (xml) {
+            const urls = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m => m[1]);
+            return urls
+                .map(url => {
+                    try {
+                        const parsed = new URL(url);
+                        return parsed.pathname;
+                    } catch(e) {
+                        return url;
+                    }
+                })
+                .filter(pathname => pathname !== '/sitemap.xml' && pathname !== '/robots.txt');
+        }
+    } catch (e) {
+        console.error("Could not fetch or execute php script for sitemap:", e.message);
     }
     return ['/']; // fallback
 }
 
-const routes = getRoutesFromSitemap();
+const routesPromise = getRoutesFromSitemap();
 
 async function prerender() {
+    const routes = await routesPromise;
     const server = app.listen(port, () => {
         console.log(`Express serving dist on port ${port}`);
     });
 
-    const browser = await puppeteer.launch({ headless: 'new' });
+    const browser = await puppeteer.launch({ 
+        headless: true,
+        executablePath: 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe',
+        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu']
+    });
     const page = await browser.newPage();
     const prerendered = {};
 
