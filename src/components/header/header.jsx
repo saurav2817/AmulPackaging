@@ -41,15 +41,14 @@ const Header = () => {
       >
         <div className="container mx-auto px-4 flex justify-between items-center h-16">
           {/* Logo */}
-          <a href="/index">
+          <NavLink to="/">
             <img
               src="/img/logo.webp"
               alt="Logo"
               width={200}
               className="cursor-pointer"
-              onClick={() => navigate("/")}
             />
-          </a>
+          </NavLink>
 
           {/* Desktop Menu */}
           <ul className="hidden md:flex items-center space-x-6 font-medium">
@@ -122,7 +121,7 @@ const Header = () => {
             </li>
             <li>
               <NavLink
-                to="/Blog"
+                to="/blog"
                 className={({ isActive }) =>
                   `hover:text-[var(--primary-color)] ${isActive ? "text-[var(--primary-color)]" : ""}`
                 }

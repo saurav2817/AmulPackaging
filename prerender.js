@@ -49,7 +49,12 @@ async function prerender() {
         } catch (e) {
             console.log(`Timeout waiting for #root on ${route}, using what is there`);
         }
-        const html = await page.$eval('#root', el => el.innerHTML);
+        
+        // Wait an extra 1000ms to ensure react-helmet-async has injected tags into <head>
+        await new Promise(r => setTimeout(r, 1000));
+        
+        // We need the FULL HTML so SEO tags in <head> are captured!
+        const html = await page.content();
         prerendered[route] = html;
     }
 

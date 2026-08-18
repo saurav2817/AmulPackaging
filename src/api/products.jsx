@@ -1,7 +1,7 @@
 const products = [
   {
     id: 1,
-    name: "Standup Zipper Pouch",
+    name: "Stand Up Zipper Pouch",
     seoTitle: "Stronger, Fresher Stand Up Pouche | Amul Packaging",
     seoDescription: "Get strong, fresh-keeping stand up pouche made for food, pet, cosmetic, and nutraceutical brands. Custom sizes, printing, and fast delivery from Amul Packaging",
     seoKeywords: "stand up pouch",

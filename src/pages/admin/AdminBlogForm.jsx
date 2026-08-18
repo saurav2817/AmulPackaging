@@ -4,22 +4,7 @@ import { createBlog, updateBlog, getBlogById, uploadBlogImage } from '../../api/
 import toast from 'react-hot-toast';
 import { ArrowLeft, Save } from 'lucide-react';
 import { Editor } from '@tinymce/tinymce-react';
-import 'tinymce/tinymce';
-import 'tinymce/icons/default';
-import 'tinymce/themes/silver';
-import 'tinymce/models/dom';
-import 'tinymce/plugins/link';
-import 'tinymce/plugins/image';
-import 'tinymce/plugins/media';
-import 'tinymce/plugins/table';
-import 'tinymce/plugins/lists';
-import 'tinymce/plugins/code';
-import 'tinymce/plugins/preview';
-import 'tinymce/plugins/fullscreen';
-import 'tinymce/plugins/autolink';
-import 'tinymce/plugins/charmap';
-import 'tinymce/skins/ui/oxide/skin.min.css';
-import 'tinymce/skins/content/default/content.min.css';
+
 
 const AdminBlogForm = () => {
   const { id } = useParams();
