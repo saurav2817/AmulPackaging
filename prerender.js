@@ -20,19 +20,29 @@ async function getRoutesFromSitemap() {
     try {
         let xml = '';
         try {
-            // Try fetching from the local PHP server that is currently running
-            const res = await fetch('http://localhost:8000/sitemap.php');
+            // Try fetching from the LIVE server to get all dynamic routes (like new blogs)
+            const res = await fetch('https://www.amulpackaging.in/api/sitemap.php');
             if (res.ok) {
                 xml = await res.text();
             } else {
                 throw new Error("HTTP " + res.status);
             }
         } catch (fetchErr) {
+            try {
+                // Try fetching from the local PHP server
+                const res2 = await fetch('http://localhost:8000/sitemap.php');
+                if (res2.ok) {
+                    xml = await res2.text();
+                } else {
+                    throw new Error("HTTP " + res2.status);
+                }
+            } catch (err2) {
             // Fallback to calling the php executable directly using XAMPP path
             const sitemapPath = path.join(process.cwd(), 'api', 'sitemap.php');
             if (fs.existsSync(sitemapPath)) {
                 xml = execSync(`D:\\xampp\\php\\php.exe "${sitemapPath}"`).toString();
             }
+        }
         }
 
         if (xml) {

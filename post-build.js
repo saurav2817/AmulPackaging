@@ -70,13 +70,16 @@ const htaccessContent = `<IfModule mod_rewrite.c>
   Redirect 301 /Blog /blog
   RedirectMatch 301 ^/admin/?$ /admin/blogs
 
+  # Route sitemap.xml to the dynamic PHP sitemap generator
+  RewriteRule ^/?sitemap\.xml$ /api/sitemap.php [L]
+
   # Force trailing slash for directories (standard Apache behavior)
   RewriteCond %{REQUEST_FILENAME} -d
   RewriteRule ^(.*[^/])$ /$1/ [R=301,L]
 
-  # SPA Routing (only for the Admin dashboard which we don't pre-render)
-  # This ensures /admin/* returns 200 and loads the React app.
-  RewriteCond %{REQUEST_URI} ^/admin/ [NC]
+  # SPA Routing (Admin dashboard and dynamic Blogs)
+  # This ensures /admin/* and /blog/* return 200 and load the React app if the file isn't pre-rendered.
+  RewriteCond %{REQUEST_URI} ^/(admin|blog)/ [NC]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule ^ /index.html [L]
