@@ -88,6 +88,11 @@ const clients = [
     ClientImg: "/img/clientlogo/toi.webp", 
     Name: "The Times of India",
   },
+  {
+    id: "17",
+    ClientImg: "/img/clientlogo/rpg.webp", 
+    Name: "RPG",
+  },
   
 ];
 

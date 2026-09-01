@@ -96,17 +96,31 @@ const AppRoutes = () => {
                 <Route path="services/pillow-pouch" element={<PillowPouch />} />
 
                 {/* Old Product URL Redirects */}
+                <Route path="products/1" element={<Navigate to="/products/stand-up-zipper-pouch" replace />} />
+                <Route path="products/1/standup-zipper-pouch" element={<Navigate to="/products/stand-up-zipper-pouch" replace />} />
+                <Route path="products/2" element={<Navigate to="/products/3-side-seal-pouch" replace />} />
+                <Route path="products/2/3-side-seal-pouch" element={<Navigate to="/products/3-side-seal-pouch" replace />} />
+                <Route path="products/3" element={<Navigate to="/products/flat-bottom-pouch" replace />} />
+                <Route path="products/3/flat-bottom-pouch" element={<Navigate to="/products/flat-bottom-pouch" replace />} />
+                <Route path="products/4" element={<Navigate to="/products/centre-seal-pouch" replace />} />
+                <Route path="products/4/centre-seal-pouch" element={<Navigate to="/products/centre-seal-pouch" replace />} />
+                <Route path="products/5" element={<Navigate to="/products/quad-seal-pouch" replace />} />
+                <Route path="products/5/quad-seal-pouch" element={<Navigate to="/products/quad-seal-pouch" replace />} />
+                <Route path="products/6" element={<Navigate to="/products/vacuum-pouch" replace />} />
+                <Route path="products/6/vacuum-pouch" element={<Navigate to="/products/vacuum-pouch" replace />} />
                 <Route path="products/7" element={<Navigate to="/products/shaped-pouch" replace />} />
                 <Route path="products/7/shaped-pouch" element={<Navigate to="/products/shaped-pouch" replace />} />
+                <Route path="products/8" element={<Navigate to="/products/spout-pouch" replace />} />
                 <Route path="products/8/about" element={<Navigate to="/products/spout-pouch" replace />} />
                 <Route path="products/8/spout-pouch" element={<Navigate to="/products/spout-pouch" replace />} />
+                <Route path="products/9" element={<Navigate to="/products/laminated-roll-stock" replace />} />
+                <Route path="products/9/laminated-roll-stock" element={<Navigate to="/products/laminated-roll-stock" replace />} />
+                <Route path="products/10" element={<Navigate to="/products/poly-bags" replace />} />
+                <Route path="products/10/poly-bags-" element={<Navigate to="/products/poly-bags" replace />} />
                 <Route path="products/11" element={<Navigate to="/products/security-bags" replace />} />
                 <Route path="products/11/security-bags" element={<Navigate to="/products/security-bags" replace />} />
-                <Route path="products/10/poly-bags-" element={<Navigate to="/products/poly-bags" replace />} />
-                <Route path="products/1/standup-zipper-pouch" element={<Navigate to="/products/stand-up-zipper-pouch" replace />} />
-                <Route path="products/3/flat-bottom-pouch" element={<Navigate to="/products/flat-bottom-pouch" replace />} />
-                <Route path="products/6/vacuum-pouch" element={<Navigate to="/products/vacuum-pouch" replace />} />
-                <Route path="products/9/laminated-roll-stock" element={<Navigate to="/products/laminated-roll-stock" replace />} />
+                <Route path="products/12" element={<Navigate to="/products/ziplock-poly-bags" replace />} />
+                <Route path="products/12/ziplock-poly-bags" element={<Navigate to="/products/ziplock-poly-bags" replace />} />
 
                 <Route path="*" element={<NotFound />} />
               </Route>
