@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { IoHomeOutline, IoChevronForward, IoStar, IoListCircle, IoCheckmarkCircle, IoApps, IoArrowBack, IoClose, IoChevronBack, IoChevronForward as IoChevronForwardIcon } from "react-icons/io5";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { IoMdMail } from "react-icons/io";
@@ -11,6 +11,7 @@ import { getSEOConfig } from "../config/seoConfig";
 import { submitToGoogleSheet } from "../config/googleSheet";
 
 const Contact = () => {
+    const navigate = useNavigate();
     const [formData, setFormData] = useState({ name: "", email: "", phone: "", message: "" });
     const [errors, setErrors] = useState({});
     const [submitted, setSubmitted] = useState(false);
@@ -37,61 +38,63 @@ const Contact = () => {
         setSendError("");
         if (!validate()) return;
         setSubmitted(true);
-      
-		try {
-          // 1. Save details in Google Sheet
-          submitToGoogleSheet({
-            name: formData.name,
-            phone: formData.phone,
-            email: formData.email,
-            message: formData.message,
-          }).catch((sheetErr) => {
-            console.error("Google Sheet submission error:", sheetErr);
-          });
 
-          // 2. Keep the email sending functionality intact
-          try {
-            const API_BASE = `${window.location.origin}/api`;
-            const response = await fetch(`${API_BASE}/send-mail-smtp.php`, {
-              method: "POST",
-              headers: {
-                "Content-Type": "application/json",
-              },
-              body: JSON.stringify({
-                name: formData.name,
-                email: formData.email,
-                phone: formData.phone,
-                message: formData.message
-              }),
-            });
-
-            if (response.ok) {
-              const text = await response.text();
-              const result = text ? JSON.parse(text) : {};
-              if (!result.success) {
-                console.warn("[Email API]", result.message || "Email sending reported failure");
-              }
-            } else {
-              console.warn("[Email API] Status:", response.status, "(Normal on localhost if PHP server is not running)");
+        try {
+            // 1. Save details in Google Sheet
+            try {
+                await submitToGoogleSheet({
+                    name: formData.name,
+                    phone: formData.phone,
+                    email: formData.email,
+                    message: formData.message,
+                });
+            } catch (sheetErr) {
+                console.error("[Google Sheet] Submission error:", sheetErr);
             }
-          } catch (mailErr) {
-            console.warn("[Email API] Could not reach mail server (normal on localhost without local PHP server):", mailErr);
-          }
-      
-          toast.success("Message sent successfully!");
-          setFormData({ name: "", email: "", phone: "", message: "" });
-          // Redirect to thank you page after 1.5 seconds
-          setTimeout(() => {
-            window.location.href = '/thank-you';
-          }, 1500);
+
+            // 2. Keep the email sending functionality intact
+            try {
+                const API_BASE = `${window.location.origin}/api`;
+                const response = await fetch(`${API_BASE}/send-mail-smtp.php`, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({
+                        name: formData.name,
+                        email: formData.email,
+                        phone: formData.phone,
+                        message: formData.message
+                    }),
+                });
+
+                if (response.ok) {
+                    const text = await response.text();
+                    const result = text ? JSON.parse(text) : {};
+                    if (!result.success) {
+                        console.warn("[Email API]", result.message || "Email sending reported failure");
+                    }
+                } else {
+                    console.warn("[Email API] Status:", response.status, "(Normal on localhost if PHP server is not running)");
+                }
+            } catch (mailErr) {
+                console.warn("[Email API] Could not reach mail server (normal on localhost without local PHP server):", mailErr);
+            }
+
+            toast.success("Message sent successfully!");
+            setFormData({ name: "", email: "", phone: "", message: "" });
+            // Redirect to thank you page after 1.5 seconds
+            setTimeout(() => {
+                navigate('/thank-you');
+            }, 1500);
         } catch (err) {
-          setSendError("Failed to send. Please try again.");
-          console.error(err);
+            setSendError("Failed to send. Please try again.");
+            console.error(err);
         } finally {
-          setSubmitted(false);
+            setSubmitted(false);
         }
-      };
-      
+    };
+
 
     return (
         <>
@@ -103,22 +106,22 @@ const Contact = () => {
                         <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight">Contact Us</h1>
                         <div className="flex justify-center mt-3">
                             <nav aria-label="Breadcrumb" className="mb-6">
-                              <div className="flex flex-wrap items-center gap-2 text-sm">
-                                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[var(--primary-color)]/10 text-[var(--primary-color)]">
-                                  <IoHomeOutline />
-                                  <Link to="/" className="hover:underline" aria-label="Go to home page">
-                                    Home
-                                  </Link>
-                                </span>
+                                <div className="flex flex-wrap items-center gap-2 text-sm">
+                                    <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[var(--primary-color)]/10 text-[var(--primary-color)]">
+                                        <IoHomeOutline />
+                                        <Link to="/" className="hover:underline" aria-label="Go to home page">
+                                            Home
+                                        </Link>
+                                    </span>
 
-                                <IoChevronForward className="opacity-60" />
-                                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#f1f4fb] text-[var(--primary-color)] font-medium">
-                                    Contact Us
-                                </span>
-                              </div>
+                                    <IoChevronForward className="opacity-60" />
+                                    <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#f1f4fb] text-[var(--primary-color)] font-medium">
+                                        Contact Us
+                                    </span>
+                                </div>
                             </nav>
                         </div>
-                       
+
                     </div>
                 </section>
 
@@ -129,7 +132,7 @@ const Contact = () => {
                                 <BiSolidPhoneCall className="text-4xl bg-primary p-2 text-white rounded-lg" />
                                 <div className="text-center">
                                     <p className="text-sm text-gray-500">Phone</p>
-                                    <p className="">  
+                                    <p className="">
                                         <a
                                             href="tel:+919004382696"
                                             className="hover:underline break-all "
@@ -150,7 +153,7 @@ const Contact = () => {
                                             href="mailto:Sales@amulpackaging.in"
                                             className="hover:underline break-all "
                                         >
-                                        Sales@amulpackaging.in 
+                                            Sales@amulpackaging.in
                                         </a>
                                     </p>
                                 </div>

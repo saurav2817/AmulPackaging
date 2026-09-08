@@ -8,26 +8,25 @@ define('SMTP_FROM_EMAIL', 'sales@amulpackaging.in');
 define('SMTP_FROM_NAME', 'Amul Packaging');
 
 // local database configuration
-define('DB_HOST', 'localhost'); // MySQL host
-define('DB_NAME', 'amul_packaging');
-define('DB_USER', 'root'); // MySQL default user for XAMPP
-define('DB_PASS', ''); // MySQL password (empty by default in XAMPP)
-define('DB_PORT', '3306'); // Default MySQL port
+// define('DB_HOST', 'localhost'); // MySQL host
+// define('DB_NAME', 'amul_packaging');
+// define('DB_USER', 'root'); // MySQL default user for XAMPP
+// define('DB_PASS', ''); // MySQL password (empty by default in XAMPP)
+// define('DB_PORT', '3306'); // Default MySQL port
 
 // Database configuration for MySQL
-// MySQL is included with XAMPP by default
-// define('DB_HOST', 'localhost'); // MySQL host
-// define('DB_NAME', 'u600764534_amul_packaging');
-// define('DB_USER', 'u600764534_root'); // MySQL default user for XAMPP
-// define('DB_PASS', 'amulPkg@123'); // MySQL password (empty by default in XAMPP)
-// define('DB_PORT', '3306'); // Default MySQL port
+//MySQL is included with XAMPP by default
+define('DB_HOST', 'localhost'); // MySQL host
+define('DB_NAME', 'u600764534_amul_packaging');
+define('DB_USER', 'u600764534_root'); // MySQL default user for XAMPP
+define('DB_PASS', 'amulPkg@123'); // MySQL password (empty by default in XAMPP)
+define('DB_PORT', '3306'); // Default MySQL port
 
 // Site configuration
 define('SITE_URL', 'https://amulpackaging.in/');
 define('SITE_NAME', 'Amul Packaging');
 
-// Google Sheet Webhook (Optional backend forwarding)
-// Set this to your Google Apps Script Web App URL if you want PHP to also log to Google Sheet
+// Google Sheet Webhook (Keep empty if React frontend submits directly to avoid duplicate rows)
 define('GOOGLE_SHEET_WEBHOOK_URL', '');
 
 // Security
