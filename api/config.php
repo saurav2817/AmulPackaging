@@ -26,6 +26,10 @@ define('DB_PORT', '3306'); // Default MySQL port
 define('SITE_URL', 'https://amulpackaging.in/');
 define('SITE_NAME', 'Amul Packaging');
 
+// Google Sheet Webhook (Optional backend forwarding)
+// Set this to your Google Apps Script Web App URL if you want PHP to also log to Google Sheet
+define('GOOGLE_SHEET_WEBHOOK_URL', '');
+
 // Security
 define('API_KEY', 'your_secure_api_key_here');
 define('RATE_LIMIT_PER_HOUR', 10); // Max 10 emails per hour per IP

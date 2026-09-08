@@ -80,6 +80,31 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     exit();
 }
 
+// Optionally forward to Google Sheet if configured in config.php
+if (defined('GOOGLE_SHEET_WEBHOOK_URL') && !empty(GOOGLE_SHEET_WEBHOOK_URL)) {
+    try {
+        $sheetPayload = json_encode([
+            'names' => $name,
+            'Phone ' => $phone,
+            'email-id' => $email,
+            'Message' => $message
+        ]);
+        $ch = curl_init(GOOGLE_SHEET_WEBHOOK_URL);
+        if ($ch) {
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+            curl_setopt($ch, CURLOPT_POST, true);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $sheetPayload);
+            curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: text/plain;charset=utf-8']);
+            curl_setopt($ch, CURLOPT_TIMEOUT, 5);
+            curl_exec($ch);
+            curl_close($ch);
+        }
+    } catch (Exception $sheetEx) {
+        error_log('Google Sheet save error: ' . $sheetEx->getMessage());
+    }
+}
+
 // Email configuration
 $to = SMTP_FROM_EMAIL;
 $subject = !empty($product) ? "New Product Enquiry: $product" : "New Contact Form Submission";

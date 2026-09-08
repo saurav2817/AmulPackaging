@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {  Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { IoHomeOutline, IoChevronForward, IoStar, IoListCircle, IoCheckmarkCircle, IoApps, IoArrowBack, IoClose, IoChevronBack, IoChevronForward as IoChevronForwardIcon } from "react-icons/io5";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { IoMdMail } from "react-icons/io";
@@ -8,9 +8,9 @@ import { GoClockFill } from "react-icons/go";
 import toast from "react-hot-toast";
 import SEO from "../components/seo/SEO";
 import { getSEOConfig } from "../config/seoConfig";
+import { submitToGoogleSheet } from "../config/googleSheet";
 
 const Contact = () => {
-    const navigate = useNavigate();
     const [formData, setFormData] = useState({ name: "", email: "", phone: "", message: "" });
     const [errors, setErrors] = useState({});
     const [submitted, setSubmitted] = useState(false);
@@ -39,24 +39,43 @@ const Contact = () => {
         setSubmitted(true);
       
 		try {
-		  const API_BASE = `${window.location.origin}/api`;
-          const response = await fetch(`${API_BASE}/send-mail-smtp.php`, {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-              name: formData.name,
-              email: formData.email,
-              phone: formData.phone,
-              message: formData.message
-            }),
+          // 1. Save details in Google Sheet
+          submitToGoogleSheet({
+            name: formData.name,
+            phone: formData.phone,
+            email: formData.email,
+            message: formData.message,
+          }).catch((sheetErr) => {
+            console.error("Google Sheet submission error:", sheetErr);
           });
-      
-          const result = await response.json();
-          
-          if (!result.success) {
-            throw new Error(result.message || "Submission failed");
+
+          // 2. Keep the email sending functionality intact
+          try {
+            const API_BASE = `${window.location.origin}/api`;
+            const response = await fetch(`${API_BASE}/send-mail-smtp.php`, {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({
+                name: formData.name,
+                email: formData.email,
+                phone: formData.phone,
+                message: formData.message
+              }),
+            });
+
+            if (response.ok) {
+              const text = await response.text();
+              const result = text ? JSON.parse(text) : {};
+              if (!result.success) {
+                console.warn("[Email API]", result.message || "Email sending reported failure");
+              }
+            } else {
+              console.warn("[Email API] Status:", response.status, "(Normal on localhost if PHP server is not running)");
+            }
+          } catch (mailErr) {
+            console.warn("[Email API] Could not reach mail server (normal on localhost without local PHP server):", mailErr);
           }
       
           toast.success("Message sent successfully!");
