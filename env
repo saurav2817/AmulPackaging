@@ -1,4 +1,0 @@
-VITE_GOOGLE_SHEET_WEBHOOK_URL="https://script.google.com/macros/s/AKfycbzyFSuZWErG5NVrYZ3_GdYvApfYDtTx_9UcmjG90S2FQPfRMrWHWuCDl_F0kmx7TeyzDA/exec"
-
-# Product Enquiry Modal Google Sheet Webhook URL (from ENQUIRY_SHEET_SETUP.md)
-VITE_ENQUIRY_GOOGLE_SHEET_WEBHOOK_URL="https://script.google.com/macros/s/AKfycbx0gWx4Ji7lmje6kkwbM2heFmpoqjhLBy8WC2jMfMNQWz3uyEAOwIsVxsEoq_58epou/exec"
