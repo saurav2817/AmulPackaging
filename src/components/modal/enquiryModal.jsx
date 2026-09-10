@@ -2,6 +2,8 @@ import React, { useEffect, useRef, useState } from "react";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 
+import { submitEnquiryToGoogleSheet } from "../../config/enquiryGoogleSheet";
+
 const EnquiryModal = ({ open, onClose, product }) =>{
     const dialogRef = useRef(null);
     const navigate = useNavigate();
@@ -38,33 +40,60 @@ const EnquiryModal = ({ open, onClose, product }) =>{
     const handleSubmit = async (e) => {
         e.preventDefault();
         setSubmitting(true);
+        const productName = typeof product === "string" ? product : product?.name || "";
+
 		try {
-			const API_BASE = `${window.location.origin}/api`;
-            const response = await fetch(`${API_BASE}/send-mail-smtp.php`, {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify({
+            // 1. Save details to Google Sheet
+            try {
+                await submitEnquiryToGoogleSheet({
                     name: formData.name,
                     email: formData.email,
                     phone: formData.phone,
                     companyName: formData.companyName,
                     companyWebsite: formData.CompanyWebsite,
+                    product: productName,
                     message: formData.message,
-                    product: product?.name || ""
-                }),
-            });
-            const result = await response.json();
-            if (!result.success) {
-                throw new Error(result.message || "Submission failed");
+                });
+            } catch (sheetErr) {
+                console.error("[Google Sheet] Enquiry submission error:", sheetErr);
             }
+
+            // 2. Dispatch email via PHP SMTP API
+            try {
+                const API_BASE = `${window.location.origin}/api`;
+                const response = await fetch(`${API_BASE}/send-mail-smtp.php`, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({
+                        name: formData.name,
+                        email: formData.email,
+                        phone: formData.phone,
+                        companyName: formData.companyName,
+                        companyWebsite: formData.CompanyWebsite,
+                        message: formData.message,
+                        product: productName
+                    }),
+                });
+
+                if (response.ok) {
+                    const text = await response.text();
+                    const result = text ? JSON.parse(text) : {};
+                    if (!result.success) {
+                        console.warn("[Email API]", result.message || "Email sending reported failure");
+                    }
+                }
+            } catch (mailErr) {
+                console.warn("[Email API] Mail endpoint error:", mailErr);
+            }
+
             toast.success("Enquiry sent successfully!");
             setFormData({ name: "", email: "", phone: "", companyName: "", CompanyWebsite: "", message: "" });
             setTimeout(() => { 
                 onClose?.();
-                window.location.href = '/thank-you';
-            }, 1500);
+                navigate('/thank-you');
+            }, 1200);
         } catch (err) {
             toast.error("Failed to send. Please try again or email us.");
             console.error(err);

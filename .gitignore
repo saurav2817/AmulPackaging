@@ -32,3 +32,4 @@ pnpm-debug.log*
 .cache
 .parcel-cache
 *.download
+api/rate_limit_*.txt
