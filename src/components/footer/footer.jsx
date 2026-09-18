@@ -43,16 +43,16 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
           {/* Company + Newsletter */}
           <div className="space-y-4">
-          <a href="/">
-            <img
-              src="/img/footerLogo.webp"
-              alt="Amul Packaging"
-              loading="lazy"
-              width="200"
-              height="48"
-              className="h-12 w-auto mb-2"
-            />
-          </a>
+            <a href="/">
+              <img
+                src="/img/footerLogo.webp"
+                alt="Amul Packaging"
+                loading="lazy"
+                width="200"
+                height="48"
+                className="h-12 w-auto mb-2"
+              />
+            </a>
             <p className="text-sm leading-relaxed">
               We are now one of the leading manufacturers of stock packaging
               products in various formats like stand-up pouches, zipper
@@ -119,17 +119,17 @@ const Footer = () => {
                 <FaYoutube />
               </a> */}
               <a href="https://www.linkedin.com/company/amul-packagingap/" target="_blank"
-              className="bg-white p-2 rounded-full text-[#003580] hover:scale-110 transition inline-flex"
-               aria-label="Linkedin"
+                className="bg-white p-2 rounded-full text-[#003580] hover:scale-110 transition inline-flex"
+                aria-label="Linkedin"
               >
-              <FaLinkedin />
+                <FaLinkedin />
               </a>
             </div>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-semibold mb-3">Quick Links</h3>
+            <h2 className="font-semibold mb-3">Quick Links</h2>
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="/" className="hover:underline" aria-label="Go to Amul Packaging home page">
@@ -148,17 +148,17 @@ const Footer = () => {
               </li>
               <li>
                 <a href="/services" className="hover:underline" aria-label="Explore packaging services">
-                   Services
+                  Services
                 </a>
               </li>
               <li>
                 <a href="/industries-we-serve" className="hover:underline" aria-label="Explore Industries We Serve">
-                Industries We Serve
+                  Industries We Serve
                 </a>
               </li>
               <li>
                 <a href="/contact" className="hover:underline" aria-label="Contact Amul Packaging">
-                  Contact 
+                  Contact
                 </a>
               </li>
             </ul>
@@ -166,7 +166,7 @@ const Footer = () => {
 
           {/* Customer Service */}
           <div>
-            <h3 className="font-semibold mb-3">Customer Service</h3>
+            <h2 className="font-semibold mb-3">Customer Service</h2>
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="/privacyPolicy" className="hover:underline" aria-label="Read Amul Packaging privacy policy">
@@ -183,7 +183,7 @@ const Footer = () => {
 
           {/* Contact Details */}
           <div>
-            <h3 className="font-semibold mb-3">Contact Details</h3>
+            <h2 className="font-semibold mb-3">Contact Details</h2>
 
             <div className="flex gap-2 items-center">
               <span className="bg-white p-2 flex rounded-full text-[#003580]">
@@ -192,13 +192,13 @@ const Footer = () => {
               <div>
                 <h5 className=" text-white text-xs">Phone</h5>
                 <a
-                href="tel:+919004382696"
-                className="hover:underline break-all font-bold"
-              >
-                +91 9004382696
-              </a>
+                  href="tel:+919004382696"
+                  className="hover:underline break-all font-bold"
+                >
+                  +91 9004382696
+                </a>
               </div>
-              
+
             </div>
 
             {/* <div className="flex gap-2 items-center mt-4">
@@ -224,13 +224,13 @@ const Footer = () => {
               <div>
                 <h5 className=" text-white text-xs">Head Office Email</h5>
                 <a
-                href="mailto:Sales@amulpackaging.in"
-                className="hover:underline break-all font-bold"
-              >
-               Sales@amulpackaging.in 
-              </a>
+                  href="mailto:Sales@amulpackaging.in"
+                  className="hover:underline break-all font-bold"
+                >
+                  Sales@amulpackaging.in
+                </a>
               </div>
-              
+
             </div>
 
             <div className="flex gap-2 items-start mt-4">
@@ -240,11 +240,11 @@ const Footer = () => {
               <div>
                 <h5 className=" text-white text-xs">Factory Address</h5>
                 <address className="not-italic text-sm leading-relaxed max-w-xs font-bold">
-                <a href="https://maps.app.goo.gl/n1vzNBjfbmoEgoKF6" target="_blank" rel="noopener noreferrer" className="hover:underline">
-                  Bldg No.P4, Plot No.P, Shree Raj Laxmi Ind. Estate, Sonale Village, Bhiwandi
-                  , Maharashtra 421302
-                </a>
-              </address>
+                  <a href="https://maps.app.goo.gl/n1vzNBjfbmoEgoKF6" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                    Bldg No.P4, Plot No.P, Shree Raj Laxmi Ind. Estate, Sonale Village, Bhiwandi
+                    , Maharashtra 421302
+                  </a>
+                </address>
               </div>
             </div>
 
@@ -255,15 +255,15 @@ const Footer = () => {
               <div>
                 <h5 className=" text-white text-xs">Head Office Address</h5>
                 <address className="not-italic text-sm leading-relaxed max-w-xs font-bold">
-                2, Pramod Prasad Building, Plot No.232. Next to Brij Albela, 
-                Wadala (W), Mumbai 400 031.
-              </address>
+                  2, Pramod Prasad Building, Plot No.232. Next to Brij Albela,
+                  Wadala (W), Mumbai 400 031.
+                </address>
               </div>
             </div>
           </div>
         </div>
       </div>
-    
+
       {/* Bottom Bar */}
       <div className="bg-white text-center text-sm sm:text-base text-black py-3 px-4">
         © Copyright 2025 - All Rights Reserved | Designed & Developed By –

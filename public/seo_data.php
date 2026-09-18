@@ -2,16 +2,16 @@
 // Static SEO configurations for main pages
 $seoConfig = [
     'home' => [
-        'title' => 'Flexible & Product Packaging Services by Amul Packaging',
-        'description' => 'Amul Packaging delivers reliable flexible packaging and product packaging with superior quality, custom designs, and fast service for businesses of all sizes.',
-        'keywords' => 'flexible packaging, product packging',
+        'title' => 'Flexible Packaging Manufacturer in Mumbai & Bhiwandi',
+        'description' => 'Amul Packaging is a flexible packaging manufacturer in Bhiwandi, delivering custom printed pouches, roll stock and packaging solutions to brands across Mumbai.',
+        'keywords' => 'Flexible packaging manufacturer in Bhiwandi & Mumbai',
         'image' => 'https://www.amulpackaging.in/img/Banner.jpg',
         'url' => 'https://www.amulpackaging.in'
     ],
     'about' => [
-        'title' => 'Who We Are: Amul Packaging & Our Good Packaging Products',
-        'description' => 'Learn how Amul Packaging designs and manufactures good packaging products trusted across industries. Explore our history, expertise, and commitment to quality.',
-        'keywords' => 'good packaging products',
+        'title' => 'About Amul Packaging | Flexible Packaging Manufacturer',
+        'description' => 'Learn about Amul Packaging, a flexible packaging manufacturer with decades of experience, operating from Bhiwandi and supporting local brands throughout Mumbai.',
+        'keywords' => 'About Amul Packaging',
         'image' => 'https://www.amulpackaging.in/img/about.jpg',
         'url' => 'https://www.amulpackaging.in/about'
     ],
@@ -23,25 +23,32 @@ $seoConfig = [
         'url' => 'https://www.amulpackaging.in/products'
     ],
     'services' => [
-        'title' => 'Amul Packaging Services | Great Product Packaging Solutions',
-        'description' => 'Explore Amul Packaging’s services offering great product packaging designed for durability, branding, and performance across multiple industries.',
-        'keywords' => 'great product packaging',
+        'title' => 'Packaging Services in Mumbai & Bhiwandi | Amul Packaging',
+        'description' => 'Explore packaging design, sampling and advanced printing services from Amul Packaging in Bhiwandi, supporting brands across Mumbai from concept to production.',
+        'keywords' => ' Packaging services in Bhiwandi & Mumbai',
         'image' => 'https://www.amulpackaging.in/img/slider_banner/Service.jpg',
         'url' => 'https://www.amulpackaging.in/services'
     ],
     'contact' => [
-        'title' => 'For the Best Product Packaging | Contact Us | Amul Packaging',
-        'description' => 'Contact Amul Packaging for the best product packaging solutions. Get expert support, custom options, and reliable service for all your packaging needs.',
-        'keywords' => 'best product packaging',
+        'title' => 'Contact Packaging Manufacturer in Mumbai & Bhiwandi',
+        'description' => 'Contact Amul Packaging for custom pouches, printed films and flexible packaging support from our Bhiwandi facility, serving businesses across Mumbai region.',
+        'keywords' => 'Packaging manufacturer in Bhiwandi & Mumbai',
         'image' => 'https://www.amulpackaging.in/img/slider_banner/contactus.jpg',
         'url' => 'https://www.amulpackaging.in/contact'
     ],
     'industries' => [
-        'title' => 'Food Product Packaging Design for Industries | Amul Packaging',
-        'description' => 'Industry-specific food product packaging design by Amul Packaging, ensuring quality, protection, and appeal for every product category.',
-        'keywords' => 'food product packaging design',
+        'title' => 'Packaging Solutions for Industries in Mumbai & Bhiwandi',
+        'description' => 'Discover flexible packaging solutions for food, pharma, beauty, dairy, agro and retail industries, manufactured in Bhiwandi and supplied throughout Mumbai.',
+        'keywords' => 'Packaging solutions for industries in Bhiwandi & Mumbai',
         'image' => 'https://www.amulpackaging.in/img/slider_banner/Products.jpg',
         'url' => 'https://www.amulpackaging.in/industries-we-serve'
+    ],
+    'blog' => [
+        'title' => 'Flexible Packaging Blog and Guides | Amul Packaging',
+        'description' => 'Read useful practical guides from Amul Packaging on pouch formats, materials, printing, sealing and product protection for businesses in Bhiwandi and Mumbai.',
+        'keywords' => 'Flexible packaging blog',
+        'image' => 'https://www.amulpackaging.in/img/slider_banner/Products.jpg',
+        'url' => 'https://www.amulpackaging.in/blog'
     ],
     'privacy' => [
         'title' => 'Privacy Policy | Amul Packaging',
@@ -108,21 +115,22 @@ $seoConfig = [
     ]
 ];
 
-function getSEOConfig($page, $base_url = "https://www.amulpackaging.in") {
+function getSEOConfig($page, $base_url = "https://www.amulpackaging.in")
+{
     global $seoConfig;
     $config = isset($seoConfig[$page]) ? $seoConfig[$page] : $seoConfig['home'];
-    
+
     // Make URLs and Images absolute using the provided base_url
     if (isset($config['url']) && strpos($config['url'], 'https://www.amulpackaging.in') === 0) {
         $config['url'] = str_replace('https://www.amulpackaging.in', $base_url, $config['url']);
     }
-    
+
     if (isset($config['image']) && strpos($config['image'], 'https://www.amulpackaging.in') === 0) {
         $config['image'] = str_replace('https://www.amulpackaging.in', $base_url, $config['image']);
     } elseif (isset($config['image']) && strpos($config['image'], '/') === 0) {
         $config['image'] = $base_url . $config['image'];
     }
-    
+
     return $config;
 }
 ?>

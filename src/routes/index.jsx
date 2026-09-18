@@ -41,18 +41,18 @@ const LoadingFallback = () => (
 );
 
 const MainLayout = () => (
-    <>
-      <SchemaManager />
-      <ScrollToTop />
-      <ActionBtn />
-      <Header/>
-      <Suspense fallback={<LoadingFallback />}>
-        <Outlet/>
-      </Suspense>
-      <BackToTop/>
-      <Footer/>
-    </>
-  );
+  <>
+    <SchemaManager />
+    <ScrollToTop />
+    <ActionBtn />
+    <Header />
+    <Suspense fallback={<LoadingFallback />}>
+      <Outlet />
+    </Suspense>
+    <BackToTop />
+    <Footer />
+  </>
+);
 
 const RequireAuth = ({ children }) => {
   const location = useLocation();
@@ -65,97 +65,141 @@ const RequireAuth = ({ children }) => {
 };
 
 const AppRoutes = () => {
-    return(
-        <>
-            <Suspense fallback={<LoadingFallback />}>
-            <Routes>
-              <Route path="/" element={<MainLayout />}>
-                <Route index element={<Index/>} />
-                <Route path="home" element={<Index/>} />
-                <Route path="about" element={<About/>} />
-                <Route path="products" element={<Products/>} />
-                <Route path="products/:slug" element={<SingleProduct/>} />
-                <Route path="services" element={<Services/>} />
-                <Route path="industries-we-serve" element={<IndustriesWeServe/>} />
-                <Route path="industriesweserve" element={<Navigate to="/industries-we-serve" replace />} />
-                <Route path="IndustriesWeServe" element={<Navigate to="/industries-we-serve" replace />} />
-                <Route path="contact" element={<Contact/>} />
-                <Route path="privacyPolicy" element={<PrivacyPolicy/>} />
-                <Route path="termCondition" element={<TermCondition/>} />
-                <Route path="blog" element={<BlogList/>} />
-                <Route path="blogs" element={<Navigate to="/blog" replace />} />
-                <Route path="Blog" element={<Navigate to="/blog" replace />} />
-                <Route path="blog/:slug" element={<BlogDetail/>} />
-                <Route path="thank-you" element={<ThankYou/>} />
-                <Route path="services/stand-up-pouch-manufacturer-in-bhiwandi" element={<StandupZipperPouch />} />
-                <Route path="services/flat-bottom-pouch-supplier-in-bhiwandi" element={<FlatBottomPouch />} />
-                <Route path="services/spout-pouch-in-mumbai" element={<SpoutPouch />} />
-                <Route path="services/vacuum-pouch-In-bhiwandi" element={<VacuumPouch />} />
-                <Route path="services/laminated-roll-stock-in-mumbai" element={<LaminatedRollStock />} />
-                <Route path="services/poly-bags-manufacturer-in-mumbai" element={<PolyBags />} />
-                <Route path="services/pillow-pouch" element={<PillowPouch />} />
+  return (
+    <>
+      <Suspense fallback={<LoadingFallback />}>
+        <Routes>
+          <Route path="/" element={<MainLayout />}>
+            <Route index element={<Index />} />
+            <Route path="home" element={<Index />} />
+            <Route path="about" element={<About />} />
+            <Route path="products" element={<Products />} />
+            <Route path="products/:slug" element={<SingleProduct />} />
+            <Route path="services" element={<Services />} />
+            <Route path="industries-we-serve" element={<IndustriesWeServe />} />
+            <Route path="industriesweserve" element={<Navigate to="/industries-we-serve" replace />} />
+            <Route path="IndustriesWeServe" element={<Navigate to="/industries-we-serve" replace />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="privacyPolicy" element={<PrivacyPolicy />} />
+            <Route path="termCondition" element={<TermCondition />} />
+            <Route path="blog" element={<BlogList />} />
+            <Route path="blogs" element={<Navigate to="/blog" replace />} />
+            <Route path="Blog" element={<Navigate to="/blog" replace />} />
+            <Route path="blog/:slug" element={<BlogDetail />} />
+            <Route path="thank-you" element={<ThankYou />} />
+            <Route path="services/stand-up-pouch-manufacturer-in-bhiwandi" element={<StandupZipperPouch />} />
+            <Route path="services/flat-bottom-pouch-supplier-in-bhiwandi" element={<FlatBottomPouch />} />
+            <Route path="services/spout-pouch-in-mumbai" element={<SpoutPouch />} />
+            <Route path="services/vacuum-pouch-In-bhiwandi" element={<VacuumPouch />} />
+            <Route path="services/laminated-roll-stock-in-mumbai" element={<LaminatedRollStock />} />
+            <Route path="services/poly-bags-manufacturer-in-mumbai" element={<PolyBags />} />
+            <Route path="services/pillow-pouch" element={<PillowPouch />} />
 
-                {/* Old Product URL Redirects */}
-                <Route path="products/1" element={<Navigate to="/products/stand-up-zipper-pouch" replace />} />
-                <Route path="products/1/standup-zipper-pouch" element={<Navigate to="/products/stand-up-zipper-pouch" replace />} />
-                <Route path="products/2" element={<Navigate to="/products/3-side-seal-pouch" replace />} />
-                <Route path="products/2/3-side-seal-pouch" element={<Navigate to="/products/3-side-seal-pouch" replace />} />
-                <Route path="products/3" element={<Navigate to="/products/flat-bottom-pouch" replace />} />
-                <Route path="products/3/flat-bottom-pouch" element={<Navigate to="/products/flat-bottom-pouch" replace />} />
-                <Route path="products/4" element={<Navigate to="/products/centre-seal-pouch" replace />} />
-                <Route path="products/4/centre-seal-pouch" element={<Navigate to="/products/centre-seal-pouch" replace />} />
-                <Route path="products/5" element={<Navigate to="/products/quad-seal-pouch" replace />} />
-                <Route path="products/5/quad-seal-pouch" element={<Navigate to="/products/quad-seal-pouch" replace />} />
-                <Route path="products/6" element={<Navigate to="/products/vacuum-pouch" replace />} />
-                <Route path="products/6/vacuum-pouch" element={<Navigate to="/products/vacuum-pouch" replace />} />
-                <Route path="products/7" element={<Navigate to="/products/shaped-pouch" replace />} />
-                <Route path="products/7/shaped-pouch" element={<Navigate to="/products/shaped-pouch" replace />} />
-                <Route path="products/8" element={<Navigate to="/products/spout-pouch" replace />} />
-                <Route path="products/8/about" element={<Navigate to="/products/spout-pouch" replace />} />
-                <Route path="products/8/spout-pouch" element={<Navigate to="/products/spout-pouch" replace />} />
-                <Route path="products/9" element={<Navigate to="/products/laminated-roll-stock" replace />} />
-                <Route path="products/9/laminated-roll-stock" element={<Navigate to="/products/laminated-roll-stock" replace />} />
-                <Route path="products/10" element={<Navigate to="/products/poly-bags" replace />} />
-                <Route path="products/10/poly-bags-" element={<Navigate to="/products/poly-bags" replace />} />
-                <Route path="products/11" element={<Navigate to="/products/security-bags" replace />} />
-                <Route path="products/11/security-bags" element={<Navigate to="/products/security-bags" replace />} />
-                <Route path="products/12" element={<Navigate to="/products/ziplock-poly-bags" replace />} />
-                <Route path="products/12/ziplock-poly-bags" element={<Navigate to="/products/ziplock-poly-bags" replace />} />
+            {/* Old Product URL Redirects */}
+            <Route path="products/1" element={<Navigate to="/products/standup-zipper-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/1/standup-zipper-pouch" element={<Navigate to="/products/standup-zipper-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/stand-up-zipper-pouch" element={<Navigate to="/products/standup-zipper-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/standup-zipper-pouch" element={<Navigate to="/products/standup-zipper-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/2" element={<Navigate to="/products/3-side-seal-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/2/3-side-seal-pouch" element={<Navigate to="/products/3-side-seal-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/3-side-seal-pouch" element={<Navigate to="/products/3-side-seal-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/three-side-seal-pouch" element={<Navigate to="/products/3-side-seal-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/3" element={<Navigate to="/products/flat-bottom-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/3/flat-bottom-pouch" element={<Navigate to="/products/flat-bottom-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/flat-bottom-pouch" element={<Navigate to="/products/flat-bottom-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/flatbottom-pouch" element={<Navigate to="/products/flat-bottom-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/4" element={<Navigate to="/products/centre-seal-pouch-manufacturer-in-mumbai-bhiwandi" replace />} />
+            <Route path="products/4/centre-seal-pouch" element={<Navigate to="/products/centre-seal-pouch-manufacturer-in-mumbai-bhiwandi" replace />} />
+            <Route path="products/centre-seal-pouch" element={<Navigate to="/products/centre-seal-pouch-manufacturer-in-mumbai-bhiwandi" replace />} />
+            <Route path="products/center-seal-pouch" element={<Navigate to="/products/centre-seal-pouch-manufacturer-in-mumbai-bhiwandi" replace />} />
+            <Route path="products/centre-seal-pouch-manufacturer-in-bhiwandi-mumbai" element={<Navigate to="/products/centre-seal-pouch-manufacturer-in-mumbai-bhiwandi" replace />} />
+            <Route path="products/5" element={<Navigate to="/products/quad-seal-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/5/quad-seal-pouch" element={<Navigate to="/products/quad-seal-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/quad-seal-pouch" element={<Navigate to="/products/quad-seal-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/quadseal-pouch" element={<Navigate to="/products/quad-seal-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/quad-seal-pouch-manufacturer-in-mumbai-bhiwandi" element={<Navigate to="/products/quad-seal-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/6" element={<Navigate to="/products/vacuum-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/6/vacuum-pouch" element={<Navigate to="/products/vacuum-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/vacuum-pouch" element={<Navigate to="/products/vacuum-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/vacuumpouch" element={<Navigate to="/products/vacuum-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/vacuum-pouch-manufacturer-in-mumbai-bhiwandi" element={<Navigate to="/products/vacuum-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/7" element={<Navigate to="/products/shaped-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/7/shaped-pouch" element={<Navigate to="/products/shaped-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/shaped-pouch" element={<Navigate to="/products/shaped-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/shape-pouch" element={<Navigate to="/products/shaped-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/shaped-pouch-manufacturer-in-mumbai-bhiwandi" element={<Navigate to="/products/shaped-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/8" element={<Navigate to="/products/spout-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/8/about" element={<Navigate to="/products/spout-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/8/spout-pouch" element={<Navigate to="/products/spout-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/spout-pouch" element={<Navigate to="/products/spout-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/spoutpouch" element={<Navigate to="/products/spout-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/spout-pouch-manufacturer-in-mumbai-bhiwandi" element={<Navigate to="/products/spout-pouch-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/9" element={<Navigate to="/products/laminated-roll-stock-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/9/laminated-roll-stock" element={<Navigate to="/products/laminated-roll-stock-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/laminated-roll-stock" element={<Navigate to="/products/laminated-roll-stock-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/laminatedrollstock" element={<Navigate to="/products/laminated-roll-stock-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/laminated-roll-stock-manufacturer-in-mumbai-bhiwandi" element={<Navigate to="/products/laminated-roll-stock-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/10" element={<Navigate to="/products/poly-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/10/poly-bags-" element={<Navigate to="/products/poly-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/10/poly-bags" element={<Navigate to="/products/poly-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/poly-bags" element={<Navigate to="/products/poly-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/poly-bag" element={<Navigate to="/products/poly-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/polybags" element={<Navigate to="/products/poly-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/poly-bags-manufacturer-in-bhiwandi-mumbai" element={<Navigate to="/products/poly-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/poly-bag-manufacturer-in-mumbai-bhiwandi" element={<Navigate to="/products/poly-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/poly-bags-manufacturer-in-mumbai-bhiwandi" element={<Navigate to="/products/poly-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/11" element={<Navigate to="/products/security-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/11/security-bags" element={<Navigate to="/products/security-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/security-bags" element={<Navigate to="/products/security-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/security-bag" element={<Navigate to="/products/security-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/securitybags" element={<Navigate to="/products/security-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/security-bags-manufacturer-in-bhiwandi-mumbai" element={<Navigate to="/products/security-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/security-bag-manufacturer-in-mumbai-bhiwandi" element={<Navigate to="/products/security-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/security-bags-manufacturer-in-mumbai-bhiwandi" element={<Navigate to="/products/security-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/12" element={<Navigate to="/products/ziplock-poly-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/12/ziplock-poly-bags" element={<Navigate to="/products/ziplock-poly-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/ziplock-poly-bags" element={<Navigate to="/products/ziplock-poly-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/ziplock-poly-bag" element={<Navigate to="/products/ziplock-poly-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/ziplockpolybags" element={<Navigate to="/products/ziplock-poly-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/ziplockpolybag" element={<Navigate to="/products/ziplock-poly-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/ziplock-poly-bags-manufacturer-in-bhiwandi-mumbai" element={<Navigate to="/products/ziplock-poly-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/ziplock-poly-bag-manufacturer-in-mumbai-bhiwandi" element={<Navigate to="/products/ziplock-poly-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
+            <Route path="products/ziplock-poly-bags-manufacturer-in-mumbai-bhiwandi" element={<Navigate to="/products/ziplock-poly-bag-manufacturer-in-bhiwandi-mumbai" replace />} />
 
-                <Route path="*" element={<NotFound />} />
-              </Route>
+            <Route path="*" element={<NotFound />} />
+          </Route>
 
-              {/* Admin Routes (without main layout) */}
-              <Route path="/admin" element={<Navigate to="/admin/blogs" replace />} />
-              <Route path="/admin/login" element={<AdminLogin />} />
-              <Route
-                path="/admin/blogs"
-                element={
-                  <RequireAuth>
-                    <AdminBlogs />
-                  </RequireAuth>
-                }
-              />
-              <Route
-                path="/admin/blogs/new"
-                element={
-                  <RequireAuth>
-                    <AdminBlogForm />
-                  </RequireAuth>
-                }
-              />
-              <Route
-                path="/admin/blogs/edit/:id"
-                element={
-                  <RequireAuth>
-                    <AdminBlogForm />
-                  </RequireAuth>
-                }
-              />
-            </Routes>
-            </Suspense>
-        </>
-    )
+          {/* Admin Routes (without main layout) */}
+          <Route path="/admin" element={<Navigate to="/admin/blogs" replace />} />
+          <Route path="/admin/login" element={<AdminLogin />} />
+          <Route
+            path="/admin/blogs"
+            element={
+              <RequireAuth>
+                <AdminBlogs />
+              </RequireAuth>
+            }
+          />
+          <Route
+            path="/admin/blogs/new"
+            element={
+              <RequireAuth>
+                <AdminBlogForm />
+              </RequireAuth>
+            }
+          />
+          <Route
+            path="/admin/blogs/edit/:id"
+            element={
+              <RequireAuth>
+                <AdminBlogForm />
+              </RequireAuth>
+            }
+          />
+        </Routes>
+      </Suspense>
+    </>
+  )
 }
 
 export default AppRoutes;

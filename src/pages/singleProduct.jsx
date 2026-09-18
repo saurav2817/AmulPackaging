@@ -45,15 +45,66 @@ const SingleProduct = () => {
   const [isEnquiryOpen, setIsEnquiryOpen] = useState(false);
   const [openFAQ, setOpenFAQ] = useState(null);
   const [expandedIndustry, setExpandedIndustry] = useState(null);
-  const product = products.find((p) => {
-    const normalizedSlug = (p.name || "")
+  const cleanSlug = (str = "") =>
+    String(str)
       .toLowerCase()
       .replace(/[^a-z0-9\s-]/g, "")
       .replace(/\s+/g, "-")
       .replace(/-+/g, "-")
       .trim();
 
-    return normalizedSlug === slug;
+  const product = products.find((p) => {
+    const currentSlug = String(slug || "").trim().toLowerCase();
+
+    // 1. Direct slug match if explicit slug is defined
+    if (p.slug && p.slug.toLowerCase() === currentSlug) {
+      return true;
+    }
+
+    // 2. Direct alias match if aliases array is defined
+    if (
+      Array.isArray(p.aliases) &&
+      p.aliases.some((alias) => alias.toLowerCase() === currentSlug)
+    ) {
+      return true;
+    }
+
+    // 3. Normalized product name match
+    const normalizedNameSlug = cleanSlug(p.name || "");
+    if (normalizedNameSlug === currentSlug) {
+      return true;
+    }
+
+    // 4. Flexible match ignoring hyphens/special chars (e.g. standup vs stand-up)
+    const simplifiedCurrentSlug = currentSlug.replace(/[^a-z0-9]/g, "");
+    if (simplifiedCurrentSlug) {
+      if (
+        p.slug &&
+        p.slug.toLowerCase().replace(/[^a-z0-9]/g, "") === simplifiedCurrentSlug
+      ) {
+        return true;
+      }
+      if (
+        normalizedNameSlug.replace(/[^a-z0-9]/g, "") === simplifiedCurrentSlug
+      ) {
+        return true;
+      }
+      if (
+        Array.isArray(p.aliases) &&
+        p.aliases.some(
+          (alias) => alias.toLowerCase().replace(/[^a-z0-9]/g, "") === simplifiedCurrentSlug
+        )
+      ) {
+        return true;
+      }
+    }
+
+    // 5. Fallback ID match (e.g. /products/1)
+    if (String(p.id) === currentSlug) {
+      return true;
+    }
+
+    return false;
   });
   const productId = product?.id;
 

@@ -4,8 +4,10 @@ import { getActiveBlogs } from '../api/blogs';
 import toast from 'react-hot-toast';
 import { Calendar, ArrowRight } from 'lucide-react';
 import SEO from '../components/seo/SEO';
+import { getSEOConfig } from '../config/seoConfig';
 
 const BlogList = () => {
+  const seoConfig = getSEOConfig('blog');
   const [blogs, setBlogs] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -46,11 +48,7 @@ const BlogList = () => {
 
   return (
     <>
-      <SEO
-        title="Blog - Amul Packaging"
-        description="Read our latest blog posts about packaging solutions, industry insights, and more."
-        keywords="packaging blog, industry news, packaging solutions"
-      />
+      <SEO {...seoConfig} />
       
       <div className="min-h-screen bg-gray-50">
         {/* Header Section */}

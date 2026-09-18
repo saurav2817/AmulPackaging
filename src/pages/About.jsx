@@ -26,7 +26,7 @@ import { getSEOConfig } from "../config/seoConfig";
 
 const About = () => {
   const seoConfig = getSEOConfig('about');
-  
+
   return (
     <>
       <SEO {...seoConfig} />
@@ -65,15 +65,15 @@ const About = () => {
                 start="top 80%"
                 itemsSelector="h1, h4, p, button"
               >
-                <h4 className="text-xl font-medium text-blue-900 mb-2">
+                <h2 className="text-xl font-medium text-blue-900 mb-2">
                   Our Story
-                </h4>
+                </h2>
                 <h1 className="text-4xl font-bold text-blue-800 mb-4 leading-snug">
                   We make brand communication easier through innovative
                   packaging solutions
                 </h1>
                 <p className="text-gray-600 max-w-3xl">
-                Amul Packaging is one of the most reliable and trustworthy brands in the flexible packaging sector with an experience of more than 35+ years. The business has evolved from its modest beginnings to a contemporary setup under the leadership of Mr. Amul Bhanushali. We are now a team of 50+ people focused on serving at our highest capability every single day.
+                  Amul Packaging is one of the most reliable and trustworthy brands in the flexible packaging sector with an experience of more than 35+ years. The business has evolved from its modest beginnings to a contemporary setup under the leadership of Mr. Amul Bhanushali. We are now a team of 50+ people focused on serving at our highest capability every single day.
                 </p>
                 <p className="text-gray-600 max-w-3xl mt-2">
                   Amul Packaging is a leading manufacturer of printed flexible
@@ -119,7 +119,7 @@ const About = () => {
               >
                 <img
                   src="img/aboutsec.jpg"
-                  alt="About Amul Packaging"
+                  alt="About Amul Packaging products and packaging solutions"
                   className="w-full h-auto object-cover rounded-xl shadow-lg"
                 />
               </AnimateOnScroll>
@@ -171,9 +171,9 @@ const About = () => {
                   >
                     <path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2M6 14h.01M10 14h4" />
                   </svg>
-                  <h4 className="ml-3 text-lg font-semibold text-gray-900">
+                  <h2 className="ml-3 text-lg font-semibold text-gray-900">
                     Printing
-                  </h4>
+                  </h2>
                 </div>
                 <ul className="list-disc list-inside text-gray-600 space-y-2">
                   <li>8 Colour Rotogravure Printing Machine</li>
@@ -200,9 +200,9 @@ const About = () => {
                   >
                     <path d="M9 12h6m-6 4h6M5 4h14a2 2 0 012 2v12a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2z" />
                   </svg>
-                  <h4 className="ml-3 text-lg font-semibold text-gray-900">
+                  <h2 className="ml-3 text-lg font-semibold text-gray-900">
                     Solvent based lamination and solvent less lamination
-                  </h4>
+                  </h2>
                 </div>
                 <p className="text-gray-600 text-base">
                   Produced with stringent quality standards using a wide range
@@ -229,9 +229,9 @@ const About = () => {
                   >
                     <path d="M12 3v18m9-9H3" />
                   </svg>
-                  <h4 className="ml-3 text-lg font-semibold text-gray-900">
+                  <h2 className="ml-3 text-lg font-semibold text-gray-900">
                     Slitting & Pouch Making
-                  </h4>
+                  </h2>
                 </div>
                 <ul className="list-disc list-inside text-gray-600 space-y-2">
                   <li>High Speed Slitting Machine</li>
@@ -445,12 +445,12 @@ const About = () => {
               magazine covers, tape bags, security bags, ziplock bags and more.
             </p>
 
-          <Link
-            to="/contact"
-            className="inline-block bg-blue-500 hover:bg-blue-400 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition"
-          >
-            Get Started
-          </Link>
+            <Link
+              to="/contact"
+              className="inline-block bg-blue-500 hover:bg-blue-400 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition"
+            >
+              Get Started
+            </Link>
 
           </AnimateOnScroll>
         </section>
@@ -527,9 +527,9 @@ const About = () => {
         <section className="py-16 bg-white">
           <div className="container mx-auto max-w-7xl">
             <div className="border-b-2 border-[#f1f1f1]">
-              <h1 className="text-3xl sm:text-4xl md:text-4xl font-bold text-center  mb-4">
+              <h2 className="text-3xl sm:text-4xl md:text-4xl font-bold text-center  mb-4">
                 Trusted By Brand Like
-              </h1>
+              </h2>
             </div>
             <ClientsSection />
           </div>

@@ -12,7 +12,7 @@ import { getSEOConfig } from "../config/seoConfig";
 
 const Home = () => {
   const seoConfig = getSEOConfig('home');
-  
+
   return (
     <>
       <SEO {...seoConfig} />
@@ -44,19 +44,19 @@ const Home = () => {
             start="top 80%"
             itemsSelector="h1, h4, p, button"
           >
-            <h1 className="text-3xl sm:text-4xl md:text-4xl font-bold mb-4">
+            <h2 className="text-3xl sm:text-4xl md:text-4xl font-bold mb-4">
               About Us
-            </h1>
-            <h4 className="text-2xl sm:text-3xl md:text-3xl text-secondary font-bold mb-4">
+            </h2>
+            <h2 className="text-2xl sm:text-3xl md:text-3xl text-secondary font-bold mb-4">
               One Stop Solution For All Your Brand Packaging Requirements
-            </h4>
+            </h2>
             <p className="text-white-700 text-lg font-medium">
-            Amul Packaging is a leading manufacturer of printed flexible packaging, specializing in rotogravure, flexographic, and digital printing technologies. With these capabilities, we offer brands the flexibility to choose the right solution from high-volume gravure printing with unmatched detail, to cost-effective flexo, and short-run digital printing for speed and customization.
+              Amul Packaging is a leading flexible packaging manufacturer in Mumbai, specialising in rotogravure, flexographic and digital printing technologies, specializing in rotogravure, flexographic, and digital printing technologies. With these capabilities, we offer brands the flexibility to choose the right solution from high-volume gravure printing with unmatched detail, to cost-effective flexo, and short-run digital printing for speed and customization.
             </p>
             <button className="mt-6 px-6 py-2 bg-white text-primary font-semibold rounded-full shadow hover:bg-yellow-400 transition-colors duration-200 w-max">
-                <Link to="/about" >
-                  Read More
-                </Link>
+              <Link to="/about" >
+                Read More
+              </Link>
             </button>
           </AnimateOnScroll>
         </div>
@@ -84,8 +84,7 @@ const Home = () => {
               Packaging
             </p>
             <p className="text-gray-600 max-w-3xl mx-auto mb-12">
-              Amul packaging provides you with the optimum solution that you are
-              looking for, to promote your brand or product. Along with 35+ years
+              As an experienced packaging manufacturer in Bhiwandi, Amul Packaging provides the right solutions for businesses across Mumbai and nearby areas, to promote your brand or product. Along with 35+ years
               of experience, we have collaborated with diversified sectors and
               brands.
             </p>
@@ -106,9 +105,9 @@ const Home = () => {
               <div className="bg-[#ec2a4f]  rounded-lg mb-4 p-6 ">
                 <img src="/img/quality.webp" alt="quality" width={80} height={80} loading="lazy" />
               </div>
-              <h3 className="font-bold text-lg">
+              <h2 className="font-bold text-lg">
                 Quality And <br /> Innovative Packaging
-              </h3>
+              </h2>
               <p className="text-gray-600 mt-2 text-sm">
                 We innovate what leads your product’s identity
               </p>
@@ -118,7 +117,7 @@ const Home = () => {
               <div className="bg-[#ec2a4f]  rounded-lg mb-4 p-6 ">
                 <img src="/img/experience.webp" alt="quality" width={80} height={80} loading="lazy" />
               </div>
-              <h3 className="font-bold text-lg">Experienced</h3>
+              <h2 className="font-bold text-lg">Experienced</h2>
               <p className="text-gray-600 mt-2 text-sm">
                 We are leading the industry for 3 decades
               </p>
@@ -128,7 +127,7 @@ const Home = () => {
               <div className="bg-[#ec2a4f]  rounded-lg mb-4 p-6 ">
                 <img src="/img/Sustainable.webp" alt="quality" width={80} height={80} loading="lazy" />
               </div>
-              <h3 className="font-bold text-lg">Sustainable</h3>
+              <h2 className="font-bold text-lg">Sustainable</h2>
               <p className="text-gray-600 mt-2 text-sm">
                 We design with a conscious mindset about the environment
               </p>
@@ -138,7 +137,7 @@ const Home = () => {
       </section>
       {/* Why Us end */}
 
-    <OurValues/>
+      <OurValues />
 
 
       {/* what we do start */}
@@ -154,14 +153,14 @@ const Home = () => {
               start="top 80%"
               itemsSelector="h1, h4, p, button"
             >
-              <h1 className="text-3xl sm:text-4xl md:text-4xl font-bold  mb-4">
+              <h2 className="text-3xl sm:text-4xl md:text-4xl font-bold  mb-4">
                 What We Do
-              </h1>
-              <h4 className="text-2xl sm:text-3xl md:text-3xl text-secondary font-bold mb-4">
-              Tailored flexible packaging solutions that protect products and elevate brands.
-              </h4>
+              </h2>
+              <h2 className="text-2xl sm:text-3xl md:text-3xl text-secondary font-bold mb-4">
+                Tailored flexible packaging solutions that protect products and elevate brands.
+              </h2>
               <p className=" text-white-700 text-lg font-medium">
-              At Amul Packaging, we combine rotogravure, flexographic, and digital printing with precision lamination and pouch-making to deliver packaging that looks great, performs flawlessly, and meets industry-specific needs. From food and agro to nutraceuticals, pet care, and personal care, our end-to-end solutions help your products stand out on the shelf.
+                At Amul Packaging, we combine rotogravure, flexographic, and digital printing with precision lamination and pouch-making to deliver packaging that looks great, performs flawlessly, and meets industry-specific needs. From food and agro to nutraceuticals, pet care, and personal care, our end-to-end solutions help your products stand out on the shelf. As a flexible packaging manufacturer in Mumbai, we support brands with packaging designed for reliable performance, product protection and shelf appeal.
               </p>
             </AnimateOnScroll>
 
@@ -188,9 +187,9 @@ const Home = () => {
         itemsSelector="div"
       >
         <div className="">
-          <h1 className="text-3xl sm:text-4xl md:text-4xl font-bold  mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-4xl font-bold  mb-4">
             Our Products
-          </h1>
+          </h2>
         </div>
         <ProductsSection />
       </AnimateOnScroll>
@@ -215,9 +214,9 @@ const Home = () => {
         itemsSelector="div"
       >
         <div className="border-b-2 border-[#f1f1f1]">
-          <h1 className="text-3xl sm:text-4xl md:text-4xl font-bold  mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-4xl font-bold  mb-4">
             Trusted By Brand Like
-          </h1>
+          </h2>
         </div>
         <ClientsSection />
       </AnimateOnScroll>
@@ -226,13 +225,13 @@ const Home = () => {
       {/* Testimonials start */}
       <section className="mb-[8%] xl:mb-[18%] 2xl:mb-[12%]  mt-16 pt-[6%]  pb-[14%] bg-secondary text-center relative">
         <div className="w-full xl:absolute xl:left-1/2 xl:-translate-x-1/2 xl:-translate-y-[50px]">
-          <h1 className="text-3xl sm:text-4xl md:text-4xl font-bold  mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-4xl font-bold  mb-4">
             Testimonials
-          </h1>
-          <h4 className="text-2xl sm:text-3xl md:text-3xl text-black font-bold mb-4">
+          </h2>
+          <h2 className="text-2xl sm:text-3xl md:text-3xl text-black font-bold mb-4">
             {" "}
             Our client said
-          </h4>
+          </h2>
         </div>
         <Testimonials />
       </section>

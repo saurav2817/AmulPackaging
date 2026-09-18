@@ -1,9 +1,9 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 const SEO = ({
-  title = "Flexible & Product Packaging Services by Amul Packaging",
-  description = "Amul Packaging delivers reliable flexible packaging and product packaging with superior quality, custom designs, and fast service for businesses of all sizes.",
-  keywords = "flexible packaging, product packging",
+  title = "Flexible Packaging Manufacturer in Mumbai & Bhiwandi",
+  description = "Amul Packaging is a flexible packaging manufacturer in Bhiwandi, delivering custom printed pouches, roll stock and packaging solutions to brands across Mumbai.",
+  keywords = "Flexible packaging manufacturer in Bhiwandi & Mumbai",
   image = "/img/Banner.webp",
   url = "https://www.amulpackaging.in",
   type = "website",
@@ -56,7 +56,7 @@ const SEO = ({
   };
 
   // Combine default with custom structured data
-  const finalStructuredData = structuredData ? 
+  const finalStructuredData = structuredData ?
     Array.isArray(structuredData) ? [defaultStructuredData, ...structuredData] : [defaultStructuredData, structuredData]
     : [defaultStructuredData];
 
@@ -67,13 +67,13 @@ const SEO = ({
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
       <meta name="author" content={author} />
-      
+
       {/* Canonical URL */}
       <link rel="canonical" href={fullUrl} />
-      
+
       {/* Robots */}
       <meta name="robots" content={`${noindex ? 'noindex' : 'index'}, ${nofollow ? 'nofollow' : 'follow'}`} />
-      
+
       {/* Open Graph */}
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
@@ -82,13 +82,13 @@ const SEO = ({
       <meta property="og:url" content={fullUrl} />
       <meta property="og:site_name" content="Amul Packaging" />
       <meta property="og:locale" content="en_IN" />
-      
+
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={fullImage} />
-      
+
       {/* Additional Meta Tags */}
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
@@ -96,7 +96,7 @@ const SEO = ({
       <meta name="revisit-after" content="7 days" />
       <meta name="distribution" content="global" />
       <meta name="rating" content="general" />
-      
+
       {/* Article specific meta tags */}
       {type === "article" && (
         <>
@@ -108,21 +108,21 @@ const SEO = ({
           ))}
         </>
       )}
-      
+
       {/* Structured Data */}
       {finalStructuredData.map((data, index) => (
         <script key={index} type="application/ld+json">
           {JSON.stringify(data)}
         </script>
       ))}
-      
+
       {/* Additional SEO Meta Tags */}
       <meta name="theme-color" content="#003580" />
       <meta name="msapplication-TileColor" content="#003580" />
       <meta name="mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
       <meta name="apple-mobile-web-app-title" content="Amul Packaging" />
-      
+
       {/* Preconnect to external domains for performance */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

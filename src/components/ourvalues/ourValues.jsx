@@ -51,7 +51,7 @@ const OurValues = () => (
             >
               {icon}
             </span>
-            <h3 className="value-title flashy-title">{title}</h3>
+            <h2 className="value-title flashy-title">{title}</h2>
             <p className="value-desc">{desc}</p>
           </div>
         ))}

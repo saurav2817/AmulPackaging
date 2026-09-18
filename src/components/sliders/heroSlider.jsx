@@ -30,9 +30,9 @@ const HeroSlider = () => {
       bg: "/img/slider_banner/HomePageBanner2.webp",
       title: (
         <>
-          Premium <br />
-          Flexible Packaging <br />
-          For Every Industry
+          Flexible <br />
+          Packaging Manufacturer <br />
+          in Mumbai & Bhiwandi
         </>
       ),
       description:
@@ -171,8 +171,8 @@ const HeroSlider = () => {
               />
               {/* Text Section */}
               <div className="container mx-auto px-6 md:px-12 lg:px-20">
-                 <div className="max-w-xl bg-[#ffffff80] p-4 md:bg-transparent md:p-0"> 
-                  <h1 className="hero-title text-xl md:text-3xl lg:text-5xl xl:text-5xl font-extrabold text-blue-900 leading-snug leading-tight">
+                <div className="max-w-xl bg-[#ffffff80] p-4 md:bg-transparent md:p-0">
+                  <h1 className="hero-title text-xl md:text-3xl lg:text-4xl xl:text-4xl font-extrabold text-blue-900 leading-snug leading-tight">
                     {slide.title}
                   </h1>
                   <p className="hero-desc mt-4  text-gray-700  text-md  md:text-lg ">{slide.description}</p>
@@ -189,10 +189,10 @@ const HeroSlider = () => {
                   transition-colors duration-200 
                   w-max
                 ">
-                  <Link to="/products" aria-label="View all flexible packaging products">
-                    View Our Products
-                  </Link>
-                </button>
+                    <Link to="/products" aria-label="View all flexible packaging products">
+                      View Our Products
+                    </Link>
+                  </button>
 
 
                 </div>

@@ -1,13 +1,38 @@
-// Helper function to create SEO-friendly product URLs
-export const createProductUrl = (productId, productName) => {
-  // Convert product name to URL-friendly format
-  const slug = productName
+import products from "../api/products";
+
+// Helper to convert string to URL-friendly slug
+export const slugify = (text = "") => {
+  return String(text)
     .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
-    .replace(/\s+/g, '-') // Replace spaces with hyphens
-    .replace(/-+/g, '-') // Replace multiple hyphens with single hyphen
+    .replace(/[^a-z0-9\s-]/g, "") // Remove special characters
+    .replace(/\s+/g, "-") // Replace spaces with hyphens
+    .replace(/-+/g, "-") // Replace multiple hyphens with single hyphen
     .trim();
-  
+};
+
+// Helper function to create SEO-friendly product URLs
+export const createProductUrl = (productIdOrProduct, productName, customSlug) => {
+  if (customSlug) {
+    return `/products/${customSlug}`;
+  }
+
+  // If the whole product object was passed
+  if (productIdOrProduct && typeof productIdOrProduct === "object") {
+    if (productIdOrProduct.slug) {
+      return `/products/${productIdOrProduct.slug}`;
+    }
+    return `/products/${slugify(productIdOrProduct.name || "")}`;
+  }
+
+  // If productId was passed, check if that product has a custom slug defined
+  if (productIdOrProduct) {
+    const found = products.find((p) => p.id === productIdOrProduct);
+    if (found?.slug) {
+      return `/products/${found.slug}`;
+    }
+  }
+
+  const slug = slugify(productName || "");
   return `/products/${slug}`;
 };
 

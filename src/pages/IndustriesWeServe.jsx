@@ -70,9 +70,9 @@ const IndustriesWeServe = () => {
       product: getProductByName("Poly bags"),
     },
     "Security Bags": {
-        image: "/img/products/Security-Bags.webp",
-        product: getProductByName("Security Bags"),
-      },
+      image: "/img/products/Security-Bags.webp",
+      product: getProductByName("Security Bags"),
+    },
     "Ziplock Pouch": {
       image: "/img/products/Ziplock-bags-Main.webp",
       product: getProductByName("Ziplock poly bags"),
@@ -143,7 +143,7 @@ const IndustriesWeServe = () => {
         "In the pharmaceutical and healthcare sector, safety, hygiene, and compliance are non-negotiable. We design packaging that upholds the highest standards of product integrity — from moisture barriers to tamper-evident seals.",
         "Our laminates and pouches maintain medicinal stability and extend shelf life while preventing contamination or degradation. We provide solutions for both over-the-counter and specialized healthcare products.",
       ],
-      pouchTypes: ["Three-Side Seal Pouch", "Center Seal Pouch", "Vacuum Pouch","Security Bags", ],
+      pouchTypes: ["Three-Side Seal Pouch", "Center Seal Pouch", "Vacuum Pouch", "Security Bags",],
       icon: "/img/serviceICN/pharma.webp",
     },
     {
@@ -257,6 +257,7 @@ const IndustriesWeServe = () => {
           <h1 className="text-3xl font-bold text-primary">
             Industries We Serve
           </h1>
+          <p className="text-xl font-bold text-primary mt-3 mb-5">Complete Packaging Solutions for Industries in Bhiwandi & Mumbai</p>
           <div className="flex justify-center mt-3">
             <nav aria-label="Breadcrumb" className="mb-6">
               <div className="flex flex-wrap items-center gap-2 text-sm">
@@ -287,6 +288,8 @@ const IndustriesWeServe = () => {
                 Discover how our specialized packaging solutions cater to
                 diverse industries, ensuring product protection, freshness, and
                 brand appeal across sectors.
+                <br />
+                Our Packaging Solutions for Industries in Bhiwandi & Mumbai are developed around each sector’s storage, sealing, printing and product-protection requirements.
               </p>
             </div>
 
@@ -370,9 +373,9 @@ const IndustriesWeServe = () => {
                       // Generate URL with ID and name if product exists
                       const productUrl = pouchData.product
                         ? createProductUrl(
-                            pouchData.product.id,
-                            pouchData.product.name
-                          )
+                          pouchData.product.id,
+                          pouchData.product.name
+                        )
                         : "/products";
 
                       return (

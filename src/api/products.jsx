@@ -1,18 +1,24 @@
 const products = [
   {
     id: 1,
-    name: "Stand Up Zipper Pouch",
-    seoTitle: "Stronger, Fresher Stand Up Pouche | Amul Packaging",
-    seoDescription: "Get strong, fresh-keeping stand up pouche made for food, pet, cosmetic, and nutraceutical brands. Custom sizes, printing, and fast delivery from Amul Packaging",
-    seoKeywords: "stand up pouch",
+    name: "Stand Up Zipper Pouch Manufacturer in Bhiwandi & Mumbai",
+    slug: "standup-zipper-pouch-manufacturer-in-bhiwandi-mumbai",
+    aliases: [
+      "stand-up-zipper-pouch-manufacturer-in-bhiwandi-mumbai",
+      "stand-up-zipper-pouch",
+      "standup-zipper-pouch",
+    ],
+    seoTitle: "Stand Up Zipper Pouch Manufacturer in Bhiwandi & Mumbai",
+    seoDescription: "Amul Packaging is a stand up zipper pouch manufacturer in Bhiwandi, supplying durable, custom-printed packaging solutions to businesses across Mumbai.",
+    seoKeywords: "Stand Up Zipper Pouch Manufacturer in Bhiwandi & Mumbai",
     img: [
       "/img/products/Standup-zipper-pouch.webp",
       "/img/products/Standup-zipper-pouch-Main.webp",
       "/img/products/amul/Standup-Zipper-Pouch1.webp",
     ],
     bg: "bg-green-600",
-    Tagline:"Resealable. Reliable. Remarkable.",
-    HeroText:"Flexible, durable, and designed to perform — our Standup Zipper Pouches ensure your products stay protected and your brand stays visible.",
+    Tagline: "Resealable. Reliable. Remarkable.",
+    HeroText: "Flexible, durable, and designed to perform — our Standup Zipper Pouches ensure your products stay protected and your brand stays visible.",
     Details:
       "Standup zipper pouches are a modern, flexible packaging solution designed to keep products fresh, secure, and visually appealing. With a stable base, they stand upright on shelves, ensuring better visibility and brand presence.",
     About: {
@@ -20,7 +26,7 @@ const products = [
       Description:
         "At Amul Packaging, we make high-quality stand up pouches designed to protect your product, keep it fresh, and help your brand look strong on the shelf. Whether you sell snacks, spices, pet food, cosmetics, or supplements — our stand up pouch packaging solutions help your product speak for itself.",
       Extended:
-        "Our team manufactures and prints custom stand up pouches in different materials, sizes, colors, and finishes. With durable laminated structure, secure zipper, and strong base, our pouches are built for performance and made to highlight your brand clearly."
+        "As a Stand Up Zipper Pouch Manufacturer in Bhiwandi & Mumbai, we serve brands requiring durable, attractive and practical packaging. Our team manufactures and prints custom stand up pouches in different materials, sizes, colors, and finishes. With durable laminated structure, secure zipper, and strong base, our pouches are built for performance and made to highlight your brand clearly."
     },
     // WhatIs: {
     //   Title: "What Is a Stand Up Pouch?",
@@ -83,69 +89,69 @@ const products = [
     ],
     Industry: [
       {
-       "Icons": "🍽️",
-       "name": "Food & Beverage",
-       "description": "The airtight seal maintains freshness and protects taste and aroma.",
-       "items": [
-         "Snacks & chips",
-         "Coffee & tea",
-         "Spices & masalas",
-         "Dry fruits & nuts",
-         "Biscuits & cookies",
-         "Protein powder",
-         "Confectionery & chocolates",
-         "Frozen food",
-         "Juices (spout pouches)",
-         "Ready-to-eat mixes"
-       ]
-     },
+        "Icons": "🍽️",
+        "name": "Food & Beverage",
+        "description": "The airtight seal maintains freshness and protects taste and aroma.",
+        "items": [
+          "Snacks & chips",
+          "Coffee & tea",
+          "Spices & masalas",
+          "Dry fruits & nuts",
+          "Biscuits & cookies",
+          "Protein powder",
+          "Confectionery & chocolates",
+          "Frozen food",
+          "Juices (spout pouches)",
+          "Ready-to-eat mixes"
+        ]
+      },
       {
-       "Icons": "🐾",
-       "name": "Pet Food",
-       "description": "Perfect for dry dog food, cat treats, fish & bird feed."
-     },
+        "Icons": "🐾",
+        "name": "Pet Food",
+        "description": "Perfect for dry dog food, cat treats, fish & bird feed."
+      },
       {
-       "Icons": "💄",
-       "name": "Cosmetics & Personal Care",
-       "description": "Pouches give a clean, premium look and save shipping weight.",
-       "items": [
-         "Bath salts",
-         "Face masks",
-         "Dry shampoo",
-         "Lotion refills",
-         "Powder & beauty products"
-       ]
-     },
+        "Icons": "💄",
+        "name": "Cosmetics & Personal Care",
+        "description": "Pouches give a clean, premium look and save shipping weight.",
+        "items": [
+          "Bath salts",
+          "Face masks",
+          "Dry shampoo",
+          "Lotion refills",
+          "Powder & beauty products"
+        ]
+      },
       {
-       "Icons": "💊",
-       "name": "Nutraceuticals & Pharma",
-       "description": "Strong barrier layers protect sensitive ingredients.",
-       "items": [
-         "Supplements",
-         "Vitamins",
-         "Capsules/powders",
-         "Herbal products"
-       ]
-     },
+        "Icons": "💊",
+        "name": "Nutraceuticals & Pharma",
+        "description": "Strong barrier layers protect sensitive ingredients.",
+        "items": [
+          "Supplements",
+          "Vitamins",
+          "Capsules/powders",
+          "Herbal products"
+        ]
+      },
       {
-       "Icons": "🏭",
-       "name": "Household & Industrial",
-       "description": "Moisture barrier keeps products safe and intact.",
-       "items": [
-         "Cleaning powder",
-         "Detergents",
-         "Industrial components",
-         "Adhesives",
-         "Small hardware"
-       ]
-     },
-     {
-      "Icons": "🛒",
-      "name": "E-commerce & Retail Packaging",
-      "description": "Many D2C brands prefer stand up pouches for branding and easy handling. "
-    },
-   ],
-      
+        "Icons": "🏭",
+        "name": "Household & Industrial",
+        "description": "Moisture barrier keeps products safe and intact.",
+        "items": [
+          "Cleaning powder",
+          "Detergents",
+          "Industrial components",
+          "Adhesives",
+          "Small hardware"
+        ]
+      },
+      {
+        "Icons": "🛒",
+        "name": "E-commerce & Retail Packaging",
+        "description": "Many D2C brands prefer stand up pouches for branding and easy handling. "
+      },
+    ],
+
     //  MaterialOptions: {
     //   Title: "Stand Up Pouch Material Options",
     //   Materials: [
@@ -181,7 +187,7 @@ const products = [
     //   Note:
     //     "Barrier properties ensure product stays fresh, protected, and shelf-ready."
     // },
-       WhyAmulPackaging: {
+    WhyAmulPackaging: {
       Title: "Why Amul Packaging For Standup Zipper Pouches ?",
       Points: [
         "In-house manufacturing",
@@ -196,7 +202,7 @@ const products = [
       ClosingLine:
         "Your product deserves packaging that builds trust. We help you achieve that."
     },
-        FAQs: [
+    FAQs: [
       {
         question: "Are stand up pouches food-safe?",
         answer: "Yes, we use certified, food-grade materials."
@@ -216,6 +222,10 @@ const products = [
       {
         question: "Can I get sample pouches?",
         answer: "Yes, samples can be arranged before bulk orders."
+      },
+      {
+        question: "Do you manufacture stand up zipper pouches in Bhiwandi and supply across Mumbai?",
+        answer: "Yes. Our manufacturing facility is located in Bhiwandi, and we supply custom stand up zipper pouches to businesses across Mumbai and surrounding areas."
       }
     ],
     serviceSchema: {
@@ -224,7 +234,7 @@ const products = [
       "serviceType": "Stand Up Zipper Pouch Manufacturing",
       "name": "Stand Up Zipper Pouch",
       "description": "Get strong, fresh-keeping stand up zipper pouches made for food, pet, cosmetic, and nutraceutical brands. Custom sizes, printing, and fast delivery from Amul Packaging.",
-      "url": "https://www.amulpackaging.in/products/1/standup-zipper-pouch",
+      "url": "https://www.amulpackaging.in/products/standup-zipper-pouch-manufacturer-in-bhiwandi-mumbai",
       "image": "https://www.amulpackaging.in/img/products/Standup-zipper-pouch.webp",
       "provider": {
         "@type": "Organization",
@@ -247,28 +257,28 @@ const products = [
           "@type": "Answer",
           "text": "Yes, we use certified, food-grade materials."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Can I print my logo and design?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, we offer full stand up pouch printing services."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do you offer wholesale pricing?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, we supply stand up pouches wholesale with competitive rates."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. What is the minimum order quantity?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "MOQ depends on size, material, and print type. Contact us for details."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Can I get sample pouches?",
         "acceptedAnswer": {
@@ -280,31 +290,38 @@ const products = [
   },
   {
     id: 2,
-    name: "3 side seal  pouch",
-    seoTitle: "Smart, Secure Three Side Seal Pouch | Amul Packaging",
-    seoDescription: "Get smart, secure Three Side Seal Pouch for food, pharma, cosmetics, and more. Custom sizes, strong sealing, and clean printing from Amul Packaging.",
-    seoKeywords: "three side seal pouch",
+    name: "3 Side Seal Pouch Manufacturer in Bhiwandi & Mumbai",
+    slug: "3-side-seal-pouch-manufacturer-in-bhiwandi-mumbai",
+    aliases: [
+      "3-side-seal-pouch",
+      "3-side-seal-pouch-manufacturer-in-bhiwandi-mumbai",
+      "three-side-seal-pouch",
+      "three-side-seal-pouch-manufacturer-in-bhiwandi-mumbai",
+    ],
+    seoTitle: "3 Side Seal Pouch Manufacturer in Mumbai & Bhiwandi",
+    seoDescription: "Amul Packaging manufactures custom 3 side seal pouches in Bhiwandi and supplies printed, food-grade packaging to businesses across Mumbai and nearby areas.",
+    seoKeywords: "3 side seal pouch manufacturer in Bhiwandi & Mumbai",
     img: [
       "/img/products/3-Side-Seal-Pouch.webp",
-        "/img/products/3-Side-Seal-Pouch-Main.webp",
-        "/img/products/amul/3-side-seal-pouch.webp",
-        
+      "/img/products/3-Side-Seal-Pouch-Main.webp",
+      "/img/products/amul/3-side-seal-pouch.webp",
+
     ],
     bg: "bg-pink-600",
     popularity: 92,
-    Tagline:"Strong Seals. Strong Impressions.",
-    HeroText:"From food to personal care, our 3 Side Seal Pouches ensure maximum protection, premium appearance, and lasting brand visibility.",
+    Tagline: "Strong Seals. Strong Impressions.",
+    HeroText: "From food to personal care, our 3 Side Seal Pouches ensure maximum protection, premium appearance, and lasting brand visibility.",
     Details:
-      "Three side seal pouches are simple, secure, and highly versatile packaging solutions. Sealed on three sides with one open end for filling, they are ideal for single-use or portion-sized products, ensuring freshness and product protection.",
-      About: {
+      "As a 3 Side Seal Pouch Manufacturer in Bhiwandi & Mumbai, we produce secure, 3 side seal pouches are simple, secure, and highly versatile packaging solutions. Sealed on three sides with one open end for filling, they are ideal for single-use or portion-sized products, ensuring freshness and product protection.",
+    About: {
       Title: "Three Side Seal Pouch – Secure, Sleek and Reliable Packaging",
       Description:
         "A three side seal pouch is one of the most secure and efficient packaging options for products that need strong sealing, neat presentation, and safe storage. At Amul Packaging, we manufacture custom-designed three side sealed pouches that keep your product fresh, protected, and ready for retail shelves or ecommerce delivery.",
       Extended:
         "Whether you pack spices, single-serve creams, medicines, dry snacks, or small components — our pouches are made to stop moisture, smell loss, contamination, and leakage. They pack flat, look clean, and offer a strong visual surface for branding and printing. If your product needs a compact, protective and easy-to-fill pack, three side seal pouch packaging is a smart choice"
     },
-   
-      WhyChoose: {
+
+    WhyChoose: {
       Title: "Why Brands Prefer Three Side Sealed Pouches",
       // subfeatures: [
       //   "Flat design saves storage space",
@@ -339,70 +356,70 @@ const products = [
     ],
     Industry: [
       {
-       "Icons": "🍽️",
-       "name": "Food & Beverage",
-       "description": "Three side sealed pouches protect taste, aroma, color and hygiene.",
-       "items": [
-         "Spices",
-         "Masala mixes",
-         "Seasoning sachets",
-         "Instant drink powders",
-         "Sauce and ketchup sachets",
-         "Frozen food portions",
-         "Dry snacks",
-         "Tea and coffee samplers",
-         "Ready-to-eat paste or chutney packs"
-       ]
-     },
+        "Icons": "🍽️",
+        "name": "Food & Beverage",
+        "description": "Three side sealed pouches protect taste, aroma, color and hygiene.",
+        "items": [
+          "Spices",
+          "Masala mixes",
+          "Seasoning sachets",
+          "Instant drink powders",
+          "Sauce and ketchup sachets",
+          "Frozen food portions",
+          "Dry snacks",
+          "Tea and coffee samplers",
+          "Ready-to-eat paste or chutney packs"
+        ]
+      },
       {
-       "Icons": "💄",
-       "name": "Cosmetics & Personal Care",
-       "description": "Brands choose this pouch for an elegant, hygienic, and easy-to-open presentation.",
-       "items": [
-         "Face masks",
-         "Serum, lotion & cream sachets",
-         "Shampoo and conditioner pouches",
-         "Powder samples"
-       ]
-     },
+        "Icons": "💄",
+        "name": "Cosmetics & Personal Care",
+        "description": "Brands choose this pouch for an elegant, hygienic, and easy-to-open presentation.",
+        "items": [
+          "Face masks",
+          "Serum, lotion & cream sachets",
+          "Shampoo and conditioner pouches",
+          "Powder samples"
+        ]
+      },
       {
-       "Icons": "💊",
-       "name": "Pharmaceuticals & Nutraceuticals",
-       "description": "Pharma-grade films maintain product purity and stability.",
-       "items": [
-         "Tablet and capsule packs",
-         "Protein supplement sachets",
-         "Vitamin or herbal packs",
-         "Oral rehydration powder",
-         "Health drink sachets"
-       ]
-     },
-     {
-      "Icons": "🏭",
-      "name": "Household & Industrial Use",
-      "description": "Strong sealing prevents spillage and contamination.",
-      "items": [
-        "Detergent portions",
-        "Stain remover sachets",
-        "Small hardware items",
-        "Grease and lubricant packs",
-        "Electronic parts"
-      ]
-    },
-    {
-      "Icons": "🛒",
-      "name": "Ecommerce & Retail Sampling",
-      "description": "Perfect for modern D2C brands offering trial and sample packs.",
-      "items": [
-        "Trial packs",
-        "Subscription box samples",
-        "Skin & personal care testers",
-        "Tea/coffee/taster packs"
-      ]
-    }
-   ],
-  
-      WhyAmulPackaging: {
+        "Icons": "💊",
+        "name": "Pharmaceuticals & Nutraceuticals",
+        "description": "Pharma-grade films maintain product purity and stability.",
+        "items": [
+          "Tablet and capsule packs",
+          "Protein supplement sachets",
+          "Vitamin or herbal packs",
+          "Oral rehydration powder",
+          "Health drink sachets"
+        ]
+      },
+      {
+        "Icons": "🏭",
+        "name": "Household & Industrial Use",
+        "description": "Strong sealing prevents spillage and contamination.",
+        "items": [
+          "Detergent portions",
+          "Stain remover sachets",
+          "Small hardware items",
+          "Grease and lubricant packs",
+          "Electronic parts"
+        ]
+      },
+      {
+        "Icons": "🛒",
+        "name": "Ecommerce & Retail Sampling",
+        "description": "Perfect for modern D2C brands offering trial and sample packs.",
+        "items": [
+          "Trial packs",
+          "Subscription box samples",
+          "Skin & personal care testers",
+          "Tea/coffee/taster packs"
+        ]
+      }
+    ],
+
+    WhyAmulPackaging: {
       Title: "Why Amul Packaging For 3 Side Seal Pouches ?",
       Points: [
         "Food-grade certified materials",
@@ -423,11 +440,11 @@ const products = [
         answer: "A pouch sealed on three sides, used for single-serve or compact packaging. One open side is sealed after filling."
       },
       {
-       question: "Where are these pouches used?",
+        question: "Where are these pouches used?",
         answer: "Food, cosmetics, pharma, chemical, and industrial packaging."
       },
       {
-       question: "Can I print my brand logo?",
+        question: "Can I print my brand logo?",
         answer: "Yes, we offer full custom printing."
       },
       {
@@ -437,25 +454,29 @@ const products = [
       {
         question: "Are these pouches food safe?",
         answer: "Yes, materials are safe and meet hygiene standards."
+      },
+      {
+        question: "Do you manufacture three side seal pouches in Bhiwandi and supply them across Mumbai?",
+        answer: "Yes. Our manufacturing facility is located in Bhiwandi, and we supply custom three side seal pouches to businesses throughout Mumbai and nearby locations."
       }
     ],
     serviceSchema: {
       "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Three Side Seal Pouch Manufacturing",
-  "name": "Three Side Seal Pouch",
-  "description": "Get smart, secure Three Side Seal Pouch for food, pharma, cosmetics, and more. Custom sizes, strong sealing, and clean printing from Amul Packaging.",
-  "url": "https://www.amulpackaging.in/products/2/3-side-seal-pouch",
-  "image": "https://www.amulpackaging.in/img/products/3-Side-Seal-Pouch.webp",
-  "provider": {
-    "@type": "Organization",
-    "name": "Amul Packaging",
-    "url": "https://www.amulpackaging.in"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "India"
-  }
+      "@type": "Service",
+      "serviceType": "Three Side Seal Pouch Manufacturing",
+      "name": "Three Side Seal Pouch",
+      "description": "Get smart, secure Three Side Seal Pouch for food, pharma, cosmetics, and more. Custom sizes, strong sealing, and clean printing from Amul Packaging.",
+      "url": "https://www.amulpackaging.in/products/3-side-seal-pouch-manufacturer-in-bhiwandi-mumbai",
+      "image": "https://www.amulpackaging.in/img/products/3-Side-Seal-Pouch.webp",
+      "provider": {
+        "@type": "Organization",
+        "name": "Amul Packaging",
+        "url": "https://www.amulpackaging.in"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
 
     },
     faqSchema: {
@@ -468,28 +489,28 @@ const products = [
           "@type": "Answer",
           "text": "A pouch sealed on three sides, used for single-serve or compact packaging. One open side is sealed after filling."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Where are these pouches used?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Food, cosmetics, pharma, chemical, and industrial packaging."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Can I print my brand logo?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, we offer full custom printing."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do you offer sample packs for testing?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, samples can be provided before bulk production."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Are these pouches food safe?",
         "acceptedAnswer": {
@@ -501,10 +522,16 @@ const products = [
   },
   {
     id: 3,
-    name: "Flat Bottom Pouch",
-    seoTitle: "Make Your Brand Look Premium with Flat Bottom Pouch",
-    seoDescription: "Give your product a premium look with flat bottom Pouch designed for strength, freshness, and clean branding. Custom sizes and printing available at Amul Packaging.",
-    seoKeywords: "flat bottom pouch",
+    name: "Flat Bottom Pouch Manufacturer in Bhiwandi & Mumbai",
+    slug: "flat-bottom-pouch-manufacturer-in-bhiwandi-mumbai",
+    aliases: [
+      "flat-bottom-pouch",
+      "flat-bottom-pouch-manufacturer-in-bhiwandi-mumbai",
+      "flatbottom-pouch-manufacturer-in-bhiwandi-mumbai",
+    ],
+    seoTitle: "Flat Bottom Pouch Manufacturer in Mumbai & Bhiwandi",
+    seoDescription: "Choose custom flat bottom pouches made in Bhiwandi by Amul Packaging, with strong barriers, sharp printing and reliable supply for brands across Mumbai region.",
+    seoKeywords: "Flat Bottom Pouch Manufacturer in Bhiwandi & Mumbai",
     img: [
       "/img/products/Flat-Bottom-Pouch.webp",
       "/img/products/Flat-Bottom-Pouch-Main.webp",
@@ -512,8 +539,8 @@ const products = [
     ],
     bg: "bg-yellow-400",
     popularity: 88,
-    Tagline:"Stable. Stylish. Strong.",
-    HeroText:"Our Flat Bottom Pouches combine durability, excellent shelf presence, and versatile design — giving your products a premium look with reliable protection.",
+    Tagline: "Stable. Stylish. Strong.",
+    HeroText: "Our Flat Bottom Pouches combine durability, excellent shelf presence, and versatile design — giving your products a premium look with reliable protection.",
     Details:
       "Flat bottom pouches are premium packaging solutions designed for maximum stability, storage efficiency, and shelf appeal. With a strong base and five printable panels, they offer excellent branding space while maintaining product freshness and durability.",
     About: {
@@ -521,10 +548,10 @@ const products = [
       Description:
         "A flat bottom pouch is a modern packaging format that combines clean presentation, strong structure, and reliable product safety. At Amul Packaging, we manufacture custom flat bottom pouches that help brands stand tall in retail stores and online marketplaces while keeping their products fresh and protected.",
       Extended:
-        "These pouches have a secure flat base, side gussets, and five full panels for printing — making them perfect for brands that want more space for design, information, and storytelling. From coffee roasters to pet food brands to wellness supplements — a flat bottom pouch adds value, trust, and a premium feel to every product."
+        "As a Flat Bottom Pouch Manufacturer in Bhiwandi & Mumbai, we produce durable pouches with custom sizes, finishes and printing options.These pouches have a secure flat base, side gussets, and five full panels for printing — making them perfect for brands that want more space for design, information, and storytelling. From coffee roasters to pet food brands to wellness supplements — a flat bottom pouch adds value, trust, and a premium feel to every product."
     },
-   
-      WhyChoose: {
+
+    WhyChoose: {
       Title: "Why Choose a Flat Bottom Pouch?",
       // subfeatures: [
       //   "Superior shelf display and bag stability",
@@ -561,94 +588,94 @@ const products = [
     ],
     Industry: [
       {
-       "Icons": "☕",
-       "name": "Coffee & Tea",
+        "Icons": "☕",
+        "name": "Coffee & Tea",
 
-       "description": "Flat bottom pouches are popular in coffee packaging because they preserve aroma, stand firm on shelves, and look premium.",
-       "items": [
-         "Preserve aroma and freshness",
-         "Stand firm on shelves",
-         "Support degassing valve for fresh coffee beans",
-         "Tea blends and herbal tea packaging"
-       ]
-     },
+        "description": "Flat bottom pouches are popular in coffee packaging because they preserve aroma, stand firm on shelves, and look premium.",
+        "items": [
+          "Preserve aroma and freshness",
+          "Stand firm on shelves",
+          "Support degassing valve for fresh coffee beans",
+          "Tea blends and herbal tea packaging"
+        ]
+      },
       {
-       "Icons": "🐾",
-       "name": "Pet Food & Treats",
-       "description": "Used by pet food brands for heavier fills and premium presentation.",
-       "items": [
-         "Dog & cat food brands",
-         "Bird food brands",
-         "Pet snack companies"
-       ]
-     },
+        "Icons": "🐾",
+        "name": "Pet Food & Treats",
+        "description": "Used by pet food brands for heavier fills and premium presentation.",
+        "items": [
+          "Dog & cat food brands",
+          "Bird food brands",
+          "Pet snack companies"
+        ]
+      },
       {
-       "Icons": "💪",
-       "name": "Health, Fitness & Supplements",
-       "description": "Ideal for powders and blends where structure and shelf presence matter.",
-       "items": [
-         "Protein powders",
-         "Superfoods & dry mixes",
-         "Vitamins and supplements",
-         "Meal replacement blends"
-       ]
-     },
-     {
-      "Icons": "🍽️",
-      "name": "Food & Dry Ingredients",
-      "description": "Used for a wide range of dry food ingredients while maintaining freshness.",
-      "items": [
-        "Nuts, dry fruits & seeds",
-        "Cereals & granola",
-        "Biscuits & cookies",
-        "Flour and mixes",
-        "Ready-to-eat snacks"
-      ]
+        "Icons": "💪",
+        "name": "Health, Fitness & Supplements",
+        "description": "Ideal for powders and blends where structure and shelf presence matter.",
+        "items": [
+          "Protein powders",
+          "Superfoods & dry mixes",
+          "Vitamins and supplements",
+          "Meal replacement blends"
+        ]
+      },
+      {
+        "Icons": "🍽️",
+        "name": "Food & Dry Ingredients",
+        "description": "Used for a wide range of dry food ingredients while maintaining freshness.",
+        "items": [
+          "Nuts, dry fruits & seeds",
+          "Cereals & granola",
+          "Biscuits & cookies",
+          "Flour and mixes",
+          "Ready-to-eat snacks"
+        ]
+      },
+      {
+        "Icons": "💄",
+        "name": "Beauty & Personal Care",
+        "description": "Used for bath and body products as refill or premium retail packs.",
+        "items": [
+          "Bath salts",
+          "Body scrubs",
+          "Powder masks",
+          "Refill packs for lotions and products"
+        ]
+      },
+      {
+        "Icons": "🔧",
+        "name": "Home & Industrial Use",
+        "description": "Durable barrier films protect products from moisture and dust; custom sizes available based on product weight.",
+        "items": [
+          "Detergent powder",
+          "Fertilizer samples",
+          "Hardware parts",
+          "Lubricant refill packs"
+        ]
+      }
+    ],
+
+    PackagingOptions: {
+      Title: "Flat Bottom Pouch – Capacities & Options",
+      TypicalCapacity: [
+        "100g",
+        "250g",
+        "500g",
+        "1kg",
+        "Custom dimensions available"
+      ],
+      Choices: [
+        "Zip-lock seal",
+        "Tin-tie seal",
+        "One-way valve for coffee",
+        "Clear window panel",
+        "Tear-notch",
+        "Punch hole for hanging display"
+      ],
+      Note: "Tell us your filling method and we help you choose the ideal configuration."
     },
-    {
-      "Icons": "💄",
-      "name": "Beauty & Personal Care",
-      "description": "Used for bath and body products as refill or premium retail packs.",
-      "items": [
-        "Bath salts",
-        "Body scrubs",
-        "Powder masks",
-        "Refill packs for lotions and products"
-      ]
-    },
-    {
-      "Icons": "🔧",
-      "name": "Home & Industrial Use",
-      "description": "Durable barrier films protect products from moisture and dust; custom sizes available based on product weight.",
-      "items": [
-        "Detergent powder",
-        "Fertilizer samples",
-        "Hardware parts",
-        "Lubricant refill packs"
-      ]
-    }
-   ],
- 
-   PackagingOptions: {
-     Title: "Flat Bottom Pouch – Capacities & Options",
-     TypicalCapacity: [
-       "100g",
-       "250g",
-       "500g",
-       "1kg",
-       "Custom dimensions available"
-     ],
-     Choices: [
-       "Zip-lock seal",
-       "Tin-tie seal",
-       "One-way valve for coffee",
-       "Clear window panel",
-       "Tear-notch",
-       "Punch hole for hanging display"
-     ],
-     Note: "Tell us your filling method and we help you choose the ideal configuration."
-   },
-      WhyAmulPackaging: {
+    WhyAmulPackaging: {
       Title: "Why Amul Packaging For Flat Bottom Pouches ?",
       Points: [
         "In-house manufacturing",
@@ -663,17 +690,17 @@ const products = [
       ClosingLine:
         "Your product stays protected and looks premium at the same time."
     },
-   FAQs: [
+    FAQs: [
       {
         question: "What is the main benefit of a flat bottom pouch?",
         answer: "Stability, premium look, and strong shelf display."
       },
       {
-       question: "Can you print custom designs?",
+        question: "Can you print custom designs?",
         answer: "Yes - full printing support is available."
       },
       {
-       question: "Are these pouches food-safe?",
+        question: "Are these pouches food-safe?",
         answer: "Yes, all materials are safe and approved for food products."
       },
       {
@@ -687,6 +714,10 @@ const products = [
       {
         question: "What industries commonly use this pouch?",
         answer: "Coffee, tea, snacks, pet food, health supplements, and beauty products."
+      },
+      {
+        question: "Can Mumbai businesses order customised flat bottom pouches from Amul Packaging?",
+        answer: "Yes. We manufacture flat bottom pouches at our Bhiwandi facility with customised sizes, materials, finishes and printed designs for businesses across Mumbai."
       }
     ],
     serviceSchema: {
@@ -695,7 +726,7 @@ const products = [
       "serviceType": "Flat Bottom Pouch Manufacturing",
       "name": "Flat Bottom Pouch",
       "description": "Give your product a premium look with flat bottom pouch designed for strength, freshness, and clean branding. Custom sizes and printing available at Amul Packaging.",
-      "url": "https://www.amulpackaging.in/products/3/flat-bottom-pouch",
+      "url": "https://www.amulpackaging.in/products/flat-bottom-pouch-manufacturer-in-bhiwandi-mumbai",
       "image": "https://www.amulpackaging.in/img/products/Flat-Bottom-Pouch.webp",
       "provider": {
         "@type": "Organization",
@@ -705,7 +736,7 @@ const products = [
       "areaServed": {
         "@type": "Country",
         "name": "India"
-      }    
+      }
     },
     faqSchema: {
       "@context": "https://schema.org",
@@ -717,35 +748,35 @@ const products = [
           "@type": "Answer",
           "text": "Stability, premium look, and strong shelf display."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Can you print custom designs?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes - full printing support is available."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Are these pouches food-safe?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, all materials are safe and approved for food products."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do you offer sample pouches?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, samples can be arranged based on requirement."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Can I get recyclable options?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, we provide eco-friendly pouch material options."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. What industries commonly use this pouch?",
         "acceptedAnswer": {
@@ -757,32 +788,41 @@ const products = [
   },
   {
     id: 4,
-    name: "Centre Seal Pouch",
-    seoTitle: "Center Seal Pouch Made to Protect | Amul Packaging",
-    seoDescription: "Get strong, clean-finished center seal pouch designed to protect food, snacks, pharma, and FMCG products. Custom sizes and printing available at Amul Packaging.",
-    seoKeywords: "center seal pouch",
+    name: "Centre Seal Pouch Manufacturer in Mumbai & Bhiwandi",
+    slug: "centre-seal-pouch-manufacturer-in-mumbai-bhiwandi",
+    aliases: [
+      "centre-seal-pouch",
+      "center-seal-pouch",
+      "centre-seal-pouch-manufacturer-in-mumbai-bhiwandi",
+      "centre-seal-pouch-manufacturer-in-bhiwandi-mumbai",
+      "center-seal-pouch-manufacturer-in-mumbai-bhiwandi",
+      "center-seal-pouch-manufacturer-in-bhiwandi-mumbai",
+    ],
+    seoTitle: "Centre Seal Pouch Manufacturer in Mumbai & Bhiwandi",
+    seoDescription: "Get custom centre seal pouches from Amul Packaging in Bhiwandi, designed for smooth packing, secure seals and branded product presentation across wider Mumbai.",
+    seoKeywords: "Centre seal pouch manufacturer in Bhiwandi & Mumbai",
     img: [
       "/img/products/Centre Seal Pouch.webp",
       "/img/products/Centre-Seal-Pouch-Main.webp",
       "/img/products/amul/Centre-Seal-Pouch.webp",
-     
+
     ],
     bg: "bg-blue-600",
     popularity: 76,
-    Tagline:"Precision Sealed for Lasting Freshness.",
-HeroText:"Our high-quality Centre Seal Pouches ensure airtight protection, optimal shelf life, and a polished look — perfect for a wide range of applications.",
+    Tagline: "Precision Sealed for Lasting Freshness.",
+    HeroText: "Looking for a Centre Seal Pouch Manufacturer in Bhiwandi & Mumbai? Amul Packaging provides printed pouches for retail and bulk packaging needs.",
     Details:
       "Center seal pouches are one of the most common and cost-effective packaging formats, designed with a seal running down the back of the pouch. They provide excellent protection, extended shelf life, and are ideal for high-volume packaging needs.",
-      About: {
+    About: {
       Title: "Center Seal Pouch – Secure, Neat and Efficient Packaging",
       Description:
         "A center seal pouch is one of the most widely used packaging formats across FMCG, food, personal care, and industrial products. It has a single strong seal running down the back, which keeps the product safe, secure, and neatly packed.",
       Extended:
-        "At Amul Packaging, we manufacture durable and clean-finished center seal pouches that help your product stay protected while looking organized on shelves. From snacks and spices to detergent and pharma goods, these pouches work well for high-volume filling and fast production lines. If you want cost-effective and reliable packaging that keeps your product fresh and travel-ready, a center seal pouch is a dependable choice."
+        "At Amul Packaging, we manufacture durable and clean-finished center seal pouches that help your product stay protected while looking organized on shelves. From snacks and spices to detergent and pharma goods, these pouches work well for high-volume filling and fast production lines. If you want cost-effective and reliable packaging that keeps your product fresh and travel-ready, a center seal pouch is a dependable choice. Our centre seal pouches are produced in Bhiwandi and supplied to businesses across Mumbai in customised sizes, materials and printed designs."
     },
-      
-       WhyChoose: {
-      Title: "Why Choose a Flat Bottom Pouch?",
+
+    WhyChoose: {
+      Title: "Why Choose a Centre Seal Pouch?",
       // Summary:
       //   "Center seal pouches are chosen because they are strong, compact, and cost-effective for mass production. They offer secure sealing while using less material than other packaging formats.",
       KeyFeatures: [
@@ -799,86 +839,86 @@ HeroText:"Our high-quality Centre Seal Pouches ensure airtight protection, optim
         "If you pack products that need long shelf life with simple handling, this pouch works well."
     },
 
-"Industry": [
-    {
-      "Icons": "🍽️",
-      "name": "Food & Beverage",
-      "description": "Airtight pouches preserve freshness, taste, aroma, and protect from moisture.",
-      "items": [
-        "Chips & wafers",
-        "Biscuits & cookies",
-        "Namkeen & mixtures",
-        "Dry fruits & nuts",
-        "Spices & masala mixes",
-        "Tea & coffee powder",
-        "Bakery and sweet items",
-        "Instant mixes",
-      ]
-    },
+    "Industry": [
+      {
+        "Icons": "🍽️",
+        "name": "Food & Beverage",
+        "description": "Airtight pouches preserve freshness, taste, aroma, and protect from moisture.",
+        "items": [
+          "Chips & wafers",
+          "Biscuits & cookies",
+          "Namkeen & mixtures",
+          "Dry fruits & nuts",
+          "Spices & masala mixes",
+          "Tea & coffee powder",
+          "Bakery and sweet items",
+          "Instant mixes",
+        ]
+      },
 
-    {
-      "Icons": "🥛",
-      "name": "Dairy & Ready-to-Eat Packs",
-      "description": "Strong sealing prevents leakage and spoilage; suitable for both dry & paste products.",
-      "items": [
-        "Dairy powders",
-        "Cheese snacks",
-        "Ready meals (dry & paste form)",
-        "Curd & yogurt snack packs"
-      ]
-    },
+      {
+        "Icons": "🥛",
+        "name": "Dairy & Ready-to-Eat Packs",
+        "description": "Strong sealing prevents leakage and spoilage; suitable for both dry & paste products.",
+        "items": [
+          "Dairy powders",
+          "Cheese snacks",
+          "Ready meals (dry & paste form)",
+          "Curd & yogurt snack packs"
+        ]
+      },
 
-    {
-      "Icons": "🍬",
-      "name": "Confectionery",
-      "description": "Protective barrier keeps texture, sweetness, and aroma intact.",
-      "items": [
-        "Chocolates",
-        "Candies & sweets",
-        "Toffees",
-        "Mints"
-      ]
-    },
+      {
+        "Icons": "🍬",
+        "name": "Confectionery",
+        "description": "Protective barrier keeps texture, sweetness, and aroma intact.",
+        "items": [
+          "Chocolates",
+          "Candies & sweets",
+          "Toffees",
+          "Mints"
+        ]
+      },
 
-    {
-      "Icons": "💄",
-      "name": "Personal Care",
-      "description": "Lightweight and premium-looking packs ideal for refills and sample-size products.",
-      "items": [
-        "Soap bars",
-        "Shampoo sachets",
-        "Cream samples",
-        "Wet wipes (multi-pack)"
-      
-      ]
-    },
+      {
+        "Icons": "💄",
+        "name": "Personal Care",
+        "description": "Lightweight and premium-looking packs ideal for refills and sample-size products.",
+        "items": [
+          "Soap bars",
+          "Shampoo sachets",
+          "Cream samples",
+          "Wet wipes (multi-pack)"
 
-    {
-      "Icons": "💊",
-      "name": "Pharmaceutical & Nutrition",
-      "description": "High-barrier pouches protect sensitive formulations and maintain hygiene.",
-      "items": [
-        "Supplements",
-        "Vitamin sachets",
-        "ORS packets",
-        "Powder medicine packs"
-      ]
-    },
+        ]
+      },
 
-    {
-      "Icons": "🏭",
-      "name": "Household & Industrial",
-      "description": "Tough multilayer structure keeps granular, chemical, and hardware products safe.",
-      "items": [
-        "Detergents",
-        "Cleaning powders",
-        "Industrial powder samples",
-        "Hardware items"
-      ]
-    },
-  ],
-  
-      WhyAmulPackaging: {
+      {
+        "Icons": "💊",
+        "name": "Pharmaceutical & Nutrition",
+        "description": "High-barrier pouches protect sensitive formulations and maintain hygiene.",
+        "items": [
+          "Supplements",
+          "Vitamin sachets",
+          "ORS packets",
+          "Powder medicine packs"
+        ]
+      },
+
+      {
+        "Icons": "🏭",
+        "name": "Household & Industrial",
+        "description": "Tough multilayer structure keeps granular, chemical, and hardware products safe.",
+        "items": [
+          "Detergents",
+          "Cleaning powders",
+          "Industrial powder samples",
+          "Hardware items"
+        ]
+      },
+    ],
+
+    WhyAmulPackaging: {
       Title: "Why Amul Packaging For Centre Seal Pouches ?",
       Points: [
         "In-house manufacturing",
@@ -893,17 +933,17 @@ HeroText:"Our high-quality Centre Seal Pouches ensure airtight protection, optim
       ClosingLine:
         "Your product stays protected, looks neat, and reaches customers safely."
     },
-   FAQs: [
+    FAQs: [
       {
         question: "What is a center seal pouch?",
         answer: "A pouch sealed on the back (center), often used for food, personal care, and industrial products."
       },
       {
-       question: "Are center seal pouches food-safe?",
+        question: "Are center seal pouches food-safe?",
         answer: "Yes, we use food-grade materials suitable for safe packing."
       },
       {
-       question: "Can I print my design?",
+        question: "Can I print my design?",
         answer: "Yes, we offer full custom printing and finishing."
       },
       {
@@ -917,6 +957,10 @@ HeroText:"Our high-quality Centre Seal Pouches ensure airtight protection, optim
       {
         question: "Do you offer wholesale pricing?",
         answer: "Yes, bulk and wholesale supply options available."
+      },
+      {
+        question: "Can you manufacture centre seal pouches for automatic filling machines?",
+        answer: "Yes. We can produce centre seal pouches suitable for automatic filling lines, with the required size, film structure and printing for businesses in Bhiwandi and Mumbai."
       }
     ],
     serviceSchema: {
@@ -925,7 +969,7 @@ HeroText:"Our high-quality Centre Seal Pouches ensure airtight protection, optim
       "serviceType": "Centre Seal Pouch Manufacturing",
       "name": "Centre Seal Pouch",
       "description": "Get strong, clean-finished center seal pouch designed to protect food, snacks, pharma, and FMCG products. Custom sizes and printing available at Amul Packaging.",
-      "url": "https://www.amulpackaging.in/products/4/centre-seal-pouch",
+      "url": "https://www.amulpackaging.in/products/centre-seal-pouch-manufacturer-in-mumbai-bhiwandi",
       "image": "https://www.amulpackaging.in/img/products/Centre-Seal-Pouch.webp",
       "provider": {
         "@type": "Organization",
@@ -935,7 +979,7 @@ HeroText:"Our high-quality Centre Seal Pouches ensure airtight protection, optim
       "areaServed": {
         "@type": "Country",
         "name": "India"
-      }    
+      }
     },
     faqSchema: {
       "@context": "https://schema.org",
@@ -947,35 +991,35 @@ HeroText:"Our high-quality Centre Seal Pouches ensure airtight protection, optim
           "@type": "Answer",
           "text": "A pouch sealed on the back (center), often used for food, personal care, and industrial products."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Are center seal pouches food-safe?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, we use food-grade materials suitable for safe packing."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Can I print my design?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, we offer full custom printing and finishing."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do you supply small sachet packaging?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, we manufacture small and large sealed pouches."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Can I get recyclable pouch material?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, sustainable options are available on request."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do you offer wholesale pricing?",
         "acceptedAnswer": {
@@ -987,20 +1031,27 @@ HeroText:"Our high-quality Centre Seal Pouches ensure airtight protection, optim
   },
   {
     id: 5,
-    name: "Quad Seal Pouch",
-    seoTitle: "Quad Seal Pouch That Hold Shape & Style | Amul Packaging",
-    seoDescription: "Keep your product secure with quad seal pouch that hold shape, protect freshness, and look premium. Custom sizes and printing available at Amul Packaging.",
-    seoKeywords: "quad seal pouch",
+    name: "Quad Seal Pouch Manufacturer in Bhiwandi & Mumbai",
+    slug: "quad-seal-pouch-manufacturer-in-bhiwandi-mumbai",
+    aliases: [
+      "quad-seal-pouch",
+      "quad-seal-pouch-manufacturer-in-bhiwandi-mumbai",
+      "quad-seal-pouch-manufacturer-in-mumbai-bhiwandi",
+      "quadseal-pouch-manufacturer-in-bhiwandi-mumbai",
+    ],
+    seoTitle: "Quad Seal Pouch Manufacturer in Mumbai & Bhiwandi",
+    seoDescription: "Order custom quad seal pouches from Amul Packaging in Bhiwandi, made for firm structure, secure sealing and quality branded packaging across the Mumbai region.",
+    seoKeywords: "Quad seal pouch manufacturer in Bhiwandi & Mumbai",
     img: [
       "/img/products/Quad-Seal-Pouch.webp",
       "/img/products/Quad-Seal-Pouch-Main.webp",
       "/img/products/amul/Quad-Seal-Pouch.webp",
-      
+
     ],
     bg: "bg-red-500",
     popularity: 64,
-    Tagline:"Strong Structure. Sleek Presentation.",
-HeroText:"With reinforced side seals and a durable design, our Quad Seal Pouches provide exceptional barrier protection and a commanding presence on display.",
+    Tagline: "Strong Structure. Sleek Presentation.",
+    HeroText: "With reinforced side seals and a durable design, our Quad Seal Pouches provide exceptional barrier protection and a commanding presence on display.",
     Details:
       "Quad seal pouches are premium packaging formats designed with four vertical seals, giving them superior strength and a box-like structure. This design allows them to hold heavier products, stand firm on shelves, and maximize branding with multiple printable panels.",
     About: {
@@ -1008,104 +1059,104 @@ HeroText:"With reinforced side seals and a durable design, our Quad Seal Pouches
       Description:
         "A quad seal pouch is one of the strongest and most premium flexible packaging formats used today. With four reinforced side seals and a box-like shape, it offers excellent durability, strong presentation, and reliable storage for heavy or bulk products.",
       Extended:
-        "At Amul Packaging, we manufacture custom quad seal pouches that stay firm on shelves, protect product freshness, and support high-quality printing across multiple panels. This makes them ideal for brands that want strong packaging with a clean, premium look — especially in food, pet care, wellness, coffee, snacks, and export-grade goods. If your product needs a pouch that is tough, stable, and visually impressive, a quad seal pouch is the right fit."
+        "At Amul Packaging, we manufacture custom quad seal pouches that stay firm on shelves, protect product freshness, and support high-quality printing across multiple panels. This makes them ideal for brands that want strong packaging with a clean, premium look — especially in food, pet care, wellness, coffee, snacks, and export-grade goods. If your product needs a pouch that is tough, stable, and visually impressive, a quad seal pouch is the right fit. Manufactured at our Bhiwandi facility, our quad seal pouches are supplied across Mumbai with custom sizes, materials and printed designs."
     },
     WhyChoose: {
       Title: "Why Choose Quad Seal Pouch?",
       KeyFeatures: [
-       "Four reinforced seals for extra strength & durability",
-      "Box-shaped structure for better shelf stability",
-      "Ample branding space on front, back & side panels",
-      "High barrier protection against moisture, aroma & air",
-      "Available in matte, glossy, kraft & metallic finishes",
-      "Customizable with zipper, valve & various sizes",
+        "Four reinforced seals for extra strength & durability",
+        "Box-shaped structure for better shelf stability",
+        "Ample branding space on front, back & side panels",
+        "High barrier protection against moisture, aroma & air",
+        "Available in matte, glossy, kraft & metallic finishes",
+        "Customizable with zipper, valve & various sizes",
       ],
     },
-      
-   
+
+
     Industry: [
-  {
-    Icons: "🎨",
-    name: "Custom Print Options",
-    description: "Quad seal pouches offer a premium canvas for high-quality printing, helping brands stand out on shelves.",
-    items: [
-      "Roasted coffee beans",
-      "Ground coffee",
-      "Specialty tea blends"
-    ]
-  },
-  {
-    Icons: "🐾",
-    name: "Pet Food & Pet Treats",
-    description: "Designed for durability and large-volume storage with heavy-duty laminate structures.",
-    items: [
-      "Dog food",
-      "Cat food",
-      "Bird feed",
-      "Pet snacks & biscuits"
-    ]
-  },
-  {
-    Icons: "❄️",
-    name: "Frozen & Chilled Food",
-    description: "High barrier and moisture-resistant films keep frozen products fresh and protected.",
-    items: [
-      "Frozen vegetables",
-      "Ready-to-cook items",
-      "Frozen snacks"
-    ]
-  },
-  {
-    Icons: "🍬",
-    name: "Snacks & Confectionery",
-    description: "Strong side seals prevent breakage and maintain product freshness.",
-    items: [
-      "Chips",
-      "Cookies",
-      "Chocolates",
-      "Dry snacks",
-      "Candies",
-      "Protein bars"
-    ]
-  },
-  {
-    Icons: "💊",
-    name: "Health, Wellness & Nutrition",
-    description: "Perfect for powders and nutritional blends that require airtight protection.",
-    items: [
-      "Protein powders",
-      "Superfoods",
-      "Vitamin mixes",
-      "Supplements",
-      "Organic mixes"
-    ]
-  },
-  {
-    Icons: "💄",
-    name: "Beauty, Cosmetic & Personal Care",
-    description: "Ideal for premium and luxury products with a clean, attractive appearance.",
-    items: [
-      "Bath salts",
-      "Body scrubs",
-      "Refill packs",
-      "Herbal powders"
-    ]
-  },
-  {
-    Icons: "🏭",
-    name: "Household & Industrial",
-    description: "Reinforced construction safely carries dense and granular materials.",
-    items: [
-      "Detergent powders",
-      "Industrial granules",
-      "Chemical powders",
-      "Fertilizer samples"
-    ]
-  }
-],
+      {
+        Icons: "🎨",
+        name: "Custom Print Options",
+        description: "Quad seal pouches offer a premium canvas for high-quality printing, helping brands stand out on shelves.",
+        items: [
+          "Roasted coffee beans",
+          "Ground coffee",
+          "Specialty tea blends"
+        ]
+      },
+      {
+        Icons: "🐾",
+        name: "Pet Food & Pet Treats",
+        description: "Designed for durability and large-volume storage with heavy-duty laminate structures.",
+        items: [
+          "Dog food",
+          "Cat food",
+          "Bird feed",
+          "Pet snacks & biscuits"
+        ]
+      },
+      {
+        Icons: "❄️",
+        name: "Frozen & Chilled Food",
+        description: "High barrier and moisture-resistant films keep frozen products fresh and protected.",
+        items: [
+          "Frozen vegetables",
+          "Ready-to-cook items",
+          "Frozen snacks"
+        ]
+      },
+      {
+        Icons: "🍬",
+        name: "Snacks & Confectionery",
+        description: "Strong side seals prevent breakage and maintain product freshness.",
+        items: [
+          "Chips",
+          "Cookies",
+          "Chocolates",
+          "Dry snacks",
+          "Candies",
+          "Protein bars"
+        ]
+      },
+      {
+        Icons: "💊",
+        name: "Health, Wellness & Nutrition",
+        description: "Perfect for powders and nutritional blends that require airtight protection.",
+        items: [
+          "Protein powders",
+          "Superfoods",
+          "Vitamin mixes",
+          "Supplements",
+          "Organic mixes"
+        ]
+      },
+      {
+        Icons: "💄",
+        name: "Beauty, Cosmetic & Personal Care",
+        description: "Ideal for premium and luxury products with a clean, attractive appearance.",
+        items: [
+          "Bath salts",
+          "Body scrubs",
+          "Refill packs",
+          "Herbal powders"
+        ]
+      },
+      {
+        Icons: "🏭",
+        name: "Household & Industrial",
+        description: "Reinforced construction safely carries dense and granular materials.",
+        items: [
+          "Detergent powders",
+          "Industrial granules",
+          "Chemical powders",
+          "Fertilizer samples"
+        ]
+      }
+    ],
 
 
-      WhyAmulPackaging: {
+    WhyAmulPackaging: {
       Title: "Why Amul Packaging For Quad Seal Pouches ?",
       Points: [
         "Smooth and precise quad sealing",
@@ -1120,17 +1171,17 @@ HeroText:"With reinforced side seals and a durable design, our Quad Seal Pouches
       ClosingLine:
         "Your product stays safe, fresh, and shelf-ready."
     },
-   FAQs: [
+    FAQs: [
       {
         question: "What is a quad seal pouch?",
         answer: "A pouch with four vertical seals for extra strength and a box-like structure."
       },
       {
-       question: "Is a quad seal pouch suitable for heavy products?",
+        question: "Is a quad seal pouch suitable for heavy products?",
         answer: "Yes, it is ideal for heavy and bulk packaging."
       },
       {
-       question: "Can I add a zipper or valve?",
+        question: "Can I add a zipper or valve?",
         answer: "Yes, both zipper and degassing valves can be added."
       },
       {
@@ -1144,6 +1195,10 @@ HeroText:"With reinforced side seals and a durable design, our Quad Seal Pouches
       {
         question: "Do you provide wholesale or bulk supply?",
         answer: "Yes, we supply to brands, distributors, and exporters."
+      },
+      {
+        question: "Which printing options are available for quad seal pouches?",
+        answer: "We offer custom printing for quad seal pouches using brand colours, product details and design elements. Orders are manufactured in Bhiwandi and supplied across Mumbai."
       }
     ],
     serviceSchema: {
@@ -1152,7 +1207,7 @@ HeroText:"With reinforced side seals and a durable design, our Quad Seal Pouches
       "serviceType": "Quad Seal Pouch Manufacturing",
       "name": "Quad Seal Pouch",
       "description": "Keep your product secure with quad seal pouch that holds shape, protects freshness, and delivers premium shelf appeal. Custom sizes and printing available at Amul Packaging.",
-      "url": "https://www.amulpackaging.in/products/5/quad-seal-pouch",
+      "url": "https://www.amulpackaging.in/products/quad-seal-pouch-manufacturer-in-bhiwandi-mumbai",
       "image": "https://www.amulpackaging.in/img/products/Quad-Seal-Pouch.webp",
       "provider": {
         "@type": "Organization",
@@ -1162,7 +1217,7 @@ HeroText:"With reinforced side seals and a durable design, our Quad Seal Pouches
       "areaServed": {
         "@type": "Country",
         "name": "India"
-      }    
+      }
     },
     faqSchema: {
       "@context": "https://schema.org",
@@ -1174,35 +1229,35 @@ HeroText:"With reinforced side seals and a durable design, our Quad Seal Pouches
           "@type": "Answer",
           "text": "A pouch with four vertical seals for extra strength and a box-like structure."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Is a quad seal pouch suitable for heavy products?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, it is ideal for heavy and bulk packaging."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Can I add a zipper or valve?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, both zipper and degassing valves can be added."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Are these pouches food-safe?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, all laminates and inks used are food-grade."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do quad seal bags offer more branding space?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, four panels allow for more design and information."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do you provide wholesale or bulk supply?",
         "acceptedAnswer": {
@@ -1214,20 +1269,27 @@ HeroText:"With reinforced side seals and a durable design, our Quad Seal Pouches
   },
   {
     id: 6,
-    name: "Vacuum Pouch",
-    seoTitle: "Vacuum Seal Pouch That Preserve Quality | Amul Packaging",
-    seoDescription: "Safely store meat, snacks, pharma and more with vacuum seal pouch that block air and moisture. Strong, durable and custom-made for your product at Amul Packaging.",
-    seoKeywords: "vacuum pouch",
+    name: "Vacuum Pouch Manufacturer in Bhiwandi & Mumbai",
+    slug: "vacuum-pouch-manufacturer-in-bhiwandi-mumbai",
+    aliases: [
+      "vacuum-pouch",
+      "vacuum-pouch-manufacturer-in-bhiwandi-mumbai",
+      "vacuum-pouch-manufacturer-in-mumbai-bhiwandi",
+      "vacuumpouch-manufacturer-in-bhiwandi-mumbai",
+    ],
+    seoTitle: "Vacuum Pouch Manufacturer in Mumbai & Bhiwandi",
+    seoDescription: "Explore high-barrier vacuum pouches made by Amul Packaging in Bhiwandi for moisture protection, secure sealing and dependable supply across the Mumbai region.",
+    seoKeywords: "Vacuum pouch manufacturer in Bhiwandi & Mumbai",
     img: [
       "/img/products/Vacuum-Pouch.webp",
       "/img/products/Vacuum-Pouch-Main.webp",
-          "/img/products/amul/Vacuum-Pouch.webp",
-        
-    ], 
+      "/img/products/amul/Vacuum-Pouch.webp",
+
+    ],
     bg: "bg-red-500",
     popularity: 64,
-    Tagline:"Precision Sealed. Perfectly Preserved.",
-HeroText:"Our high-barrier Vacuum Pouches remove excess air and moisture, ensuring maximum protection and freshness for food and non-food items alike.",
+    Tagline: "Precision Sealed. Perfectly Preserved.",
+    HeroText: "Our high-barrier Vacuum Pouches remove excess air and moisture, ensuring maximum protection and freshness for food and non-food items alike.",
     Details:
       "Vacuum pouches are specially designed packaging solutions that remove excess air, keeping products fresh for longer periods. They provide an excellent barrier against moisture, oxygen, and contaminants, making them ideal for perishable and sensitive products.",
     About: {
@@ -1235,154 +1297,154 @@ HeroText:"Our high-barrier Vacuum Pouches remove excess air and moisture, ensuri
       Description:
         "A vacuum pouch is one of the most reliable packaging formats for preserving freshness, preventing contamination, and extending shelf life. By removing excess air from the pack, vacuum pouches help protect sensitive, perishable, and high-value products from spoilage, oxidation, and moisture damage.",
       Extended:
-        "At Amul Packaging, we manufacture strong and durable vacuum pouch bags using multilayer barrier films that keep your product protected during storage, transport, and retail display. Whether you pack meat, snacks, medical items, electronics, or industrial products, our vacuum pouches offer long-lasting safety and sealing strength. If you need packaging that preserves freshness inside and blocks outside elements, a vacuum pouch is the ideal choice."
+        "At Amul Packaging, we manufacture strong and durable vacuum pouch bags using multilayer barrier films that keep your product protected during storage, transport, and retail display. Whether you pack meat, snacks, medical items, electronics, or industrial products, our vacuum pouches offer long-lasting safety and sealing strength. If you need packaging that preserves freshness inside and blocks outside elements, a vacuum pouch is the ideal choice. Produced at our Bhiwandi facility, our vacuum pouches are supplied across Mumbai for storage, transportation and retail packaging."
     },
- 
-WhyChoose: {
-  Title: "Why Choose Vacuum Pouches?",
-  // subfeatures: [
-  //   "Extends shelf life",
-  //   "Prevents oxidation, moisture, and odor loss",
-  //   "Protects from contamination and freezer burn",
-  //   "Helps maintain taste, color, and texture",
-  //   "Reduces spoilage and wastage",
-  //   "Suitable for liquid, solid, and powdered items",
-  //   "Compact, space-saving storage",
-  //   "Helps products survive long-distance shipping"
-  // ],
-  // Summary:
-  //   "Vacuum packaging is trusted across industries for long-term protection, ensuring the product’s original quality stays intact.",
-  KeyFeatures: [
-    "Multi-layer high-barrier film construction",
-    "Strong air-tight sealing",
-    "Puncture-resistant and stretch-resistant",
-    "Suitable for cold storage and freezing",
-    "Clear, metallic, and embossed film options",
-    "Custom printing available",
-    "Food-grade and safe materials",
-    "Compatible with standard vacuum sealing machines",
-    "Available in multiple thicknesses and sizes"
-  ],
-  Conclusion:
-    "You can choose the exact structure based on your product’s sensitivity — whether packing fresh food, electronics, or chemicals."
-},
+
+    WhyChoose: {
+      Title: "Why Choose Vacuum Pouches?",
+      // subfeatures: [
+      //   "Extends shelf life",
+      //   "Prevents oxidation, moisture, and odor loss",
+      //   "Protects from contamination and freezer burn",
+      //   "Helps maintain taste, color, and texture",
+      //   "Reduces spoilage and wastage",
+      //   "Suitable for liquid, solid, and powdered items",
+      //   "Compact, space-saving storage",
+      //   "Helps products survive long-distance shipping"
+      // ],
+      // Summary:
+      //   "Vacuum packaging is trusted across industries for long-term protection, ensuring the product’s original quality stays intact.",
+      KeyFeatures: [
+        "Multi-layer high-barrier film construction",
+        "Strong air-tight sealing",
+        "Puncture-resistant and stretch-resistant",
+        "Suitable for cold storage and freezing",
+        "Clear, metallic, and embossed film options",
+        "Custom printing available",
+        "Food-grade and safe materials",
+        "Compatible with standard vacuum sealing machines",
+        "Available in multiple thicknesses and sizes"
+      ],
+      Conclusion:
+        "You can choose the exact structure based on your product’s sensitivity — whether packing fresh food, electronics, or chemicals."
+    },
 
     Applications: [
-  "Meat, poultry & seafood packaging",
-  "Fried snacks & ready-to-eat foods",
-  "Dairy & specialty food packaging",
-  "Medical & pharmaceutical products",
-  "Industrial & electronic components",
-  "Agriculture & chemical products",
-],
-Industry: [
-  {
-    "Icons": "🍗",
-    "name": "Meat, Poultry & Seafood",
-    "description": "Vacuum pouches prevent spoilage, lock in freshness, and reduce freezer burn for perishable protein products.",
-    "items": [
-      "Fresh chicken",
-      "Fish fillets",
-      "Shrimp & prawns",
-      "Processed meat",
-      "Cold cuts",
-      "Bacon",
-      "Sausages"
-    ]
-  },
-  {
-    "Icons": "🍟",
-    "name": "Fried Snacks & Ready-to-Eat Foods",
-    "description": "Keeps snacks crisp, flavorful, and prevents oil rancidity during storage and transit.",
-    "items": [
-      "Namkeen & farsan",
-      "Chips",
-      "Frozen snacks",
-      "Heat-and-eat meals",
-      "Dry mixes",
-      "Breaded items"
-    ]
-  },
-  {
-    "Icons": "🧀",
-    "name": "Dairy & Specialty Foods",
-    "description": "Vacuum sealing slows bacterial activity and retains the natural aroma and texture of food.",
-    "items": [
-      "Cheese blocks",
-      "Paneer",
-      "Butter",
-      "Fermented foods",
-      "Condiments",
-      "Dry spices",
-      "Specialty processed foods"
-    ]
-  },
-  {
-    "Icons": "💊",
-    "name": "Medical & Pharmaceutical",
-    "description": "Ensures sterility and prevents contamination for sensitive medical and lab applications.",
-    "items": [
-      "Surgical tools",
-      "Medical equipment",
-      "Sterile items",
-      "Diagnostic kits",
-      "Pharmaceutical samples"
-    ]
-  },
-  {
-    "Icons": "⚙️",
-    "name": "Industrial & Electronic Items",
-    "description": "Protects metal and electronic components from rust, moisture, and oxidation.",
-    "items": [
-      "Electronic components",
-      "Metal parts",
-      "Machine tools",
-      "Industrial chemicals",
-      "Corrosion-sensitive components"
-    ]
-  },
-  {
-    "Icons": "🌾",
-    "name": "Agriculture & Chemical Industry",
-    "description": "High-barrier vacuum pouches maintain product stability and prevent moisture absorption.",
-    "items": [
-      "Seeds",
-      "Fertilizers",
-      "Chemical powders",
-      "Laboratory materials"
-    ]
-  }
-],
+      "Meat, poultry & seafood packaging",
+      "Fried snacks & ready-to-eat foods",
+      "Dairy & specialty food packaging",
+      "Medical & pharmaceutical products",
+      "Industrial & electronic components",
+      "Agriculture & chemical products",
+    ],
+    Industry: [
+      {
+        "Icons": "🍗",
+        "name": "Meat, Poultry & Seafood",
+        "description": "Vacuum pouches prevent spoilage, lock in freshness, and reduce freezer burn for perishable protein products.",
+        "items": [
+          "Fresh chicken",
+          "Fish fillets",
+          "Shrimp & prawns",
+          "Processed meat",
+          "Cold cuts",
+          "Bacon",
+          "Sausages"
+        ]
+      },
+      {
+        "Icons": "🍟",
+        "name": "Fried Snacks & Ready-to-Eat Foods",
+        "description": "Keeps snacks crisp, flavorful, and prevents oil rancidity during storage and transit.",
+        "items": [
+          "Namkeen & farsan",
+          "Chips",
+          "Frozen snacks",
+          "Heat-and-eat meals",
+          "Dry mixes",
+          "Breaded items"
+        ]
+      },
+      {
+        "Icons": "🧀",
+        "name": "Dairy & Specialty Foods",
+        "description": "Vacuum sealing slows bacterial activity and retains the natural aroma and texture of food.",
+        "items": [
+          "Cheese blocks",
+          "Paneer",
+          "Butter",
+          "Fermented foods",
+          "Condiments",
+          "Dry spices",
+          "Specialty processed foods"
+        ]
+      },
+      {
+        "Icons": "💊",
+        "name": "Medical & Pharmaceutical",
+        "description": "Ensures sterility and prevents contamination for sensitive medical and lab applications.",
+        "items": [
+          "Surgical tools",
+          "Medical equipment",
+          "Sterile items",
+          "Diagnostic kits",
+          "Pharmaceutical samples"
+        ]
+      },
+      {
+        "Icons": "⚙️",
+        "name": "Industrial & Electronic Items",
+        "description": "Protects metal and electronic components from rust, moisture, and oxidation.",
+        "items": [
+          "Electronic components",
+          "Metal parts",
+          "Machine tools",
+          "Industrial chemicals",
+          "Corrosion-sensitive components"
+        ]
+      },
+      {
+        "Icons": "🌾",
+        "name": "Agriculture & Chemical Industry",
+        "description": "High-barrier vacuum pouches maintain product stability and prevent moisture absorption.",
+        "items": [
+          "Seeds",
+          "Fertilizers",
+          "Chemical powders",
+          "Laboratory materials"
+        ]
+      }
+    ],
 
 
-      WhyAmulPackaging: {
-  Title: "Why Amul Packaging For Vacuum Pouches ?",
-  Points: [
-    "High-barrier multilayer vacuum film",
-    "Food-grade certified materials",
-    "Strong puncture resistance",
-    "Fast sealing and reliable performance",
-    "Custom sizes and thickness options",
-    "Bulk and wholesale supply",
-    "High clarity and strength",
-    "Quick turnaround time",
-    "Professional support for printing and design"
-  ],
-  ClosingLine:
-    "Your product stays fresh, safe, and protected — from factory to customer."
-},
+    WhyAmulPackaging: {
+      Title: "Why Amul Packaging For Vacuum Pouches ?",
+      Points: [
+        "High-barrier multilayer vacuum film",
+        "Food-grade certified materials",
+        "Strong puncture resistance",
+        "Fast sealing and reliable performance",
+        "Custom sizes and thickness options",
+        "Bulk and wholesale supply",
+        "High clarity and strength",
+        "Quick turnaround time",
+        "Professional support for printing and design"
+      ],
+      ClosingLine:
+        "Your product stays fresh, safe, and protected — from factory to customer."
+    },
 
-   FAQs: [
+    FAQs: [
       {
         question: "Are vacuum pouches food-safe?",
         answer: "Yes. All materials used are certified and safe for food contact."
       },
       {
-       question: "Can I use these pouches for freezing?",
+        question: "Can I use these pouches for freezing?",
         answer: "Yes, our vacuum pouches are suitable for deep freezing and cold storage."
       },
       {
-       question: "Do you offer printed vacuum pouch bags?",
+        question: "Do you offer printed vacuum pouch bags?",
         answer: "Yes, custom printing is available."
       },
       {
@@ -1396,25 +1458,29 @@ Industry: [
       {
         question: "Do you manufacture embossed vacuum pouches?",
         answer: "Yes, especially for non-chamber vacuum sealing machines."
+      },
+      {
+        question: "How do I select the right vacuum pouch for my product?",
+        answer: "Share your product type, required pouch size, storage temperature and packing method with our team. We will suggest a suitable film structure and thickness for your requirements in Bhiwandi or Mumbai."
       }
     ],
     serviceSchema: {
       "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Vacuum Pouch Manufacturing",
-  "name": "Vacuum Pouch",
-  "description": "Safely store meat, snacks, pharma, and other products with vacuum seal pouches that block air and moisture. Strong, durable, and custom-made packaging solutions from Amul Packaging.",
-  "url": "https://www.amulpackaging.in/products/6/vacuum-pouch",
-  "image": "https://www.amulpackaging.in/img/products/Vacuum-Pouch.webp",
-  "provider": {
-    "@type": "Organization",
-    "name": "Amul Packaging",
-    "url": "https://www.amulpackaging.in"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "India"
-  }
+      "@type": "Service",
+      "serviceType": "Vacuum Pouch Manufacturing",
+      "name": "Vacuum Pouch",
+      "description": "Safely store meat, snacks, pharma, and other products with vacuum seal pouches that block air and moisture. Strong, durable, and custom-made packaging solutions from Amul Packaging.",
+      "url": "https://www.amulpackaging.in/products/vacuum-pouch-manufacturer-in-bhiwandi-mumbai",
+      "image": "https://www.amulpackaging.in/img/products/Vacuum-Pouch.webp",
+      "provider": {
+        "@type": "Organization",
+        "name": "Amul Packaging",
+        "url": "https://www.amulpackaging.in"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
     },
     faqSchema: {
       "@context": "https://schema.org",
@@ -1426,35 +1492,35 @@ Industry: [
           "@type": "Answer",
           "text": "Yes. All materials used are certified and safe for food contact."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Can I use these pouches for freezing?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, our vacuum pouches are suitable for deep freezing and cold storage."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do you offer printed vacuum pouch bags?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, custom printing is available."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Can I order vacuum pouches in bulk?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, we provide wholesale and large-volume supply."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. What thickness should I choose?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "We guide you based on the product weight, sharpness, and storage conditions."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do you manufacture embossed vacuum pouches?",
         "acceptedAnswer": {
@@ -1466,20 +1532,28 @@ Industry: [
   },
   {
     id: 7,
-    name: "Shaped Pouch",
-    seoTitle: "Shape Pouch That Turn Heads on Shelves | Amul Packaging",
-    seoDescription: "Create packaging that grabs attention with custom shape pouch designed to match your product style. Strong, attractive & fully customizable at Amul Packaging.",
-    seoKeywords: "shape pouch",
+    name: "Shaped Pouch Manufacturer in Bhiwandi & Mumbai",
+    slug: "shaped-pouch-manufacturer-in-bhiwandi-mumbai",
+    aliases: [
+      "shaped-pouch",
+      "shaped-pouch-manufacturer-in-bhiwandi-mumbai",
+      "shaped-pouch-manufacturer-in-mumbai-bhiwandi",
+      "shape-pouch",
+      "shape-pouch-manufacturer-in-bhiwandi-mumbai",
+    ],
+    seoTitle: "Shaped Pouch Manufacturer in Mumbai & Bhiwandi",
+    seoDescription: "Explore distinctive shaped pouches with Amul Packaging in Bhiwandi, offering custom formats, quality printing and reliable supply across the Mumbai region.",
+    seoKeywords: "Shaped pouch manufacturer in Bhiwandi & Mumbai",
     img: [
       "/img/products/Shaped-Pouch.webp",
       "/img/products/Shaped-Pouch-Main.webp",
       "/img/products/amul/Shaped-Pouch.webp",
-      
+
     ],
     bg: "bg-red-500",
     popularity: 64,
-    Tagline:"Designed to Fit. Built to Stand Out.",
-HeroText:"From unique silhouettes to durable structure, our Shaped Pouches provide a modern, memorable, and reliable packaging solution for any product type.",
+    Tagline: "Designed to Fit. Built to Stand Out.",
+    HeroText: "From unique silhouettes to durable structure, our Shaped Pouches provide a modern, memorable, and reliable packaging solution for any product type.",
     Details:
       "Shaped pouches are uniquely designed packaging solutions that break the monotony of traditional formats. Customized into creative shapes, they enhance shelf appeal, attract consumer attention, and help brands stand out while maintaining product freshness and protection.",
     About: {
@@ -1487,107 +1561,107 @@ HeroText:"From unique silhouettes to durable structure, our Shaped Pouches provi
       Description:
         "A shaped pouch is a modern packaging style designed to match the silhouette of a product or concept — helping brands attract attention, create memorable displays, and build a unique identity. Unlike standard pouches, shaped pouches can be cut and sealed into creative forms such as bottles, jars, fruits, animals, characters, tools, and more.",
       Extended:
-        "At Amul Packaging, we create durable, eye-catching shaped pouches for food, beverages, snacks, cosmetics, pharma, and lifestyle brands. Each pouch is made with strong laminated film, custom die-cut shapes, and optional features like zippers, spouts, and valves. This makes them perfect for brands that want packaging that not only protects the product but also becomes part of the product’s appeal. If you want your product to look unique on shelves or online marketplaces, a shaped pouch is one of the best ways to stand out."
+        "At Amul Packaging, we create durable, eye-catching shaped pouches for food, beverages, snacks, cosmetics, pharma, and lifestyle brands. Each pouch is made with strong laminated film, custom die-cut shapes, and optional features like zippers, spouts, and valves. This makes them perfect for brands that want packaging that not only protects the product but also becomes part of the product’s appeal. If you want your product to look unique on shelves or online marketplaces, a shaped pouch is one of the best ways to stand out. Our shaped pouches are manufactured in Bhiwandi and supplied across Mumbai for brands seeking packaging tailored to their product and presentation."
     },
 
     WhyChoose: {
       Title: "Why Choose Shaped Pouch?",
       KeyFeatures: [
         "Eye-catching custom shapes for strong brand identity",
-      "High-quality laminated films for durability & strength",
-      "Excellent barrier against moisture, aroma & contaminants",
-      "Compatible with resealable zippers, spouts, or valves",
-      "Lightweight, portable & convenient for consumers",
-      "Fully customizable in size, design & finishes",
+        "High-quality laminated films for durability & strength",
+        "Excellent barrier against moisture, aroma & contaminants",
+        "Compatible with resealable zippers, spouts, or valves",
+        "Lightweight, portable & convenient for consumers",
+        "Fully customizable in size, design & finishes",
       ],
     },
-      Industry: [
-  {
-    Icons: "🍪",
-    name: "Snacks & Confectionery",
-    description: "Creative pouch shapes attract both kids and adults, making products visually appealing on shelves and display racks.",
-    items: [
-      "Cookies",
-      "Chips",
-      "Mints",
-      "Candy",
-      "Dry fruits",
-      "Namkeen"
-    ]
-  },
-  {
-    Icons: "🥤",
-    name: "Food & Beverages",
-    description: "Shaped pouches help food and drink products stand out in supermarkets and online marketplaces.",
-    items: [
-      "Juice",
-      "Milk drinks",
-      "Energy beverages",
-      "Coffee",
-      "Tea blends",
-      "Nuts",
-      "Chocolate-coated snacks"
-    ]
-  },
-  {
-    Icons: "💊",
-    name: "Pharmaceuticals",
-    description: "Functional shapes communicate purpose, dosage, and usability more effectively.",
-    items: [
-      "Dose-based supplements",
-      "Device packs",
-      "Pain-relief samples",
-      "Ayurveda & herbal pouches"
-    ]
-  },
-  {
-    Icons: "💄",
-    name: "Cosmetics & Personal Care",
-    description: "Unique silhouettes enhance luxury appeal and support theme-based visual designs.",
-    items: [
-      "Face masks",
-      "Bath salt packs",
-      "Lotion refills",
-      "Shampoo sachets",
-      "Premium beauty kits"
-    ]
-  },
-  {
-    Icons: "🧸",
-    name: "Kids’ Products",
-    description: "Fun, playful shapes like bottles, pencils, fruits, or characters naturally attract children.",
-    items: [
-      "Candy",
-      "Energy gel",
-      "Toys",
-      "Art & craft supplies",
-      "Juice drinks"
-    ]
-  },
-  {
-    Icons: "🐾",
-    name: "Pet Care",
-    description: "Shaped pouches add a premium and cute appearance for pet treats and snacks.",
-    items: [
-      "Pet treats",
-      "Jerky",
-      "Biscuits"
-    ]
-  },
-  {
-    Icons: "🏭",
-    name: "Industrial & Household Applications",
-    description: "Custom silhouettes help categorize products clearly while improving shelf visibility.",
-    items: [
-      "Detergent liquid",
-      "Cleaner refills",
-      "Tools & hardware",
-      "Fertilizer samples"
-    ]
-  }
-],
+    Industry: [
+      {
+        Icons: "🍪",
+        name: "Snacks & Confectionery",
+        description: "Creative pouch shapes attract both kids and adults, making products visually appealing on shelves and display racks.",
+        items: [
+          "Cookies",
+          "Chips",
+          "Mints",
+          "Candy",
+          "Dry fruits",
+          "Namkeen"
+        ]
+      },
+      {
+        Icons: "🥤",
+        name: "Food & Beverages",
+        description: "Shaped pouches help food and drink products stand out in supermarkets and online marketplaces.",
+        items: [
+          "Juice",
+          "Milk drinks",
+          "Energy beverages",
+          "Coffee",
+          "Tea blends",
+          "Nuts",
+          "Chocolate-coated snacks"
+        ]
+      },
+      {
+        Icons: "💊",
+        name: "Pharmaceuticals",
+        description: "Functional shapes communicate purpose, dosage, and usability more effectively.",
+        items: [
+          "Dose-based supplements",
+          "Device packs",
+          "Pain-relief samples",
+          "Ayurveda & herbal pouches"
+        ]
+      },
+      {
+        Icons: "💄",
+        name: "Cosmetics & Personal Care",
+        description: "Unique silhouettes enhance luxury appeal and support theme-based visual designs.",
+        items: [
+          "Face masks",
+          "Bath salt packs",
+          "Lotion refills",
+          "Shampoo sachets",
+          "Premium beauty kits"
+        ]
+      },
+      {
+        Icons: "🧸",
+        name: "Kids’ Products",
+        description: "Fun, playful shapes like bottles, pencils, fruits, or characters naturally attract children.",
+        items: [
+          "Candy",
+          "Energy gel",
+          "Toys",
+          "Art & craft supplies",
+          "Juice drinks"
+        ]
+      },
+      {
+        Icons: "🐾",
+        name: "Pet Care",
+        description: "Shaped pouches add a premium and cute appearance for pet treats and snacks.",
+        items: [
+          "Pet treats",
+          "Jerky",
+          "Biscuits"
+        ]
+      },
+      {
+        Icons: "🏭",
+        name: "Industrial & Household Applications",
+        description: "Custom silhouettes help categorize products clearly while improving shelf visibility.",
+        items: [
+          "Detergent liquid",
+          "Cleaner refills",
+          "Tools & hardware",
+          "Fertilizer samples"
+        ]
+      }
+    ],
 
-      WhyAmulPackaging: {
+    WhyAmulPackaging: {
       Title: "Why Amul Packaging For Shaped Pouches ?",
       Points: [
         "Experience in custom die-cut pouch manufacturing",
@@ -1602,17 +1676,17 @@ HeroText:"From unique silhouettes to durable structure, our Shaped Pouches provi
       ClosingLine:
         "We help you turn your packaging concept into a functional, attractive pouch."
     },
-   FAQs: [
+    FAQs: [
       {
         question: "Can you make any shape for a shaped pouch?",
         answer: "Yes, we can design and manufacture custom shapes based on your brand need."
       },
       {
-       question: "Are shaped pouches food-safe?",
+        question: "Are shaped pouches food-safe?",
         answer: "Yes, we use food-grade laminates and inks."
       },
       {
-       question: "Can bottle shape juice pouches be made with spouts?",
+        question: "Can bottle shape juice pouches be made with spouts?",
         answer: "Yes, spouts are commonly added for juice and liquid products."
       },
       {
@@ -1626,25 +1700,29 @@ HeroText:"From unique silhouettes to durable structure, our Shaped Pouches provi
       {
         question: "What is the minimum order quantity?",
         answer: "MOQ depends on shape complexity and printing type."
+      },
+      {
+        question: "Can you create a shaped pouch based on our product design?",
+        answer: "Yes. Share your preferred shape, dimensions, artwork and product details with our team. We can assess the design and manufacture suitable shaped pouches at our Bhiwandi facility for supply across Mumbai."
       }
     ],
     serviceSchema: {
-     "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Shaped Pouch Manufacturing",
-  "name": "Shaped Pouch",
-  "description": "Create packaging that grabs attention with custom shaped pouches designed to match your product style. Strong, attractive, and fully customizable packaging solutions from Amul Packaging.",
-  "url": "https://www.amulpackaging.in/products/7/shaped-pouch",
-  "image": "https://www.amulpackaging.in/img/products/Shaped-Pouch.webp",
-  "provider": {
-    "@type": "Organization",
-    "name": "Amul Packaging",
-    "url": "https://www.amulpackaging.in"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "India"
-  }
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Shaped Pouch Manufacturing",
+      "name": "Shaped Pouch",
+      "description": "Create packaging that grabs attention with custom shaped pouches designed to match your product style. Strong, attractive, and fully customizable packaging solutions from Amul Packaging.",
+      "url": "https://www.amulpackaging.in/products/shaped-pouch-manufacturer-in-bhiwandi-mumbai",
+      "image": "https://www.amulpackaging.in/img/products/Shaped-Pouch.webp",
+      "provider": {
+        "@type": "Organization",
+        "name": "Amul Packaging",
+        "url": "https://www.amulpackaging.in"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
     },
     faqSchema: {
       "@context": "https://schema.org",
@@ -1656,35 +1734,35 @@ HeroText:"From unique silhouettes to durable structure, our Shaped Pouches provi
           "@type": "Answer",
           "text": "Yes, we can design and manufacture custom shapes based on your brand need."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Are shaped pouches food-safe?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, we use food-grade laminates and inks."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Can bottle shape juice pouches be made with spouts?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, spouts are commonly added for juice and liquid products."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do jar shaped pouches look like real jars?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, they often use transparent films to mimic glass jars."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Can you print full graphics on shaped pouches?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, full custom printing is available."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. What is the minimum order quantity?",
         "acceptedAnswer": {
@@ -1696,145 +1774,152 @@ HeroText:"From unique silhouettes to durable structure, our Shaped Pouches provi
   },
   {
     id: 8,
-    name: "Spout Pouch",
-    seoTitle: "Spout Pouch Made for Easy Pouring | Amul Packaging",
-    seoDescription: "Make liquids easier to pour, store, and carry with custom spout pouch that stay leak-proof and durable. Designed for sauces, juices, gels and more at Amul Packaging.",
-    seoKeywords: "spout pouch",
+    name: "Spout Pouch Manufacturer in Bhiwandi & Mumbai",
+    slug: "spout-pouch-manufacturer-in-bhiwandi-mumbai",
+    aliases: [
+      "spout-pouch",
+      "spout-pouch-manufacturer-in-bhiwandi-mumbai",
+      "spout-pouch-manufacturer-in-mumbai-bhiwandi",
+      "spoutpouch-manufacturer-in-bhiwandi-mumbai",
+    ],
+    seoTitle: "Spout Pouch Manufacturer in Mumbai & Bhiwandi",
+    seoDescription: "Explore custom spout pouches from Amul Packaging in Bhiwandi for clean dispensing, leak-resistant sealing and practical packaging across the Mumbai region.",
+    seoKeywords: "Spout pouch manufacturer in Bhiwandi & Mumbai",
     img: [
       "/img/products/Spout-Pouch.webp",
       "/img/products/Spout-Pouch-Main.webp",
       "/img/products/amul/Spout-Pouch.webp",
-     
+
     ],
     bg: "bg-green-600",
     popularity: 95,
-    Tagline:"Flexible Form. Functional Flow.",
-HeroText:"Our Spout Pouches combine portability and performance — keeping your liquids fresh, easy to use, and beautifully presented.",
+    Tagline: "Flexible Form. Functional Flow.",
+    HeroText: "Our Spout Pouches combine portability and performance — keeping your liquids fresh, easy to use, and beautifully presented.",
     Details:
       "Spout pouches are innovative, flexible packaging solutions designed for liquid and semi-liquid products. With a secure spout and cap, they offer convenient pouring, reusability, and safe storage, while reducing packaging weight compared to rigid bottles or jars.",
-   About: {
+    About: {
       Title: "Spout Pouch – Safe, Convenient and Leak-Proof Packaging for Liquids & Semi-Liquids",
       Description:
         "A spout pouch is a modern, flexible packaging format designed for liquids, semi-liquids, and flowable products. It comes with a built-in spout and screw-cap that makes pouring, drinking, squeezing, and storing easy for the user. Compared to rigid bottles or jars, spout pouches are lightweight, portable, and use much less plastic — making them a preferred choice for FMCG, beverages, baby food, household liquids, and industrial products.",
       Extended:
-        "As one of the reliable spout pouch manufacturers and suppliers, Amul Packaging produces durable, leak-proof, and attractive spout pouches that offer strong barrier protection and premium printing quality. Whether you need pouches for juice, sauce, shampoo, sanitizer, or lubricants — we create fully customized spouted pouches based on your brand’s size, shape, and design requirements."
+        "As one of the reliable spout pouch manufacturers and suppliers, Amul Packaging produces durable, leak-proof, and attractive spout pouches that offer strong barrier protection and premium printing quality. Whether you need pouches for juice, sauce, shampoo, sanitizer, or lubricants — we create fully customized spouted pouches based on your brand’s size, shape, and design requirements. As a Spout Pouch Manufacturer in Bhiwandi & Mumbai, we provide pouches in different sizes, materials, spout positions and printed designs."
     },
-      WhyChoose: {
-  Title: "Why Choose a Spout Pouch?",
-  // subfeatures: [
-  //   "Easy to carry, use, and store",
-  //   "Suitable for liquids, gels, and powders",
-  //   "Strong laminated film that prevents leakage",
-  //   "Lower cost compared to rigid containers",
-  //   "More shelf presence due to attractive design",
-  //   "Environment-friendly due to reduced material usage",
-  //   "Reduced material usage — more eco-friendly",
-  //   "Safe for kids (no glass breakage)",
-  //   "Ideal for scoop-and-pour or drink-and-reseal products"
-  // ],
-  // Summary:
-  //   "Spout pouches combine the convenience of a bottle with the flexibility of soft packaging. They are ideal for brands wanting a modern, portable, and cost-efficient packaging format.",
-  KeyFeatures: [
-    "Functional spout & cap system",
-    "Strong barrier against moisture, oxygen, and aroma loss",
-    "Available with top spout or corner spout",
-    "Stand-up design for good shelf display",
-    "Compatible with hot-fill and cold-fill (based on material)",
-    "Multi-layer film provides strength and puncture resistance",
-    "Matte, glossy, metallic, kraft, and transparent options",
-    "Custom printing for brand visibility",
-    "Food-grade, hygienic, and export-safe",
-    "Light, flexible, and cost-efficient"
-  ],
-  Conclusion:
-    "Every spout pouch is engineered for performance and consumer convenience."
-},
-Industry: [
-  {
-    Icons: "🧃",
-    name: "Beverages (Juice & Drinks)",
-    description: "Spout pouches are easy to sip from, child-safe, and maintain excellent hygiene.",
-    items: [
-      "Fruit juices",
-      "Energy drinks",
-      "Milk drinks",
-      "Cold beverages",
-      "Kids’ fruit drinks",
-      "Liquid concentrates"
-    ]
-  },
-  {
-    Icons: "🍼",
-    name: "Baby Food & Purees",
-    description: "The corner spout design makes feeding convenient, safe, and ideal for travel.",
-    items: [
-      "Fruit purees",
-      "Vegetable purees",
-      "Health blends",
-      "Cereal pastes"
-    ]
-  },
-  {
-    Icons: "🍯",
-    name: "Sauces & Condiments",
-    description: "The spout allows controlled, mess-free pouring for thick and thin sauces.",
-    items: [
-      "Ketchup",
-      "Mayonnaise",
-      "Chutneys",
-      "Chocolate syrup",
-      "Salad dressings"
-    ]
-  },
-  {
-    Icons: "🥥",
-    name: "Edible Oils & Liquid Food",
-    description: "Lightweight and leak-proof packaging suitable for oily or viscous food products.",
-    items: [
-      "Cooking oil",
-      "Ghee",
-      "Coconut milk",
-      "Honey",
-      "Yogurt drinks"
-    ]
-  },
-  {
-    Icons: "🧴",
-    name: "Household & Cleaning Products",
-    description: "Spout pouches offer a cost-effective alternative to rigid plastic bottles.",
-    items: [
-      "Liquid detergent",
-      "Floor cleaners",
-      "Dishwashing gels",
-      "Disinfectant liquids"
-    ]
-  },
-  {
-    Icons: "⚙️",
-    name: "Lubricants & Industrial Chemicals",
-    description: "Heavy-duty laminated structures ensure maximum strength and leak protection.",
-    items: [
-      "Automotive lubricants",
-      "Industrial oils",
-      "Solvents",
-      "Sample-size chemical packs"
-    ]
-  },
-  {
-    Icons: "💄",
-    name: "Personal Care & Cosmetics",
-    description: "Perfect for travel, refills, and premium liquid-based products.",
-    items: [
-      "Shampoo",
-      "Conditioner",
-      "Face wash",
-      "Body lotion refills",
-      "Liquid handwash"
-    ]
-  }
-],
+    WhyChoose: {
+      Title: "Why Choose a Spout Pouch?",
+      // subfeatures: [
+      //   "Easy to carry, use, and store",
+      //   "Suitable for liquids, gels, and powders",
+      //   "Strong laminated film that prevents leakage",
+      //   "Lower cost compared to rigid containers",
+      //   "More shelf presence due to attractive design",
+      //   "Environment-friendly due to reduced material usage",
+      //   "Reduced material usage — more eco-friendly",
+      //   "Safe for kids (no glass breakage)",
+      //   "Ideal for scoop-and-pour or drink-and-reseal products"
+      // ],
+      // Summary:
+      //   "Spout pouches combine the convenience of a bottle with the flexibility of soft packaging. They are ideal for brands wanting a modern, portable, and cost-efficient packaging format.",
+      KeyFeatures: [
+        "Functional spout & cap system",
+        "Strong barrier against moisture, oxygen, and aroma loss",
+        "Available with top spout or corner spout",
+        "Stand-up design for good shelf display",
+        "Compatible with hot-fill and cold-fill (based on material)",
+        "Multi-layer film provides strength and puncture resistance",
+        "Matte, glossy, metallic, kraft, and transparent options",
+        "Custom printing for brand visibility",
+        "Food-grade, hygienic, and export-safe",
+        "Light, flexible, and cost-efficient"
+      ],
+      Conclusion:
+        "Every spout pouch is engineered for performance and consumer convenience."
+    },
+    Industry: [
+      {
+        Icons: "🧃",
+        name: "Beverages (Juice & Drinks)",
+        description: "Spout pouches are easy to sip from, child-safe, and maintain excellent hygiene.",
+        items: [
+          "Fruit juices",
+          "Energy drinks",
+          "Milk drinks",
+          "Cold beverages",
+          "Kids’ fruit drinks",
+          "Liquid concentrates"
+        ]
+      },
+      {
+        Icons: "🍼",
+        name: "Baby Food & Purees",
+        description: "The corner spout design makes feeding convenient, safe, and ideal for travel.",
+        items: [
+          "Fruit purees",
+          "Vegetable purees",
+          "Health blends",
+          "Cereal pastes"
+        ]
+      },
+      {
+        Icons: "🍯",
+        name: "Sauces & Condiments",
+        description: "The spout allows controlled, mess-free pouring for thick and thin sauces.",
+        items: [
+          "Ketchup",
+          "Mayonnaise",
+          "Chutneys",
+          "Chocolate syrup",
+          "Salad dressings"
+        ]
+      },
+      {
+        Icons: "🥥",
+        name: "Edible Oils & Liquid Food",
+        description: "Lightweight and leak-proof packaging suitable for oily or viscous food products.",
+        items: [
+          "Cooking oil",
+          "Ghee",
+          "Coconut milk",
+          "Honey",
+          "Yogurt drinks"
+        ]
+      },
+      {
+        Icons: "🧴",
+        name: "Household & Cleaning Products",
+        description: "Spout pouches offer a cost-effective alternative to rigid plastic bottles.",
+        items: [
+          "Liquid detergent",
+          "Floor cleaners",
+          "Dishwashing gels",
+          "Disinfectant liquids"
+        ]
+      },
+      {
+        Icons: "⚙️",
+        name: "Lubricants & Industrial Chemicals",
+        description: "Heavy-duty laminated structures ensure maximum strength and leak protection.",
+        items: [
+          "Automotive lubricants",
+          "Industrial oils",
+          "Solvents",
+          "Sample-size chemical packs"
+        ]
+      },
+      {
+        Icons: "💄",
+        name: "Personal Care & Cosmetics",
+        description: "Perfect for travel, refills, and premium liquid-based products.",
+        items: [
+          "Shampoo",
+          "Conditioner",
+          "Face wash",
+          "Body lotion refills",
+          "Liquid handwash"
+        ]
+      }
+    ],
 
-      WhyAmulPackaging: {
+    WhyAmulPackaging: {
       Title: "Why Amul Packaging For Spout Pouches ?",
       Points: [
         "Strong and reliable spout sealing",
@@ -1849,17 +1934,17 @@ Industry: [
       ClosingLine:
         "Your product gets premium protection and great display value."
     },
-   FAQs: [
+    FAQs: [
       {
         question: "Are spout pouches safe for food?",
         answer: "Yes, we use certified food-safe materials."
       },
       {
-       question: "Can I choose the spout size and color?",
+        question: "Can I choose the spout size and color?",
         answer: "Yes, we offer multiple spout and cap options."
       },
       {
-       question: "Are these pouches leak-proof?",
+        question: "Are these pouches leak-proof?",
         answer: "Yes, the film and spout connection are tested for durability."
       },
       {
@@ -1873,25 +1958,29 @@ Industry: [
       {
         question: "Can you make shaped spout pouches?",
         answer: "Yes, shaped designs are available for juice and kids’ products."
+      },
+      {
+        question: "Why choose Amul Packaging as a Spout Pouch Manufacturer in Bhiwandi & Mumbai?",
+        answer: "We manufacture customised spout pouches at our Bhiwandi facility and supply them to businesses across Mumbai with suitable materials, printing and closure options."
       }
     ],
     serviceSchema: {
       "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Spout Pouch Manufacturing",
-  "name": "Spout Pouch",
-  "description": "Make liquids easier to pour, store, and carry with custom spout pouches that stay leak-proof and durable. Ideal for sauces, juices, gels, and liquid packaging solutions from Amul Packaging.",
-  "url": "https://www.amulpackaging.in/products/8/spout-pouch",
-  "image": "https://www.amulpackaging.in/img/products/Spout-Pouch.webp",
-  "provider": {
-    "@type": "Organization",
-    "name": "Amul Packaging",
-    "url": "https://www.amulpackaging.in"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "India"
-  }
+      "@type": "Service",
+      "serviceType": "Spout Pouch Manufacturing",
+      "name": "Spout Pouch",
+      "description": "Make liquids easier to pour, store, and carry with custom spout pouches that stay leak-proof and durable. Ideal for sauces, juices, gels, and liquid packaging solutions from Amul Packaging.",
+      "url": "https://www.amulpackaging.in/products/spout-pouch-manufacturer-in-bhiwandi-mumbai",
+      "image": "https://www.amulpackaging.in/img/products/Spout-Pouch.webp",
+      "provider": {
+        "@type": "Organization",
+        "name": "Amul Packaging",
+        "url": "https://www.amulpackaging.in"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
     },
     faqSchema: {
       "@context": "https://schema.org",
@@ -1903,35 +1992,35 @@ Industry: [
           "@type": "Answer",
           "text": "Yes, we use certified food-safe materials."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Can I choose the spout size and color?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, we offer multiple spout and cap options."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Are these pouches leak-proof?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, the film and spout connection are tested for durability."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do you supply in bulk?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, we provide bulk and wholesale supply to brands & distributors."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Can spout pouches hold hot-fill products?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, material can be selected based on hot-fill requirements."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Can you make shaped spout pouches?",
         "acceptedAnswer": {
@@ -1943,20 +2032,27 @@ Industry: [
   },
   {
     id: 9,
-    name: "Laminated Roll-Stock",
-    seoTitle: "Laminated Roll Stock Built for High-Speed Packing",
-    seoDescription: "Get laminated roll stock designed for fast, smooth machine packing. Strong barrier films, custom printing, and consistent roll quality for every product at Amul Packaging.",
-    seoKeywords: "laminated roll stock",
+    name: "Laminated Roll Stock Manufacturer in Bhiwandi & Mumbai",
+    slug: "laminated-roll-stock-manufacturer-in-bhiwandi-mumbai",
+    aliases: [
+      "laminated-roll-stock",
+      "laminated-roll-stock-manufacturer-in-bhiwandi-mumbai",
+      "laminated-roll-stock-manufacturer-in-mumbai-bhiwandi",
+      "laminatedrollstock-manufacturer-in-bhiwandi-mumbai",
+    ],
+    seoTitle: "Laminated Roll Stock Manufacturer in Mumbai & Bhiwandi",
+    seoDescription: "Source printed laminated roll stock from Amul Packaging in Bhiwandi, made for efficient packing, barrier protection and consistent supply throughout Mumbai.",
+    seoKeywords: "Laminated roll stock manufacturer in Bhiwandi & Mumbai",
     img: [
       "/img/products/Laminated-Roll-Stock.webp",
       "/img/products/Laminated-Roll-Stock-Main.webp",
       "/img/products/amul/Laminated-Roll-Stock.webp",
-      
-    ], 
+
+    ],
     bg: "bg-red-500",
     popularity: 64,
-    Tagline:"Flexible Packaging Starts Here.",
-HeroText:"Our Laminated Roll-Stock delivers the strength, versatility, and customizability you need to produce pouches, sachets, or wraps that fit your brand perfectly.",
+    Tagline: "Flexible Packaging Starts Here.",
+    HeroText: "Our Laminated Roll-Stock delivers the strength, versatility, and customizability you need to produce pouches, sachets, or wraps that fit your brand perfectly.",
     Details:
       "Laminated roll stock is a versatile and cost-efficient packaging material supplied in roll form. It is widely used with automated form-fill-seal (FFS) machines to create pouches and sachets. With excellent barrier properties and customization options, laminated rolls ensure product freshness, durability, and vibrant branding.",
     About: {
@@ -1964,42 +2060,42 @@ HeroText:"Our Laminated Roll-Stock delivers the strength, versatility, and custo
       Description:
         "Laminated roll stock is the foundation of most flexible packaging seen in supermarkets, retail stores, and industrial supply chains. It comes in pre-laminated rolls that run on automatic form-fill-seal (FFS) machines to create pouches, sachets, wrappers, or customized packaging formats. If your business relies on machine-based packaging, laminated roll stock is one of the most efficient, cost-effective, and versatile materials you can use.",
       Extended:
-        "At Amul Packaging, we manufacture durable and high-quality laminated roll stock using multi-layer films that ensure excellent barrier protection, smooth machinability, and clear print quality. Our roll stock supports a wide range of products including snacks, spices, frozen foods, pharmaceuticals, cosmetics, detergents, pet foods, and industrial materials. Whether you need high-barrier film for sensitive items or standard laminated roll for retail pouches, we provide custom material combinations, thicknesses, and printing options to match your product requirements."
+        "At Amul Packaging, we manufacture durable and high-quality laminated roll stock using multi-layer films that ensure excellent barrier protection, smooth machinability, and clear print quality. Our roll stock supports a wide range of products including snacks, spices, frozen foods, pharmaceuticals, cosmetics, detergents, pet foods, and industrial materials. Whether you need high-barrier film for sensitive items or standard laminated roll for retail pouches, we provide custom material combinations, thicknesses, and printing options to match your product requirements. As a Laminated Roll Stock Manufacturer in Bhiwandi & Mumbai, we offer customised film structures, roll dimensions and printed designs based on your machinery."
     },
     WhyChoose: {
-  Title: "Why Choose Laminated Roll Stock?",
-  // subfeatures: [
-  //   "Supports high-speed FFS machine production",
-  //   "Consistent quality in every run",
-  //   "Suitable for products with long shelf life",
-  //   "Can be tailored to protect moisture-sensitive and aroma-sensitive items",
-  //   "Lightweight and easy to transport",
-  //   "Lower packaging cost compared to pre-made pouches",
-  //   "Works for multiple industries",
-  //   "Offers high clarity and strong print output"
-  // ],
-  // Summary:
-  //   "Laminated roll stock is preferred by manufacturers because it is efficient, customizable, and compatible with almost all automated packaging lines. From food manufacturers to pharma companies, roll stock is essential for smooth, continuous packaging operations.",
-  KeyFeatures: [
-    "Multi-layer films built for strength and durability",
-    "Excellent barrier protection against moisture, oxygen, UV light, and aroma loss",
-    "Compatible with vertical form-fill-seal (VFFS) and horizontal form-fill-seal (HFFS) machines",
-    "Flexible, lightweight, and space-efficient",
-    "Works with hot-fill, cold-fill, granular, powder, and liquid applications",
-    "Available in matte, glossy, metallic, transparent, and kraft-finish options",
-    "Custom lamination structure based on product needs",
-    "Precise roll width, thickness, and core size",
-    "Premium printing quality for sharp, clean branding"
-  ],
-  Conclusion:
-    "Every roll is manufactured under strict quality checks to ensure machine compatibility and consistent performance."
-},
+      Title: "Why Choose Laminated Roll Stock?",
+      // subfeatures: [
+      //   "Supports high-speed FFS machine production",
+      //   "Consistent quality in every run",
+      //   "Suitable for products with long shelf life",
+      //   "Can be tailored to protect moisture-sensitive and aroma-sensitive items",
+      //   "Lightweight and easy to transport",
+      //   "Lower packaging cost compared to pre-made pouches",
+      //   "Works for multiple industries",
+      //   "Offers high clarity and strong print output"
+      // ],
+      // Summary:
+      //   "Laminated roll stock is preferred by manufacturers because it is efficient, customizable, and compatible with almost all automated packaging lines. From food manufacturers to pharma companies, roll stock is essential for smooth, continuous packaging operations.",
+      KeyFeatures: [
+        "Multi-layer films built for strength and durability",
+        "Excellent barrier protection against moisture, oxygen, UV light, and aroma loss",
+        "Compatible with vertical form-fill-seal (VFFS) and horizontal form-fill-seal (HFFS) machines",
+        "Flexible, lightweight, and space-efficient",
+        "Works with hot-fill, cold-fill, granular, powder, and liquid applications",
+        "Available in matte, glossy, metallic, transparent, and kraft-finish options",
+        "Custom lamination structure based on product needs",
+        "Precise roll width, thickness, and core size",
+        "Premium printing quality for sharp, clean branding"
+      ],
+      Conclusion:
+        "Every roll is manufactured under strict quality checks to ensure machine compatibility and consistent performance."
+    },
 
     Industry: [
       {
-       "Icons": "🍽️",
-       "name": "Food & Pet Food",
-       "description": "The barrier film keeps freshness, crunch, taste, and aroma intact.",
+        "Icons": "🍽️",
+        "name": "Food & Pet Food",
+        "description": "The barrier film keeps freshness, crunch, taste, and aroma intact.",
         "items": [
           "Snacks",
           "Chips and namkeens",
@@ -2012,11 +2108,11 @@ HeroText:"Our Laminated Roll-Stock delivers the strength, versatility, and custo
           "Frozen foods",
           "Pet treats and pet kibble",
         ]
-     },
+      },
       {
-       "Icons": "💊",
-       "name": "Pharmaceuticals & Medical",
-       "description": "High-barrier film protects sensitive medical products during storage and transport.",
+        "Icons": "💊",
+        "name": "Pharmaceuticals & Medical",
+        "description": "High-barrier film protects sensitive medical products during storage and transport.",
         "items": [
           "Medicine sachets",
           "Oral rehydration powders",
@@ -2025,34 +2121,34 @@ HeroText:"Our Laminated Roll-Stock delivers the strength, versatility, and custo
           "Medical device packaging",
           "Diagnostic kit components"
         ]
-     },
-     {
-      "Icons": "🏠",
-      "name": "Consumer Goods / Household Products",
-      "description": "Roll stock helps produce high-volume sachets and pouches at low cost.",
-      "items": [
-        "Detergent powders",
-        "Soap strips",
-        "Cleaner refills",
-        "Dishwashing sachets",
-        "Tissue and wipe packaging",
-        "Cosmetic refills"
-      ]
-    },
-     {
-      "Icons": "🏭",
-      "name": "Industrial Applications",
-      "description": "Strong film structure prevents leaks, tears, and contamination.",
-      "items": [
-        "Chemical powder packaging",
-        "Industrial lubricants in sachets",
-        "Electronics components",
-        "Agricultural products",
-        "Fertilizer samples"
-      ]
-    },
-   ],
-      WhyAmulPackaging: {
+      },
+      {
+        "Icons": "🏠",
+        "name": "Consumer Goods / Household Products",
+        "description": "Roll stock helps produce high-volume sachets and pouches at low cost.",
+        "items": [
+          "Detergent powders",
+          "Soap strips",
+          "Cleaner refills",
+          "Dishwashing sachets",
+          "Tissue and wipe packaging",
+          "Cosmetic refills"
+        ]
+      },
+      {
+        "Icons": "🏭",
+        "name": "Industrial Applications",
+        "description": "Strong film structure prevents leaks, tears, and contamination.",
+        "items": [
+          "Chemical powder packaging",
+          "Industrial lubricants in sachets",
+          "Electronics components",
+          "Agricultural products",
+          "Fertilizer samples"
+        ]
+      },
+    ],
+    WhyAmulPackaging: {
       Title: "Why Amul Packaging For Laminated Roll-Stock Pouches ?",
       Points: [
         "High-barrier laminated film",
@@ -2068,17 +2164,17 @@ HeroText:"Our Laminated Roll-Stock delivers the strength, versatility, and custo
       ClosingLine:
         "As experienced laminated roll stock manufacturers, we ensure each roll runs smoothly and supports your brand’s visual identity."
     },
-   FAQs: [
+    FAQs: [
       {
         question: "What is laminated roll stock used for?",
         answer: "It is used to produce pouches, sachets, and wrappers on automated machines."
       },
       {
-       question: "Is laminated roll stock food-safe?",
+        question: "Is laminated roll stock food-safe?",
         answer: "Yes, all laminates and inks used are food-grade and safe."
       },
       {
-       question: "Can the roll width and thickness be customized?",
+        question: "Can the roll width and thickness be customized?",
         answer: "Yes, both can be customized based on your machine requirements."
       },
       {
@@ -2092,25 +2188,29 @@ HeroText:"Our Laminated Roll-Stock delivers the strength, versatility, and custo
       {
         question: "Do you supply in bulk?",
         answer: "Yes, we offer wholesale and bulk orders for manufacturers and co-packers."
+      },
+      {
+        question: "Can laminated roll stock be customised for my packaging machine?",
+        answer: "Yes. We can customise the roll width, diameter, core size, film structure and printing according to your packaging machine. Production is handled in Bhiwandi, with supply available across Mumbai."
       }
     ],
     serviceSchema: {
       "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Laminated Roll Stock Manufacturing",
-  "name": "Laminated Roll Stock",
-  "description": "Get laminated roll stock designed for fast and smooth machine packing with strong barrier films, custom printing, and consistent roll quality from Amul Packaging.",
-  "url": "https://www.amulpackaging.in/products/9/laminated-roll-stock",
-  "image": "https://www.amulpackaging.in/img/products/Laminated-Roll-Stock.webp",
-  "provider": {
-    "@type": "Organization",
-    "name": "Amul Packaging",
-    "url": "https://www.amulpackaging.in"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "India"
-  }
+      "@type": "Service",
+      "serviceType": "Laminated Roll Stock Manufacturing",
+      "name": "Laminated Roll Stock",
+      "description": "Get laminated roll stock designed for fast and smooth machine packing with strong barrier films, custom printing, and consistent roll quality from Amul Packaging.",
+      "url": "https://www.amulpackaging.in/products/laminated-roll-stock-manufacturer-in-bhiwandi-mumbai",
+      "image": "https://www.amulpackaging.in/img/products/Laminated-Roll-Stock.webp",
+      "provider": {
+        "@type": "Organization",
+        "name": "Amul Packaging",
+        "url": "https://www.amulpackaging.in"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
     },
     faqSchema: {
       "@context": "https://schema.org",
@@ -2122,35 +2222,35 @@ HeroText:"Our Laminated Roll-Stock delivers the strength, versatility, and custo
           "@type": "Answer",
           "text": "It is used to produce pouches, sachets, and wrappers on automated machines."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Is laminated roll stock food-safe?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, all laminates and inks used are food-grade and safe."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Can the roll width and thickness be customized?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, both can be customized based on your machine requirements."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do you offer printed roll stock?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, full-color custom printing is available."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Can I use laminated roll stock for liquid products?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, with the right lamination structure, it supports liquids and gels."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do you supply in bulk?",
         "acceptedAnswer": {
@@ -2162,20 +2262,31 @@ HeroText:"Our Laminated Roll-Stock delivers the strength, versatility, and custo
   },
   {
     id: 10,
-    name: "Poly bags ",
-    seoTitle: "Poly Bag That Protect, Store & Display Well | Amul Packaging",
-    seoDescription: "Get poly bag that protect products, store them safely, and offer clean display. Custom sizes, strong materials, and printing options available at Amul Packaging.",
-    seoKeywords: "poly bag",
+    name: "Poly Bag Manufacturer in Bhiwandi & Mumbai",
+    slug: "poly-bag-manufacturer-in-bhiwandi-mumbai",
+    aliases: [
+      "poly-bags",
+      "poly-bag",
+      "poly-bags-manufacturer-in-bhiwandi-mumbai",
+      "poly-bag-manufacturer-in-bhiwandi-mumbai",
+      "poly-bags-manufacturer-in-mumbai-bhiwandi",
+      "poly-bag-manufacturer-in-mumbai-bhiwandi",
+      "polybags-manufacturer-in-bhiwandi-mumbai",
+      "polybag-manufacturer-in-bhiwandi-mumbai",
+    ],
+    seoTitle: "Poly Bag Manufacturer in Mumbai & Bhiwandi",
+    seoDescription: "Get custom poly bags from Amul Packaging in Bhiwandi, available in varied sizes and finishes for practical product handling and business supply across Mumbai.",
+    seoKeywords: "Poly bag manufacturer in Bhiwandi & Mumbai",
     img: [
       "/img/products/Poly-bags.webp",
       "/img/products/Poly-bags-Main.webp",
       "/img/products/amul/Poly-bags.webp",
-      
+
     ],
     bg: "bg-green-600",
     popularity: 70,
-    Tagline:"Lightweight Protection That Works.",
-HeroText:"From retail to industrial use, our Poly Bags deliver cost-effective protection and clean presentation for products of all shapes and sizes.",
+    Tagline: "Lightweight Protection That Works.",
+    HeroText: "From retail to industrial use, our Poly Bags deliver cost-effective protection and clean presentation for products of all shapes and sizes.",
     Details:
       "Poly bags are one of the most widely used and economical packaging solutions, made from high-quality polyethylene or polypropylene. They are lightweight, durable, and versatile, offering protection and convenience across various industries.",
     About: {
@@ -2183,43 +2294,43 @@ HeroText:"From retail to industrial use, our Poly Bags deliver cost-effective pr
       Description:
         "A poly bag is one of the simplest yet most widely used packaging materials in the world. Made from polyethylene (LDPE/HDPE) or polypropylene (PP), poly bags are strong, lightweight, flexible, and suitable for almost any type of product — from clothes and groceries to industrial components and chemical items.",
       Extended:
-        "At Amul Packaging, we manufacture high-quality poly bags in various sizes, thicknesses, colors, and styles to suit retail, industrial, medical, agriculture, logistics, and FMCG applications. Whether you need small poly bags, heavy-duty industrial poly bags, custom-printed bags, or poly bags wholesale for bulk packing, we produce reliable poly bags at competitive prices. If you are looking for versatile packaging that keeps products safe and clean while being affordable, poly bags are the perfect solution"
+        "At Amul Packaging, we manufacture high-quality poly bags in various sizes, thicknesses, colors, and styles to suit retail, industrial, medical, agriculture, logistics, and FMCG applications. Whether you need small poly bags, heavy-duty industrial poly bags, custom-printed bags, or poly bags wholesale for bulk packing, we produce reliable poly bags at competitive prices. If you are looking for versatile packaging that keeps products safe and clean while being affordable, poly bags are the perfect solution. As a Poly Bag Manufacturer in Bhiwandi & Mumbai, we provide poly bags in customised sizes, thicknesses, colours and printing options."
     },
-      WhyChoose: {
-  Title: "Why Choose Laminated Roll Stock?",
-  // subfeatures: [
-  //   "Affordable packaging option",
-  //   "Lightweight and easy to carry",
-  //   "Good moisture and dust protection",
-  //   "Available in clear or printed designs",
-  //   "Durable enough for industrial applications",
-  //   "Available in many thicknesses and sizes",
-  //   "Ideal for both retail and wholesale packing",
-  //   "Easily customizable with printing",
-  //   "Strong sealing and high tear resistance",
-  //   "Suitable for machine and manual packing"
-  // ],
-  // Summary:
-  //   "Poly bags offer unbeatable versatility and value. They are easy to store, easy to use, and suitable for packaging thousands of different products. Because of their cost and versatility, poly bags continue to be the top choice for packaging across multiple industries.",
-  KeyFeatures: [
-    "Lightweight and flexible",
-    "High tensile strength",
-    "Suitable for low-cost bulk packing",
-    "Strong resistance to dirt, moisture, and contamination",
-    "Can be made transparent or tinted",
-    "Available in LDPE, HDPE, PP, biodegradable options",
-    "Customizable in thickness (microns) and size",
-    "Can include handles, zip-locks, perforations, vents, and gussets",
-    "Printable for brand visibility"
-  ],
-  Conclusion:
-    "Each bag is manufactured using quality-tested materials to ensure durability and safety."
-},
+    WhyChoose: {
+      Title: "Why Choose Laminated Roll Stock?",
+      // subfeatures: [
+      //   "Affordable packaging option",
+      //   "Lightweight and easy to carry",
+      //   "Good moisture and dust protection",
+      //   "Available in clear or printed designs",
+      //   "Durable enough for industrial applications",
+      //   "Available in many thicknesses and sizes",
+      //   "Ideal for both retail and wholesale packing",
+      //   "Easily customizable with printing",
+      //   "Strong sealing and high tear resistance",
+      //   "Suitable for machine and manual packing"
+      // ],
+      // Summary:
+      //   "Poly bags offer unbeatable versatility and value. They are easy to store, easy to use, and suitable for packaging thousands of different products. Because of their cost and versatility, poly bags continue to be the top choice for packaging across multiple industries.",
+      KeyFeatures: [
+        "Lightweight and flexible",
+        "High tensile strength",
+        "Suitable for low-cost bulk packing",
+        "Strong resistance to dirt, moisture, and contamination",
+        "Can be made transparent or tinted",
+        "Available in LDPE, HDPE, PP, biodegradable options",
+        "Customizable in thickness (microns) and size",
+        "Can include handles, zip-locks, perforations, vents, and gussets",
+        "Printable for brand visibility"
+      ],
+      Conclusion:
+        "Each bag is manufactured using quality-tested materials to ensure durability and safety."
+    },
     Industry: [
       {
-       "Icons": "🛍️",
-       "name": "Retail & Garments",
-       "description": "They offer clean presentation and protect items from dust.",
+        "Icons": "🛍️",
+        "name": "Retail & Garments",
+        "description": "They offer clean presentation and protect items from dust.",
         "items": [
           "Shopping bags",
           "Garment bags",
@@ -2227,11 +2338,11 @@ HeroText:"From retail to industrial use, our Poly Bags deliver cost-effective pr
           "Carry bags",
           "Display bags"
         ]
-     },
+      },
       {
-         "Icons": "🍎",
-       "name": "Food & Grocery",
-       "description": "Food-safe poly bags keep products fresh and hygienic.",
+        "Icons": "🍎",
+        "name": "Food & Grocery",
+        "description": "Food-safe poly bags keep products fresh and hygienic.",
         "items": [
           "Bakery products",
           "Dry fruits",
@@ -2240,65 +2351,65 @@ HeroText:"From retail to industrial use, our Poly Bags deliver cost-effective pr
           "Vegetables",
           "Food storage"
         ]
-     },
-     {
-      "Icons": "🩺",
-      "name": "Medical & Hygiene",
-      "description": "The bags resist contamination and maintain hygiene.",
-      "items": [
-        "Medical waste bags",
-        "Sterile packaging",
-        "Disposable items",
-        "Sanitary packing"
-      ]
-    },
-     {
-      "Icons": "🚚",
-      "name": "Logistics & Shipping",
-      "description": "They help protect goods during transport.",
-      "items": [
-        "Courier bags",
-        "Shipping liners",
-        "Product wrapping",
-        "Tamper-proof bags"
-      ]
-    },
-    {
-      "Icons": "🌱",
-      "name": "Agriculture & Farming",
-      "description": "Poly bags protect agricultural items from moisture and dust.",
-      "items": [
-        "Seeds",
-        "Fertilizers",
-        "Produce bags",
-        "Polytube packaging"
-      ]
-    },
-    {
-       "Icons": "🔌",
-      "name": "Electronics & Components",
-      "description": "These protect sensitive components from static electricity and dust.",
-      "items": [
-        "Anti-static bags",
-        "Component packing bags",
-        "Cable and device pouches"
-      ]
-    },
-    {
-       "Icons": "🏭",
-      "name": "Industrial & Manufacturing",
-      "description": "They withstand sharp edges and rough handling.",
-      "items": [
-        "Hardware",
-        "Bolts and nuts",
-        "Machinery spares",
-        "Chemical powder",
-        "Construction material samples",
-        "Lubricant sachets"
-      ]
-    },
-   ],
-      WhyAmulPackaging: {
+      },
+      {
+        "Icons": "🩺",
+        "name": "Medical & Hygiene",
+        "description": "The bags resist contamination and maintain hygiene.",
+        "items": [
+          "Medical waste bags",
+          "Sterile packaging",
+          "Disposable items",
+          "Sanitary packing"
+        ]
+      },
+      {
+        "Icons": "🚚",
+        "name": "Logistics & Shipping",
+        "description": "They help protect goods during transport.",
+        "items": [
+          "Courier bags",
+          "Shipping liners",
+          "Product wrapping",
+          "Tamper-proof bags"
+        ]
+      },
+      {
+        "Icons": "🌱",
+        "name": "Agriculture & Farming",
+        "description": "Poly bags protect agricultural items from moisture and dust.",
+        "items": [
+          "Seeds",
+          "Fertilizers",
+          "Produce bags",
+          "Polytube packaging"
+        ]
+      },
+      {
+        "Icons": "🔌",
+        "name": "Electronics & Components",
+        "description": "These protect sensitive components from static electricity and dust.",
+        "items": [
+          "Anti-static bags",
+          "Component packing bags",
+          "Cable and device pouches"
+        ]
+      },
+      {
+        "Icons": "🏭",
+        "name": "Industrial & Manufacturing",
+        "description": "They withstand sharp edges and rough handling.",
+        "items": [
+          "Hardware",
+          "Bolts and nuts",
+          "Machinery spares",
+          "Chemical powder",
+          "Construction material samples",
+          "Lubricant sachets"
+        ]
+      },
+    ],
+    WhyAmulPackaging: {
       Title: "Why Amul Packaging For Poly bags ?",
       Points: [
         "Strong and consistent material quality",
@@ -2313,17 +2424,17 @@ HeroText:"From retail to industrial use, our Poly Bags deliver cost-effective pr
       ClosingLine:
         "We help you get reliable packaging that fits your exact product needs."
     },
-   FAQs: [
+    FAQs: [
       {
         question: "What materials are used for poly bags?",
         answer: "LDPE, HDPE, PP, LLDPE, and recyclable material."
       },
       {
-       question: "Do you supply small poly bags?",
+        question: "Do you supply small poly bags?",
         answer: "Yes, we offer custom sizes from very small to large."
       },
       {
-       question: "Do you offer wholesale pricing?",
+        question: "Do you offer wholesale pricing?",
         answer: "Yes, we supply poly bags wholesale for bulk orders."
       },
       {
@@ -2333,6 +2444,10 @@ HeroText:"From retail to industrial use, our Poly Bags deliver cost-effective pr
       {
         question: "Are industrial poly bags available?",
         answer: "Yes, we manufacture heavy-duty bags for industrial use."
+      },
+      {
+        question: "What details are required when ordering custom poly bags?",
+        answer: " Please share the required bag size, thickness, quantity, colour, product use and printing details. We manufacture custom poly bags in Bhiwandi and supply orders across Mumbai."
       }
     ],
     serviceSchema: {
@@ -2341,7 +2456,7 @@ HeroText:"From retail to industrial use, our Poly Bags deliver cost-effective pr
       "serviceType": "Poly Bag Manufacturing",
       "name": "Poly Bags",
       "description": "Get durable poly bags that protect products, store them safely, and provide clean product presentation. Custom sizes, strong materials, and printing solutions from Amul Packaging.",
-      "url": "https://www.amulpackaging.in/products/10/poly-bags",
+      "url": "https://www.amulpackaging.in/products/poly-bag-manufacturer-in-bhiwandi-mumbai",
       "image": "https://www.amulpackaging.in/img/products/Poly-bags.webp",
       "provider": {
         "@type": "Organization",
@@ -2363,28 +2478,28 @@ HeroText:"From retail to industrial use, our Poly Bags deliver cost-effective pr
           "@type": "Answer",
           "text": "LDPE, HDPE, PP, LLDPE, and recyclable material."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do you supply small poly bags?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, we offer custom sizes from very small to large."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do you offer wholesale pricing?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, we supply poly bags wholesale for bulk orders."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Can poly bags be printed?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, we offer high-quality printing options."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Are industrial poly bags available?",
         "acceptedAnswer": {
@@ -2396,20 +2511,31 @@ HeroText:"From retail to industrial use, our Poly Bags deliver cost-effective pr
   },
   {
     id: 11,
-    name: "Security Bags",
-    seoTitle: "Security Bag Made to Protect Valuables | Amul Packaging",
-    seoDescription: "Keep cash, documents, medicines, and sensitive items safe with tamper-evident security bags designed to show any unauthorized access. Made dependable by Amul Packaging.",
-    seoKeywords: "security bag",
+    name: "Security Bag Manufacturer in Bhiwandi & Mumbai",
+    slug: "security-bag-manufacturer-in-bhiwandi-mumbai",
+    aliases: [
+      "security-bags",
+      "security-bag",
+      "security-bags-manufacturer-in-bhiwandi-mumbai",
+      "security-bag-manufacturer-in-bhiwandi-mumbai",
+      "security-bags-manufacturer-in-mumbai-bhiwandi",
+      "security-bag-manufacturer-in-mumbai-bhiwandi",
+      "securitybags-manufacturer-in-bhiwandi-mumbai",
+      "securitybag-manufacturer-in-bhiwandi-mumbai",
+    ],
+    seoTitle: "Security Bag Manufacturer in Mumbai & Bhiwandi",
+    seoDescription: "Amul Packaging offers durable security bags from Bhiwandi with strong seals, tamper visibility and custom options for secure business deliveries across Mumbai.",
+    seoKeywords: "Security bag manufacturer in Bhiwandi & Mumbai",
     img: [
       "/img/products/Security-Bags.webp",
       "/img/products/Security-Bags-Main.webp",
       "/img/products/amul/Security-Bags.webp",
-      
-    ], 
+
+    ],
     bg: "bg-red-500",
     popularity: 64,
-    Tagline:"Protection You Can Depend On.",
-HeroText:"Designed for banks, logistics, and retail industries, our Security Bags feature high-strength materials and advanced sealing technology for unmatched safety.",
+    Tagline: "Protection You Can Depend On.",
+    HeroText: "Designed for banks, logistics, and retail industries, our Security Bags feature high-strength materials and advanced sealing technology for unmatched safety.",
     Details:
       "Security bags are tamper-evident packaging solutions designed to protect valuable items, confidential documents, and sensitive products during storage or transit. Built with high-strength materials and advanced sealing features, they provide safety, reliability, and peace of mind.",
     About: {
@@ -2417,108 +2543,108 @@ HeroText:"Designed for banks, logistics, and retail industries, our Security Bag
       Description:
         "A security bag is a specialized, tamper-evident packaging solution designed to protect valuable items, sensitive materials, confidential documents, pharmaceuticals, cash, and forensic evidence. These bags are built using strong, puncture-resistant materials and advanced sealing technology to ensure that no unauthorized opening goes unnoticed.",
       Extended:
-        "At Amul Packaging, we manufacture durable, high-strength security bags for banks, logistics companies, e-commerce platforms, law enforcement agencies, pharma companies, and corporate organizations. Each bag is equipped with clear tamper indicators, unique numbering, barcodes, strong adhesives, and optional tracking features to ensure complete security during transit or storage. If your business handles valuable, private, or sensitive materials, a security bag is one of the most reliable ways to prevent tampering and ensure accountability."
+        "At Amul Packaging, we manufacture durable, high-strength security bags for banks, logistics companies, e-commerce platforms, law enforcement agencies, pharma companies, and corporate organizations. Each bag is equipped with clear tamper indicators, unique numbering, barcodes, strong adhesives, and optional tracking features to ensure complete security during transit or storage. If your business handles valuable, private, or sensitive materials, a security bag is one of the most reliable ways to prevent tampering and ensure accountability. As a Security Bag Manufacturer in Bhiwandi & Mumbai, we provide customised sizes, printed information panels and security features based on business needs."
     },
-        WhyChoose: {
-  Title: "Why Choose Security Bag?",
-  // subfeatures: [
-  //   "Protects contents from theft and unauthorized access",
-  //   "Maintains chain-of-custody records",
-  //   "Shows visible tamper evidence",
-  //   "Supports tracking with numbering and barcodes",
-  //   "Prevents pilferage during shipping",
-  //   "Adds accountability across supply chains",
-  //   "Strengthens compliance protocols",
-  //   "Suitable for high-value products"
-  // ],
-  // Summary:
-  //   "Security bags offer peace of mind by providing clear, irreversible indicators of tampering. Businesses handling sensitive or high-risk items rely on tamper-evident bags to ensure trust and safety.",
-  KeyFeatures: [
-    "Tamper-evident adhesive or heat-seal closure",
-    "Visible signs of tampering if opened",
-    "Unique serial number for tracking",
-    "Tear-resistant and puncture-proof material",
-    "Optional barcode for scanning",
-    "Available in transparent, colored, or opaque forms",
-    "Custom printing for security level and branding",
-    "Water-resistant and weatherproof options",
-    "Writable surface for signatures or documentation",
-    "Custom pockets for receipts or paperwork"
-  ],
-  Conclusion:
-    "Every bag is made to maintain security from the moment it is sealed until it reaches its destination."
-},
+    WhyChoose: {
+      Title: "Why Choose Security Bag?",
+      // subfeatures: [
+      //   "Protects contents from theft and unauthorized access",
+      //   "Maintains chain-of-custody records",
+      //   "Shows visible tamper evidence",
+      //   "Supports tracking with numbering and barcodes",
+      //   "Prevents pilferage during shipping",
+      //   "Adds accountability across supply chains",
+      //   "Strengthens compliance protocols",
+      //   "Suitable for high-value products"
+      // ],
+      // Summary:
+      //   "Security bags offer peace of mind by providing clear, irreversible indicators of tampering. Businesses handling sensitive or high-risk items rely on tamper-evident bags to ensure trust and safety.",
+      KeyFeatures: [
+        "Tamper-evident adhesive or heat-seal closure",
+        "Visible signs of tampering if opened",
+        "Unique serial number for tracking",
+        "Tear-resistant and puncture-proof material",
+        "Optional barcode for scanning",
+        "Available in transparent, colored, or opaque forms",
+        "Custom printing for security level and branding",
+        "Water-resistant and weatherproof options",
+        "Writable surface for signatures or documentation",
+        "Custom pockets for receipts or paperwork"
+      ],
+      Conclusion:
+        "Every bag is made to maintain security from the moment it is sealed until it reaches its destination."
+    },
 
     Industry: [
       {
-       "Icons": "👮",
-       "name": "Law Enforcement & Forensics",
-       "description": "Tamper-evident features ensure no manipulation occurs during handling.",
+        "Icons": "👮",
+        "name": "Law Enforcement & Forensics",
+        "description": "Tamper-evident features ensure no manipulation occurs during handling.",
         "items": [
           "Evidence handling",
           "DNA sample transport",
           "Case-related documents",
           "Chain-of-custody preservation"
         ]
-     },
+      },
       {
-       "Icons": "💊",
-       "name": "Pharmaceuticals & Medical Sector",
-       "description": "Ensures contamination-free and unauthorized-free transit.",
+        "Icons": "💊",
+        "name": "Pharmaceuticals & Medical Sector",
+        "description": "Ensures contamination-free and unauthorized-free transit.",
         "items": [
           "Transporting medicines",
           "Diagnostic test kits",
           "Laboratory samples",
           "Blood bag security covers"
         ]
-     },
-     {
-      "Icons": "💰",
-      "name": "Banking, ATMs & Valuables",
-      "description": "Opaque bags hide contents while strong seals safeguard valuables.",
-      "items": [
-        "Cash collection",
-        "ATM refills",
-        "Cheque deposits",
-        "Gold and jewelry transfer",
-        "Document transfer"
-      ]
-    },
-     {
-      "Icons": "🔒",
-      "name": "Retail, Logistics & Courier Services",
-      "description": "Security bags improve trust between brands and customers.",
-      "items": [
-        "Tamper-proof deliveries",
-        "Customer returns",
-        "E-commerce shipments",
-        "High-value consumer goods"
-      ]
-    },
+      },
       {
-      "Icons": "🏛️",
-      "name": "Corporate & Government Use",
-      "description": "The tamper-proof seal protects document privacy.",
-      "items": [
-        "Contract papers",
-        "Legal notices",
-        "Tender documents",
-        "Internal confidential communication"
-      ]
-    },
+        "Icons": "💰",
+        "name": "Banking, ATMs & Valuables",
+        "description": "Opaque bags hide contents while strong seals safeguard valuables.",
+        "items": [
+          "Cash collection",
+          "ATM refills",
+          "Cheque deposits",
+          "Gold and jewelry transfer",
+          "Document transfer"
+        ]
+      },
       {
-      "Icons":"⚙️",
-      "name": "Industrial & Manufacturing",
-      "description": "Security bags maintain record-based movement within manufacturing facilities.",
-      "items": [
-        "Sensitive parts",
-        "Software keys",
-        "Tracking items",
-        "Inventory sampling"
-      ]
-    },
-   ],
-      WhyAmulPackaging: {
+        "Icons": "🔒",
+        "name": "Retail, Logistics & Courier Services",
+        "description": "Security bags improve trust between brands and customers.",
+        "items": [
+          "Tamper-proof deliveries",
+          "Customer returns",
+          "E-commerce shipments",
+          "High-value consumer goods"
+        ]
+      },
+      {
+        "Icons": "🏛️",
+        "name": "Corporate & Government Use",
+        "description": "The tamper-proof seal protects document privacy.",
+        "items": [
+          "Contract papers",
+          "Legal notices",
+          "Tender documents",
+          "Internal confidential communication"
+        ]
+      },
+      {
+        "Icons": "⚙️",
+        "name": "Industrial & Manufacturing",
+        "description": "Security bags maintain record-based movement within manufacturing facilities.",
+        "items": [
+          "Sensitive parts",
+          "Software keys",
+          "Tracking items",
+          "Inventory sampling"
+        ]
+      },
+    ],
+    WhyAmulPackaging: {
       Title: "Why Amul Packaging For Security Bags ?",
       Points: [
         "High-strength co-extruded materials",
@@ -2533,17 +2659,17 @@ HeroText:"Designed for banks, logistics, and retail industries, our Security Bag
       ClosingLine:
         "Our security bags protect your product throughout the entire supply chain."
     },
-   FAQs: [
+    FAQs: [
       {
         question: "Are security bags tamper-proof or tamper-evident?",
         answer: "They are tamper-evident, meaning any attempt to open the bag becomes visible."
       },
       {
-       question: "Can I customize the size?",
+        question: "Can I customize the size?",
         answer: "Yes, all sizes can be customized."
       },
       {
-       question: "Do you print barcodes and serial numbers?",
+        question: "Do you print barcodes and serial numbers?",
         answer: "Yes, we offer both."
       },
       {
@@ -2557,25 +2683,29 @@ HeroText:"Designed for banks, logistics, and retail industries, our Security Bag
       {
         question: "Do you supply in bulk?",
         answer: "Yes, wholesale orders are available."
+      },
+      {
+        question: "How do security bags show signs of tampering?",
+        answer: "Security bags use tamper-evident sealing that displays visible signs when someone attempts to open them. This helps businesses identify interference during storage or transportation."
       }
     ],
     serviceSchema: {
       "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Security Bag Manufacturing",
-  "name": "Security Bags",
-  "description": "Keep cash, documents, medicines, and sensitive items safe with tamper-evident security bags designed to reveal unauthorized access. Durable and dependable packaging solutions from Amul Packaging.",
-  "url": "https://www.amulpackaging.in/products/11/security-bags",
-  "image": "https://www.amulpackaging.in/img/products/Security-Bags.webp",
-  "provider": {
-    "@type": "Organization",
-    "name": "Amul Packaging",
-    "url": "https://www.amulpackaging.in"
-  },
-  "areaServed": {
-    "@type": "Country",
-    "name": "India"
-  }
+      "@type": "Service",
+      "serviceType": "Security Bag Manufacturing",
+      "name": "Security Bags",
+      "description": "Keep cash, documents, medicines, and sensitive items safe with tamper-evident security bags designed to reveal unauthorized access. Durable and dependable packaging solutions from Amul Packaging.",
+      "url": "https://www.amulpackaging.in/products/security-bag-manufacturer-in-bhiwandi-mumbai",
+      "image": "https://www.amulpackaging.in/img/products/Security-Bags.webp",
+      "provider": {
+        "@type": "Organization",
+        "name": "Amul Packaging",
+        "url": "https://www.amulpackaging.in"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
     },
     faqSchema: {
       "@context": "https://schema.org",
@@ -2587,35 +2717,35 @@ HeroText:"Designed for banks, logistics, and retail industries, our Security Bag
           "@type": "Answer",
           "text": "They are tamper-evident, meaning any attempt to open the bag becomes visible."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Can I customize the size?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, all sizes can be customized."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do you print barcodes and serial numbers?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, we offer both."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Are these bags suitable for cash handling?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, we manufacture strong, opaque, tamper-evident cash bags."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do you offer secure evidence bags for police use?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, with chain-of-custody panels."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do you supply in bulk?",
         "acceptedAnswer": {
@@ -2627,20 +2757,32 @@ HeroText:"Designed for banks, logistics, and retail industries, our Security Bag
   },
   {
     id: 12,
-    name: "Ziplock poly bags",
-    seoTitle: "Convenient Small Ziplock Bags for Every Need | Amul Packaging",
-    seoDescription: "Keep items protected and organized with small ziplock bags for jewelry, pills, hardware, food and more. Durable, reusable and custom-made by Amul Packaging.",
-    seoKeywords: "small ziplock bags",
+    name: "Ziplock Poly Bag Manufacturer in Bhiwandi & Mumbai",
+    slug: "ziplock-poly-bag-manufacturer-in-bhiwandi-mumbai",
+    aliases: [
+      "ziplock-poly-bags",
+      "ziplock-poly-bag",
+      "ziplock-poly-bags-manufacturer-in-bhiwandi-mumbai",
+      "ziplock-poly-bag-manufacturer-in-bhiwandi-mumbai",
+      "ziplock-poly-bags-manufacturer-in-mumbai-bhiwandi",
+      "ziplock-poly-bag-manufacturer-in-mumbai-bhiwandi",
+      "ziplockpolybags-manufacturer-in-bhiwandi-mumbai",
+      "ziplockpolybag-manufacturer-in-bhiwandi-mumbai",
+      "small-ziplock-bags",
+    ],
+    seoTitle: "Ziplock Poly Bag Manufacturer in Mumbai & Bhiwandi",
+    seoDescription: "Choose reusable ziplock poly bags from Amul Packaging in Bhiwandi for secure closure, organised storage and convenient packaging supply across Mumbai region.",
+    seoKeywords: "Ziplock poly bag manufacturer in Bhiwandi & Mumbai",
     img: [
       "/img/products/Ziplock-bags.webp",
       "/img/products/Ziplock-bags-Main.webp",
       "/img/products/amul/Ziplock-poly-bags.webp",
-      
-    ], 
+
+    ],
     bg: "bg-red-500",
     popularity: 64,
-    Tagline:"Secure Today. Reuse Tomorrow.",
-HeroText:"Our eco-conscious Ziplock Poly Bags are designed for multiple uses — reducing waste while offering the strength and clarity your brand deserves.",
+    Tagline: "Secure Today. Reuse Tomorrow.",
+    HeroText: "Our eco-conscious Ziplock Poly Bags are designed for multiple uses — reducing waste while offering the strength and clarity your brand deserves.",
     Details:
       "Ziplock poly bags are reusable and convenient packaging solutions designed with a secure interlocking closure. They offer excellent protection against dust, moisture, and contaminants while allowing easy opening and resealing, making them ideal for both consumer and industrial use.",
     About: {
@@ -2648,38 +2790,38 @@ HeroText:"Our eco-conscious Ziplock Poly Bags are designed for multiple uses —
       Description:
         "Small ziplock bags are one of the most practical and reusable packaging options for storing, organizing, and protecting items. Made using clear, high-quality polyethylene with an interlocking closure, ziplock bags keep contents safe from moisture, dust, spills, and contamination. They are easy to open, easy to seal, and can be reused multiple times without losing strength or clarity.",
       Extended:
-        "At Amul Packaging, we manufacture durable, transparent, and customizable ziplock poly bags that serve both consumer and industrial needs. Whether you need small ziplock bags for jewelry, pills, cosmetics, hardware, or food storage — or custom ziplock bags with branding, printing, or special sizes — we deliver clean, strong, and reliable ziplock solutions. If you want resealable packaging that is convenient, safe, and cost-effective, ziplock bags remain the most trusted choice."
+        "At Amul Packaging, we manufacture durable, transparent, and customizable ziplock poly bags that serve both consumer and industrial needs. Whether you need small ziplock bags for jewelry, pills, cosmetics, hardware, or food storage — or custom ziplock bags with branding, printing, or special sizes — we deliver clean, strong, and reliable ziplock solutions. If you want resealable packaging that is convenient, safe, and cost-effective, ziplock bags remain the most trusted choice. As a Ziplock Poly Bag Manufacturer in Bhiwandi & Mumbai, we offer custom sizes, thicknesses, colours and printing options for different applications."
     },
-         WhyChoose: {
-  Title: "Why Choose Small Ziplock Bags?",
-  // subfeatures: [
-  //   "Protect sensitive items from dust, dirt, and moisture",
-  //   "Easy to carry and store",
-  //   "Safe for food and non-food items",
-  //   "Keeps small objects organized",
-  //   "Transparent for quick visibility",
-  //   "Reusable, reducing waste",
-  //   "Perfect for retail, home use, travel, and industrial packing",
-  //   "Safe for freezer storage (depending on material thickness)"
-  // ],
-  // Summary:
-  //   "Small ziplock bags offer secure, compact storage for tiny items that are prone to getting lost, damaged, or mixed with others. Because they are resealable, ziplock bags are ideal for items that need repeated access without compromising cleanliness.",
-  KeyFeatures: [
-    "Strong, reusable ziplock closure",
-    "Crystal-clear visibility",
-    "Flexible and lightweight",
-    "Moisture-resistant and dust-proof",
-    "Available in multiple thickness levels",
-    "Durable and tear-resistant",
-    "Food-safe and non-toxic",
-    "Reusable and eco-friendly",
-    "Available in small, medium, and custom sizes",
-    "Printable options for branding"
-  ],
-  Conclusion:
-    "Whether you need simple clear bags or custom ziplock bags, we manufacture them to suit your purpose."
-},
- 
+    WhyChoose: {
+      Title: "Why Choose Small Ziplock Bags?",
+      // subfeatures: [
+      //   "Protect sensitive items from dust, dirt, and moisture",
+      //   "Easy to carry and store",
+      //   "Safe for food and non-food items",
+      //   "Keeps small objects organized",
+      //   "Transparent for quick visibility",
+      //   "Reusable, reducing waste",
+      //   "Perfect for retail, home use, travel, and industrial packing",
+      //   "Safe for freezer storage (depending on material thickness)"
+      // ],
+      // Summary:
+      //   "Small ziplock bags offer secure, compact storage for tiny items that are prone to getting lost, damaged, or mixed with others. Because they are resealable, ziplock bags are ideal for items that need repeated access without compromising cleanliness.",
+      KeyFeatures: [
+        "Strong, reusable ziplock closure",
+        "Crystal-clear visibility",
+        "Flexible and lightweight",
+        "Moisture-resistant and dust-proof",
+        "Available in multiple thickness levels",
+        "Durable and tear-resistant",
+        "Food-safe and non-toxic",
+        "Reusable and eco-friendly",
+        "Available in small, medium, and custom sizes",
+        "Printable options for branding"
+      ],
+      Conclusion:
+        "Whether you need simple clear bags or custom ziplock bags, we manufacture them to suit your purpose."
+    },
+
     TypesManufactured: [
       {
         name: "Small Ziplock Bags",
@@ -2726,12 +2868,12 @@ HeroText:"Our eco-conscious Ziplock Poly Bags are designed for multiple uses —
       Description:
         "We support private label branding, custom printing, write-on panels, color coding, and other personalization options to help your product stand out.",
     },
-   
+
     Industry: [
       {
-       "Icons": "🍽️",
-       "name": "Food Storage & Kitchen Use",
-       "description": "They keep food fresh and prevent odor transfer.",
+        "Icons": "🍽️",
+        "name": "Food Storage & Kitchen Use",
+        "description": "They keep food fresh and prevent odor transfer.",
         "items": [
           "Snacks",
           "Dry fruits",
@@ -2740,79 +2882,79 @@ HeroText:"Our eco-conscious Ziplock Poly Bags are designed for multiple uses —
           "Meal prep",
           "Baking ingredients"
         ]
-     },
-     {
-      "Icons": "💎",
-      "name": "Cosmetics & Jewelry",
-      "description": "Clear visibility lets users identify items quickly.",
-      "items": [
-        "Earrings, rings, necklaces",
-        "Cosmetic refills",
-        "Sample-size packs",
-        "Makeup tools",
-        "Nail accessories"
-      ]
-    },
-     {
-      "Icons": "💊",
-      "name": "Pharmaceuticals & Healthcare",
-      "description": "Ziplock bags help maintain hygiene and easy access.",
-      "items": [
-        "Pill packaging",
-        "Medical samples",
-        "Tablet storage",
-        "Dosage organization"
-      ]
-    },
-     {
-      "Icons": "✈️",
-      "name": "Travel & Convenience",
-      "description": "Ideal for airports, road trips, or daily carrying.",
-      "items": [
-        "Toiletries",
-        "Travel-size kits",
-        "Medication packs",
-        "Baby food portions",
-        "Snack pouches"
-      ]
-    },
-    {
-      "Icons": "🔧",
-      "name": "Industrial & Hardware",
-      "description": "Strong ziplock closure prevents loss during transit.",
-      "items": [
-        "Screws",
-        "Bolts",
-        "Nuts",
-        "Small tools",
-        "Machine components",
-        "Electronic parts"
-      ]
-    },
-    {
-      "Icons": "🛒",
-      "name": "Ecommerce & Retail Packaging",
-      "description": "They look neat and offer strong customer experience.",
-      "items": [
-        "Product samples",
-        "Small item packaging",
-        "Custom printed brand kits",
-        "Gift items",
-        "Return packaging"
-      ]
-    },
-       {
-      "Icons": "🌱",
-      "name": "Agriculture",
-      "description": "Keeps samples clean and moisture-free.",
-      "items": [
-        "Seed packets",
-        "Soil sample bags",
-        "Fertilizer sample bags"
-      ]
-    },
-   ],
-      WhyAmulPackaging: {
+      },
+      {
+        "Icons": "💎",
+        "name": "Cosmetics & Jewelry",
+        "description": "Clear visibility lets users identify items quickly.",
+        "items": [
+          "Earrings, rings, necklaces",
+          "Cosmetic refills",
+          "Sample-size packs",
+          "Makeup tools",
+          "Nail accessories"
+        ]
+      },
+      {
+        "Icons": "💊",
+        "name": "Pharmaceuticals & Healthcare",
+        "description": "Ziplock bags help maintain hygiene and easy access.",
+        "items": [
+          "Pill packaging",
+          "Medical samples",
+          "Tablet storage",
+          "Dosage organization"
+        ]
+      },
+      {
+        "Icons": "✈️",
+        "name": "Travel & Convenience",
+        "description": "Ideal for airports, road trips, or daily carrying.",
+        "items": [
+          "Toiletries",
+          "Travel-size kits",
+          "Medication packs",
+          "Baby food portions",
+          "Snack pouches"
+        ]
+      },
+      {
+        "Icons": "🔧",
+        "name": "Industrial & Hardware",
+        "description": "Strong ziplock closure prevents loss during transit.",
+        "items": [
+          "Screws",
+          "Bolts",
+          "Nuts",
+          "Small tools",
+          "Machine components",
+          "Electronic parts"
+        ]
+      },
+      {
+        "Icons": "🛒",
+        "name": "Ecommerce & Retail Packaging",
+        "description": "They look neat and offer strong customer experience.",
+        "items": [
+          "Product samples",
+          "Small item packaging",
+          "Custom printed brand kits",
+          "Gift items",
+          "Return packaging"
+        ]
+      },
+      {
+        "Icons": "🌱",
+        "name": "Agriculture",
+        "description": "Keeps samples clean and moisture-free.",
+        "items": [
+          "Seed packets",
+          "Soil sample bags",
+          "Fertilizer sample bags"
+        ]
+      },
+    ],
+    WhyAmulPackaging: {
       Title: "Why Amul Packaging For Ziplock poly bags ?",
       Points: [
         "High-quality virgin material",
@@ -2827,17 +2969,17 @@ HeroText:"Our eco-conscious Ziplock Poly Bags are designed for multiple uses —
       ClosingLine:
         "We help your packaging look professional, practical, and easy to use."
     },
-   FAQs: [
+    FAQs: [
       {
         question: "Can I get custom ziplock bags with my brand logo?",
         answer: "Yes, we offer full custom printing options."
       },
       {
-       question: "Do you supply small ziplock bags?",
+        question: "Do you supply small ziplock bags?",
         answer: "Yes, we manufacture very small to large resealable bags."
       },
       {
-       question: "Are ziplock bags food-safe?",
+        question: "Are ziplock bags food-safe?",
         answer: "Yes, our materials are food-grade and safe."
       },
       {
@@ -2851,6 +2993,10 @@ HeroText:"Our eco-conscious Ziplock Poly Bags are designed for multiple uses —
       {
         question: "Do you offer wholesale supply?",
         answer: "Yes, bulk orders with wholesale pricing are available."
+      },
+      {
+        question: "Can ziplock poly bags be opened and sealed multiple times?",
+        answer: "Yes. Ziplock poly bags have a press-to-close seal that allows repeated opening and closing, making them suitable for products that require convenient access and organised storage."
       }
     ],
     serviceSchema: {
@@ -2859,7 +3005,7 @@ HeroText:"Our eco-conscious Ziplock Poly Bags are designed for multiple uses —
       "serviceType": "Ziplock Poly Bag Manufacturing",
       "name": "Ziplock Poly Bags",
       "description": "Keep items protected and organized with durable ziplock poly bags for jewelry, pills, hardware, food, and more. Reusable and custom-made packaging solutions from Amul Packaging.",
-      "url": "https://www.amulpackaging.in/products/12/ziplock-poly-bags",
+      "url": "https://www.amulpackaging.in/products/ziplock-poly-bag-manufacturer-in-bhiwandi-mumbai",
       "image": "https://www.amulpackaging.in/img/products/Ziplock-bags.webp",
       "provider": {
         "@type": "Organization",
@@ -2870,7 +3016,7 @@ HeroText:"Our eco-conscious Ziplock Poly Bags are designed for multiple uses —
         "@type": "Country",
         "name": "India"
       }
-     },
+    },
     faqSchema: {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -2881,35 +3027,35 @@ HeroText:"Our eco-conscious Ziplock Poly Bags are designed for multiple uses —
           "@type": "Answer",
           "text": "Yes, we offer full custom printing options."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do you supply small ziplock bags?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, we manufacture very small to large resealable bags."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Are ziplock bags food-safe?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, our materials are food-grade and safe."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Can I get ziplock bags in different thicknesses?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, thickness can be customized as needed."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do you supply personalized ziplock bags for retail?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, personalized bags are available for brands and stores."
         }
-      },{
+      }, {
         "@type": "Question",
         "name": "Q. Do you offer wholesale supply?",
         "acceptedAnswer": {
