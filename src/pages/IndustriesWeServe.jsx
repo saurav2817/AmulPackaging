@@ -257,7 +257,7 @@ const IndustriesWeServe = () => {
           <h1 className="text-3xl font-bold text-primary">
             Industries We Serve
           </h1>
-          <p className="text-xl font-bold text-primary mt-3 mb-5">Complete Packaging Solutions for Industries in Bhiwandi & Mumbai</p>
+          <p className="text-xl font-bold text-primary mt-3 mb-5">Complete Packaging Solutions for Industries in Bhiwandi, Mumbai</p>
           <div className="flex justify-center mt-3">
             <nav aria-label="Breadcrumb" className="mb-6">
               <div className="flex flex-wrap items-center gap-2 text-sm">
@@ -289,7 +289,7 @@ const IndustriesWeServe = () => {
                 diverse industries, ensuring product protection, freshness, and
                 brand appeal across sectors.
                 <br />
-                Our Packaging Solutions for Industries in Bhiwandi & Mumbai are developed around each sector’s storage, sealing, printing and product-protection requirements.
+                Our Packaging Solutions for Industries in Bhiwandi, Mumbai are developed around each sector’s storage, sealing, printing and product-protection requirements.
               </p>
             </div>
 

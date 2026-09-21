@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 const SEO = ({
   title = "Flexible Packaging Manufacturer in Mumbai & Bhiwandi",
   description = "Amul Packaging is a flexible packaging manufacturer in Bhiwandi, delivering custom printed pouches, roll stock and packaging solutions to brands across Mumbai.",
-  keywords = "Flexible packaging manufacturer in Bhiwandi & Mumbai",
+  keywords = "Flexible packaging manufacturer in Bhiwandi, Mumbai",
   image = "/img/Banner.webp",
   url = "https://www.amulpackaging.in",
   type = "website",

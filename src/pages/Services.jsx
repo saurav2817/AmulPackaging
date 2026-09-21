@@ -88,7 +88,7 @@ const Services = () => {
         {/* Banner Section */}
         <section className="text-center md:py-30 py-10 bg-[url('/img/slider_banner/Products.webp')] bg-cover bg-center">
           <h1 className="text-3xl font-bold text-white">Services</h1>
-          <p className="text-xl font-bold text-white mt-3 mb-5">Complete Packaging Services in Bhiwandi & Mumbai</p>
+          <p className="text-xl font-bold text-white mt-3 mb-5">Complete Packaging Services in Bhiwandi, Mumbai</p>
           <div className="flex justify-center mt-3">
             <nav aria-label="Breadcrumb" className="mb-6">
               <div className="flex flex-wrap items-center gap-2 text-sm">
@@ -113,7 +113,7 @@ const Services = () => {
             <p className="our-values-subheading text-center mb-0">
               At Amul Packaging we provide end-to-end packaging solutions — from concept creation to final production. Our goal is to help brands of all sizes bring their packaging vision to life with innovation, flexibility, and uncompromised quality. Whether you’re a startup or an established brand, we offer the right solutions to match your needs.<br></br>
               <br />
-              Our Packaging Services in Bhiwandi & Mumbai cover packaging design, prototyping, sampling and multiple printing methods under one roof.
+              Our Packaging Services in Bhiwandi, Mumbai cover packaging design, prototyping, sampling and multiple printing methods under one roof.
 
             </p>
 

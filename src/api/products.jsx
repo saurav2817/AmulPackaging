@@ -1,16 +1,16 @@
 const products = [
   {
     id: 1,
-    name: "Stand Up Zipper Pouch Manufacturer in Bhiwandi & Mumbai",
+    name: "Stand Up Zipper Pouch Manufacturer in Bhiwandi, Mumbai",
     slug: "standup-zipper-pouch-manufacturer-in-bhiwandi-mumbai",
     aliases: [
       "stand-up-zipper-pouch-manufacturer-in-bhiwandi-mumbai",
       "stand-up-zipper-pouch",
       "standup-zipper-pouch",
     ],
-    seoTitle: "Stand Up Zipper Pouch Manufacturer in Bhiwandi & Mumbai",
+    seoTitle: "Stand Up Zipper Pouch Manufacturer in Bhiwandi, Mumbai",
     seoDescription: "Amul Packaging is a stand up zipper pouch manufacturer in Bhiwandi, supplying durable, custom-printed packaging solutions to businesses across Mumbai.",
-    seoKeywords: "Stand Up Zipper Pouch Manufacturer in Bhiwandi & Mumbai",
+    seoKeywords: "Stand Up Zipper Pouch Manufacturer in Bhiwandi, Mumbai",
     img: [
       "/img/products/Standup-zipper-pouch.webp",
       "/img/products/Standup-zipper-pouch-Main.webp",
@@ -26,7 +26,7 @@ const products = [
       Description:
         "At Amul Packaging, we make high-quality stand up pouches designed to protect your product, keep it fresh, and help your brand look strong on the shelf. Whether you sell snacks, spices, pet food, cosmetics, or supplements — our stand up pouch packaging solutions help your product speak for itself.",
       Extended:
-        "As a Stand Up Zipper Pouch Manufacturer in Bhiwandi & Mumbai, we serve brands requiring durable, attractive and practical packaging. Our team manufactures and prints custom stand up pouches in different materials, sizes, colors, and finishes. With durable laminated structure, secure zipper, and strong base, our pouches are built for performance and made to highlight your brand clearly."
+        "As a Stand Up Zipper Pouch Manufacturer in Bhiwandi, Mumbai, we serve brands requiring durable, attractive and practical packaging. Our team manufactures and prints custom stand up pouches in different materials, sizes, colors, and finishes. With durable laminated structure, secure zipper, and strong base, our pouches are built for performance and made to highlight your brand clearly."
     },
     // WhatIs: {
     //   Title: "What Is a Stand Up Pouch?",
@@ -290,7 +290,7 @@ const products = [
   },
   {
     id: 2,
-    name: "3 Side Seal Pouch Manufacturer in Bhiwandi & Mumbai",
+    name: "3 Side Seal Pouch Manufacturer in Bhiwandi, Mumbai",
     slug: "3-side-seal-pouch-manufacturer-in-bhiwandi-mumbai",
     aliases: [
       "3-side-seal-pouch",
@@ -300,7 +300,7 @@ const products = [
     ],
     seoTitle: "3 Side Seal Pouch Manufacturer in Mumbai & Bhiwandi",
     seoDescription: "Amul Packaging manufactures custom 3 side seal pouches in Bhiwandi and supplies printed, food-grade packaging to businesses across Mumbai and nearby areas.",
-    seoKeywords: "3 side seal pouch manufacturer in Bhiwandi & Mumbai",
+    seoKeywords: "3 side seal pouch manufacturer in Bhiwandi, Mumbai",
     img: [
       "/img/products/3-Side-Seal-Pouch.webp",
       "/img/products/3-Side-Seal-Pouch-Main.webp",
@@ -312,7 +312,7 @@ const products = [
     Tagline: "Strong Seals. Strong Impressions.",
     HeroText: "From food to personal care, our 3 Side Seal Pouches ensure maximum protection, premium appearance, and lasting brand visibility.",
     Details:
-      "As a 3 Side Seal Pouch Manufacturer in Bhiwandi & Mumbai, we produce secure, 3 side seal pouches are simple, secure, and highly versatile packaging solutions. Sealed on three sides with one open end for filling, they are ideal for single-use or portion-sized products, ensuring freshness and product protection.",
+      "As a 3 Side Seal Pouch Manufacturer in Bhiwandi, Mumbai, we produce secure, 3 side seal pouches are simple, secure, and highly versatile packaging solutions. Sealed on three sides with one open end for filling, they are ideal for single-use or portion-sized products, ensuring freshness and product protection.",
     About: {
       Title: "Three Side Seal Pouch – Secure, Sleek and Reliable Packaging",
       Description:
@@ -522,7 +522,7 @@ const products = [
   },
   {
     id: 3,
-    name: "Flat Bottom Pouch Manufacturer in Bhiwandi & Mumbai",
+    name: "Flat Bottom Pouch Manufacturer in Bhiwandi, Mumbai",
     slug: "flat-bottom-pouch-manufacturer-in-bhiwandi-mumbai",
     aliases: [
       "flat-bottom-pouch",
@@ -531,7 +531,7 @@ const products = [
     ],
     seoTitle: "Flat Bottom Pouch Manufacturer in Mumbai & Bhiwandi",
     seoDescription: "Choose custom flat bottom pouches made in Bhiwandi by Amul Packaging, with strong barriers, sharp printing and reliable supply for brands across Mumbai region.",
-    seoKeywords: "Flat Bottom Pouch Manufacturer in Bhiwandi & Mumbai",
+    seoKeywords: "Flat Bottom Pouch Manufacturer in Bhiwandi, Mumbai",
     img: [
       "/img/products/Flat-Bottom-Pouch.webp",
       "/img/products/Flat-Bottom-Pouch-Main.webp",
@@ -548,7 +548,7 @@ const products = [
       Description:
         "A flat bottom pouch is a modern packaging format that combines clean presentation, strong structure, and reliable product safety. At Amul Packaging, we manufacture custom flat bottom pouches that help brands stand tall in retail stores and online marketplaces while keeping their products fresh and protected.",
       Extended:
-        "As a Flat Bottom Pouch Manufacturer in Bhiwandi & Mumbai, we produce durable pouches with custom sizes, finishes and printing options.These pouches have a secure flat base, side gussets, and five full panels for printing — making them perfect for brands that want more space for design, information, and storytelling. From coffee roasters to pet food brands to wellness supplements — a flat bottom pouch adds value, trust, and a premium feel to every product."
+        "As a Flat Bottom Pouch Manufacturer in Bhiwandi, Mumbai, we produce durable pouches with custom sizes, finishes and printing options.These pouches have a secure flat base, side gussets, and five full panels for printing — making them perfect for brands that want more space for design, information, and storytelling. From coffee roasters to pet food brands to wellness supplements — a flat bottom pouch adds value, trust, and a premium feel to every product."
     },
 
     WhyChoose: {
@@ -800,7 +800,7 @@ const products = [
     ],
     seoTitle: "Centre Seal Pouch Manufacturer in Mumbai & Bhiwandi",
     seoDescription: "Get custom centre seal pouches from Amul Packaging in Bhiwandi, designed for smooth packing, secure seals and branded product presentation across wider Mumbai.",
-    seoKeywords: "Centre seal pouch manufacturer in Bhiwandi & Mumbai",
+    seoKeywords: "Centre seal pouch manufacturer in Bhiwandi, Mumbai",
     img: [
       "/img/products/Centre Seal Pouch.webp",
       "/img/products/Centre-Seal-Pouch-Main.webp",
@@ -810,7 +810,7 @@ const products = [
     bg: "bg-blue-600",
     popularity: 76,
     Tagline: "Precision Sealed for Lasting Freshness.",
-    HeroText: "Looking for a Centre Seal Pouch Manufacturer in Bhiwandi & Mumbai? Amul Packaging provides printed pouches for retail and bulk packaging needs.",
+    HeroText: "Looking for a Centre Seal Pouch Manufacturer in Bhiwandi, Mumbai? Amul Packaging provides printed pouches for retail and bulk packaging needs.",
     Details:
       "Center seal pouches are one of the most common and cost-effective packaging formats, designed with a seal running down the back of the pouch. They provide excellent protection, extended shelf life, and are ideal for high-volume packaging needs.",
     About: {
@@ -1031,7 +1031,7 @@ const products = [
   },
   {
     id: 5,
-    name: "Quad Seal Pouch Manufacturer in Bhiwandi & Mumbai",
+    name: "Quad Seal Pouch Manufacturer in Bhiwandi, Mumbai",
     slug: "quad-seal-pouch-manufacturer-in-bhiwandi-mumbai",
     aliases: [
       "quad-seal-pouch",
@@ -1041,7 +1041,7 @@ const products = [
     ],
     seoTitle: "Quad Seal Pouch Manufacturer in Mumbai & Bhiwandi",
     seoDescription: "Order custom quad seal pouches from Amul Packaging in Bhiwandi, made for firm structure, secure sealing and quality branded packaging across the Mumbai region.",
-    seoKeywords: "Quad seal pouch manufacturer in Bhiwandi & Mumbai",
+    seoKeywords: "Quad seal pouch manufacturer in Bhiwandi, Mumbai",
     img: [
       "/img/products/Quad-Seal-Pouch.webp",
       "/img/products/Quad-Seal-Pouch-Main.webp",
@@ -1269,7 +1269,7 @@ const products = [
   },
   {
     id: 6,
-    name: "Vacuum Pouch Manufacturer in Bhiwandi & Mumbai",
+    name: "Vacuum Pouch Manufacturer in Bhiwandi, Mumbai",
     slug: "vacuum-pouch-manufacturer-in-bhiwandi-mumbai",
     aliases: [
       "vacuum-pouch",
@@ -1279,7 +1279,7 @@ const products = [
     ],
     seoTitle: "Vacuum Pouch Manufacturer in Mumbai & Bhiwandi",
     seoDescription: "Explore high-barrier vacuum pouches made by Amul Packaging in Bhiwandi for moisture protection, secure sealing and dependable supply across the Mumbai region.",
-    seoKeywords: "Vacuum pouch manufacturer in Bhiwandi & Mumbai",
+    seoKeywords: "Vacuum pouch manufacturer in Bhiwandi, Mumbai",
     img: [
       "/img/products/Vacuum-Pouch.webp",
       "/img/products/Vacuum-Pouch-Main.webp",
@@ -1532,7 +1532,7 @@ const products = [
   },
   {
     id: 7,
-    name: "Shaped Pouch Manufacturer in Bhiwandi & Mumbai",
+    name: "Shaped Pouch Manufacturer in Bhiwandi, Mumbai",
     slug: "shaped-pouch-manufacturer-in-bhiwandi-mumbai",
     aliases: [
       "shaped-pouch",
@@ -1543,7 +1543,7 @@ const products = [
     ],
     seoTitle: "Shaped Pouch Manufacturer in Mumbai & Bhiwandi",
     seoDescription: "Explore distinctive shaped pouches with Amul Packaging in Bhiwandi, offering custom formats, quality printing and reliable supply across the Mumbai region.",
-    seoKeywords: "Shaped pouch manufacturer in Bhiwandi & Mumbai",
+    seoKeywords: "Shaped pouch manufacturer in Bhiwandi, Mumbai",
     img: [
       "/img/products/Shaped-Pouch.webp",
       "/img/products/Shaped-Pouch-Main.webp",
@@ -1774,7 +1774,7 @@ const products = [
   },
   {
     id: 8,
-    name: "Spout Pouch Manufacturer in Bhiwandi & Mumbai",
+    name: "Spout Pouch Manufacturer in Bhiwandi, Mumbai",
     slug: "spout-pouch-manufacturer-in-bhiwandi-mumbai",
     aliases: [
       "spout-pouch",
@@ -1784,7 +1784,7 @@ const products = [
     ],
     seoTitle: "Spout Pouch Manufacturer in Mumbai & Bhiwandi",
     seoDescription: "Explore custom spout pouches from Amul Packaging in Bhiwandi for clean dispensing, leak-resistant sealing and practical packaging across the Mumbai region.",
-    seoKeywords: "Spout pouch manufacturer in Bhiwandi & Mumbai",
+    seoKeywords: "Spout pouch manufacturer in Bhiwandi, Mumbai",
     img: [
       "/img/products/Spout-Pouch.webp",
       "/img/products/Spout-Pouch-Main.webp",
@@ -1802,7 +1802,7 @@ const products = [
       Description:
         "A spout pouch is a modern, flexible packaging format designed for liquids, semi-liquids, and flowable products. It comes with a built-in spout and screw-cap that makes pouring, drinking, squeezing, and storing easy for the user. Compared to rigid bottles or jars, spout pouches are lightweight, portable, and use much less plastic — making them a preferred choice for FMCG, beverages, baby food, household liquids, and industrial products.",
       Extended:
-        "As one of the reliable spout pouch manufacturers and suppliers, Amul Packaging produces durable, leak-proof, and attractive spout pouches that offer strong barrier protection and premium printing quality. Whether you need pouches for juice, sauce, shampoo, sanitizer, or lubricants — we create fully customized spouted pouches based on your brand’s size, shape, and design requirements. As a Spout Pouch Manufacturer in Bhiwandi & Mumbai, we provide pouches in different sizes, materials, spout positions and printed designs."
+        "As one of the reliable spout pouch manufacturers and suppliers, Amul Packaging produces durable, leak-proof, and attractive spout pouches that offer strong barrier protection and premium printing quality. Whether you need pouches for juice, sauce, shampoo, sanitizer, or lubricants — we create fully customized spouted pouches based on your brand’s size, shape, and design requirements. As a Spout Pouch Manufacturer in Bhiwandi, Mumbai, we provide pouches in different sizes, materials, spout positions and printed designs."
     },
     WhyChoose: {
       Title: "Why Choose a Spout Pouch?",
@@ -1960,7 +1960,7 @@ const products = [
         answer: "Yes, shaped designs are available for juice and kids’ products."
       },
       {
-        question: "Why choose Amul Packaging as a Spout Pouch Manufacturer in Bhiwandi & Mumbai?",
+        question: "Why choose Amul Packaging as a Spout Pouch Manufacturer in Bhiwandi, Mumbai?",
         answer: "We manufacture customised spout pouches at our Bhiwandi facility and supply them to businesses across Mumbai with suitable materials, printing and closure options."
       }
     ],
@@ -2032,7 +2032,7 @@ const products = [
   },
   {
     id: 9,
-    name: "Laminated Roll Stock Manufacturer in Bhiwandi & Mumbai",
+    name: "Laminated Roll Stock Manufacturer in Bhiwandi, Mumbai",
     slug: "laminated-roll-stock-manufacturer-in-bhiwandi-mumbai",
     aliases: [
       "laminated-roll-stock",
@@ -2042,7 +2042,7 @@ const products = [
     ],
     seoTitle: "Laminated Roll Stock Manufacturer in Mumbai & Bhiwandi",
     seoDescription: "Source printed laminated roll stock from Amul Packaging in Bhiwandi, made for efficient packing, barrier protection and consistent supply throughout Mumbai.",
-    seoKeywords: "Laminated roll stock manufacturer in Bhiwandi & Mumbai",
+    seoKeywords: "Laminated roll stock manufacturer in Bhiwandi, Mumbai",
     img: [
       "/img/products/Laminated-Roll-Stock.webp",
       "/img/products/Laminated-Roll-Stock-Main.webp",
@@ -2060,7 +2060,7 @@ const products = [
       Description:
         "Laminated roll stock is the foundation of most flexible packaging seen in supermarkets, retail stores, and industrial supply chains. It comes in pre-laminated rolls that run on automatic form-fill-seal (FFS) machines to create pouches, sachets, wrappers, or customized packaging formats. If your business relies on machine-based packaging, laminated roll stock is one of the most efficient, cost-effective, and versatile materials you can use.",
       Extended:
-        "At Amul Packaging, we manufacture durable and high-quality laminated roll stock using multi-layer films that ensure excellent barrier protection, smooth machinability, and clear print quality. Our roll stock supports a wide range of products including snacks, spices, frozen foods, pharmaceuticals, cosmetics, detergents, pet foods, and industrial materials. Whether you need high-barrier film for sensitive items or standard laminated roll for retail pouches, we provide custom material combinations, thicknesses, and printing options to match your product requirements. As a Laminated Roll Stock Manufacturer in Bhiwandi & Mumbai, we offer customised film structures, roll dimensions and printed designs based on your machinery."
+        "At Amul Packaging, we manufacture durable and high-quality laminated roll stock using multi-layer films that ensure excellent barrier protection, smooth machinability, and clear print quality. Our roll stock supports a wide range of products including snacks, spices, frozen foods, pharmaceuticals, cosmetics, detergents, pet foods, and industrial materials. Whether you need high-barrier film for sensitive items or standard laminated roll for retail pouches, we provide custom material combinations, thicknesses, and printing options to match your product requirements. As a Laminated Roll Stock Manufacturer in Bhiwandi, Mumbai, we offer customised film structures, roll dimensions and printed designs based on your machinery."
     },
     WhyChoose: {
       Title: "Why Choose Laminated Roll Stock?",
@@ -2262,7 +2262,7 @@ const products = [
   },
   {
     id: 10,
-    name: "Poly Bag Manufacturer in Bhiwandi & Mumbai",
+    name: "Poly Bag Manufacturer in Bhiwandi, Mumbai",
     slug: "poly-bag-manufacturer-in-bhiwandi-mumbai",
     aliases: [
       "poly-bags",
@@ -2276,7 +2276,7 @@ const products = [
     ],
     seoTitle: "Poly Bag Manufacturer in Mumbai & Bhiwandi",
     seoDescription: "Get custom poly bags from Amul Packaging in Bhiwandi, available in varied sizes and finishes for practical product handling and business supply across Mumbai.",
-    seoKeywords: "Poly bag manufacturer in Bhiwandi & Mumbai",
+    seoKeywords: "Poly bag manufacturer in Bhiwandi, Mumbai",
     img: [
       "/img/products/Poly-bags.webp",
       "/img/products/Poly-bags-Main.webp",
@@ -2294,7 +2294,7 @@ const products = [
       Description:
         "A poly bag is one of the simplest yet most widely used packaging materials in the world. Made from polyethylene (LDPE/HDPE) or polypropylene (PP), poly bags are strong, lightweight, flexible, and suitable for almost any type of product — from clothes and groceries to industrial components and chemical items.",
       Extended:
-        "At Amul Packaging, we manufacture high-quality poly bags in various sizes, thicknesses, colors, and styles to suit retail, industrial, medical, agriculture, logistics, and FMCG applications. Whether you need small poly bags, heavy-duty industrial poly bags, custom-printed bags, or poly bags wholesale for bulk packing, we produce reliable poly bags at competitive prices. If you are looking for versatile packaging that keeps products safe and clean while being affordable, poly bags are the perfect solution. As a Poly Bag Manufacturer in Bhiwandi & Mumbai, we provide poly bags in customised sizes, thicknesses, colours and printing options."
+        "At Amul Packaging, we manufacture high-quality poly bags in various sizes, thicknesses, colors, and styles to suit retail, industrial, medical, agriculture, logistics, and FMCG applications. Whether you need small poly bags, heavy-duty industrial poly bags, custom-printed bags, or poly bags wholesale for bulk packing, we produce reliable poly bags at competitive prices. If you are looking for versatile packaging that keeps products safe and clean while being affordable, poly bags are the perfect solution. As a Poly Bag Manufacturer in Bhiwandi, Mumbai, we provide poly bags in customised sizes, thicknesses, colours and printing options."
     },
     WhyChoose: {
       Title: "Why Choose Laminated Roll Stock?",
@@ -2511,7 +2511,7 @@ const products = [
   },
   {
     id: 11,
-    name: "Security Bag Manufacturer in Bhiwandi & Mumbai",
+    name: "Security Bag Manufacturer in Bhiwandi, Mumbai",
     slug: "security-bag-manufacturer-in-bhiwandi-mumbai",
     aliases: [
       "security-bags",
@@ -2525,7 +2525,7 @@ const products = [
     ],
     seoTitle: "Security Bag Manufacturer in Mumbai & Bhiwandi",
     seoDescription: "Amul Packaging offers durable security bags from Bhiwandi with strong seals, tamper visibility and custom options for secure business deliveries across Mumbai.",
-    seoKeywords: "Security bag manufacturer in Bhiwandi & Mumbai",
+    seoKeywords: "Security bag manufacturer in Bhiwandi, Mumbai",
     img: [
       "/img/products/Security-Bags.webp",
       "/img/products/Security-Bags-Main.webp",
@@ -2543,7 +2543,7 @@ const products = [
       Description:
         "A security bag is a specialized, tamper-evident packaging solution designed to protect valuable items, sensitive materials, confidential documents, pharmaceuticals, cash, and forensic evidence. These bags are built using strong, puncture-resistant materials and advanced sealing technology to ensure that no unauthorized opening goes unnoticed.",
       Extended:
-        "At Amul Packaging, we manufacture durable, high-strength security bags for banks, logistics companies, e-commerce platforms, law enforcement agencies, pharma companies, and corporate organizations. Each bag is equipped with clear tamper indicators, unique numbering, barcodes, strong adhesives, and optional tracking features to ensure complete security during transit or storage. If your business handles valuable, private, or sensitive materials, a security bag is one of the most reliable ways to prevent tampering and ensure accountability. As a Security Bag Manufacturer in Bhiwandi & Mumbai, we provide customised sizes, printed information panels and security features based on business needs."
+        "At Amul Packaging, we manufacture durable, high-strength security bags for banks, logistics companies, e-commerce platforms, law enforcement agencies, pharma companies, and corporate organizations. Each bag is equipped with clear tamper indicators, unique numbering, barcodes, strong adhesives, and optional tracking features to ensure complete security during transit or storage. If your business handles valuable, private, or sensitive materials, a security bag is one of the most reliable ways to prevent tampering and ensure accountability. As a Security Bag Manufacturer in Bhiwandi, Mumbai, we provide customised sizes, printed information panels and security features based on business needs."
     },
     WhyChoose: {
       Title: "Why Choose Security Bag?",
@@ -2757,7 +2757,7 @@ const products = [
   },
   {
     id: 12,
-    name: "Ziplock Poly Bag Manufacturer in Bhiwandi & Mumbai",
+    name: "Ziplock Poly Bag Manufacturer in Bhiwandi, Mumbai",
     slug: "ziplock-poly-bag-manufacturer-in-bhiwandi-mumbai",
     aliases: [
       "ziplock-poly-bags",
@@ -2772,7 +2772,7 @@ const products = [
     ],
     seoTitle: "Ziplock Poly Bag Manufacturer in Mumbai & Bhiwandi",
     seoDescription: "Choose reusable ziplock poly bags from Amul Packaging in Bhiwandi for secure closure, organised storage and convenient packaging supply across Mumbai region.",
-    seoKeywords: "Ziplock poly bag manufacturer in Bhiwandi & Mumbai",
+    seoKeywords: "Ziplock poly bag manufacturer in Bhiwandi, Mumbai",
     img: [
       "/img/products/Ziplock-bags.webp",
       "/img/products/Ziplock-bags-Main.webp",
@@ -2790,7 +2790,7 @@ const products = [
       Description:
         "Small ziplock bags are one of the most practical and reusable packaging options for storing, organizing, and protecting items. Made using clear, high-quality polyethylene with an interlocking closure, ziplock bags keep contents safe from moisture, dust, spills, and contamination. They are easy to open, easy to seal, and can be reused multiple times without losing strength or clarity.",
       Extended:
-        "At Amul Packaging, we manufacture durable, transparent, and customizable ziplock poly bags that serve both consumer and industrial needs. Whether you need small ziplock bags for jewelry, pills, cosmetics, hardware, or food storage — or custom ziplock bags with branding, printing, or special sizes — we deliver clean, strong, and reliable ziplock solutions. If you want resealable packaging that is convenient, safe, and cost-effective, ziplock bags remain the most trusted choice. As a Ziplock Poly Bag Manufacturer in Bhiwandi & Mumbai, we offer custom sizes, thicknesses, colours and printing options for different applications."
+        "At Amul Packaging, we manufacture durable, transparent, and customizable ziplock poly bags that serve both consumer and industrial needs. Whether you need small ziplock bags for jewelry, pills, cosmetics, hardware, or food storage — or custom ziplock bags with branding, printing, or special sizes — we deliver clean, strong, and reliable ziplock solutions. If you want resealable packaging that is convenient, safe, and cost-effective, ziplock bags remain the most trusted choice. As a Ziplock Poly Bag Manufacturer in Bhiwandi, Mumbai, we offer custom sizes, thicknesses, colours and printing options for different applications."
     },
     WhyChoose: {
       Title: "Why Choose Small Ziplock Bags?",
