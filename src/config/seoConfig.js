@@ -1,7 +1,7 @@
 // SEO configurations for different pages
 export const seoConfig = {
   home: {
-    title: "Flexible Packaging Manufacturer in Mumbai & Bhiwandi",
+    title: "Flexible Packaging Manufacturer in Mumbai, Bhiwandi | Amul Packaging",
     description: "Amul Packaging is a flexible packaging manufacturer in Bhiwandi, delivering custom printed pouches, roll stock and packaging solutions to brands across Mumbai.",
     keywords: "Flexible packaging manufacturer in Bhiwandi, Mumbai",
     image: "/img/Banner.webp",
@@ -41,7 +41,7 @@ export const seoConfig = {
   },
 
   products: {
-    title: "Cool Product Packaging for Better Customer Reach",
+    title: "Centre Seal Pouch Manufacturer in Mumbai, Bhiwandi",
     description: "Upgrade your brand with cool product packaging that blends style, strength, and creativity to make your products stand out on any shelf.",
     keywords: "cool product packaging",
     image: "/img/slider_banner/Products.webp",
@@ -60,7 +60,7 @@ export const seoConfig = {
   },
 
   services: {
-    title: "Packaging Services in Mumbai & Bhiwandi | Amul Packaging",
+    title: "Packaging Services in Mumbai, Bhiwandi | Amul Packaging",
     description: "Explore packaging design, sampling and advanced printing services from Amul Packaging in Bhiwandi, supporting brands across Mumbai from concept to production.",
     keywords: "Packaging services in Bhiwandi, Mumbai",
     image: "/img/slider_banner/Service.webp",
@@ -80,7 +80,7 @@ export const seoConfig = {
   },
 
   contact: {
-    title: "Contact Packaging Manufacturer in Mumbai & Bhiwandi",
+    title: "Contact Packaging Manufacturer in Mumbai, Bhiwandi",
     description: "Contact Amul Packaging for custom pouches, printed films and flexible packaging support from our Bhiwandi facility, serving businesses across Mumbai region.",
     keywords: "Packaging manufacturer in Bhiwandi, Mumbai",
     image: "/img/slider_banner/contactus.webp",
@@ -104,7 +104,7 @@ export const seoConfig = {
   },
 
   industries: {
-    title: "Packaging Solutions for Industries in Mumbai & Bhiwandi",
+    title: "Packaging Solutions for Industries in Mumbai, Bhiwandi | Amul Packaging",
     description: "Discover flexible packaging solutions for food, pharma, beauty, dairy, agro and retail industries, manufactured in Bhiwandi and supplied throughout Mumbai.",
     keywords: "Packaging solutions for industries in Bhiwandi, Mumbai",
     image: "/img/slider_banner/Products.webp",

@@ -298,7 +298,7 @@ const products = [
       "three-side-seal-pouch",
       "three-side-seal-pouch-manufacturer-in-bhiwandi-mumbai",
     ],
-    seoTitle: "3 Side Seal Pouch Manufacturer in Mumbai & Bhiwandi",
+    seoTitle: "3 Side Seal Pouch Manufacturer in Mumbai, Bhiwandi",
     seoDescription: "Amul Packaging manufactures custom 3 side seal pouches in Bhiwandi and supplies printed, food-grade packaging to businesses across Mumbai and nearby areas.",
     seoKeywords: "3 side seal pouch manufacturer in Bhiwandi, Mumbai",
     img: [
@@ -529,7 +529,7 @@ const products = [
       "flat-bottom-pouch-manufacturer-in-bhiwandi-mumbai",
       "flatbottom-pouch-manufacturer-in-bhiwandi-mumbai",
     ],
-    seoTitle: "Flat Bottom Pouch Manufacturer in Mumbai & Bhiwandi",
+    seoTitle: "Flat Bottom Pouch Manufacturer in Mumbai, Bhiwandi",
     seoDescription: "Choose custom flat bottom pouches made in Bhiwandi by Amul Packaging, with strong barriers, sharp printing and reliable supply for brands across Mumbai region.",
     seoKeywords: "Flat Bottom Pouch Manufacturer in Bhiwandi, Mumbai",
     img: [
@@ -788,7 +788,7 @@ const products = [
   },
   {
     id: 4,
-    name: "Centre Seal Pouch Manufacturer in Mumbai & Bhiwandi",
+    name: "Centre Seal Pouch Manufacturer in Mumbai, Bhiwandi",
     slug: "centre-seal-pouch-manufacturer-in-mumbai-bhiwandi",
     aliases: [
       "centre-seal-pouch",
@@ -798,7 +798,7 @@ const products = [
       "center-seal-pouch-manufacturer-in-mumbai-bhiwandi",
       "center-seal-pouch-manufacturer-in-bhiwandi-mumbai",
     ],
-    seoTitle: "Centre Seal Pouch Manufacturer in Mumbai & Bhiwandi",
+    seoTitle: "Centre Seal Pouch Manufacturer in Mumbai, Bhiwandi",
     seoDescription: "Get custom centre seal pouches from Amul Packaging in Bhiwandi, designed for smooth packing, secure seals and branded product presentation across wider Mumbai.",
     seoKeywords: "Centre seal pouch manufacturer in Bhiwandi, Mumbai",
     img: [
@@ -1039,7 +1039,7 @@ const products = [
       "quad-seal-pouch-manufacturer-in-mumbai-bhiwandi",
       "quadseal-pouch-manufacturer-in-bhiwandi-mumbai",
     ],
-    seoTitle: "Quad Seal Pouch Manufacturer in Mumbai & Bhiwandi",
+    seoTitle: "Quad Seal Pouch Manufacturer in Mumbai, Bhiwandi",
     seoDescription: "Order custom quad seal pouches from Amul Packaging in Bhiwandi, made for firm structure, secure sealing and quality branded packaging across the Mumbai region.",
     seoKeywords: "Quad seal pouch manufacturer in Bhiwandi, Mumbai",
     img: [
@@ -1277,7 +1277,7 @@ const products = [
       "vacuum-pouch-manufacturer-in-mumbai-bhiwandi",
       "vacuumpouch-manufacturer-in-bhiwandi-mumbai",
     ],
-    seoTitle: "Vacuum Pouch Manufacturer in Mumbai & Bhiwandi",
+    seoTitle: "Vacuum Pouch Manufacturer in Mumbai, Bhiwandi",
     seoDescription: "Explore high-barrier vacuum pouches made by Amul Packaging in Bhiwandi for moisture protection, secure sealing and dependable supply across the Mumbai region.",
     seoKeywords: "Vacuum pouch manufacturer in Bhiwandi, Mumbai",
     img: [
@@ -1541,7 +1541,7 @@ const products = [
       "shape-pouch",
       "shape-pouch-manufacturer-in-bhiwandi-mumbai",
     ],
-    seoTitle: "Shaped Pouch Manufacturer in Mumbai & Bhiwandi",
+    seoTitle: "Shaped Pouch Manufacturer in Mumbai, Bhiwandi",
     seoDescription: "Explore distinctive shaped pouches with Amul Packaging in Bhiwandi, offering custom formats, quality printing and reliable supply across the Mumbai region.",
     seoKeywords: "Shaped pouch manufacturer in Bhiwandi, Mumbai",
     img: [
@@ -1782,7 +1782,7 @@ const products = [
       "spout-pouch-manufacturer-in-mumbai-bhiwandi",
       "spoutpouch-manufacturer-in-bhiwandi-mumbai",
     ],
-    seoTitle: "Spout Pouch Manufacturer in Mumbai & Bhiwandi",
+    seoTitle: "Spout Pouch Manufacturer in Mumbai, Bhiwandi",
     seoDescription: "Explore custom spout pouches from Amul Packaging in Bhiwandi for clean dispensing, leak-resistant sealing and practical packaging across the Mumbai region.",
     seoKeywords: "Spout pouch manufacturer in Bhiwandi, Mumbai",
     img: [
@@ -2040,7 +2040,7 @@ const products = [
       "laminated-roll-stock-manufacturer-in-mumbai-bhiwandi",
       "laminatedrollstock-manufacturer-in-bhiwandi-mumbai",
     ],
-    seoTitle: "Laminated Roll Stock Manufacturer in Mumbai & Bhiwandi",
+    seoTitle: "Laminated Roll Stock Manufacturer in Mumbai, Bhiwandi",
     seoDescription: "Source printed laminated roll stock from Amul Packaging in Bhiwandi, made for efficient packing, barrier protection and consistent supply throughout Mumbai.",
     seoKeywords: "Laminated roll stock manufacturer in Bhiwandi, Mumbai",
     img: [
@@ -2274,7 +2274,7 @@ const products = [
       "polybags-manufacturer-in-bhiwandi-mumbai",
       "polybag-manufacturer-in-bhiwandi-mumbai",
     ],
-    seoTitle: "Poly Bag Manufacturer in Mumbai & Bhiwandi",
+    seoTitle: "Poly Bag Manufacturer in Mumbai, Bhiwandi",
     seoDescription: "Get custom poly bags from Amul Packaging in Bhiwandi, available in varied sizes and finishes for practical product handling and business supply across Mumbai.",
     seoKeywords: "Poly bag manufacturer in Bhiwandi, Mumbai",
     img: [
@@ -2523,7 +2523,7 @@ const products = [
       "securitybags-manufacturer-in-bhiwandi-mumbai",
       "securitybag-manufacturer-in-bhiwandi-mumbai",
     ],
-    seoTitle: "Security Bag Manufacturer in Mumbai & Bhiwandi",
+    seoTitle: "Security Bag Manufacturer in Mumbai, Bhiwandi",
     seoDescription: "Amul Packaging offers durable security bags from Bhiwandi with strong seals, tamper visibility and custom options for secure business deliveries across Mumbai.",
     seoKeywords: "Security bag manufacturer in Bhiwandi, Mumbai",
     img: [
@@ -2770,7 +2770,7 @@ const products = [
       "ziplockpolybag-manufacturer-in-bhiwandi-mumbai",
       "small-ziplock-bags",
     ],
-    seoTitle: "Ziplock Poly Bag Manufacturer in Mumbai & Bhiwandi",
+    seoTitle: "Ziplock Poly Bag Manufacturer in Mumbai, Bhiwandi",
     seoDescription: "Choose reusable ziplock poly bags from Amul Packaging in Bhiwandi for secure closure, organised storage and convenient packaging supply across Mumbai region.",
     seoKeywords: "Ziplock poly bag manufacturer in Bhiwandi, Mumbai",
     img: [

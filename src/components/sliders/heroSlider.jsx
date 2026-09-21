@@ -32,7 +32,7 @@ const HeroSlider = () => {
         <>
           Flexible <br />
           Packaging Manufacturer <br />
-          in Mumbai & Bhiwandi
+          in Mumbai, Bhiwandi
         </>
       ),
       description:
