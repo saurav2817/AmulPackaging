@@ -32,7 +32,7 @@ const About = () => {
       <SEO {...seoConfig} />
       <main className="">
         <section className="text-center py-10 md:py-30 bg-[url('/img/slider_banner/AboutUs.webp')] bg-cover bg-center">
-          <h1 className="text-3xl font-bold text-blue-900 ">About Us</h1>
+          <h2 className="text-3xl font-bold text-blue-900 ">About Us</h2>
           <div className="flex justify-center mt-3">
             <nav aria-label="Breadcrumb" className="mb-6">
               <div className="flex flex-wrap items-center gap-2 text-sm">

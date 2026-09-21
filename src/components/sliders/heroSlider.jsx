@@ -172,9 +172,9 @@ const HeroSlider = () => {
               {/* Text Section */}
               <div className="container mx-auto px-6 md:px-12 lg:px-20">
                 <div className="max-w-xl bg-[#ffffff80] p-4 md:bg-transparent md:p-0">
-                  <h1 className="hero-title text-xl md:text-3xl lg:text-4xl xl:text-4xl font-extrabold text-blue-900 leading-snug leading-tight">
+                  <h2 className="hero-title text-xl md:text-3xl lg:text-4xl xl:text-4xl font-extrabold text-blue-900 leading-snug leading-tight">
                     {slide.title}
-                  </h1>
+                  </h2>
                   <p className="hero-desc mt-4  text-gray-700  text-md  md:text-lg ">{slide.description}</p>
 
                   <button className="
