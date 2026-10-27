@@ -48,7 +48,7 @@ const Home = () => {
               About Us
             </h2>
             <h1 className="text-2xl sm:text-3xl md:text-3xl text-secondary font-bold mb-4">
-              One Stop Solution For All Your Brand Packaging Requirements
+              Flexible Packaging Manufacturer in Bhiwandi, Mumbai
             </h1>
             <p className="text-white-700 text-lg font-medium">
               Amul Packaging is a leading flexible packaging manufacturer in Mumbai, specialising in rotogravure, flexographic and digital printing technologies, specializing in rotogravure, flexographic, and digital printing technologies. With these capabilities, we offer brands the flexibility to choose the right solution from high-volume gravure printing with unmatched detail, to cost-effective flexo, and short-run digital printing for speed and customization.

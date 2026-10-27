@@ -30,9 +30,9 @@ const HeroSlider = () => {
       bg: "/img/slider_banner/HomePageBanner2.webp",
       title: (
         <>
-          Flexible <br />
-          Packaging Manufacturer <br />
-          in Mumbai, Bhiwandi
+          Premium <br />
+          Flexible Packaging <br />
+          for Every Industry
         </>
       ),
       description:
