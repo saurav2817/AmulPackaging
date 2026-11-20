@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 import tailwindcss from '@tailwindcss/vite'
+
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
@@ -8,16 +9,14 @@ export default defineConfig({
     tailwindcss(),
   ],
   server: {
-    port: 3000, // Change this if needed
+    port: 3000,
     open: true,
     historyApiFallback: true,
     proxy: {
       '/api': {
-        // Point to the PHP built-in server (see instructions)
-        target: 'http://localhost:8000',
+        target: 'https://www.amulpackaging.in',
         changeOrigin: true,
         secure: false,
-        rewrite: (path) => path.replace(/^\/api/, ''),
       }
     }
   },

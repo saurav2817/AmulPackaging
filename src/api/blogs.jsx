@@ -3,8 +3,7 @@
  * Handles all API calls for blog operations
  */
 
-// Use relative path - Vite proxy will forward /api requests to PHP server
-// If proxy doesn't work, change this to: 'http://localhost/api' (or your XAMPP port)
+// Relative path - handled by Vite proxy in development, Express proxy during prerendering, and Hostinger Apache in production
 const API_BASE_URL = '/api';
 
 import { getAuthToken } from '../utils/auth';
@@ -22,6 +21,13 @@ async function apiCall(endpoint, options = {}) {
         ...options.headers,
       },
     });
+
+    const contentType = response.headers.get('content-type') || '';
+    if (!contentType.includes('application/json')) {
+      const text = await response.text();
+      console.error('Non-JSON response received:', text.substring(0, 200));
+      throw new Error(`Server returned an invalid response (${response.status})`);
+    }
 
     const data = await response.json();
     
@@ -46,6 +52,11 @@ export const uploadBlogImage = async (file) => {
       method: 'POST',
       body: formData,
     });
+
+    const contentType = response.headers.get('content-type') || '';
+    if (!contentType.includes('application/json')) {
+      throw new Error(`Server returned an invalid response (${response.status})`);
+    }
 
     const data = await response.json();
 
@@ -161,4 +172,3 @@ export const toggleBlogStatus = async (id) => {
     });
   }
 };
-

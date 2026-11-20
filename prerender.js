@@ -2,18 +2,56 @@ import puppeteer from 'puppeteer';
 import express from 'express';
 import fs from 'fs';
 import path from 'path';
+import { execSync } from 'child_process';
 
 const distDir = path.resolve('dist');
 const port = 3000;
 const app = express();
 
+// In-memory cache for API GET responses to make pre-rendering fast and avoid redundant network calls
+const apiCache = new Map();
+
+// 1. Proxy API requests to the live production server so pre-rendering loads real blog data
+app.use('/api', async (req, res) => {
+    try {
+        const targetUrl = `https://www.amulpackaging.in/api${req.url}`;
+        
+        if (req.method === 'GET' && apiCache.has(targetUrl)) {
+            const cached = apiCache.get(targetUrl);
+            res.status(200).set('Content-Type', cached.contentType).send(cached.body);
+            return;
+        }
+
+        const apiRes = await fetch(targetUrl, {
+            method: req.method,
+            headers: {
+                'Accept': 'application/json, text/plain, */*',
+                ...(req.headers['content-type'] ? { 'Content-Type': req.headers['content-type'] } : {})
+            }
+        });
+
+        const contentType = apiRes.headers.get('content-type') || 'application/json';
+        const data = await apiRes.arrayBuffer();
+        const bodyBuf = Buffer.from(data);
+
+        if (req.method === 'GET' && apiRes.status === 200) {
+            apiCache.set(targetUrl, { contentType, body: bodyBuf });
+        }
+
+        res.status(apiRes.status).set('Content-Type', contentType).send(bodyBuf);
+    } catch (err) {
+        console.error(`Error proxying /api${req.url}:`, err.message);
+        res.status(500).json({ success: false, message: err.message });
+    }
+});
+
+// 2. Serve static files from dist
 app.use(express.static(distDir));
-// Fallback for SPA routing
+
+// 3. Fallback for SPA routing
 app.use((req, res) => {
     res.sendFile(path.join(distDir, 'index.html'));
 });
-
-import { execSync } from 'child_process';
 
 // Extract routes from dynamic PHP sitemap
 async function getRoutesFromSitemap() {
@@ -37,12 +75,12 @@ async function getRoutesFromSitemap() {
                     throw new Error("HTTP " + res2.status);
                 }
             } catch (err2) {
-            // Fallback to calling the php executable directly using XAMPP path
-            const sitemapPath = path.join(process.cwd(), 'api', 'sitemap.php');
-            if (fs.existsSync(sitemapPath)) {
-                xml = execSync(`D:\\xampp\\php\\php.exe "${sitemapPath}"`).toString();
+                // Fallback to calling the php executable directly using XAMPP path
+                const sitemapPath = path.join(process.cwd(), 'api', 'sitemap.php');
+                if (fs.existsSync(sitemapPath)) {
+                    xml = execSync(`D:\\xampp\\php\\php.exe "${sitemapPath}"`).toString();
+                }
             }
-        }
         }
 
         if (xml) {
@@ -69,7 +107,7 @@ const routesPromise = getRoutesFromSitemap();
 async function prerender() {
     const routes = await routesPromise;
     const server = app.listen(port, () => {
-        console.log(`Express serving dist on port ${port}`);
+        console.log(`Express serving dist on port ${port} with live API proxy`);
     });
 
     const browser = await puppeteer.launch({ 
@@ -88,18 +126,33 @@ async function prerender() {
         } catch (e) {
             console.log(`Timeout waiting for #root on ${route}, using what is there`);
         }
+
+        // For blog listing, wait for articles to render
+        if (route === '/blog') {
+            try {
+                await page.waitForSelector('article', { timeout: 10000 });
+            } catch (e) {
+                console.log(`Timeout waiting for blog articles on ${route}`);
+            }
+        } else if (route.startsWith('/blog/')) {
+            // For single blog, wait until loading finishes
+            try {
+                await page.waitForFunction(() => {
+                    const text = document.body ? document.body.innerText : '';
+                    return !text.includes('Loading blog...');
+                }, { timeout: 10000 });
+            } catch (e) {
+                console.log(`Timeout waiting for blog content on ${route}`);
+            }
+        }
         
-        // Wait an extra 1000ms to ensure react-helmet-async has injected tags into <head>
-        await new Promise(r => setTimeout(r, 1000));
+        // Wait an extra 800ms to ensure react-helmet-async has injected tags into <head>
+        await new Promise(r => setTimeout(r, 800));
         
         // We need the FULL HTML so SEO tags in <head> are captured!
         const html = await page.content();
         prerendered[route] = html;
     }
-
-    // Attempt to parse dynamic products if product_data.php or similar exists, but we can also rely on SEO tags for now,
-    // or manually add dynamic product slugs if possible.
-    // For now we do the main public routes.
 
     await browser.close();
     server.close();
